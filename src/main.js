@@ -21,6 +21,8 @@ html:not([data-l1r-lang="en"]) [data-l1r-zh]::before { content: attr(data-l1r-zh
 `;
 
 const lookup = makeLookup(TABLE);   // src/lookup.js，build 時內嵌
+const html = document.documentElement;
+html.dataset.l1rLang = localStorage.getItem(LANG_KEY) || 'zh';
 
 // 主站沒有 React：把文字節點包成 <l1r-zh><l1r-en>英文</l1r-en></l1r-zh>，英文留在原位，中文走外層 ::before。
 // 用自訂元素而不是 span：站方有 `h5 a>span{display:none}` 這種針對 span 的規則，自訂元素不會被打到。
@@ -46,12 +48,20 @@ function mark(el, zh) {
   el.dataset.l1rZh = zh;
 }
 
+// <option> 是特例：原生下拉選單不畫 ::before，CSS 疊不上去。改用 label 屬性顯示中文，
+// 英文仍留在 textContent；切回英文時把 label 拿掉（見 setLang）。
+function markOption(el, zh) {
+  el.dataset.l1rOpt = zh;
+  if (html.dataset.l1rLang !== 'en') el.label = zh;
+}
+
 function translate(node) {
   const el = node.parentElement;
   if (!el || el.closest(SKIP)) return;
   const zh = lookup(node.nodeValue);
   if (!zh) return;
-  if (!IS_PLAY) wrap(node, zh);
+  if (el.localName === 'option') markOption(el, zh);
+  else if (!IS_PLAY) wrap(node, zh);
   else if (el.childNodes.length === 1) mark(el, zh);
   // ponytail: play 站的混合內容（如 <label>Account<input>）先留英文；要翻就得找不碰文字節點的做法
 }
@@ -67,6 +77,9 @@ function sync(node) {
   } else if (el.hasAttribute('data-l1r-zh')) {
     if (zh) el.dataset.l1rZh = zh;
     else el.removeAttribute('data-l1r-zh');
+  } else if (el.hasAttribute('data-l1r-opt')) {
+    if (zh) markOption(el, zh);
+    else { el.removeAttribute('data-l1r-opt'); el.removeAttribute('label'); }
   } else translate(node);
 }
 
@@ -79,8 +92,6 @@ function walk(root) {
   nodes.forEach(translate);
 }
 
-const html = document.documentElement;
-html.dataset.l1rLang = localStorage.getItem(LANG_KEY) || 'zh';
 
 const style = document.createElement('style');
 style.textContent = CSS;
@@ -95,6 +106,10 @@ btn.onclick = () => {
   const next = html.dataset.l1rLang === 'en' ? 'zh' : 'en';
   html.dataset.l1rLang = next;
   localStorage.setItem(LANG_KEY, next);
+  for (const o of document.querySelectorAll('option[data-l1r-opt]')) {
+    if (next === 'en') o.removeAttribute('label');
+    else o.label = o.dataset.l1rOpt;
+  }
 };
 document.body.append(btn);
 

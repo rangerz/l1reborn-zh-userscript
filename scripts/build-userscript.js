@@ -20,9 +20,18 @@ function loadDict(file) {
   return dict;
 }
 
+// 主站字典 = site.json + pages/*.json（每頁一檔）。同一個英文在不同檔譯得不一樣就擋下來。
+const site = loadDict('site.json');
+for (const f of fs.readdirSync(path.join(root, 'data/translations/pages')).filter(f => f.endsWith('.json')).sort()) {
+  for (const [en, zh] of Object.entries(loadDict(`pages/${f}`))) {
+    if (en in site && site[en] !== zh) throw new Error(`pages/${f}: "${en}" 已有不同譯文「${site[en]}」`);
+    site[en] = zh;
+  }
+}
+
 const dict = {
   common: loadDict('common.json'),
-  site: loadDict('site.json'),
+  site,
   play: loadDict('play.json'),
 };
 

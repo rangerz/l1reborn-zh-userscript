@@ -21,3 +21,12 @@ test('lookup：{n} 後面接單位字面（In 3d、Reign · 13d、18m 02s）', (
   assert.equal(lookup('In d'), undefined);      // 沒數字不翻
   assert.equal(lookup('3d'), undefined);        // 要整串相符，不吃子字串
 });
+
+test('lookup：{*} 抓到的片段再用字典完全相符查一次', () => {
+  const lookup = makeLookup({ 'Lv {n} · {*}': 'Lv {n} · {*}', 'Lv {n}–{n} · {*}': 'Lv {n}–{n} · {*}', '{*} only (self-cast)': '僅限{*}（自己施放）', 'Mainland Aden': '亞丁大陸', 'Knight': '騎士' });
+  assert.equal(lookup('Lv 60 · Mainland Aden'), 'Lv 60 · 亞丁大陸');
+  assert.equal(lookup('Lv 60 · Act II Desert'), 'Lv 60 · Act II Desert');   // 片段查不到就原樣放回
+  assert.equal(lookup('Lv 60–70 · Mainland Aden'), 'Lv 60–70 · 亞丁大陸');
+  assert.equal(lookup('Knight only (self-cast)'), '僅限騎士（自己施放）');
+  assert.equal(lookup('Mainland Aden'), '亞丁大陸');
+});
