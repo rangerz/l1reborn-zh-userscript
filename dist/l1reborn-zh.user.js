@@ -451,6 +451,7 @@ const DICT = {
     "shows recent unranked 1v1-10v10 match recaps without rating changes.": "顯示最近 1v1 到 10v10 非排名對戰的回顧，不含評分變化。",
     "In-game management": "遊戲內管理",
     "is handled through the Arena Manager NPC.": "透過競技場管理員 NPC 進行。",
+    "Skirmish:": "遭遇戰：",
     "Arena Leaderboard": "競技場排行榜",
     "Current arena standings by bracket. Team rating drives team rank; personal rating shows individual standing inside each bracket.": "各組別目前的競技場排名。隊伍評分決定隊伍名次；個人評分顯示在各組別內的個人排名。",
     "Season: Season 1": "賽季：第 1 季",

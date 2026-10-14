@@ -82,5 +82,6 @@
   "shows recent ranked 1v1-5v5 match recaps, winners, rating changes, player result flags, and bracket filters.": "顯示最近 1v1 到 5v5 排名賽的對戰回顧、勝者、評分變化、玩家結果標記與組別篩選。",
   "shows recent unranked 1v1-10v10 match recaps without rating changes.": "顯示最近 1v1 到 10v10 非排名對戰的回顧，不含評分變化。",
   "In-game management": "遊戲內管理",
-  "is handled through the Arena Manager NPC.": "透過競技場管理員 NPC 進行。"
+  "is handled through the Arena Manager NPC.": "透過競技場管理員 NPC 進行。",
+  "Skirmish:": "遭遇戰："
 }
