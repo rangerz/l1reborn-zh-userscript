@@ -8,11 +8,11 @@ const DICT = __DICT__;
 const IS_PLAY = location.hostname === 'play.lineage1reborn.com';
 const TABLE = { ...DICT.common, ...(IS_PLAY ? DICT.play : DICT.site) };
 const LANG_KEY = 'l1r-zh-lang';
-const SKIP = 'head,script,style,noscript,textarea,code,pre,[contenteditable],.l1r-zh,[data-l1r-zh],#l1r-zh-toggle';
+const SKIP = 'head,script,style,noscript,textarea,code,pre,[contenteditable],l1r-zh,[data-l1r-zh],#l1r-zh-toggle';
 
 const CSS = `
-html:not([data-l1r-lang="en"]) .l1r-en { display: none; }
-html:not([data-l1r-lang="en"]) .l1r-zh::before { content: attr(data-zh); }
+html:not([data-l1r-lang="en"]) l1r-en { display: none; }
+html:not([data-l1r-lang="en"]) l1r-zh::before { content: attr(data-zh); }
 html:not([data-l1r-lang="en"]) [data-l1r-zh] { font-size: 0 !important; }
 html:not([data-l1r-lang="en"]) [data-l1r-zh]::before { content: attr(data-l1r-zh); font-size: var(--l1r-fs); }
 #l1r-zh-toggle { position: fixed; right: 8px; bottom: 8px; z-index: 2147483647; padding: 4px 10px; border-radius: 999px;
@@ -20,9 +20,10 @@ html:not([data-l1r-lang="en"]) [data-l1r-zh]::before { content: attr(data-l1r-zh
 #l1r-zh-toggle:hover { opacity: 1; }
 `;
 
-const lookup = text => TABLE[text.replace(/\s+/g, ' ').trim()];
+const lookup = makeLookup(TABLE);   // src/lookup.js，build 時內嵌
 
-// 主站沒有 React：把文字節點包成 .l1r-zh > .l1r-en，英文留在原位，中文走外層 ::before。
+// 主站沒有 React：把文字節點包成 <l1r-zh><l1r-en>英文</l1r-en></l1r-zh>，英文留在原位，中文走外層 ::before。
+// 用自訂元素而不是 span：站方有 `h5 a>span{display:none}` 這種針對 span 的規則，自訂元素不會被打到。
 // 前後空白切成獨立節點留在外面，免得 "Welcome, <b>x</b>" 這類文字黏到旁邊的元素。
 function wrap(node, zh) {
   const text = node.nodeValue;
@@ -30,11 +31,9 @@ function wrap(node, zh) {
   const core = lead ? node.splitText(lead) : node;
   const len = core.nodeValue.trimEnd().length;
   if (len < core.nodeValue.length) core.splitText(len);
-  const outer = document.createElement('span');
-  outer.className = 'l1r-zh';
+  const outer = document.createElement('l1r-zh');
   outer.dataset.zh = zh;
-  const inner = document.createElement('span');
-  inner.className = 'l1r-en';
+  const inner = document.createElement('l1r-en');
   core.before(outer);
   outer.append(inner);
   inner.append(core);
@@ -62,7 +61,7 @@ function sync(node) {
   const el = node.parentElement;
   if (!el) return;
   const zh = lookup(node.nodeValue);
-  if (el.classList.contains('l1r-en')) {
+  if (el.localName === 'l1r-en') {
     if (zh) el.parentElement.dataset.zh = zh;
     else el.parentElement.replaceWith(node);
   } else if (el.hasAttribute('data-l1r-zh')) {

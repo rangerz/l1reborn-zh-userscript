@@ -44,7 +44,8 @@ const header = `// ==UserScript==
 // ==/UserScript==
 `;
 
-const body = read('src/main.js').replace('__DICT__', () => JSON.stringify(dict, null, 2));
+const lib = read('src/lookup.js').replace(/^export /m, '');
+const body = lib + '\n' + read('src/main.js').replace('__DICT__', () => JSON.stringify(dict, null, 2));
 fs.mkdirSync(path.join(root, 'dist'), { recursive: true });
 fs.writeFileSync(path.join(root, OUT), `${header}\n(function () {\n'use strict';\n\n${body}\n})();\n`);
 console.log(`built ${OUT} v${pkg.version}`);

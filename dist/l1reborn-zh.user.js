@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lineage 1 Reborn 中文化
 // @namespace    https://github.com/rangerz/l1reborn-zh-userscript
-// @version      0.1.0
+// @version      0.2.0
 // @description  lineage1reborn.com 與 play.lineage1reborn.com 的中文介面：英文原文留在 DOM，中文用 CSS 疊上去，右下角可切回英文。
 // @author       Ranger Chan
 // @match        https://lineage1reborn.com/*
@@ -17,6 +17,23 @@
 
 (function () {
 'use strict';
+
+// 字典查詢。key 可帶 {n} 代表一串數字（"Show all {n} updates"），譯文裡的 {n} 會換成比對到的數字。
+// 先查完全相符，再逐條試 pattern；build 會把這支內嵌進產物，test 直接 import。
+function makeLookup(table) {
+  const patterns = Object.keys(table).filter(k => k.includes('{n}')).map(k => ({
+    re: new RegExp('^' + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\\\{n\\\}/g, '(\\d[\\d,.]*)') + '$'),
+    zh: table[k],
+  }));
+  return text => {
+    text = text.replace(/\s+/g, ' ').trim();
+    if (Object.hasOwn(table, text)) return table[text];
+    for (const { re, zh } of patterns) {
+      const m = text.match(re);
+      if (m) { let i = 0; return zh.replace(/\{n\}/g, () => m[++i]); }
+    }
+  };
+}
 
 // Lineage 1 Reborn 中文化 — userscript 入口。
 // build 會把這支包進 IIFE，字典常數由 data/translations/*.json 填入。
@@ -39,61 +56,290 @@ const DICT = {
   },
   "site": {
     "Why Reborn?": "為什麼選 Reborn？",
-    "Server Features": "伺服器特色",
-    "Guides": "指南",
-    "Player Guides": "玩家指南",
-    "Browse all guides →": "瀏覽所有指南 →",
-    "Shops": "商店",
-    "Auction House": "拍賣所",
     "Lookup": "查詢",
     "Search All": "全站搜尋",
+    "Search the database": "搜尋資料庫",
+    "Auction House": "拍賣所",
+    "Leaderboard": "排行榜",
+    "Shops": "商店",
+    "Pledge": "血盟",
+    "Arenas": "競技場",
+    "Guides": "指南",
+    "Support Us": "支持我們",
+    "Create account": "建立帳號",
     "Items": "道具",
     "Item Sets": "套裝",
     "Monsters": "怪物",
-    "Tameable Monsters": "可馴養怪物",
     "Bosses": "Boss",
+    "Boss Cycles": "Boss 週期",
+    "Boss cycles": "Boss 週期",
+    "Champion Monsters": "冠軍怪物",
     "Maps": "地圖",
     "Treasure Boxes": "寶箱",
-    "Leaderboard": "排行榜",
+    "Tameable Monsters": "可馴養怪物",
+    "Classes": "職業",
+    "Classes & spellbooks": "職業與魔法書",
+    "Explore classes & spellbooks →": "探索職業與魔法書 →",
+    "Classes (in progress)": "職業（施工中）",
+    "Commands": "指令",
+    "In-game Commands": "遊戲內指令",
+    "Exp Table": "經驗值表",
+    "EXP Table": "經驗值表",
+    "Online Players": "線上玩家",
+    "Bonus EXP Maps": "加成經驗地圖",
+    "Rotating Bonus EXP Maps": "輪替加成經驗地圖",
+    "Kill Quests": "擊殺任務",
+    "Pet Talents": "寵物天賦",
+    "Magic Dolls": "魔法娃娃",
+    "Runes": "符文",
+    "Runes BETA": "符文 BETA",
+    "Gem Gambling": "寶石賭博",
+    "Item Gambling": "道具賭博",
+    "Candle Simulator": "蠟燭模擬器",
+    "Boss Pressure": "Boss 壓力",
+    "Boss Pressure Calculator": "Boss 壓力計算器",
+    "Weapon Progression": "武器成長",
+    "Weapon Progression & Comparison Tool": "武器成長與比較工具",
+    "Crafting Tree": "製作樹",
+    "Updated Items": "更新道具",
+    "Dragon Armors": "龍系防具",
+    "Thebes Weapons": "底比斯武器",
+    "Thebes Weapons PvP": "底比斯武器 PvP",
+    "Thebes Locations": "底比斯地點",
+    "Enchanting": "強化",
+    "Enchanting Armor & Weapon": "武器與防具強化",
+    "Accessory & Elemental": "飾品與屬性",
+    "Accessory & Elemental Enchanting": "飾品與屬性強化",
+    "Blessed Adena": "祝福金幣",
+    "Blessed Adena Guide": "祝福金幣指南",
+    "Offline Shops": "離線商店",
+    "Death Match Schedule": "死鬥賽程",
+    "Auto Potion System": "自動喝水系統",
+    "Auto Item Solvent": "自動道具溶解",
+    "Hardmode": "困難模式",
+    "Hardmode Blessings": "困難模式祝福",
+    "Hardmode Guide": "困難模式指南",
+    "Pet & Summon (CHA)": "寵物與召喚（CHA）",
+    "Pet & Summon Guide (CHA)": "寵物與召喚指南（CHA）",
+    "Skull Guide": "頭骨指南",
+    "Skull of Reborn": "Reborn 頭骨",
+    "Skull of Reborn Guide": "Reborn 頭骨指南",
+    "Feather Guide": "羽毛指南",
+    "Reborn Feather": "Reborn 羽毛",
+    "Reborn Feather Guide": "Reborn 羽毛指南",
+    "Cooking Guide": "料理指南",
+    "Fishing Guide": "釣魚指南",
+    "Champion Guide": "冠軍怪物指南",
+    "Siege Guide": "攻城指南",
+    "Arena Guide": "競技場指南",
+    "Pledge Guide": "血盟指南",
+    "Text Color Guide": "文字顏色指南",
+    "Launch Overview": "開服總覽",
+    "Reborn vs. Stock": "Reborn 與原版差異",
+    "Anti-Cheat": "反作弊",
+    "The Dev Team": "開發團隊",
+    "Exclusive Drops": "專屬掉落",
+    "Dragon Belt drops": "龍之腰帶掉落",
+    "Total hardmode deaths": "困難模式總死亡數",
+    "Every fallen adventurer. All tiers.": "每一位倒下的冒險者，所有階級。",
     "General Leaderboard": "綜合排行榜",
     "Event Leaderboard": "活動排行榜",
     "Arena Leaderboards": "競技場排行榜",
-    "Arenas": "競技場",
     "Arena Games": "競技場賽事",
-    "Arena Guide": "競技場指南",
-    "Pledge": "血盟",
     "Pledge Board": "血盟看板",
-    "Pledge Guide": "血盟指南",
     "Pledge Management": "血盟管理",
-    "Siege Guide": "攻城指南",
     "Siege Stats": "攻城戰績",
+    "Siege details": "攻城詳情",
     "Skirmish Stats": "遭遇戰戰績",
     "Castle Control": "城堡佔領",
-    "Classes (in progress)": "職業（施工中）",
-    "Classes & spellbooks": "職業與魔法書",
-    "Explore classes & spellbooks →": "探索職業與魔法書 →",
-    "Boss cycles": "Boss 週期",
-    "Player videos": "玩家影片",
-    "Darko’s comic": "Darko 的漫畫",
-    "unique visitors": "不重複訪客",
-    "Show all updates": "顯示所有更新",
-    "Start your blog": "開始寫部落格",
-    "Latest from the blogs": "部落格最新文章",
-    "Latest videos": "最新影片",
-    "News & field notes": "新聞與手記",
-    "Choose your world": "選擇你的世界",
-    "Gameplay & First Looks": "遊戲實況與初體驗",
-    "PvP & Clan Fights": "PvP 與血盟戰",
+    "Realm status": "王國狀態",
+    "Held by": "佔領者",
+    "Next siege": "下次攻城",
+    "Kent": "肯特",
+    "Giran": "奇岩",
     "DVC Hardmode": "DVC 困難模式",
     "FI Hardmode": "FI 困難模式",
     "FV Hardmode": "FV 困難模式",
     "TOI Hardmode": "TOI 困難模式",
     "TOI Hardmode BETA": "TOI 困難模式 BETA",
+    "TOI Hard Mode BETA": "TOI 困難模式 BETA",
+    "TOI Hardmode BETA Guide": "TOI 困難模式 BETA 指南",
+    "Join the event": "參加活動",
+    "Play in browser": "在瀏覽器遊玩",
+    "Download client": "下載客戶端",
+    "Browser & Mobile Open Beta": "瀏覽器與手機版公測",
+    "Player blogs": "玩家部落格",
+    "Player Blogs": "玩家部落格",
+    "Player videos": "玩家影片",
+    "Player Videos": "玩家影片",
+    "Videos": "影片",
+    "View all videos": "查看所有影片",
+    "Darko’s comic": "Darko 的漫畫",
+    "Darko's L1R Comics": "Darko 的 L1R 漫畫",
+    "unique visitors": "不重複訪客",
+    "Browse Guides": "瀏覽指南",
+    "Browse all guides": "瀏覽所有指南",
+    "View Arena Guide": "查看競技場指南",
+    "View Runes Guide": "查看符文指南",
+    "View Dream Guide": "查看夢幻島指南",
+    "View Hardmode Guide": "查看困難模式指南",
+    "View Expansion Guide": "查看擴充指南",
+    "All blogs": "所有部落格",
+    "Start your blog": "開始寫部落格",
+    "Show all updates": "顯示所有更新",
+    "Live now": "進行中",
+    "Ends in": "剩餘",
+    "Ends": "結束",
+    "Days": "天",
+    "Hours": "小時",
+    "Min": "分",
+    "Sec": "秒",
+    "Time Now:": "目前時間：",
+    "Royal": "王族",
+    "Knight": "騎士",
+    "Elf": "妖精",
+    "Mage": "法師",
+    "Dark Elf": "黑暗妖精",
+    "Dragon Knight": "龍騎士",
+    "Illusionist": "幻術師",
+    "Choose your world": "選擇你的世界",
+    "Standard": "標準",
+    "Classic": "經典",
+    "Style Rates": "風格倍率",
+    "Avg. Lvl:": "平均等級：",
+    "Active Acc:": "活躍帳號：",
+    "Avg. Player level:": "平均玩家等級：",
+    "Full rates and standard progression.": "完整倍率與標準成長。",
+    "Best for fast progression and endgame pace.": "適合快速成長與後期節奏。",
+    "Low exp & Adena rates. Separate parallel economy. Watch the world slow down, and enjoy!": "低經驗與金幣倍率，獨立的平行經濟。放慢腳步，好好享受這個世界！",
+    "Standard Server Rates": "標準伺服器倍率",
+    "Drop Rate": "掉落率",
+    "Exp": "經驗",
+    "Party Exp": "組隊經驗",
+    "Pet Exp": "寵物經驗",
+    "Adena": "金幣",
+    "Karma": "業力",
+    "Lawful": "正義值",
+    "Soft Cap": "軟上限",
+    "Max Stats": "最高能力值",
+    "Max Elixirs": "萬能藥上限",
+    "Weight": "負重",
+    "PC Weight": "角色負重",
+    "Pet Weight": "寵物負重",
+    "Rotation": "輪替",
+    "Economy": "經濟",
+    "Market": "市場",
+    "Based on online players in the last 14 days": "依據最近 14 天的線上玩家",
+    "What stays shared, what stays separate.": "哪些共用，哪些分開。",
+    "Standard And Classic": "標準與經典",
+    "TWO PACES. ONE COMMUNITY.": "兩種節奏，一個社群。",
+    "A LIVING WORLD": "活生生的世界",
+    "Life in Aden": "亞丁的日常",
+    "FIND YOUR CALLING": "找到你的天命",
+    "Seven ways to shape Aden.": "塑造亞丁的七種方式。",
+    "BEYOND THE FAMILIAR": "熟悉之外",
+    "A world with more to discover": "一個還有更多值得探索的世界",
+    "FROM THE REALM": "來自王國",
+    "FROM THE COMMUNITY": "來自社群",
+    "PLAYER BLOGS": "玩家部落格",
+    "Latest from the blogs": "部落格最新文章",
+    "Latest videos": "最新影片",
+    "News & field notes": "新聞與手記",
+    "The original Lineage, evolving": "原汁原味的天堂，持續進化",
+    "Adventure, renewed.": "冒險，重生。",
+    "Guide Atlas": "指南總覽",
+    "Find your next step in Aden.": "找到你在亞丁的下一步。",
+    "The essentials first, with every deeper system close at hand.": "先掌握基礎，進階系統隨手可得。",
+    "Guides And Lookup": "指南與查詢",
+    "Castle Sieges": "攻城戰",
+    "Arena PvP": "競技場 PvP",
+    "Combat Comfort": "戰鬥便利",
+    "Progression": "成長",
+    "Combat": "戰鬥",
+    "World": "世界",
+    "Quality": "品質",
+    "Endgame": "後期",
+    "Renewal": "翻新",
+    "Navigation": "導覽",
+    "Featured": "精選",
+    "More": "更多",
+    "New": "新",
+    "Beta Live": "Beta 上線",
+    "Browser Players": "瀏覽器玩家",
+    "Gameplay & First Looks": "遊戲實況與初體驗",
+    "PvP & Clan Fights": "PvP 與血盟戰",
     "Abandonware Disclaimer": "Abandonware 免責聲明",
     "I understand": "我瞭解了",
-    "Runes": "符文",
     "Dream Island": "夢幻島",
-    "Forgotten Island": "被遺忘之島"
+    "Dream Island Expansion": "夢幻島擴充",
+    "Forgotten Island": "被遺忘之島",
+    "Forgotten Island Expansion & Hard Mode": "被遺忘之島擴充與困難模式",
+    "Fire Valley": "火焰谷",
+    "Fire Valley & DVC Hard Modes": "火焰谷與龍之谷洞穴困難模式",
+    "Dragon Valley Dungeon": "龍之谷地監",
+    "Tower of Insolence": "傲慢之塔",
+    "Timed Dungeon": "限時地監",
+    "Talking Island Dungeon Renewal": "說話之島地監翻新",
+    "Cathedral of Insanity": "瘋狂大教堂",
+    "A new descent is taking shape": "新的深淵正在成形",
+    "Auction House Is Live": "拍賣所上線",
+    "Arenas BETA is LIVE!": "競技場 BETA 上線！",
+    "Pet Talents Are Live": "寵物天賦上線",
+    "Class Talents Preview": "職業天賦預覽",
+    "Unique equipped powers": "獨特裝備能力",
+    "Daily time and attempts": "每日時間與次數",
+    "Leaderboard competition": "排行榜競賽",
+    "Uncommon through Mythic": "從罕見到神話",
+    "Forbidden item upgrades": "禁忌道具升級",
+    "Ranked teams and ratings": "排名隊伍與積分",
+    "Unranked skirmish queues": "非排名遭遇戰列隊",
+    "Tiered floor progression": "分層樓層進度",
+    "Dreamwoven T-Shirt reward": "夢織 T 恤獎勵",
+    "Enchanted Gear Purchase NPC": "強化裝備購買 NPC",
+    "Leaderboards and match stats": "排行榜與對戰數據",
+    "Mythic Unicorn Elixer recipe": "神話獨角獸萬能藥配方",
+    "Ancient Solvent and Dust loop": "古代溶劑與粉塵循環",
+    "Found through Bosses & TOI Hardmode": "從 Boss 與 TOI 困難模式取得",
+    "Items, monsters, drops, and quick reference tools.": "道具、怪物、掉落與快速查詢工具。",
+    "Quest drops, sources, and reward progression.": "任務掉落、來源與獎勵進度。",
+    "Player-run warehouse auctions with bids and buyouts.": "玩家倉庫拍賣，可出價或直接買斷。",
+    "Ground blessing pickups, effects, and chance weights.": "地面祝福拾取、效果與機率權重。",
+    "Plan pet builds, branches, ultimates, and epic talents.": "規劃寵物配置、分支、終極技與史詩天賦。",
+    "Use -auto to manage real healing potions by HP threshold.": "用 -auto 依 HP 門檻自動使用真實補血藥水。",
+    "Rare upgraded spawns, beams, multipliers, and rune rewards.": "稀有強化怪出沒、光柱、倍率與符文獎勵。",
+    "The server’s strongest features in one fast visual overview.": "伺服器最強特色，一眼看完。",
+    "Track current boss windows, cycle progress, and public spawn timing.": "追蹤目前 Boss 時段、週期進度與公開重生時間。",
+    "Configure account-wide item rules for characters, pets, and summons.": "設定全帳號通用的角色、寵物與召喚獸道具規則。",
+    "Queue ranked 1v1-5v5 teams or jump into unranked skirmishes up to 10v10.": "排 1v1 到 5v5 的排名隊伍，或直接加入最多 10v10 的非排名遭遇戰。",
+    "Discover proposed class identities, meaningful choices and new ways to play.": "探索新的職業定位、有意義的選擇與全新玩法。",
+    "Push higher floors, fight private gate bosses, and chase tier-scaled exclusive drops.": "挑戰更高樓層、打專屬門 Boss，追逐依階級提升的專屬掉落。",
+    "Unlock rune slots and build around focused effects for combat, farming, pets, and utility.": "解鎖符文槽，圍繞戰鬥、打寶、寵物與輔助效果打造配置。",
+    "New Ancient gear & upgrades as Forbidden gear, Forgotten Treasurechests, and island boss rewards.": "新的古代裝備與升級：禁忌裝備、被遺忘的寶箱與島上 Boss 獎勵。",
+    "Hunt Dream Island for Dragon Belts, rare elixers, stat T-Shirts, and the Dreamwoven T-Shirt path.": "在夢幻島狩獵龍之腰帶、稀有萬能藥、能力值 T 恤與夢織 T 恤路線。",
+    "Daily Rewards": "每日獎勵",
+    "28-Day Calendar": "28 天日曆",
+    "Map Bonus Exp": "地圖加成經驗",
+    "Weekday Catchup": "平日補領",
+    "Weekend Catchup": "週末補領",
+    "Weekly catch-up ×2:": "每週補領 ×2：",
+    "Today": "今天",
+    "Opens": "開放",
+    "Choice": "自選",
+    "Day {n}": "第 {n} 天",
+    "Server Features": "伺服器特色",
+    "Player Guides": "玩家指南",
+    "Expansion": "擴充",
+    "Lineage Classic Style Rates": "Lineage 經典風格倍率",
+    "Map": "地圖",
+    "The latest uploads from Reborn and its players.": "Reborn 與玩家們的最新上傳。",
+    "Hunting diaries, siege stories and screenshots written by Reborn players.": "Reborn 玩家寫下的狩獵日誌、攻城故事與截圖。",
+    "New challenges. New discoveries. The same world at heart.": "新的挑戰，新的發現，骨子裡仍是同一個世界。",
+    "Choose Standard at x5 EXP or Classic at x1 EXP, each with its own pace and market.": "選擇 x5 經驗的標準或 x1 經驗的經典，各有自己的節奏與市場。",
+    "Show all {n} updates": "顯示全部 {n} 則更新",
+    "In {n}d": "{n} 天後",
+    "Reign · {n}d": "在位 {n} 天",
+    "{n}m {n}s": "{n} 分 {n} 秒",
+    "In 0d": "今天"
   },
   "play": {
     "Remember me": "記住我",
@@ -108,11 +354,11 @@ const DICT = {
 const IS_PLAY = location.hostname === 'play.lineage1reborn.com';
 const TABLE = { ...DICT.common, ...(IS_PLAY ? DICT.play : DICT.site) };
 const LANG_KEY = 'l1r-zh-lang';
-const SKIP = 'head,script,style,noscript,textarea,code,pre,[contenteditable],.l1r-zh,[data-l1r-zh],#l1r-zh-toggle';
+const SKIP = 'head,script,style,noscript,textarea,code,pre,[contenteditable],l1r-zh,[data-l1r-zh],#l1r-zh-toggle';
 
 const CSS = `
-html:not([data-l1r-lang="en"]) .l1r-en { display: none; }
-html:not([data-l1r-lang="en"]) .l1r-zh::before { content: attr(data-zh); }
+html:not([data-l1r-lang="en"]) l1r-en { display: none; }
+html:not([data-l1r-lang="en"]) l1r-zh::before { content: attr(data-zh); }
 html:not([data-l1r-lang="en"]) [data-l1r-zh] { font-size: 0 !important; }
 html:not([data-l1r-lang="en"]) [data-l1r-zh]::before { content: attr(data-l1r-zh); font-size: var(--l1r-fs); }
 #l1r-zh-toggle { position: fixed; right: 8px; bottom: 8px; z-index: 2147483647; padding: 4px 10px; border-radius: 999px;
@@ -120,9 +366,10 @@ html:not([data-l1r-lang="en"]) [data-l1r-zh]::before { content: attr(data-l1r-zh
 #l1r-zh-toggle:hover { opacity: 1; }
 `;
 
-const lookup = text => TABLE[text.replace(/\s+/g, ' ').trim()];
+const lookup = makeLookup(TABLE);   // src/lookup.js，build 時內嵌
 
-// 主站沒有 React：把文字節點包成 .l1r-zh > .l1r-en，英文留在原位，中文走外層 ::before。
+// 主站沒有 React：把文字節點包成 <l1r-zh><l1r-en>英文</l1r-en></l1r-zh>，英文留在原位，中文走外層 ::before。
+// 用自訂元素而不是 span：站方有 `h5 a>span{display:none}` 這種針對 span 的規則，自訂元素不會被打到。
 // 前後空白切成獨立節點留在外面，免得 "Welcome, <b>x</b>" 這類文字黏到旁邊的元素。
 function wrap(node, zh) {
   const text = node.nodeValue;
@@ -130,11 +377,9 @@ function wrap(node, zh) {
   const core = lead ? node.splitText(lead) : node;
   const len = core.nodeValue.trimEnd().length;
   if (len < core.nodeValue.length) core.splitText(len);
-  const outer = document.createElement('span');
-  outer.className = 'l1r-zh';
+  const outer = document.createElement('l1r-zh');
   outer.dataset.zh = zh;
-  const inner = document.createElement('span');
-  inner.className = 'l1r-en';
+  const inner = document.createElement('l1r-en');
   core.before(outer);
   outer.append(inner);
   inner.append(core);
@@ -162,7 +407,7 @@ function sync(node) {
   const el = node.parentElement;
   if (!el) return;
   const zh = lookup(node.nodeValue);
-  if (el.classList.contains('l1r-en')) {
+  if (el.localName === 'l1r-en') {
     if (zh) el.parentElement.dataset.zh = zh;
     else el.parentElement.replaceWith(node);
   } else if (el.hasAttribute('data-l1r-zh')) {
