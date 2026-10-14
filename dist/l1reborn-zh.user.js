@@ -1325,7 +1325,14 @@ const DICT = {
     "Stock holiday support is generally a date flag plus a few spawns. Reborn events use dedicated schedules, profile-aware limits, contribution, currencies, personal/community progress, insta…": "原版節慶支援通常只有日期旗標與少量怪物出沒。Reborn 活動則具備專屬時程、依模式區分的上限、貢獻度、貨幣、個人／社群進度、副本…",
     "Across all of these systems, Reborn follows several rules that explain many individual changes: Build investment should matter. Level, stats, MR, ER, stun/freeze/sleep resistance, weapon…": "這些系統反映 Reborn 的幾項設計原則，也解釋了許多個別改動：角色配置投入應該有影響；等級、能力值、MR、ER、暈眩／冰凍／睡眠抗性、武器種類…",
     "It does not list every renamed NPC, corrected typo, altered drop rate, spawn coordinate, cosmetic sprite, or one-off event price. It does not treat unreleased class talents or future seas…": "本指南不會列出每個 NPC 改名、錯字修正、掉落率變動、出沒座標、美術外觀或單次活動價格；不會把尚未推出的職業天賦或未來季節活動…",
-    "The comparison baseline is the original l1j-en server for the final 2009 US Lineage client. It is not modern Lineage Remastered, Lineage W, or another private server. Reborn still uses th…": "比較基準是 2009 年美國版《天堂》客戶端最後版本所使用的原始 l1j-en 伺服器，不是現代版《天堂：重製版》、《天堂 W》或其他私服。Reborn 仍以經典天堂規則為基礎，但在成長、平衡、內容、裝備、寵物、經濟、PvP 與便利性上已發展成截然不同的遊戲…"
+    "The comparison baseline is the original l1j-en server for the final 2009 US Lineage client. It is not modern Lineage Remastered, Lineage W, or another private server. Reborn still uses th…": "比較基準是 2009 年美國版《天堂》客戶端最後版本所使用的原始 l1j-en 伺服器，不是現代版《天堂：重製版》、《天堂 W》或其他私服。Reborn 仍以經典天堂規則為基礎，但在成長、平衡、內容、裝備、寵物、經濟、PvP 與便利性上已發展成截然不同的遊戲…",
+    "Use": "使用",
+    "codes to color chat and titles. Example:": "代碼為聊天與稱號上色。例如：",
+    "For titles/chat screens:": "稱號／聊天畫面：",
+    "For bookmarks:": "記憶座標：",
+    ". Colors use": "。顏色使用",
+    "where X is R–Z (sorted alphabetically in bookmarks).": "，X 為 R–Z（記憶座標中會依字母排序）。",
+    "* Colors shown are approximate.": "* 顯示的顏色僅供參考。"
   },
   "play": {
     "Remember me": "記住我",
