@@ -2659,6 +2659,8 @@ const DICT = {
     ". Colors use": "。顏色使用",
     "where X is R–Z (sorted alphabetically in bookmarks).": "，X 為 R–Z（記憶座標中會依字母排序）。",
     "* Colors shown are approximate.": "* 顯示的顏色僅供參考。",
+    "TOI Hardmode Leaderboard": "傲慢之塔困難模式排行榜",
+    "Top recorded challengers for the selected TOI hard mode tier, shown with their floor, kill, and point totals.": "所選傲慢之塔困難模式階級的頂尖挑戰者，顯示其樓層、擊殺與分數總計。",
     "WHY LINEAGE 1 REBORN?": "為什麼選擇 LINEAGE 1 REBORN？",
     "The Lineage you remember.": "你記憶中的天堂。",
     "The world you wished for.": "你曾盼望的世界。",
