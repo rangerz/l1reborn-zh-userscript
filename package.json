@@ -1,0 +1,12 @@
+{
+  "name": "l1reborn-zh-userscript",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-userscript.js",
+    "watch": "node --watch-path=src --watch-path=data scripts/build-userscript.js",
+    "test": "node --test"
+  },
+  "devDependencies": {}
+}
