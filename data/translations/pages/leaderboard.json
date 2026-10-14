@@ -1,0 +1,23 @@
+{
+  "Leaderboards": "排行榜",
+  "Filter:": "篩選：",
+  "Mode:": "模式：",
+  "Period:": "期間：",
+  "7D": "7 天",
+  "Month": "本月",
+  "Top Characters": "頂尖角色",
+  "Top Boss Killers": "Boss 擊殺排行",
+  "Top Monster Kills": "怪物擊殺排行",
+  "Top Kills": "擊殺排行",
+  "Top Assists": "助攻排行",
+  "Top Deaths": "死亡排行",
+  "Top 50 Enchanted Weapons": "強化武器前 50",
+  "Top 50 Enchanted Armor": "強化防具前 50",
+  "{n} boss kills": "{n} 次 Boss 擊殺",
+  "{n}k kills": "{n}k 次擊殺",
+  "{n} kills": "{n} 次擊殺",
+  "{n} kills / {n} assists": "{n} 擊殺 / {n} 助攻",
+  "{n} assists": "{n} 助攻",
+  "{n} deaths": "{n} 死亡",
+  "Last update {*} ET": "最後更新 {*} ET"
+}
