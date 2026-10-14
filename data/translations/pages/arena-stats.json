@@ -1,0 +1,16 @@
+{
+  "Recent arena games by bracket, with teams, ratings, combat totals, player flags, map, and match timing.": "各組別最近的競技場對戰，包含隊伍、評分、戰鬥總計、玩家標記、地圖與對戰時間。",
+  "All Brackets": "所有組別",
+  "team eliminated": "隊伍遭殲滅",
+  "Dmg Out": "輸出傷害",
+  "Dmg In": "承受傷害",
+  "Heal Out": "治癒輸出",
+  "Heal In": "受到治癒",
+  "Flags": "標記",
+  "time expired": "時間到",
+  "Website preview data": "網站預覽資料",
+  "Website preview data - time limit": "網站預覽資料 - 時間到",
+  "Website preview data - draw": "網站預覽資料 - 平手",
+  "{n}v{n} Match #{n}": "{n}v{n} 第 {n} 場",
+  "Started {*} · Duration {*} · Map {n}": "開始 {*} · 時長 {*} · 地圖 {n}"
+}
