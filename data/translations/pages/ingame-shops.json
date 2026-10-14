@@ -210,5 +210,8 @@
   "Black Magic Powder": "黑魔法粉",
   "Emerald": "綠寶石",
   "Blank Scroll (Level 2)": "空的魔法卷軸(等級2)",
-  "{n} listings": "{n} 筆刊登"
+  "{n} listings": "{n} 筆刊登",
+  "Price history combines completed player-shop and auction sales. Shop sale history refreshes every 15 minutes; auction asking prices are shown separately. Online listings refresh about every minute and offline listings every 15 minutes. S: and B: counts refresh daily.": "價格歷史合併了已完成的玩家商店與拍賣成交。商店成交紀錄每 15 分鐘更新；拍賣喊價另行顯示。線上刊登約每分鐘更新，離線刊登每 15 分鐘更新。S: 與 B: 的數量每日更新。",
+  "Price": "價格",
+  "Shop": "商店"
 }
