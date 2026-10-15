@@ -46,5 +46,7 @@
   "Current Bonuses": "目前加成",
   "Progression Log": "成長紀錄",
   "Per-level cumulative totals": "各等級累計總和",
-  "Point": "點數"
+  "Point": "點數",
+  "Candle-style stat building with live progression math. Pick a class, assign original stats, level up,": "蠟燭風格的配點模擬器，具備即時成長計算。選擇職業、分配初始屬性、升級，",
+  "allocate post-50 bonus points, and see the resulting original bonuses, current bonuses, and HP/MP": "分配 50 級後的獎勵點數，並即時查看對應的原始加成、目前加成與 HP/MP 成長"
 }
