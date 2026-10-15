@@ -1,4 +1,4 @@
-# AGENT.md
+# AGENTS.md
 
 給在此 repo 工作的 AI agent 或協作者。
 
