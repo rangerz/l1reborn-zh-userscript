@@ -6133,7 +6133,7 @@ const DICT = {
     "Chill Touch": "寒冰之觸",
     "Cone Of Cold": "寒冰錐",
     "Eye Of Storm": "暴風之眼",
-    "Eyes Breaker": "破眼術",
+    "Eyes Breaker": "隱身破壞者",
     "Fire Weapon": "火焰武器",
     "Frost Cloud": "冰霜之雲",
     "Full Heal": "全部治癒術",
