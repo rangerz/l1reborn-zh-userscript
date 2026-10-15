@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lineage 1 Reborn 中文化
 // @namespace    https://github.com/rangerz/l1reborn-zh-userscript
-// @version      0.5.0
+// @version      0.5.1
 // @description  lineage1reborn.com 與 play.lineage1reborn.com 的中文介面：英文原文留在 DOM，中文用 CSS 疊上去，右下角可切回英文。
 // @author       Ranger Chan
 // @match        https://lineage1reborn.com/*
