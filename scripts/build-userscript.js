@@ -31,11 +31,22 @@ for (const f of pageFiles.filter(f => !f.endsWith('.local.json'))) {
 }
 
 // pages/<page>.local.json 只在 #site-page-content[data-page=<page>] 那一頁生效，放會跟玩家名撞字的短字（Buy、Seller、Bulk…）。
+// 和全站字典（common + site）同 key 同譯文就是多餘的，擋下來；譯文不同是刻意蓋掉，只提示。
+const common = loadDict('common.json');
 const local = {};
-for (const f of pageFiles.filter(f => f.endsWith('.local.json'))) local[f.replace(/\.local\.json$/, '')] = loadDict(`pages/${f}`);
+for (const f of pageFiles.filter(f => f.endsWith('.local.json'))) {
+  const page = f.replace(/\.local\.json$/, '');
+  local[page] = loadDict(`pages/${f}`);
+  for (const [en, zh] of Object.entries(local[page])) {
+    const global = en in site ? site[en] : common[en];
+    if (global === undefined) continue;
+    if (global === zh) throw new Error(`pages/${f}: "${en}" 全站字典已有相同譯文，刪掉 local 這條`);
+    console.warn(`pages/${f}: "${en}" 在 ${page} 頁譯「${zh}」，全站是「${global}」`);
+  }
+}
 
 const dict = {
-  common: loadDict('common.json'),
+  common,
   site,
   local,
   play: loadDict('play.json'),
