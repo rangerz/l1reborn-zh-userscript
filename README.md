@@ -55,6 +55,7 @@ python3 scripts/pagetool.py fetch dev-team        # 抓 ?page=dev-team 到 .cach
 python3 scripts/pagetool.py list dev-team         # 列出這頁還沒翻的文字節點，查表能自動翻的標 [auto]
 python3 scripts/pagetool.py apply dev-team my.py  # 套字典寫入 pages/dev-team.json，印出剩下沒翻的
 scripts/dopage.sh dev-team my.py                  # 同上 + build + test + commit + push
+python3 scripts/pagetool.py check                 # 每頁涵蓋率 + 字典裡在已抓頁面都找不到的 key（站方改版後跑一次）
 ```
 
 - 字典 `my.py` 是普通 Python 檔，放哪裡都行（不用進 repo，JSON 才是正本）。`M` 放完全相符的譯文，`PATTERNS` 放含 `{n}`／`{*}` 的 key；`EMO` 是去掉開頭 emoji 的 key，套用時會把 emoji 補回去。其他選項（`EXTRA_PAGES`、`USE_MAPS`、`USE_MONSTERS`、`USE_SKILLS`、`ITEMS`、`FORCE`）見檔頭說明。

@@ -4,6 +4,7 @@
   python3 scripts/pagetool.py fetch <page> [<page>…]   抓 ?page=<page> 到 .cache/pages/<page>.html
   python3 scripts/pagetool.py list  <page> [<page>…]   列出這頁還沒翻的文字節點（查表能自動翻的標 [auto]）
   python3 scripts/pagetool.py apply <page> <dict.py>   套用字典，寫入 pages/<page>.json，印出剩下沒翻的
+  python3 scripts/pagetool.py check [<page>…]          每頁的翻譯涵蓋率，以及字典裡在所有已抓頁面都找不到的 key（可能已失效）
 
 <dict.py> 是一般 Python 檔，可定義：
   M        = {英文: 中文}                      完全相符的譯文
@@ -204,9 +205,36 @@ def cmd_apply(page, dict_path):
     if unused: print('字典裡有但這頁沒出現:', unused)
     print('沒翻的:', ' | '.join(left))
 
+NOISE = re.compile(r'[\d,.%+\-x×/ :→–()#]+|[A-Z]{2,4}')  # 純數字、符號、STR/MP 之類縮寫不算進涵蓋率
+
+def cmd_check(pages):
+    matcher = known_matcher(known_dict())
+    cached = sorted(PAGES.glob('*.html')) if PAGES.exists() else []
+    if not cached: print('.cache/pages/ 是空的，先 fetch'); return
+    want = set(pages) if pages else None
+    seen_anywhere, report = set(), []
+    for f in cached:
+        rows = [r for r in extract(f) if r not in SKIP and not r.startswith('© ') and not NOISE.fullmatch(r)]
+        seen_anywhere.update(rows)
+        page = f.stem
+        if want and page not in want: continue
+        miss = [r for r in rows if not matcher(r)]
+        report.append((page, len(rows), len(miss), miss))
+    for page, total, nmiss, miss in sorted(report):
+        pct = 100 * (total - nmiss) // total if total else 100
+        print(f'{page:<40} {total - nmiss:>5}/{total:<5} {pct:>3}%' + (f'   未翻: ' + ' | '.join(miss[:8]) + (' …' if nmiss > 8 else '') if nmiss else ''))
+    if want: return
+    cached_names = {f.stem for f in cached}
+    print('\n字典裡在所有已抓頁面都找不到的 key（已抓 %d 頁；pattern 不檢查，被 {*} 查表用到的 key 也會列在這裡）：' % len(cached))
+    for jf in sorted((TRANS / 'pages').glob('*.json')):
+        if jf.stem not in cached_names: print(f'  {jf.name}: 該頁未抓，跳過（python3 scripts/pagetool.py fetch {jf.stem}）'); continue
+        stale = [k for k in json.loads(jf.read_text(encoding='utf-8')) if '{' not in k and k not in seen_anywhere]
+        if stale: print(f'  {jf.name}: {len(stale)} 條  ' + ' | '.join(s[:50] for s in stale[:5]) + (' …' if len(stale) > 5 else ''))
+
 if __name__ == '__main__':
     a = sys.argv[1:]
     if len(a) >= 2 and a[0] == 'fetch': sys.exit(0 if all([fetch(p) for p in a[1:]]) else 1)
     elif len(a) >= 2 and a[0] == 'list': cmd_list(a[1:])
     elif len(a) == 3 and a[0] == 'apply': cmd_apply(a[1], a[2])
+    elif a and a[0] == 'check': cmd_check(a[1:])
     else: print(__doc__); sys.exit(2)
