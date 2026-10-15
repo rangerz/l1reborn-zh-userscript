@@ -45,5 +45,6 @@
   "Acting as {*}, Guardian": "目前身分：{*}（守護騎士）",
   "Acting as {*}, Probation": "目前身分：{*}（見習）",
   "{n} tracked sieges": "已追蹤 {n} 場攻城",
-  "{n} wins": "{n} 勝"
+  "{n} wins": "{n} 勝",
+  "{n} online now - max members": "目前 {n} 人線上 - 成員上限"
 }

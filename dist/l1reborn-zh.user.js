@@ -1561,6 +1561,7 @@ const DICT = {
     "Acting as {*}, Probation": "目前身分：{*}（見習）",
     "{n} tracked sieges": "已追蹤 {n} 場攻城",
     "{n} wins": "{n} 勝",
+    "{n} online now - max members": "目前 {n} 人線上 - 成員上限",
     "High-burst melee assassin with poisons and debuffs.": "高爆發近戰刺客，擅長毒與減益。",
     "Mask of Truth": "真實的面具",
     "Finger of Death": "死亡之指",
