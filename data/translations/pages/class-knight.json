@@ -303,5 +303,12 @@
   "Reborn Cube System": "Reborn 立方系統",
   "One active cube": "同時一個立方",
   "Allies:": "友方：",
-  "Enemies:": "敵方："
+  "Enemies:": "敵方：",
+  "Magic Gem ({n})": "魔法寶石 ({n})",
+  "Spirit Gem ({n})": "精靈玉 ({n})",
+  "Elemental Stone ({n})": "元素石 ({n})",
+  "Dark Stone ({n})": "黑暗之石 ({n})",
+  "Bone Fragment ({n})": "刻印的骨頭碎片 ({n})",
+  "Illusion Magic Lv {n}": "幻術魔法 Lv {n}",
+  "Illusion Magic Lv {n} · {*}": "幻術魔法 Lv {n} · {*}"
 }
