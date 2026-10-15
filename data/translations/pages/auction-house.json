@@ -190,5 +190,7 @@
   "{*} (Legendary)": "{*}（傳說）",
   "Spirit Crystal({*})": "精靈水晶({*})",
   "Memory Crystal({*})": "記憶水晶({*})",
-  "Dark Spirit Crystal({*})": "黑暗精靈水晶({*})"
+  "Dark Spirit Crystal({*})": "黑暗精靈水晶({*})",
+  "Yes": "是",
+  "Del": "刪除"
 }

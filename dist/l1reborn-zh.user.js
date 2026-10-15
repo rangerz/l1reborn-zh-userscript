@@ -810,6 +810,8 @@ const DICT = {
     "Spirit Crystal({*})": "精靈水晶({*})",
     "Memory Crystal({*})": "記憶水晶({*})",
     "Dark Spirit Crystal({*})": "黑暗精靈水晶({*})",
+    "Yes": "是",
+    "Del": "刪除",
     "Choose which ordinary items should be converted with Solvent or safely deleted. Rules are shared by every character on this website account, while each character can be enabled or paused separately.": "選擇哪些一般道具要用溶解劑轉換或安全刪除。規則由本網站帳號的所有角色共用，但每個角色可以個別啟用或暫停。",
     "Character first": "角色優先",
     "Normal Solvent processes the character inventory before companion items.": "一般溶解劑會先處理角色背包，再處理同伴的道具。",
