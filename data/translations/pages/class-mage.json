@@ -82,5 +82,11 @@
   "Dark Stone ({n})": "黑暗之石 ({n})",
   "Bone Fragment ({n})": "刻印的骨頭碎片 ({n})",
   "Illusion Magic Lv {n}": "幻術魔法 Lv {n}",
-  "Illusion Magic Lv {n} · {*}": "幻術魔法 Lv {n} · {*}"
+  "Illusion Magic Lv {n} · {*}": "幻術魔法 Lv {n} · {*}",
+  "Direct-damage magic scales from INT plus item and buff SP, so raising INT can increase spell damage even across SP plateaus.": "直接傷害魔法取決於智力加上裝備與輔助魔法提供的 SP，因此即使 SP 暫時沒有提升，增加智力仍可提高魔法傷害。",
+  "Debuff landing, healing, and special spells use their own rules, so the SP number is not the full story for a Mage.": "負面狀態命中、治療與特殊魔法各自有獨立的計算規則，因此面板上的 SP 數值並非魔法師的全部。",
+  "Curses one target with paralysis: it can't move, attack or cast for 16 seconds. Monsters are held at once; a player has a few seconds before it takes hold. Magic resistance can resist it, and Remove Curse lifts it.": "詛咒單一目標使其麻痺：16 秒內無法移動、攻擊或施法。怪物會立即被定住；玩家則有數秒的緩衝時間才會發作。魔法防禦可以抵抗，也可以用魔法消除解除。",
+  "Raises the STR of you or a pledge member by 5. Doesn't stack with Dress Mighty.": "提升自身或血盟成員 5 點力量。無法與體魄強健術疊加。",
+  "Fills your own weapon attacks with magic for 30 minutes, as if your weapon were one enchant higher and made of silver.": "使自身武器攻擊附帶魔法效果 30 分鐘，如同武器強化值 +1 且具備銀材質特性。",
+  "Drives a giant spear from the sky into one enemy for heavy damage. You must be Lawful to cast it.": "從天而降一把巨大光矛刺向單一敵人造成重創。必須為正義（Lawful）狀態才能施放。"
 }
