@@ -1486,7 +1486,7 @@ const DICT = {
     "Invisible Targets": "隱形目標",
     "Illusion Dia Golem": "幻覺：鑽石高崙",
     "It makes the target panic. Each of the Stats decrease by 1.": "使目標恐慌。各項能力值減少 1。",
-    "Joyof Pain": "痛苦的歡愉",
+    "Joyof Pain": "疼痛的歡愉",
     "Illusion Avatar": "幻覺：化身",
     "+10 damage on every hit and spell · You take × 1.2": "每次命中與魔法傷害 +10 · 你承受 × 1.2",
     "← ALL CLASSES": "← 所有職業",
