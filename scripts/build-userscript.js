@@ -22,16 +22,22 @@ function loadDict(file) {
 
 // 主站字典 = site.json + pages/*.json（每頁一檔）。同一個英文在不同檔譯得不一樣就擋下來。
 const site = loadDict('site.json');
-for (const f of fs.readdirSync(path.join(root, 'data/translations/pages')).filter(f => f.endsWith('.json')).sort()) {
+const pageFiles = fs.readdirSync(path.join(root, 'data/translations/pages')).filter(f => f.endsWith('.json')).sort();
+for (const f of pageFiles.filter(f => !f.endsWith('.local.json'))) {
   for (const [en, zh] of Object.entries(loadDict(`pages/${f}`))) {
     if (en in site && site[en] !== zh) throw new Error(`pages/${f}: "${en}" 已有不同譯文「${site[en]}」`);
     site[en] = zh;
   }
 }
 
+// pages/<page>.local.json 只在 #site-page-content[data-page=<page>] 那一頁生效，放會跟玩家名撞字的短字（Buy、Seller、Bulk…）。
+const local = {};
+for (const f of pageFiles.filter(f => f.endsWith('.local.json'))) local[f.replace(/\.local\.json$/, '')] = loadDict(`pages/${f}`);
+
 const dict = {
   common: loadDict('common.json'),
   site,
+  local,
   play: loadDict('play.json'),
 };
 

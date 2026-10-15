@@ -59,10 +59,12 @@ def extract(path):
         if t not in seen: seen.add(t); rows.append(t)
     return rows
 
-def known_dict(exclude_page=None):
+def known_dict(exclude_page=None, page=None):
+    """全站字典；pages/<page>.local.json 只在 page 等於那一頁時算進來。"""
     d = {}
     for f in sorted(TRANS.glob('*.json')) + sorted((TRANS / 'pages').glob('*.json')):
         if exclude_page and f.name == exclude_page + '.json': continue
+        if f.name.endswith('.local.json') and f.name != f'{page}.local.json': continue
         d.update(json.loads(f.read_text(encoding='utf-8')))
     return d
 
@@ -171,8 +173,8 @@ def rows_for(page, mod=None):
     return rows
 
 def cmd_list(pages):
-    known = known_matcher(known_dict())
     for page in pages:
+        known = known_matcher(known_dict(page=page))
         rows = [r for r in rows_for(page) if not known(r) and r not in SKIP and not r.startswith('© ')]
         print(f'===== {page}: {len(rows)} 條未翻')
         for r in rows: print(('[auto] ' if auto_zh(r) else '') + r)
@@ -181,7 +183,7 @@ def cmd_apply(page, dict_path):
     spec = importlib.util.spec_from_file_location('page_dict', dict_path)
     mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
     M = getattr(mod, 'M', {}); EMO = getattr(mod, 'EMO', {})
-    rows = rows_for(page, mod); known = known_matcher(known_dict(exclude_page=page))
+    rows = rows_for(page, mod); known = known_matcher(known_dict(exclude_page=page, page=page))
     out, left = {}, []
     for s in rows:
         if known(s): continue
@@ -208,7 +210,6 @@ def cmd_apply(page, dict_path):
 NOISE = re.compile(r'[\d,.%+\-x×/ :→–()#]+|[A-Z]{2,4}')  # 純數字、符號、STR/MP 之類縮寫不算進涵蓋率
 
 def cmd_check(pages):
-    matcher = known_matcher(known_dict())
     cached = sorted(PAGES.glob('*.html')) if PAGES.exists() else []
     if not cached: print('.cache/pages/ 是空的，先 fetch'); return
     want = set(pages) if pages else None
@@ -218,6 +219,7 @@ def cmd_check(pages):
         seen_anywhere.update(rows)
         page = f.stem
         if want and page not in want: continue
+        matcher = known_matcher(known_dict(page=page))
         miss = [r for r in rows if not matcher(r)]
         report.append((page, len(rows), len(miss), miss))
     for page, total, nmiss, miss in sorted(report):
@@ -227,6 +229,7 @@ def cmd_check(pages):
     cached_names = {f.stem for f in cached}
     print('\n字典裡在所有已抓頁面都找不到的 key（已抓 %d 頁；pattern 不檢查，被 {*} 查表用到的 key 也會列在這裡）：' % len(cached))
     for jf in sorted((TRANS / 'pages').glob('*.json')):
+        if jf.name.endswith('.local.json'): continue
         if jf.stem not in cached_names: print(f'  {jf.name}: 該頁未抓，跳過（python3 scripts/pagetool.py fetch {jf.stem}）'); continue
         stale = [k for k in json.loads(jf.read_text(encoding='utf-8')) if '{' not in k and k not in seen_anywhere]
         if stale: print(f'  {jf.name}: {len(stale)} 條  ' + ' | '.join(s[:50] for s in stale[:5]) + (' …' if len(stale) > 5 else ''))

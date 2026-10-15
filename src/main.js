@@ -20,7 +20,15 @@ html:not([data-l1r-lang="en"]) [data-l1r-zh]::before { content: attr(data-l1r-zh
 #l1r-zh-toggle:hover { opacity: 1; }
 `;
 
-const lookup = makeLookup(TABLE);   // src/lookup.js，build 時內嵌
+const siteLookup = makeLookup(TABLE);   // src/lookup.js，build 時內嵌
+// 主站每頁有 #site-page-content[data-page]；pages/<page>.local.json 只在那一頁查得到，站方局部換頁時 data-page 會跟著變，所以每次查都重讀。
+const localLookups = {};
+function lookup(text) {
+  const page = IS_PLAY ? null : document.querySelector('#site-page-content')?.dataset.page;
+  const table = page && DICT.local[page];
+  const hit = table && (localLookups[page] ||= makeLookup(table))(text);
+  return hit ?? siteLookup(text);
+}
 const html = document.documentElement;
 html.dataset.l1rLang = localStorage.getItem(LANG_KEY) || 'zh';
 

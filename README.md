@@ -36,6 +36,7 @@ npm test        # build + 檢查產物是合法 userscript
 - `data/translations/*.json`：字典，key 是頁面上的英文原文（trim、連續空白收成一個），value 是中文。
   - `common.json` 兩站共用，`site.json` 只給主站，`play.json` 只給 play 子站。
   - 主站各頁的字串放 `pages/<page>.json`（檔名對應 `?page=`），build 時合併進 site；同一個英文在兩個檔譯得不一樣會擋下來。
+  - `pages/<page>.local.json` 只在那一頁（`#site-page-content[data-page]`）生效，先查它再查全站字典。會跟玩家名撞字的短字（Buy、Seller、Bulk、Potion…）放這裡，免得其他頁的角色名被翻掉。
   - key 可帶 `{n}` 代表一串數字，譯文裡的 `{n}` 會換成比對到的數字：`"Show all {n} updates": "顯示全部 {n} 則更新"`。
   - key 可帶 `{*}` 代表任意片段，抓到的片段會再用字典完全相符查一次：`"Lv {n} · {*}"` 搭配 `"Mainland Aden": "亞丁大陸"`，Boss 卡片的「Lv 60 · Mainland Aden」就會變「Lv 60 · 亞丁大陸」。
 - `scripts/build-userscript.js`：組 header + 字典 + `src/main.js`，輸出到 `dist/`。
