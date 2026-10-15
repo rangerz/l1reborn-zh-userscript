@@ -14,3 +14,10 @@ test('build 產物是合法的 userscript', () => {
   assert.ok(!out.includes('__DICT__'), '字典沒有被填進去');
   assert.equal(spawnSync(process.execPath, ['--check', OUT]).status, 0, '產物有語法錯誤');
 });
+
+test('pages/<page>.local.json 只進 dict.local，不混進全站字典', () => {
+  const out = fs.readFileSync(OUT, 'utf8');
+  const dict = JSON.parse(out.match(/const DICT = ([\s\S]*?);\n\nconst IS_PLAY/)[1]);
+  assert.equal(dict.local['auction-house'].Buy, '購買');
+  assert.ok(!('Buy' in dict.site), 'local key 漏進全站字典');
+});
