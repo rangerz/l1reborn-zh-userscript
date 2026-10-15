@@ -56,7 +56,7 @@ const header = `// ==UserScript==
 // @name         Lineage 1 Reborn 中文化
 // @namespace    ${REPO}
 // @version      ${pkg.version}
-// @description  lineage1reborn.com 與 play.lineage1reborn.com 的中文介面：英文原文留在 DOM，中文用 CSS 疊上去，右下角可切回英文。
+// @description  Lineage 1 Reborn 中文化
 // @author       Ranger Chan
 // @match        https://lineage1reborn.com/*
 // @match        https://www.lineage1reborn.com/*

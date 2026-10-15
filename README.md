@@ -2,17 +2,22 @@
 
 [Lineage 1 Reborn](https://lineage1reborn.com/) 與瀏覽器客戶端 [play.lineage1reborn.com](https://play.lineage1reborn.com/) 的中文介面 Tampermonkey userscript。
 
-翻譯不覆寫原文：英文字永遠留在 DOM 原位，中文只透過 CSS（`::before` + `attr()`）疊上去。右下角 **中 / EN** 按鈕可隨時切回英文，偏好存 `localStorage`。
+翻譯不覆寫原文：英文字永遠留在 DOM 原位，中文只透過 CSS（`::before` + `attr()`）疊上去。第一次使用時會參考瀏覽器的主要語系：英文介面預設英文，其他語系預設中文。右下角 **中文/EN** 按鈕可切換顯示語言，選擇會存入 `localStorage`。
 
 ## 安裝
 
-1. 先裝 [Tampermonkey](https://www.tampermonkey.net/)。
-2. **Chrome / Edge**：Manifest V3 起 userscript 預設不會執行，右鍵 Tampermonkey 圖示 → **Manage Extension** → 打開 **Allow User Scripts**（[官方說明](https://www.tampermonkey.net/faq.php?locale=en&q=Q209)）。
-3. 點以下連結，Tampermonkey 會跳出安裝對話框：
+### Chrome + Tampermonkey
+
+1. 安裝 [Tampermonkey](https://www.tampermonkey.net/)。
+2. 右鍵點 Tampermonkey 圖示，選 **管理擴充功能（Manage Extension）**，打開 **允許使用者指令碼（Allow User Scripts）**。Chrome Manifest V3 需要啟用此設定，userscript 才會執行（[官方說明](https://www.tampermonkey.net/faq.php?locale=en&q=Q209)）。
+3. 點以下安裝連結，Tampermonkey 會自動開啟安裝視窗：
 
    <https://raw.githubusercontent.com/rangerz/l1reborn-zh-userscript/main/dist/l1reborn-zh.user.js>
 
-之後新版本會自動透過 `@updateURL` 拉更新。
+4. 在 Tampermonkey 安裝視窗確認安裝。
+5. 開啟 [Lineage 1 Reborn](https://lineage1reborn.com/) 或 [瀏覽器客戶端](https://play.lineage1reborn.com/) 任一頁面，右下角會出現 **中文/EN** 切換按鈕。
+
+之後新版本會自動透過 `@updateURL` 拉更新。首次使用依瀏覽器主要語系決定預設顯示：英文語系維持英文，其他語系使用中文；手動切換後會記住你的選擇。
 
 ## 運作方式
 

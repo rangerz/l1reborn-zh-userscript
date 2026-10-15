@@ -10,11 +10,24 @@ const TABLE = { ...DICT.common, ...(IS_PLAY ? DICT.play : DICT.site) };
 const LANG_KEY = 'l1r-zh-lang';
 const SKIP = 'head,script,style,noscript,textarea,code,pre,[contenteditable],l1r-zh,[data-l1r-zh],#l1r-zh-toggle';
 
+// 站方有 `.world-client.client363[...] :is(... button) { font-size: ... !important }` 這種高優先度規則，
+// 單一屬性選擇器壓不過去（兩邊都 !important 時比 specificity），所以把屬性選擇器重複疊高 specificity。
+const Z = '[data-l1r-zh]'.repeat(12);
+
 const CSS = `
 html:not([data-l1r-lang="en"]) l1r-en { display: none; }
 html:not([data-l1r-lang="en"]) l1r-zh::before { content: attr(data-zh); }
-html:not([data-l1r-lang="en"]) [data-l1r-zh] { font-size: 0 !important; }
+html:not([data-l1r-lang="en"]) ${Z} { font-size: 0 !important; }
 html:not([data-l1r-lang="en"]) [data-l1r-zh]::before { content: attr(data-l1r-zh); font-size: var(--l1r-fs); }
+html:not([data-l1r-lang="en"]) [data-l1r-zh][data-l1r-after]::before { content: none; }
+html:not([data-l1r-lang="en"]) [data-l1r-zh][data-l1r-after]::after { content: attr(data-l1r-zh); font-size: var(--l1r-fs); }
+html:not([data-l1r-lang="en"]) ${Z}[data-l1r-mixed] { gap: 0 !important; line-height: 0 !important; }
+html:not([data-l1r-lang="en"]) [data-l1r-zh][data-l1r-mixed]::before { margin-bottom: var(--l1r-gap); line-height: var(--l1r-lh); }
+html:not([data-l1r-lang="en"]) [data-l1r-zh][data-l1r-mixed][data-l1r-row]:not([data-l1r-after])::before { margin: 0 var(--l1r-gap) 0 0; }
+html:not([data-l1r-lang="en"]) [data-l1r-zh][data-l1r-mixed][data-l1r-after]::after { margin-left: var(--l1r-gap); line-height: var(--l1r-lh); }
+html:not([data-l1r-lang="en"]) [data-l1r-zh][data-l1r-mixed][data-l1r-after]::before { margin: 0; }
+html:not([data-l1r-lang="en"]) [data-l1r-zh][data-l1r-br]::before,
+html:not([data-l1r-lang="en"]) [data-l1r-zh][data-l1r-br]::after { white-space: pre-wrap; }
 #l1r-zh-toggle { position: fixed; right: 8px; bottom: 8px; z-index: 2147483647; padding: 4px 10px; border-radius: 999px;
   border: 1px solid #c9a45c; background: #15130f; color: #ead3a0; font: 12px/1 sans-serif; cursor: pointer; opacity: .7; }
 #l1r-zh-toggle:hover { opacity: 1; }
@@ -30,7 +43,9 @@ function lookup(text) {
   return hit ?? siteLookup(text);
 }
 const html = document.documentElement;
-html.dataset.l1rLang = localStorage.getItem(LANG_KEY) || 'zh';
+const systemLanguages = navigator.languages?.length ? navigator.languages : [navigator.language];
+const defaultLang = /^en(?:-|$)/i.test(systemLanguages[0] || '') ? 'en' : 'zh';
+html.dataset.l1rLang = localStorage.getItem(LANG_KEY) || defaultLang;
 
 // 主站沒有 React：把文字節點包成 <l1r-zh><l1r-en>英文</l1r-en></l1r-zh>，英文留在原位，中文走外層 ::before。
 // 用自訂元素而不是 span：站方有 `h5 a>span{display:none}` 這種針對 span 的規則，自訂元素不會被打到。
@@ -52,8 +67,51 @@ function wrap(node, zh) {
 // play 站是 React：搬動文字節點會讓 React 之後的 removeChild / insertBefore 炸掉（Google 翻譯同款災難），
 // 所以只在「元素裡只有這一個文字節點」時掛屬性，元素本身 font-size:0、中文由 ::before 以原字級畫出來。
 function mark(el, zh) {
-  el.style.setProperty('--l1r-fs', getComputedStyle(el).fontSize);
+  // 已經掛過就不要重量：此時字級已被壓成 0，量到的會是 0px，中文就看不見了
+  if (!el.hasAttribute('data-l1r-zh')) el.style.setProperty('--l1r-fs', getComputedStyle(el).fontSize);
   el.dataset.l1rZh = zh;
+}
+
+// 混合內容（<label>Account<input></label>）：文字節點不動，元素 font-size:0 藏起英文，
+// 子元素先把自己的字級固定下來才不會跟著變 0；文字在子元素之後就改用 ::after 以維持順序。
+function markMixed(el, node, zh) {
+  if (el.hasAttribute('data-l1r-zh')) { el.dataset.l1rZh = zh; return; }
+  const cs = getComputedStyle(el);
+  for (const c of el.children) {
+    const ccs = getComputedStyle(c);
+    if (!c.style.fontSize) c.style.fontSize = ccs.fontSize;
+    if (!c.style.lineHeight) c.style.lineHeight = ccs.lineHeight;
+  }
+  el.style.setProperty('--l1r-fs', cs.fontSize);
+  el.style.setProperty('--l1r-lh', cs.lineHeight);
+  // 橫向 flex（按鈕裡的 文字<small>）要用 margin-right 補 gap，grid / 直向才是 margin-bottom
+  const row = /flex/.test(cs.display) && cs.flexDirection.startsWith('row');
+  const g = row ? cs.columnGap : cs.rowGap;
+  el.style.setProperty('--l1r-gap', g === 'normal' ? '0px' : g);
+  if (row) el.dataset.l1rRow = '';
+  el.dataset.l1rMixed = '';
+  if (node.previousSibling && node.previousSibling.nodeType === Node.ELEMENT_NODE) {
+    el.dataset.l1rAfter = '';
+    // 文字後面還有元素（<svg>文字<small>2 / 6</small>）：讓後面的元素 order 排到 ::after 之後，gap 改成 margin 補回。
+    const gap = cs.columnGap === 'normal' ? '0px' : cs.columnGap;
+    for (let n = node.nextSibling; n; n = n.nextSibling) {
+      if (n.nodeType !== Node.ELEMENT_NODE) continue;
+      if (!n.style.order) n.style.order = '1';
+      if (!n.style.marginLeft) n.style.marginLeft = gap;
+    }
+  }
+  el.dataset.l1rZh = zh;
+}
+
+// 以 <br> 分行的段落（站方登入頁的詩句）：把各行文字用空白串成一個 key，譯文裡的 \n 以 pre-line 換行。
+function brText(el) {
+  if (!el.querySelector(':scope > br')) return null;
+  const parts = [];
+  for (const c of el.childNodes) {
+    if (c.nodeType === Node.TEXT_NODE) parts.push(c.nodeValue);
+    else if (c.localName !== 'br') return null;
+  }
+  return parts.join(' ');
 }
 
 // <option> 是特例：原生下拉選單不畫 ::before，CSS 疊不上去。改用 label 屬性顯示中文，
@@ -63,21 +121,47 @@ function markOption(el, zh) {
   if (html.dataset.l1rLang !== 'en') el.label = zh;
 }
 
+// 公告 <pre> 內容每天會換，整段完全相符不實際：逐行查字典，查不到的行原樣保留英文，換行用 pre-wrap 畫出來。
+// 譯文會是整個 <pre> 的中文版，所以這裡直接 mark，不走一般的單一文字節點流程。
+const NOTICE = '.mobile-server-notice pre';
+function translateNotice(el) {
+  const lines = el.textContent.split('\n');
+  let hit = false;
+  const out = lines.map(l => {
+    const zh = l.trim() && lookup(l);
+    if (zh) hit = true;
+    return zh || l;
+  });
+  if (!hit) { el.removeAttribute('data-l1r-zh'); return; }
+  mark(el, out.join('\n'));
+  el.dataset.l1rBr = '';
+}
+
 function translate(node) {
   const el = node.parentElement;
+  if (IS_PLAY && el && el.matches(NOTICE)) return translateNotice(el);
   if (!el || el.closest(SKIP)) return;
+  if (IS_PLAY && el.localName !== 'option') {
+    const joined = brText(el);
+    if (joined !== null) {
+      const zhBr = lookup(joined);
+      if (zhBr) { mark(el, zhBr); el.dataset.l1rBr = ''; }
+      return;
+    }
+  }
   const zh = lookup(node.nodeValue);
   if (!zh) return;
   if (el.localName === 'option') markOption(el, zh);
   else if (!IS_PLAY) wrap(node, zh);
   else if (el.childNodes.length === 1) mark(el, zh);
-  // ponytail: play 站的混合內容（如 <label>Account<input>）先留英文；要翻就得找不碰文字節點的做法
+  else if ([...el.childNodes].filter(c => c.nodeType === Node.TEXT_NODE && c.nodeValue.trim()).length === 1) markMixed(el, node, zh);
 }
 
 // 站方 JS 原地改字（計數器、React 換 label）時，跟著更新或撤掉中文。
 function sync(node) {
   const el = node.parentElement;
   if (!el) return;
+  if (IS_PLAY && el.matches(NOTICE)) return translateNotice(el);
   const zh = lookup(node.nodeValue);
   if (el.localName === 'l1r-en') {
     if (zh) el.parentElement.dataset.zh = zh;
@@ -108,7 +192,7 @@ html.append(style);
 const btn = document.createElement('button');
 btn.id = 'l1r-zh-toggle';
 btn.type = 'button';
-btn.textContent = '中 / EN';
+btn.textContent = '中文/EN';
 btn.title = '切換中英文顯示';
 btn.onclick = () => {
   const next = html.dataset.l1rLang === 'en' ? 'zh' : 'en';
