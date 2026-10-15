@@ -5,3 +5,6 @@ node_modules/
 # dist/ 只讓 userscript 產物進 repo（Tampermonkey 從這裡抓更新），其餘忽略
 dist/*
 !dist/l1reborn-zh.user.js
+
+# scripts/pagetool.py 抓下來的官網頁面
+.cache/

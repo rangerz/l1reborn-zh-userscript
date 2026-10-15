@@ -46,4 +46,19 @@ npm test        # build + 檢查產物是合法 userscript
 1. 在對應的 json 加一行 `"English text": "中文"`。
 2. `npm run build`，到 Tampermonkey 重新安裝 `dist/l1reborn-zh.user.js`（或開發時改用 Tampermonkey 的 file:// 載入）。
 
-目前先做按鈕、連結、短標題；長句之後再補。
+### 加新頁面
+
+`scripts/pagetool.py` 把「抓頁面 → 列出沒翻的字串 → 寫進 `pages/<page>.json`」串起來；`scripts/dopage.sh` 再接 build、test、commit、push，一頁一個 commit。
+
+```bash
+python3 scripts/pagetool.py fetch dev-team        # 抓 ?page=dev-team 到 .cache/pages/（已 gitignore）
+python3 scripts/pagetool.py list dev-team         # 列出這頁還沒翻的文字節點，查表能自動翻的標 [auto]
+python3 scripts/pagetool.py apply dev-team my.py  # 套字典寫入 pages/dev-team.json，印出剩下沒翻的
+scripts/dopage.sh dev-team my.py                  # 同上 + build + test + commit + push
+```
+
+- 字典 `my.py` 是普通 Python 檔，放哪裡都行（不用進 repo，JSON 才是正本）。`M` 放完全相符的譯文，`PATTERNS` 放含 `{n}`／`{*}` 的 key；`EMO` 是去掉開頭 emoji 的 key，套用時會把 emoji 補回去。其他選項（`EXTRA_PAGES`、`USE_MAPS`、`USE_MONSTERS`、`USE_SKILLS`、`ITEMS`、`FORCE`）見檔頭說明。
+- 道具、怪物、技能、地圖名稱會自動查 [l1justice-zh-userscript](https://github.com/rangerz/l1justice-zh-userscript) 的對照表（預設在同層目錄，或用 `L1JUSTICE_DIR` 指定）；表上錯配的統一在 `pagetool.py` 的 `ITEM_FIX` 覆寫。日期時間會轉成「10/9（五）13:00 ET」。
+- 抓頁面要帶瀏覽器 UA，連抓二十幾頁會被站方限流（「Too many anonymous requests」），等幾分鐘再抓。需要登入的頁只抓得到登入表單。
+- 跨頁共用的字串放第一個碰到的頁檔就好，build 會合併；但同一英文在兩個檔譯法不同會讓 build 擋下，`dopage.sh` 會印出是哪一條。
+- 以「…」結尾的 key 是官網目錄預覽（英文切在 180 字），譯文也要在對應位置截斷並加「…」。
