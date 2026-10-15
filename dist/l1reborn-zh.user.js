@@ -3659,6 +3659,8 @@ const DICT = {
     "HPR +{n} every {n}s.": "每 {n} 秒 HPR +{n}。",
     "Attack effect gfx {n}.": "攻擊特效 gfx {n}。",
     "Casts skill ID {n} at {n}% chance.": "施放技能 ID {n}，機率 {n}%。",
+    "Online Players List": "線上玩家列表",
+    "Egg": "蛋",
     "Companions & control": "同伴與控制",
     "CHA & Pet/Summon Guide": "CHA 與寵物／召喚獸指南",
     "Pet and summon limits are determined by your effective CHA, class bonus, and the total pet cost of active pets/summons. Pets, tames, and summons all share the same control pool.": "寵物與召喚獸的上限由你的有效 CHA、職業加成，以及目前寵物／召喚獸的總消耗決定。寵物、馴服怪物與召喚獸共用同一個控制額度。",
