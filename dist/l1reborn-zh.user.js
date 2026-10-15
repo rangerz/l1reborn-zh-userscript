@@ -4103,6 +4103,8 @@ const DICT = {
     "Aden's player-run Auction House": "亞丁的玩家拍賣場",
     "Browse warehouse auctions, place bids and discover your next upgrade.": "瀏覽倉庫拍賣、出價，找到你的下一次升級。",
     "Log In to Use": "登入使用",
+    "Kill Glance Ring": "滅光戒指",
+    "KillGlance Ring": "滅光戒指",
     "Eligible hardmode monster kills can reveal a temporary ground blessing nearby. Walk onto or near the blessing to claim it.": "擊殺符合條件的困難模式怪物，可能在附近出現暫時的地面祝福。走到祝福上或靠近即可取得。",
     "Drop rate": "掉落率",
     "1 in 150 eligible monster kills": "每 150 次符合條件的擊殺出現 1 次",
