@@ -45021,6 +45021,1507 @@
   ]
  },
  {
+  "id": 50027,
+  "name": "Market Teleporter",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null,
+  "positions": [
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 32621,
+    "y": 32773
+   },
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 32624,
+    "y": 32803
+   }
+  ]
+ },
+ {
+  "id": 50034,
+  "name": "Market Teleporter",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null,
+  "positions": [
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 33438,
+    "y": 32809
+   },
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 33510,
+    "y": 32766
+   }
+  ]
+ },
+ {
+  "id": 50050,
+  "name": "Market Teleporter",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null,
+  "positions": [
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 34061,
+    "y": 32305
+   },
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 34062,
+    "y": 32273
+   }
+  ]
+ },
+ {
+  "id": 50060,
+  "name": "Market Teleporter",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null,
+  "positions": [
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 33077,
+    "y": 33383
+   },
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 33095,
+    "y": 33358
+   }
+  ]
+ },
+ {
+  "id": 70576,
+  "name": "Garth",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70581,
+  "name": "Gulian",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70582,
+  "name": "Neil",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70583,
+  "name": "Nelson",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70586,
+  "name": "Daisy",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70589,
+  "name": "Laban",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70591,
+  "name": "Lina",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70592,
+  "name": "Leal",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70593,
+  "name": "Manus",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70604,
+  "name": "Bridget",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70606,
+  "name": "Victor",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70608,
+  "name": "Shalina",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70615,
+  "name": "Alda",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70616,
+  "name": "Aldred",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70619,
+  "name": "Alice",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70621,
+  "name": "Evelyn",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70622,
+  "name": "Eliza",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70624,
+  "name": "Oliver",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70626,
+  "name": "Jack",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70630,
+  "name": "Giles",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70634,
+  "name": "Tanya",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70637,
+  "name": "Tovia",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70639,
+  "name": "Ferdinand",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70640,
+  "name": "Pierre",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70647,
+  "name": "Gavin",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70648,
+  "name": "Daley",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70659,
+  "name": "Atara",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70735,
+  "name": "Garuga",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70736,
+  "name": "Derian",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70741,
+  "name": "Dima",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70746,
+  "name": "Rotus",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70752,
+  "name": "Biyan",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70760,
+  "name": "Ellyonne",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null,
+  "positions": [
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 33044,
+    "y": 32338
+   },
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 33082,
+    "y": 33385
+   },
+   {
+    "map_id": 76,
+    "map": "Oren Ivory Tower Floor 2",
+    "x": 32748,
+    "y": 32847
+   }
+  ]
+ },
+ {
+  "id": 70767,
+  "name": "Haro",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70770,
+  "name": "Deker",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70803,
+  "name": "Anotte",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70812,
+  "name": "Rohan",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70814,
+  "name": "Ruka",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70819,
+  "name": "Bob",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70821,
+  "name": "Sanita",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70825,
+  "name": "Ellne",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70828,
+  "name": "Ofo",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70833,
+  "name": "Tommy",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70834,
+  "name": "Torban",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70839,
+  "name": "Doett",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70854,
+  "name": "Hurindalien",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70858,
+  "name": "Derick",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70867,
+  "name": "Shannon",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70871,
+  "name": "Annabel",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70877,
+  "name": "Trion",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 70878,
+  "name": "Felix",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 71092,
+  "name": "Scout",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "1",
+   "Size": "Small",
+   "HP": "1",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
+  "id": 71094,
+  "name": "Endia",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "1",
+   "Size": "Small",
+   "HP": "1",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
+ },
+ {
   "id": 81082,
   "name": "Yahee",
   "band": "detail",
@@ -45824,6 +47325,56 @@
   ]
  },
  {
+  "id": 81170,
+  "name": "Cooking Fire",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null,
+  "positions": [
+   {
+    "map_id": 370,
+    "map": "Silver Knight Town Market",
+    "x": 32743,
+    "y": 32796
+   },
+   {
+    "map_id": 6201,
+    "map": "Valentines Day Party Place",
+    "x": 32921,
+    "y": 32923
+   },
+   {
+    "map_id": 6201,
+    "map": "Valentines Day Party Place",
+    "x": 32921,
+    "y": 32931
+   },
+   {
+    "map_id": 6201,
+    "map": "Valentines Day Party Place",
+    "x": 32933,
+    "y": 32931
+   }
+  ]
+ },
+ {
   "id": 81255,
   "name": "Redcoat",
   "band": "detail",
@@ -46285,6 +47836,138 @@
     "min": 1,
     "max": 1,
     "chance_pct": 0.003
+   }
+  ]
+ },
+ {
+  "id": 91057,
+  "name": "Strong Heios",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null,
+  "positions": [
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 33711,
+    "y": 32525
+   }
+  ]
+ },
+ {
+  "id": 91058,
+  "name": "Sensitive Shunu",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null,
+  "positions": [
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 33704,
+    "y": 32523
+   }
+  ]
+ },
+ {
+  "id": 91059,
+  "name": "Tenacious Dooho",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null,
+  "positions": [
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 33704,
+    "y": 32517
+   }
+  ]
+ },
+ {
+  "id": 91060,
+  "name": "Luminous Vaemi",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null,
+  "positions": [
+   {
+    "map_id": 4,
+    "map": "Mainland Aden",
+    "x": 33708,
+    "y": 32517
    }
   ]
  },
@@ -52536,6 +54219,30 @@
     "rune_types": 37
    }
   ]
+ },
+ {
+  "id": 900017,
+  "name": "Hatchling Bank",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": null
  },
  {
   "id": 900040,

@@ -4,6 +4,7 @@
   （?page=lookup-monsters&mode=standard&lvl=<等級帶>&npc_page=N；等級帶 upto20、21_40、41_50、51_60、61_70、71plus）。卡片沒有掉落。
 - 詳情：.cache/manual/monsters/npc_<id>.html（?page=lookup-monsters&npc=<id>&mode=standard），補列表沒收的怪物
   （item_sources 掉落裡出現、但列表沒有的），band 記為 'detail'，多一個 drops 欄位。
+  詳情頁也有固定 NPC（map_details 的怪物清單裡出現）：卡片名字列有座標標籤，記為 positions；沒有掉落區就不輸出 drops。
   官網查不到的 ID（頁面沒有怪物區塊）不輸出，只在結尾列出。"""
 import html, json, re, shutil
 from pathlib import Path
@@ -23,6 +24,8 @@ def parse_card(c, stem, band):
     a = re.search(r'<a href="[^"]*npc=(\d+)[^"]*"[^>]*>(.*?)</a>', c, re.S)
     badges = [txt(b) for b in re.findall(r'<span class="px-2 py-0\.5 text-xs rounded[^"]*">(.*?)</span>', c, re.S)]
     stats = {txt(k).rstrip(':'): txt(v) for k, v in re.findall(r'<div><span class="text-gray-400">(.*?)</span>(.*?)</div>', c, re.S)}
+    positions = [{'map_id': int(i), 'map': txt(n), 'x': int(x), 'y': int(y)}
+                 for i, x, y, n in re.findall(r'guide-map&amp;id=(\d+)#x=(\d+)&amp;y=(\d+)"[^>]*>(.*?)<span', c.split('<dl')[0], re.S)]
     tail = re.search(r'<div class="text-sm text-gray-300 mt-2">(.*?)</div>\s*</div>\s*</div>', c, re.S)
     spawn = {}
     if tail:
@@ -35,7 +38,8 @@ def parse_card(c, stem, band):
     icon = None
     if img and img.group(1).startswith(f'{stem}_files/') and (SRC / img.group(1)).exists():
         p = SRC / img.group(1); icon = p.name; shutil.copy(p, OUT / 'images' / 'monsters' / icon)
-    return {'id': int(a.group(1)), 'name': txt(a.group(2)), 'band': band, 'badges': badges, 'stats': stats, 'spawn': spawn, 'icon': icon}
+    return {'id': int(a.group(1)), 'name': txt(a.group(2)), 'band': band, 'badges': badges, 'stats': stats, 'spawn': spawn, 'icon': icon,
+            **({'positions': positions} if positions else {})}
 
 def parse_drops(h, stem):
     d = h[h.index('id="lookup-drops"'):]
@@ -87,7 +91,7 @@ for path in sorted(SRC.glob('npc_*.html'), key=lambda p: int(p.stem[4:])):
     m = parse_card(h.split('lookup-monster-summary')[1], path.stem, 'detail')
     assert m['id'] == nid, f'{path.name} 內的 ID 是 {m["id"]}'
     assert nid not in seen, f'{nid} 列表已有，不需要詳情頁'
-    m['drops'] = parse_drops(h, path.stem)
+    if 'id="lookup-drops"' in h: m['drops'] = parse_drops(h, path.stem)
     seen[nid] = 'detail'; n_detail += 1
     mons.append(m)
 (OUT / 'monsters.json').write_text(json.dumps(mons, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
