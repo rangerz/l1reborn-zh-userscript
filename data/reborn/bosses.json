@@ -1,0 +1,4624 @@
+[
+ {
+  "id": 45228,
+  "name": "Sea Dancer",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Small",
+   "HP": "1800",
+   "MP": "300",
+   "AC": "-53",
+   "MR": "50",
+   "EXP": "2501",
+   "Str/Con/Dex": "15/15/15",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "6",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "30m-1h",
+   "Avg Spawns": "24/day",
+   "Locations": [
+    {
+     "map_id": 63,
+     "name": "Kingdom of Eva (1)"
+    }
+   ]
+  },
+  "icon": "ab2019677201c986e98f.webp"
+ },
+ {
+  "id": 45317,
+  "name": "Bandit",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "28",
+   "Size": "Small",
+   "HP": "500",
+   "MP": "10",
+   "AC": "-16",
+   "MR": "25",
+   "EXP": "785",
+   "Str/Con/Dex": "19/14/12",
+   "Int/Wis": "10/8",
+   "Family": "",
+   "HPR": "50",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 56,
+     "name": "Giran Prison Floor 4 (1)"
+    }
+   ]
+  },
+  "icon": "a82c7bad998c9f22383d.webp"
+ },
+ {
+  "id": 45338,
+  "name": "Crocodile",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "32",
+   "Size": "Large",
+   "HP": "480",
+   "MP": "20",
+   "AC": "-23",
+   "MR": "10",
+   "EXP": "1025",
+   "Str/Con/Dex": "15/13/13",
+   "Int/Wis": "5/6",
+   "Family": "alligator",
+   "HPR": "6",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {
+   "Spawn Window": "1h-2h",
+   "Avg Spawns": "12/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "3e86311bd8aaf38b31cc.webp"
+ },
+ {
+  "id": 45370,
+  "name": "Bandit Leader",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "35",
+   "Size": "Small",
+   "HP": "600",
+   "MP": "50",
+   "AC": "-25",
+   "MR": "50",
+   "EXP": "1226",
+   "Str/Con/Dex": "20/20/18",
+   "Int/Wis": "13/12",
+   "Family": "bandit",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "30/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "d9f7fdd46dafd7edbd76.webp"
+ },
+ {
+  "id": 45456,
+  "name": "Necromancer",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "42",
+   "Size": "Small",
+   "HP": "960",
+   "MP": "250",
+   "AC": "-32",
+   "MR": "80",
+   "EXP": "1765",
+   "Str/Con/Dex": "12/15/12",
+   "Int/Wis": "17/17",
+   "Family": "necromansar",
+   "HPR": "176",
+   "MPR": "160",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "30m-7h",
+   "Avg Spawns": "27.43/day",
+   "Locations": [
+    {
+     "map_id": 12,
+     "name": "Gludio Dungeon Floor 6 (1)"
+    },
+    {
+     "map_id": 812,
+     "name": "글루디오 던전 6층 (1)"
+    }
+   ]
+  },
+  "icon": "52609a119c35ccef96f0.webp"
+ },
+ {
+  "id": 45458,
+  "name": "Spirit of Drake",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "42",
+   "Size": "Small",
+   "HP": "1440",
+   "MP": "50",
+   "AC": "-35",
+   "MR": "50",
+   "EXP": "1765",
+   "Str/Con/Dex": "18/18/20",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "22",
+   "MPR": "8",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 443,
+     "name": "Pirate Island Dungeon 3F (1)"
+    }
+   ]
+  },
+  "icon": "7d03ba1ddc90b8fb4564.webp"
+ },
+ {
+  "id": 45464,
+  "name": "Sema",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "42",
+   "Size": "Small",
+   "HP": "1064",
+   "MP": "250",
+   "AC": "-32",
+   "MR": "80",
+   "EXP": "1765",
+   "Str/Con/Dex": "12/15/12",
+   "Int/Wis": "17/17",
+   "Family": "foursage",
+   "HPR": "165",
+   "MPR": "165",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "52609a119c35ccef96f0.webp"
+ },
+ {
+  "id": 45473,
+  "name": "Baltuzar",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "43",
+   "Size": "Small",
+   "HP": "1064",
+   "MP": "250",
+   "AC": "-32",
+   "MR": "80",
+   "EXP": "1850",
+   "Str/Con/Dex": "12/15/12",
+   "Int/Wis": "17/17",
+   "Family": "foursage",
+   "HPR": "180",
+   "MPR": "180",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "baa7ece10b5d838b2239.webp"
+ },
+ {
+  "id": 45488,
+  "name": "Caspa",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "44",
+   "Size": "Small",
+   "HP": "718",
+   "MP": "250",
+   "AC": "-32",
+   "MR": "80",
+   "EXP": "1937",
+   "Str/Con/Dex": "12/15/12",
+   "Int/Wis": "17/17",
+   "Family": "foursage",
+   "HPR": "220",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "30m-1h",
+   "Avg Spawns": "24/day",
+   "Locations": [
+    {
+     "map_id": 9,
+     "name": "Gludio Dungeon Floor 3 (1)"
+    },
+    {
+     "map_id": 10,
+     "name": "Gludio Dungeon Floor 4 (1)"
+    }
+   ]
+  },
+  "icon": "f0651265c6d17761af1e.webp"
+ },
+ {
+  "id": 45492,
+  "name": "Kuman",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "44",
+   "Size": "Small",
+   "HP": "2400",
+   "MP": "100",
+   "AC": "-50",
+   "MR": "35",
+   "EXP": "1937",
+   "Str/Con/Dex": "18/18/16",
+   "Int/Wis": "16/10",
+   "Family": "pirate",
+   "HPR": "62",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "10m-1d",
+   "Avg Spawns": "1/day",
+   "Locations": [
+    {
+     "map_id": 480,
+     "name": "Pirate's Isle (1)"
+    }
+   ]
+  },
+  "icon": "3dfbb0a79741a0b26eb5.webp"
+ },
+ {
+  "id": 45497,
+  "name": "Merkyor",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "599",
+   "MP": "250",
+   "AC": "-32",
+   "MR": "80",
+   "EXP": "2026",
+   "Str/Con/Dex": "12/15/12",
+   "Int/Wis": "17/17",
+   "Family": "foursage",
+   "HPR": "250",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "23ad7c1fff2ce6ee1ab0.webp"
+ },
+ {
+  "id": 45513,
+  "name": "Zenith Queen",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Large",
+   "HP": "1440",
+   "MP": "2400",
+   "AC": "-50",
+   "MR": "70",
+   "EXP": "2026",
+   "Str/Con/Dex": "55/18/45",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "83",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "1h 20m-2h 40m",
+   "Avg Spawns": "9/day",
+   "Locations": [
+    {
+     "map_id": 110,
+     "name": "Tower of Insolence 10F (1)"
+    }
+   ]
+  },
+  "icon": "90f9a7cde4386e76702f.webp"
+ },
+ {
+  "id": 45516,
+  "name": "Ifrit",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "46",
+   "Size": "Large",
+   "HP": "1320",
+   "MP": "600",
+   "AC": "-28",
+   "MR": "80",
+   "EXP": "2117",
+   "Str/Con/Dex": "20/18/18",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "110",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {
+   "Spawn Window": "1h-2h",
+   "Avg Spawns": "48/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "d4a343fed3989d4b7500.webp"
+ },
+ {
+  "id": 45529,
+  "name": "Drake",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "48",
+   "Size": "Large",
+   "HP": "1915",
+   "MP": "550",
+   "AC": "-48",
+   "MR": "70",
+   "EXP": "2305",
+   "Str/Con/Dex": "32/18/18",
+   "Int/Wis": "15/15",
+   "Family": "drake",
+   "HPR": "165",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Spawn Window": "1h-3h",
+   "Avg Spawns": "32/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "994f00978149f884fa3f.webp"
+ },
+ {
+  "id": 45534,
+  "name": "Mambo Rabbit Pink Vest",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Small",
+   "HP": "3600",
+   "MP": "300",
+   "AC": "-35",
+   "MR": "50",
+   "EXP": "20000",
+   "Str/Con/Dex": "18/18/18",
+   "Int/Wis": "18/18",
+   "Family": "pirate",
+   "HPR": "9",
+   "MPR": "20",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "30m-1h",
+   "Avg Spawns": "24/day",
+   "Locations": [
+    {
+     "map_id": 440,
+     "name": "Pirate Island First Part (1)"
+    }
+   ]
+  },
+  "icon": "3844813f9412f8a62172.webp"
+ },
+ {
+  "id": 45535,
+  "name": "Mambo Rabbit Orange Vest",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Small",
+   "HP": "4800",
+   "MP": "300",
+   "AC": "-40",
+   "MR": "60",
+   "EXP": "20000",
+   "Str/Con/Dex": "20/18/18",
+   "Int/Wis": "22/22",
+   "Family": "spirit",
+   "HPR": "22",
+   "MPR": "20",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "30m-1h",
+   "Avg Spawns": "24/day",
+   "Locations": [
+    {
+     "map_id": 430,
+     "name": "Elemental Grave (1)"
+    }
+   ]
+  },
+  "icon": "ac3900d50f4c94918d97.webp"
+ },
+ {
+  "id": 45545,
+  "name": "Dark Elder",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Small",
+   "HP": "3192",
+   "MP": "2500",
+   "AC": "-45",
+   "MR": "90",
+   "EXP": "2501",
+   "Str/Con/Dex": "45/15/44",
+   "Int/Wis": "30/17",
+   "Family": "elder",
+   "HPR": "220",
+   "MPR": "500",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "10m-2h",
+   "Avg Spawns": "12/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "52609a119c35ccef96f0.webp"
+ },
+ {
+  "id": 45546,
+  "name": "Doppelganger Boss",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Small",
+   "HP": "3600",
+   "MP": "100",
+   "AC": "-63",
+   "MR": "80",
+   "EXP": "2501",
+   "Str/Con/Dex": "25/24/23",
+   "Int/Wis": "21/19",
+   "Family": "doppel",
+   "HPR": "275",
+   "MPR": "250",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "3bf4c59e6a930364ccbe.webp"
+ },
+ {
+  "id": 45547,
+  "name": "Seer",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "1800",
+   "MP": "2400",
+   "AC": "-53",
+   "MR": "75",
+   "EXP": "2501",
+   "Str/Con/Dex": "60/15/77",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "83",
+   "MPR": "750",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 120,
+     "name": "Tower of Insolence 20F (1)"
+    }
+   ]
+  },
+  "icon": "77e1367341c771b04376.webp"
+ },
+ {
+  "id": 45548,
+  "name": "Jose",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Small",
+   "HP": "960",
+   "MP": "500",
+   "AC": "-60",
+   "MR": "60",
+   "EXP": "2501",
+   "Str/Con/Dex": "16/10/16",
+   "Int/Wis": "8/6",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 484,
+     "name": "Underground Jail of Jose (1)"
+    }
+   ]
+  },
+  "icon": "859979fb581e13429fb0.webp"
+ },
+ {
+  "id": 45573,
+  "name": "Baphomet",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "51",
+   "Size": "Small",
+   "HP": "3600",
+   "MP": "350",
+   "AC": "-65",
+   "MR": "80",
+   "EXP": "2602",
+   "Str/Con/Dex": "120/50/45",
+   "Int/Wis": "16/17",
+   "Family": "",
+   "HPR": "330",
+   "MPR": "300",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 2,
+     "name": "Talking Island Dungeon Floor 2 (1)"
+    }
+   ]
+  },
+  "icon": "fe7a30554eef4b9ee9b8.webp"
+ },
+ {
+  "id": 45574,
+  "name": "Palace General Kyte",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "51",
+   "Size": "Small",
+   "HP": "15053",
+   "MP": "732",
+   "AC": "-61",
+   "MR": "60",
+   "EXP": "2602",
+   "Str/Con/Dex": "16/15/17",
+   "Int/Wis": "16/12",
+   "Family": "lastabad",
+   "HPR": "55",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 494,
+     "name": "Underground Punishment Area (1)"
+    }
+   ]
+  },
+  "icon": "53e86b32679218fae108.webp"
+ },
+ {
+  "id": 45577,
+  "name": "Brigade Commander Dark Fencer",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "52",
+   "Size": "Small",
+   "HP": "14434",
+   "MP": "300",
+   "AC": "-47",
+   "MR": "40",
+   "EXP": "2705",
+   "Str/Con/Dex": "19/20/18",
+   "Int/Wis": "15/16",
+   "Family": "lastabad",
+   "HPR": "50",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 452,
+     "name": "1st Floor Shock Squad Training Area (1)"
+    }
+   ]
+  },
+  "icon": "18047857bf323f85472e.webp"
+ },
+ {
+  "id": 45583,
+  "name": "Beleth",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "53",
+   "Size": "Small",
+   "HP": "2520",
+   "MP": "350",
+   "AC": "-66",
+   "MR": "80",
+   "EXP": "2810",
+   "Str/Con/Dex": "68/20/18",
+   "Int/Wis": "20/20",
+   "Family": "",
+   "HPR": "418",
+   "MPR": "380",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 24,
+     "name": "Windawood Castle Dungeon 2F (1)"
+    }
+   ]
+  },
+  "icon": "d6157e8dcdae0fa917d6.webp"
+ },
+ {
+  "id": 45584,
+  "name": "Greater Minotaur",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "53",
+   "Size": "Large",
+   "HP": "6000",
+   "MP": "200",
+   "AC": "-65",
+   "MR": "60",
+   "EXP": "2810",
+   "Str/Con/Dex": "70/20/12",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "220",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 70,
+     "name": "Forgotten Island (1)"
+    }
+   ]
+  },
+  "icon": "696e5daf58a883741caf.webp"
+ },
+ {
+  "id": 45585,
+  "name": "Assassin Squad Leader Blaze",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "53",
+   "Size": "Small",
+   "HP": "15448",
+   "MP": "630",
+   "AC": "-63",
+   "MR": "55",
+   "EXP": "2810",
+   "Str/Con/Dex": "15/16/18",
+   "Int/Wis": "16/12",
+   "Family": "lastabad",
+   "HPR": "55",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 495,
+     "name": "Underground Duel Area (1)"
+    }
+   ]
+  },
+  "icon": "9b785d6c37bd1abcf214.webp"
+ },
+ {
+  "id": 45588,
+  "name": "Division Commander Sinclair",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "54",
+   "Size": "Small",
+   "HP": "14715",
+   "MP": "1017",
+   "AC": "-49",
+   "MR": "60",
+   "EXP": "2917",
+   "Str/Con/Dex": "15/16/12",
+   "Int/Wis": "18/15",
+   "Family": "lastabad",
+   "HPR": "50",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 456,
+     "name": "1st Floor Evil Power Summoning Room (1)"
+    }
+   ]
+  },
+  "icon": "08d4f87c7986be042f87.webp"
+ },
+ {
+  "id": 45600,
+  "name": "Kurtz",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "55",
+   "Size": "Small",
+   "HP": "7182",
+   "MP": "1000",
+   "AC": "-67",
+   "MR": "65",
+   "EXP": "3026",
+   "Str/Con/Dex": "75/18/17",
+   "Int/Wis": "17/15",
+   "Family": "antiking",
+   "HPR": "462",
+   "MPR": "200",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 0,
+     "name": "Talking Island (1)"
+    }
+   ]
+  },
+  "icon": "9ff962a767ca3a1e1a2e.webp"
+ },
+ {
+  "id": 45602,
+  "name": "Evil Magic Squad Leader Carmiel",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "55",
+   "Size": "Small",
+   "HP": "14723",
+   "MP": "1413",
+   "AC": "-47",
+   "MR": "60",
+   "EXP": "3026",
+   "Str/Con/Dex": "14/18/17",
+   "Int/Wis": "18/14",
+   "Family": "lastabad",
+   "HPR": "50",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 461,
+     "name": "2nd Floor Dark Magic Laboratory (1)"
+    }
+   ]
+  },
+  "icon": "08d4f87c7986be042f87.webp"
+ },
+ {
+  "id": 45606,
+  "name": "Vampire",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "56",
+   "Size": "Small",
+   "HP": "3600",
+   "MP": "500",
+   "AC": "-53",
+   "MR": "85",
+   "EXP": "2501",
+   "Str/Con/Dex": "26/13/56",
+   "Int/Wis": "20/20",
+   "Family": "vampire",
+   "HPR": "55",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 130,
+     "name": "Tower of Insolence 30F (1)"
+    }
+   ]
+  },
+  "icon": "5688598274647b4b6b84.webp"
+ },
+ {
+  "id": 45607,
+  "name": "Evil Power Squad Leader Kybar",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "56",
+   "Size": "Small",
+   "HP": "15024",
+   "MP": "1200",
+   "AC": "-51",
+   "MR": "70",
+   "EXP": "3137",
+   "Str/Con/Dex": "19/20/18",
+   "Int/Wis": "15/16",
+   "Family": "lastabad",
+   "HPR": "44",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 455,
+     "name": "1st Floor Dark Warrens (1)"
+    }
+   ]
+  },
+  "icon": "18047857bf323f85472e.webp"
+ },
+ {
+  "id": 45608,
+  "name": "Mercenary Commander Mephaisto",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "56",
+   "Size": "Small",
+   "HP": "15939",
+   "MP": "722",
+   "AC": "-64",
+   "MR": "70",
+   "EXP": "3137",
+   "Str/Con/Dex": "18/19/19",
+   "Int/Wis": "17/16",
+   "Family": "lastabad",
+   "HPR": "6",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 471,
+     "name": "3rd Floor Devil Road Altar (1)"
+    }
+   ]
+  },
+  "icon": "18047857bf323f85472e.webp"
+ },
+ {
+  "id": 45609,
+  "name": "Ice Queen",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "56",
+   "Size": "Small",
+   "HP": "7200",
+   "MP": "400",
+   "AC": "-65",
+   "MR": "60",
+   "EXP": "3137",
+   "Str/Con/Dex": "30/18/20",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "275",
+   "MPR": "250",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 74,
+     "name": "Ice Queens Castle 3F (1)"
+    }
+   ]
+  },
+  "icon": "2f159c1480a9e2e04302.webp"
+ },
+ {
+  "id": 45610,
+  "name": "Ancient Giant",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "56",
+   "Size": "Large",
+   "HP": "6900",
+   "MP": "350",
+   "AC": "-63",
+   "MR": "70",
+   "EXP": "3137",
+   "Str/Con/Dex": "20/20/18",
+   "Int/Wis": "20/18",
+   "Family": "giant",
+   "HPR": "385",
+   "MPR": "225",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "94f96d14910e9e22790e.webp"
+ },
+ {
+  "id": 45612,
+  "name": "Temple Head Bounty",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "57",
+   "Size": "Small",
+   "HP": "15026",
+   "MP": "1413",
+   "AC": "-49",
+   "MR": "50",
+   "EXP": "3250",
+   "Str/Con/Dex": "15/18/14",
+   "Int/Wis": "19/15",
+   "Family": "lastabad",
+   "HPR": "50",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 466,
+     "name": "2nd Floor Dark Spirit Laboratory (1)"
+    }
+   ]
+  },
+  "icon": "08d4f87c7986be042f87.webp"
+ },
+ {
+  "id": 45614,
+  "name": "Giant Ant Queen",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "57",
+   "Size": "Large",
+   "HP": "9600",
+   "MP": "100",
+   "AC": "-65",
+   "MR": "60",
+   "EXP": "3250",
+   "Str/Con/Dex": "30/18/20",
+   "Int/Wis": "15/17",
+   "Family": "ant",
+   "HPR": "220",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 51,
+     "name": "Ant Caves 9F (1)"
+    }
+   ]
+  },
+  "icon": "9c7965fd8dda8608e4a1.webp"
+ },
+ {
+  "id": 45615,
+  "name": "Arcane Troup Leader Crepus",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "58",
+   "Size": "Small",
+   "HP": "16431",
+   "MP": "722",
+   "AC": "-66",
+   "MR": "60",
+   "EXP": "3365",
+   "Str/Con/Dex": "19/19/18",
+   "Int/Wis": "16/16",
+   "Family": "lastabad",
+   "HPR": "28",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 473,
+     "name": "3rd Floor Arcane Army Training Area (1)"
+    }
+   ]
+  },
+  "icon": "18047857bf323f85472e.webp"
+ },
+ {
+  "id": 45617,
+  "name": "Phoenix",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "59",
+   "Size": "Large",
+   "HP": "9600",
+   "MP": "5000",
+   "AC": "-63",
+   "MR": "99",
+   "EXP": "3482",
+   "Str/Con/Dex": "35/18/18",
+   "Int/Wis": "22/22",
+   "Family": "",
+   "HPR": "350",
+   "MPR": "600",
+   "Weak Attr": "Water"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "c9f677af150b943ad938.webp"
+ },
+ {
+  "id": 45618,
+  "name": "Knight Vald",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "65",
+   "Size": "Large",
+   "HP": "6000",
+   "MP": "600",
+   "AC": "-70",
+   "MR": "80",
+   "EXP": "4226",
+   "Str/Con/Dex": "75/65/25",
+   "Int/Wis": "22/18",
+   "Family": "",
+   "HPR": "440",
+   "MPR": "800",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 180,
+     "name": "Tower of Insolence 80F (1)"
+    }
+   ]
+  },
+  "icon": "397fad93fbcb29393384.webp"
+ },
+ {
+  "id": 45625,
+  "name": "Chaos",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Large",
+   "HP": "6000",
+   "MP": "300",
+   "AC": "-60",
+   "MR": "100",
+   "EXP": "3601",
+   "Str/Con/Dex": "45/21/21",
+   "Int/Wis": "18/21",
+   "Family": "chaos",
+   "HPR": "165",
+   "MPR": "250",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 522,
+     "name": "Shadow Temple Floor 1 (1)"
+    }
+   ]
+  },
+  "icon": "3bf518694f696fd6dde9.webp"
+ },
+ {
+  "id": 45640,
+  "name": "Unicorn",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "7",
+   "Size": "Small",
+   "HP": "324",
+   "MP": "75",
+   "AC": "-8",
+   "MR": "45",
+   "EXP": "7",
+   "Str/Con/Dex": "19/18/17",
+   "Int/Wis": "16/17",
+   "Family": "",
+   "HPR": "165",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "20m-2h",
+   "Avg Spawns": "36/day",
+   "Locations": [
+    {
+     "map_id": 303,
+     "name": "Island of Dreams (1)"
+    }
+   ]
+  },
+  "icon": "95ae20f8b56ecce0bf88.webp"
+ },
+ {
+  "id": 45642,
+  "name": "Great Spirit of Earth",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Large",
+   "HP": "1800",
+   "MP": "500",
+   "AC": "-53",
+   "MR": "45",
+   "EXP": "3601",
+   "Str/Con/Dex": "30/19/18",
+   "Int/Wis": "18/19",
+   "Family": "",
+   "HPR": "110",
+   "MPR": "100",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "30m-1h",
+   "Avg Spawns": "72/day",
+   "Locations": [
+    {
+     "map_id": 303,
+     "name": "Island of Dreams (1)"
+    }
+   ]
+  },
+  "icon": "622f17f6f11ad863565c.webp"
+ },
+ {
+  "id": 45643,
+  "name": "Great Spirit of Water",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Large",
+   "HP": "1800",
+   "MP": "500",
+   "AC": "-53",
+   "MR": "45",
+   "EXP": "3601",
+   "Str/Con/Dex": "30/20/18",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "110",
+   "MPR": "100",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {
+   "Spawn Window": "30m-1h",
+   "Avg Spawns": "72/day",
+   "Locations": [
+    {
+     "map_id": 303,
+     "name": "Island of Dreams (1)"
+    }
+   ]
+  },
+  "icon": "bfe9e4d76cbbf9209c85.webp"
+ },
+ {
+  "id": 45644,
+  "name": "Great Spirit of Wind",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Large",
+   "HP": "1800",
+   "MP": "500",
+   "AC": "-53",
+   "MR": "45",
+   "EXP": "3601",
+   "Str/Con/Dex": "30/18/20",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "110",
+   "MPR": "100",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Spawn Window": "30m-1h",
+   "Avg Spawns": "72/day",
+   "Locations": [
+    {
+     "map_id": 303,
+     "name": "Island of Dreams (1)"
+    }
+   ]
+  },
+  "icon": "e855050affd18c1b45cf.webp"
+ },
+ {
+  "id": 45645,
+  "name": "Great Spirit of Fire",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Large",
+   "HP": "1800",
+   "MP": "500",
+   "AC": "-53",
+   "MR": "45",
+   "EXP": "3601",
+   "Str/Con/Dex": "32/18/18",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "110",
+   "MPR": "100",
+   "Weak Attr": "Water"
+  },
+  "spawn": {
+   "Spawn Window": "30m-1h",
+   "Avg Spawns": "72/day",
+   "Locations": [
+    {
+     "map_id": 303,
+     "name": "Island of Dreams (1)"
+    }
+   ]
+  },
+  "icon": "7022a39639ae2a02efe8.webp"
+ },
+ {
+  "id": 45646,
+  "name": "Abyss Master",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Small",
+   "HP": "4800",
+   "MP": "100",
+   "AC": "-60",
+   "MR": "60",
+   "EXP": "3601",
+   "Str/Con/Dex": "20/20/20",
+   "Int/Wis": "20/18",
+   "Family": "",
+   "HPR": "44",
+   "MPR": "100",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 430,
+     "name": "Elemental Grave (1)"
+    }
+   ]
+  },
+  "icon": "50872166a07aed8c3b69.webp"
+ },
+ {
+  "id": 45648,
+  "name": "Slave of Assassin King",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "61",
+   "Size": "Large",
+   "HP": "19443",
+   "MP": "1239",
+   "AC": "-71",
+   "MR": "75",
+   "EXP": "3722",
+   "Str/Con/Dex": "16/18/20",
+   "Int/Wis": "17/10",
+   "Family": "lastabad",
+   "HPR": "132",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 492,
+     "name": "Assassin King's Power Room (1)"
+    }
+   ]
+  },
+  "icon": "00857e2d0723ad1b1ac8.webp"
+ },
+ {
+  "id": 45649,
+  "name": "Demon",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "61",
+   "Size": "Large",
+   "HP": "7200",
+   "MP": "250",
+   "AC": "-68",
+   "MR": "75",
+   "EXP": "3722",
+   "Str/Con/Dex": "25/20/18",
+   "Int/Wis": "20/20",
+   "Family": "",
+   "HPR": "385",
+   "MPR": "700",
+   "Weak Attr": "Water"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 82,
+     "name": "Oren Ivory Tower Floor 8 (1)"
+    }
+   ]
+  },
+  "icon": "6266fd493c751d77e17b.webp"
+ },
+ {
+  "id": 45650,
+  "name": "Zombie Lord",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "62",
+   "Size": "Large",
+   "HP": "9600",
+   "MP": "100",
+   "AC": "-58",
+   "MR": "50",
+   "EXP": "3845",
+   "Str/Con/Dex": "65/25/62",
+   "Int/Wis": "15/10",
+   "Family": "zombie",
+   "HPR": "275",
+   "MPR": "500",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 140,
+     "name": "Tower of Insolence 40F (1)"
+    }
+   ]
+  },
+  "icon": "57e771801761979e6321.webp"
+ },
+ {
+  "id": 45651,
+  "name": "Dread King Baranka",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "63",
+   "Size": "Large",
+   "HP": "20748",
+   "MP": "0",
+   "AC": "-77",
+   "MR": "66",
+   "EXP": "3970",
+   "Str/Con/Dex": "66/25/44",
+   "Int/Wis": "18/18",
+   "Family": "lastabad",
+   "HPR": "165",
+   "MPR": "150",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 320,
+     "name": "Diad Fortress (1)"
+    }
+   ]
+  },
+  "icon": "92dc81ffa5b75b389fda.webp"
+ },
+ {
+  "id": 45652,
+  "name": "Cougar",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "63",
+   "Size": "Large",
+   "HP": "3360",
+   "MP": "400",
+   "AC": "-65",
+   "MR": "75",
+   "EXP": "3970",
+   "Str/Con/Dex": "65/20/63",
+   "Int/Wis": "20/8",
+   "Family": "",
+   "HPR": "220",
+   "MPR": "500",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 150,
+     "name": "Tower of Insolence 50F (1)"
+    }
+   ]
+  },
+  "icon": "e1142ce182c1ce32a988.webp"
+ },
+ {
+  "id": 45653,
+  "name": "Mummy Lord",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "63",
+   "Size": "Large",
+   "HP": "6000",
+   "MP": "750",
+   "AC": "-60",
+   "MR": "99",
+   "EXP": "3970",
+   "Str/Con/Dex": "65/22/63",
+   "Int/Wis": "22/22",
+   "Family": "",
+   "HPR": "275",
+   "MPR": "500",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 160,
+     "name": "Tower of Insolence 60F (1)"
+    }
+   ]
+  },
+  "icon": "05a828e0399d25a0fd10.webp"
+ },
+ {
+  "id": 45654,
+  "name": "Iris",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "64",
+   "Size": "Large",
+   "HP": "3720",
+   "MP": "2400",
+   "AC": "-75",
+   "MR": "99",
+   "EXP": "4097",
+   "Str/Con/Dex": "70/13/64",
+   "Int/Wis": "18/13",
+   "Family": "",
+   "HPR": "303",
+   "MPR": "600",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 170,
+     "name": "Tower of Insolence 70F (1)"
+    }
+   ]
+  },
+  "icon": "3060cfc306f9f4ab8612.webp"
+ },
+ {
+  "id": 45666,
+  "name": "Teranus",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "65",
+   "Size": "Small",
+   "HP": "12000",
+   "MP": "150",
+   "AC": "-78",
+   "MR": "50",
+   "EXP": "4226",
+   "Str/Con/Dex": "19/18/18",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "300",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 450,
+     "name": "Lastavard Main Gate (1)"
+    }
+   ]
+  },
+  "icon": "b4ac08cd7ad91e5340be.webp"
+ },
+ {
+  "id": 45668,
+  "name": "Zyrus",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "65",
+   "Size": "Small",
+   "HP": "12000",
+   "MP": "150",
+   "AC": "-78",
+   "MR": "50",
+   "EXP": "4226",
+   "Str/Con/Dex": "19/18/18",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "300",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 450,
+     "name": "Lastavard Main Gate (1)"
+    }
+   ]
+  },
+  "icon": "b4ac08cd7ad91e5340be.webp"
+ },
+ {
+  "id": 45671,
+  "name": "Ari Orc",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "65",
+   "Size": "Large",
+   "HP": "17400",
+   "MP": "2250",
+   "AC": "-60",
+   "MR": "45",
+   "EXP": "4226",
+   "Str/Con/Dex": "20/20/20",
+   "Int/Wis": "18/22",
+   "Family": "",
+   "HPR": "275",
+   "MPR": "150",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 243,
+     "name": "Kent Castle Dungeon 4F (1)"
+    }
+   ]
+  },
+  "icon": "a73439fa847678a2fb8a.webp"
+ },
+ {
+  "id": 45672,
+  "name": "Lich",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "66",
+   "Size": "Large",
+   "HP": "7200",
+   "MP": "1250",
+   "AC": "-75",
+   "MR": "99",
+   "EXP": "4357",
+   "Str/Con/Dex": "50/20/66",
+   "Int/Wis": "23/22",
+   "Family": "",
+   "HPR": "275",
+   "MPR": "700",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 190,
+     "name": "Tower of Insolence 90F (1)"
+    }
+   ]
+  },
+  "icon": "a532a3bc86c36393862d.webp"
+ },
+ {
+  "id": 45673,
+  "name": "Grim Reaper",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "80",
+   "Size": "Large",
+   "HP": "9600",
+   "MP": "1200",
+   "AC": "-99",
+   "MR": "80",
+   "EXP": "4625",
+   "Str/Con/Dex": "99/20/99",
+   "Int/Wis": "20/20",
+   "Family": "",
+   "HPR": "550",
+   "MPR": "700",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 200,
+     "name": "Tower of Insolence 100F (1)"
+    }
+   ]
+  },
+  "icon": "95371e26477abdaca1d0.webp"
+ },
+ {
+  "id": 45674,
+  "name": "Death",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "70",
+   "Size": "Large",
+   "HP": "10000",
+   "MP": "300",
+   "AC": "-65",
+   "MR": "100",
+   "EXP": "4901",
+   "Str/Con/Dex": "45/21/21",
+   "Int/Wis": "18/21",
+   "Family": "chaos",
+   "HPR": "275",
+   "MPR": "250",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 523,
+     "name": "Shadow Temple Floor 2 (1)"
+    }
+   ]
+  },
+  "icon": "1c7bd70f6db66709f7f6.webp"
+ },
+ {
+  "id": 45675,
+  "name": "Yahee",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "65",
+   "Size": "Large",
+   "HP": "12000",
+   "MP": "4000",
+   "AC": "-65",
+   "MR": "100",
+   "EXP": "4226",
+   "Str/Con/Dex": "45/21/21",
+   "Int/Wis": "18/21",
+   "Family": "chaos",
+   "HPR": "200",
+   "MPR": "200",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 524,
+     "name": "Shadow Temple Floor 3 (1)"
+    }
+   ]
+  },
+  "icon": "f655dcd558bf6dc895a7.webp"
+ },
+ {
+  "id": 45676,
+  "name": "Arcane King Hellvine",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "80",
+   "Size": "Large",
+   "HP": "22672",
+   "MP": "3970",
+   "AC": "-78",
+   "MR": "85",
+   "EXP": "4901",
+   "Str/Con/Dex": "20/20/20",
+   "Int/Wis": "20/20",
+   "Family": "lastabad",
+   "HPR": "150",
+   "MPR": "300",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 475,
+     "name": "3rd Floor Arcane King's Power Room (1)"
+    }
+   ]
+  },
+  "icon": "f88c6edeed43afde43c4.webp"
+ },
+ {
+  "id": 45677,
+  "name": "Dread Queen Laia",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "65",
+   "Size": "Small",
+   "HP": "15070",
+   "MP": "4277",
+   "AC": "-57",
+   "MR": "80",
+   "EXP": "1937",
+   "Str/Con/Dex": "19/18/18",
+   "Int/Wis": "25/18",
+   "Family": "lastabad",
+   "HPR": "80",
+   "MPR": "150",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 320,
+     "name": "Diad Fortress (1)"
+    }
+   ]
+  },
+  "icon": "f8cf6c25ccd7fcfb119a.webp"
+ },
+ {
+  "id": 45678,
+  "name": "Cerenis",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "72",
+   "Size": "Small",
+   "HP": "8001",
+   "MP": "600",
+   "AC": "-72",
+   "MR": "90",
+   "EXP": "5185",
+   "Str/Con/Dex": "50/18/18",
+   "Int/Wis": "25/25",
+   "Family": "antiking",
+   "HPR": "180",
+   "MPR": "180",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "e0551c5bff81e7ec9d80.webp"
+ },
+ {
+  "id": 45680,
+  "name": "Ken Rauhel",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "75",
+   "Size": "Small",
+   "HP": "16800",
+   "MP": "150",
+   "AC": "-78",
+   "MR": "50",
+   "EXP": "5626",
+   "Str/Con/Dex": "25/25/25",
+   "Int/Wis": "18/18",
+   "Family": "antiking",
+   "HPR": "330",
+   "MPR": "300",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "db1c5169170967ba790f.webp"
+ },
+ {
+  "id": 45681,
+  "name": "Lindvior",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "87",
+   "Size": "Large",
+   "HP": "50000",
+   "MP": "900",
+   "AC": "-99",
+   "MR": "99",
+   "EXP": "7570",
+   "Str/Con/Dex": "66/21/18",
+   "Int/Wis": "18/20",
+   "Family": "",
+   "HPR": "1600",
+   "MPR": "500",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Spawn Window": "1h-1d",
+   "Avg Spawns": "1/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "9e520362c5e761fdce6e.webp"
+ },
+ {
+  "id": 45682,
+  "name": "Antharas",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "90",
+   "Size": "Large",
+   "HP": "50000",
+   "MP": "800",
+   "AC": "-99",
+   "MR": "99",
+   "EXP": "8101",
+   "Str/Con/Dex": "80/21/10",
+   "Int/Wis": "18/20",
+   "Family": "",
+   "HPR": "1600",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "1h-1d",
+   "Avg Spawns": "1/day",
+   "Locations": [
+    {
+     "map_id": 37,
+     "name": "Lair of Antharas (1)"
+    }
+   ]
+  },
+  "icon": "7436153bee4c132d4d85.webp"
+ },
+ {
+  "id": 45683,
+  "name": "Fafurion",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "93",
+   "Size": "Large",
+   "HP": "50000",
+   "MP": "5000",
+   "AC": "-99",
+   "MR": "99",
+   "EXP": "8650",
+   "Str/Con/Dex": "78/20/8",
+   "Int/Wis": "18/22",
+   "Family": "",
+   "HPR": "1600",
+   "MPR": "500",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {
+   "Spawn Window": "1h-1d",
+   "Avg Spawns": "1/day",
+   "Locations": [
+    {
+     "map_id": 65,
+     "name": "Lair of Fafurion (1)"
+    }
+   ]
+  },
+  "icon": "a5a22789d389b304ac0e.webp"
+ },
+ {
+  "id": 45684,
+  "name": "Valakas",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "95",
+   "Size": "Large",
+   "HP": "50000",
+   "MP": "4500",
+   "AC": "-99",
+   "MR": "99",
+   "EXP": "9026",
+   "Str/Con/Dex": "78/20/8",
+   "Int/Wis": "18/22",
+   "Family": "",
+   "HPR": "1600",
+   "MPR": "500",
+   "Weak Attr": "Water"
+  },
+  "spawn": {
+   "Spawn Window": "1h-1d",
+   "Avg Spawns": "1/day",
+   "Locations": [
+    {
+     "map_id": 67,
+     "name": "Lair of Valakas (1)"
+    }
+   ]
+  },
+  "icon": "d2609d3fafbe694b5caa.webp"
+ },
+ {
+  "id": 45685,
+  "name": "Tarak",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "68",
+   "Size": "Large",
+   "HP": "7920",
+   "MP": "1250",
+   "AC": "-75",
+   "MR": "99",
+   "EXP": "4625",
+   "Str/Con/Dex": "66/20/66",
+   "Int/Wis": "20/22",
+   "Family": "",
+   "HPR": "484",
+   "MPR": "150",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 410,
+     "name": "Sanctuary of Evil (1)"
+    }
+   ]
+  },
+  "icon": "f5a8c664fc5de849dbb1.webp"
+ },
+ {
+  "id": 45734,
+  "name": "Great King Squid",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "58",
+   "Size": "Large",
+   "HP": "4800",
+   "MP": "500",
+   "AC": "-55",
+   "MR": "60",
+   "EXP": "15650",
+   "Str/Con/Dex": "18/18/16",
+   "Int/Wis": "12/10",
+   "Family": "cuttlefish",
+   "HPR": "55",
+   "MPR": "16",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 558,
+     "name": "Deep Sea Grave of Spirit (1)"
+    }
+   ]
+  },
+  "icon": "689293c4cd09aa62133d.webp"
+ },
+ {
+  "id": 45735,
+  "name": "Chief Mermaid",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Large",
+   "HP": "3600",
+   "MP": "600",
+   "AC": "-50",
+   "MR": "80",
+   "EXP": "1704",
+   "Str/Con/Dex": "99/18/66",
+   "Int/Wis": "12/12",
+   "Family": "fishman",
+   "HPR": "90",
+   "MPR": "16",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 558,
+     "name": "Deep Sea Grave of Spirit (1)"
+    }
+   ]
+  },
+  "icon": "2871d88ea878f50dd037.webp"
+ },
+ {
+  "id": 45752,
+  "name": "Varlok",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "40",
+   "Size": "Large",
+   "HP": "10000",
+   "MP": "300",
+   "AC": "-90",
+   "MR": "100",
+   "EXP": "1601",
+   "Str/Con/Dex": "70/21/11",
+   "Int/Wis": "18/21",
+   "Family": "",
+   "HPR": "50",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 603,
+     "name": "Varloks Hideout (1)"
+    }
+   ]
+  },
+  "icon": "1a9d4f7008bca7bef997.webp"
+ },
+ {
+  "id": 45772,
+  "name": "Polluted Orc Hunter",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "51",
+   "Size": "Large",
+   "HP": "12000",
+   "MP": "200",
+   "AC": "-65",
+   "MR": "60",
+   "EXP": "2602",
+   "Str/Con/Dex": "20/18/18",
+   "Int/Wis": "18/10",
+   "Family": "pollution",
+   "HPR": "50",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 244,
+     "name": "Polluted Land of Blessing (1)"
+    }
+   ]
+  },
+  "icon": "492c7ca69102a8d8f699.webp"
+ },
+ {
+  "id": 45795,
+  "name": "Spirit",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "65",
+   "Size": "Large",
+   "HP": "16800",
+   "MP": "3000",
+   "AC": "-55",
+   "MR": "55",
+   "EXP": "4226",
+   "Str/Con/Dex": "20/20/20",
+   "Int/Wis": "18/22",
+   "Family": "pollution",
+   "HPR": "440",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 244,
+     "name": "Polluted Land of Blessing (1)"
+    }
+   ]
+  },
+  "icon": "e444cceda1091d143c44.webp"
+ },
+ {
+  "id": 45801,
+  "name": "Diamond Golem of Maino Shaman",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "61",
+   "Size": "Large",
+   "HP": "24000",
+   "MP": "140",
+   "AC": "-70",
+   "MR": "99",
+   "EXP": "3722",
+   "Str/Con/Dex": "20/20/19",
+   "Int/Wis": "22/22",
+   "Family": "",
+   "HPR": "275",
+   "MPR": "50",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 255,
+     "name": "Dwarf Mine (1)"
+    }
+   ]
+  },
+  "icon": "4cf74524e1b81bf1dad0.webp"
+ },
+ {
+  "id": 45802,
+  "name": "Maino Shaman",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "65",
+   "Size": "Large",
+   "HP": "6000",
+   "MP": "30",
+   "AC": "-55",
+   "MR": "55",
+   "EXP": "4226",
+   "Str/Con/Dex": "100/20/20",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "550",
+   "MPR": "100",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 70,
+     "name": "Forgotten Island (1)"
+    }
+   ]
+  },
+  "icon": "c758373b61bf35f59f93.webp"
+ },
+ {
+  "id": 45829,
+  "name": "Barbados",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "70",
+   "Size": "Large",
+   "HP": "18000",
+   "MP": "500",
+   "AC": "-70",
+   "MR": "80",
+   "EXP": "4901",
+   "Str/Con/Dex": "20/18/18",
+   "Int/Wis": "17/18",
+   "Family": "balbados",
+   "HPR": "220",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 254,
+     "name": "Barbados's Hideout (1)"
+    }
+   ]
+  },
+  "icon": "ab35082a04f26b7539cc.webp"
+ },
+ {
+  "id": 45844,
+  "name": "Dread King Baranka",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "63",
+   "Size": "Large",
+   "HP": "20748",
+   "MP": "0",
+   "AC": "-58",
+   "MR": "75",
+   "EXP": "3970",
+   "Str/Con/Dex": "36/25/30",
+   "Int/Wis": "18/18",
+   "Family": "lastabad",
+   "HPR": "165",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 453,
+     "name": "1st Floor Evil Power King's Power Room (1)"
+    }
+   ]
+  },
+  "icon": "92dc81ffa5b75b389fda.webp"
+ },
+ {
+  "id": 45863,
+  "name": "Dread Queen Laia",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "65",
+   "Size": "Small",
+   "HP": "18084",
+   "MP": "4277",
+   "AC": "-57",
+   "MR": "80",
+   "EXP": "4226",
+   "Str/Con/Dex": "19/18/18",
+   "Int/Wis": "25/18",
+   "Family": "lastabad",
+   "HPR": "88",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 462,
+     "name": "2nd Floor Evil Spirit King's Power Room (1)"
+    }
+   ]
+  },
+  "icon": "f8cf6c25ccd7fcfb119a.webp"
+ },
+ {
+  "id": 45916,
+  "name": "General Hamel Full of Resentment",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "35",
+   "Size": "Small",
+   "HP": "800",
+   "MP": "50",
+   "AC": "-25",
+   "MR": "10",
+   "EXP": "1226",
+   "Str/Con/Dex": "20/20/15",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "30m-1h",
+   "Avg Spawns": "24/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "5d526faf7277c6fda2a5.webp"
+ },
+ {
+  "id": 45923,
+  "name": "Evil Spirit of Heine",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "25",
+   "Size": "Large",
+   "HP": "300",
+   "MP": "120",
+   "AC": "-12",
+   "MR": "50",
+   "EXP": "626",
+   "Str/Con/Dex": "20/16/18",
+   "Int/Wis": "15/15",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "1h-2h",
+   "Avg Spawns": "36/day",
+   "Locations": [
+    {
+     "map_id": 59,
+     "name": "Eva Kingdom Dungeon Floor 1 (1)"
+    },
+    {
+     "map_id": 60,
+     "name": "Eva Kingdom Dungeon Floor 2 (1)"
+    },
+    {
+     "map_id": 61,
+     "name": "Eva Kingdom Dungeon Floor 3 (1)"
+    }
+   ]
+  },
+  "icon": "ec61fc84351e561a683a.webp"
+ },
+ {
+  "id": 45931,
+  "name": "Spirit of Water",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "70",
+   "Size": "Small",
+   "HP": "12000",
+   "MP": "400",
+   "AC": "-80",
+   "MR": "10",
+   "EXP": "2026",
+   "Str/Con/Dex": "16/18/12",
+   "Int/Wis": "16/16",
+   "Family": "waters",
+   "HPR": "550",
+   "MPR": "500",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {
+   "Spawn Window": "1h-2h",
+   "Avg Spawns": "12/day",
+   "Locations": [
+    {
+     "map_id": 63,
+     "name": "Kingdom of Eva (1)"
+    }
+   ]
+  },
+  "icon": "df621f14049593263cb3.webp"
+ },
+ {
+  "id": 45935,
+  "name": "Cursed Medusa",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "36",
+   "Size": "Small",
+   "HP": "2520",
+   "MP": "276",
+   "AC": "-35",
+   "MR": "50",
+   "EXP": "1297",
+   "Str/Con/Dex": "17/18/16",
+   "Int/Wis": "15/17",
+   "Family": "",
+   "HPR": "550",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "1h-2h",
+   "Avg Spawns": "12/day",
+   "Locations": [
+    {
+     "map_id": 60,
+     "name": "Eva Kingdom Dungeon Floor 2 (1)"
+    }
+   ]
+  },
+  "icon": "6857866e6afbe972f8af.webp"
+ },
+ {
+  "id": 45941,
+  "name": "Cursed Exorcist Saell",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "43",
+   "Size": "Small",
+   "HP": "960",
+   "MP": "278",
+   "AC": "-20",
+   "MR": "40",
+   "EXP": "1850",
+   "Str/Con/Dex": "16/18/15",
+   "Int/Wis": "15/12",
+   "Family": "",
+   "HPR": "550",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "1h-2h",
+   "Avg Spawns": "12/day",
+   "Locations": [
+    {
+     "map_id": 63,
+     "name": "Kingdom of Eva (1)"
+    }
+   ]
+  },
+  "icon": "ce4b989004d7b23e7db2.webp"
+ },
+ {
+  "id": 45942,
+  "name": "Cursed Great Spirit of Water",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "2160",
+   "MP": "229",
+   "AC": "-36",
+   "MR": "45",
+   "EXP": "2026",
+   "Str/Con/Dex": "20/16/18",
+   "Int/Wis": "24/18",
+   "Family": "",
+   "HPR": "550",
+   "MPR": "500",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {
+   "Spawn Window": "1h-2h",
+   "Avg Spawns": "12/day",
+   "Locations": [
+    {
+     "map_id": 61,
+     "name": "Eva Kingdom Dungeon Floor 3 (1)"
+    }
+   ]
+  },
+  "icon": "3722ca62fedc919d3fd6.webp"
+ },
+ {
+  "id": 45943,
+  "name": "Kapu",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "3120",
+   "MP": "220",
+   "AC": "-32",
+   "MR": "80",
+   "EXP": "2501",
+   "Str/Con/Dex": "22/16/16",
+   "Int/Wis": "15/15",
+   "Family": "",
+   "HPR": "550",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "1h-2h",
+   "Avg Spawns": "12/day",
+   "Locations": [
+    {
+     "map_id": 63,
+     "name": "Kingdom of Eva (1)"
+    }
+   ]
+  },
+  "icon": "8c5f1a69cb78e9479cf4.webp"
+ },
+ {
+  "id": 45944,
+  "name": "Giant Worm",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "65",
+   "Size": "Large",
+   "HP": "11760",
+   "MP": "689",
+   "AC": "-64",
+   "MR": "90",
+   "EXP": "4226",
+   "Str/Con/Dex": "25/15/18",
+   "Int/Wis": "18/13",
+   "Family": "",
+   "HPR": "550",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "1h-2h",
+   "Avg Spawns": "12/day",
+   "Locations": [
+    {
+     "map_id": 63,
+     "name": "Kingdom of Eva (1)"
+    }
+   ]
+  },
+  "icon": "5ed9e3e10aeb0db15a87.webp"
+ },
+ {
+  "id": 45955,
+  "name": "Supreme Court Justice Kenya",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "78",
+   "Size": "Large",
+   "HP": "30376",
+   "MP": "938",
+   "AC": "-81",
+   "MR": "75",
+   "EXP": "9612",
+   "Str/Con/Dex": "19/23/25",
+   "Int/Wis": "20/18",
+   "Family": "lastabad",
+   "HPR": "55",
+   "MPR": "30",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 530,
+     "name": "4th Floor1 (1)"
+    }
+   ]
+  },
+  "icon": "6ea72b3f8eef8d3311f5.webp"
+ },
+ {
+  "id": 45956,
+  "name": "Supreme Court Justice Viatas",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "85",
+   "Size": "Large",
+   "HP": "34876",
+   "MP": "938",
+   "AC": "-86",
+   "MR": "63",
+   "EXP": "11562",
+   "Str/Con/Dex": "24/23/21",
+   "Int/Wis": "15/16",
+   "Family": "lastabad",
+   "HPR": "77",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 531,
+     "name": "4th Floor2 (1)"
+    }
+   ]
+  },
+  "icon": "f793cfffb4a56ed39749.webp"
+ },
+ {
+  "id": 45957,
+  "name": "Supreme Court Justice Baromes",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "88",
+   "Size": "Large",
+   "HP": "37494",
+   "MP": "1313",
+   "AC": "-89",
+   "MR": "85",
+   "EXP": "12252",
+   "Str/Con/Dex": "23/23/24",
+   "Int/Wis": "25/25",
+   "Family": "lastabad",
+   "HPR": "77",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 531,
+     "name": "4th Floor2 (1)"
+    }
+   ]
+  },
+  "icon": "7438494b0427e8abee3e.webp"
+ },
+ {
+  "id": 45958,
+  "name": "Supreme Court Justice Endias",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "91",
+   "Size": "Large",
+   "HP": "42048",
+   "MP": "1313",
+   "AC": "-98",
+   "MR": "88",
+   "EXP": "13326",
+   "Str/Con/Dex": "21/23/25",
+   "Int/Wis": "21/20",
+   "Family": "lastabad",
+   "HPR": "77",
+   "MPR": "50",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 531,
+     "name": "4th Floor2 (1)"
+    }
+   ]
+  },
+  "icon": "a9ee836845e6b3213159.webp"
+ },
+ {
+  "id": 45959,
+  "name": "Supreme Court Justice Edea",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "80",
+   "Size": "Large",
+   "HP": "33274",
+   "MP": "938",
+   "AC": "-85",
+   "MR": "75",
+   "EXP": "10242",
+   "Str/Con/Dex": "30/23/23",
+   "Int/Wis": "30/19",
+   "Family": "lastabad",
+   "HPR": "55",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 532,
+     "name": "4th Floor3 (1)"
+    }
+   ]
+  },
+  "icon": "78e5ecdcf3a9f34cde98.webp"
+ },
+ {
+  "id": 45960,
+  "name": "Supreme Court Justice Tiames",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "90",
+   "Size": "Large",
+   "HP": "40824",
+   "MP": "938",
+   "AC": "-94",
+   "MR": "89",
+   "EXP": "12962",
+   "Str/Con/Dex": "23/23/24",
+   "Int/Wis": "25/25",
+   "Family": "lastabad",
+   "HPR": "110",
+   "MPR": "50",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 533,
+     "name": "4th Floor4 (1)"
+    }
+   ]
+  },
+  "icon": "230b2b49342f03dd02bd.webp"
+ },
+ {
+  "id": 45961,
+  "name": "Supreme Court Justice Ramias",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "93",
+   "Size": "Large",
+   "HP": "41968",
+   "MP": "657",
+   "AC": "-98",
+   "MR": "81",
+   "EXP": "13692",
+   "Str/Con/Dex": "26/25/20",
+   "Int/Wis": "16/15",
+   "Family": "lastabad",
+   "HPR": "110",
+   "MPR": "50",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 533,
+     "name": "4th Floor4 (1)"
+    }
+   ]
+  },
+  "icon": "d2bf19e2963949fed57b.webp"
+ },
+ {
+  "id": 45962,
+  "name": "Supreme Court Justice Barode",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "96",
+   "Size": "Large",
+   "HP": "44298",
+   "MP": "938",
+   "AC": "-98",
+   "MR": "100",
+   "EXP": "14826",
+   "Str/Con/Dex": "25/23/21",
+   "Int/Wis": "20/19",
+   "Family": "lastabad",
+   "HPR": "110",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 533,
+     "name": "4th Floor4 (1)"
+    }
+   ]
+  },
+  "icon": "ec0b1b0f008cf79e420b.webp"
+ },
+ {
+  "id": 45963,
+  "name": "New King Adjutant Cassandra",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "67",
+   "Size": "Small",
+   "HP": "19200",
+   "MP": "700",
+   "AC": "-68",
+   "MR": "60",
+   "EXP": "4490",
+   "Str/Con/Dex": "16/15/17",
+   "Int/Wis": "18/15",
+   "Family": "lastabad",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 534,
+     "name": "4th Floor5 (1)"
+    }
+   ]
+  },
+  "icon": "53e86b32679218fae108.webp"
+ },
+ {
+  "id": 46024,
+  "name": "Count Elite Guard General",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "48",
+   "Size": "Small",
+   "HP": "1200",
+   "MP": "20",
+   "AC": "-60",
+   "MR": "50",
+   "EXP": "2305",
+   "Str/Con/Dex": "32/18/18",
+   "Int/Wis": "8/8",
+   "Family": "giran",
+   "HPR": "165",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 250,
+     "name": "3F Hall of Greed (1)"
+    }
+   ]
+  },
+  "icon": "590084b4cd2617253060.webp"
+ },
+ {
+  "id": 46025,
+  "name": "Count Taros",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "55",
+   "Size": "Large",
+   "HP": "7500",
+   "MP": "9999",
+   "AC": "-85",
+   "MR": "55",
+   "EXP": "3026",
+   "Str/Con/Dex": "122/55/99",
+   "Int/Wis": "50/15",
+   "Family": "giran",
+   "HPR": "350",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 251,
+     "name": "4F Counts Room (1)"
+    }
+   ]
+  },
+  "icon": "98ec93fcb54a974ddd32.webp"
+ },
+ {
+  "id": 46026,
+  "name": "Mammon",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "61",
+   "Size": "Large",
+   "HP": "9600",
+   "MP": "1250",
+   "AC": "-70",
+   "MR": "99",
+   "EXP": "3722",
+   "Str/Con/Dex": "88/20/88",
+   "Int/Wis": "25/22",
+   "Family": "giran",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 251,
+     "name": "4F Counts Room (1)"
+    }
+   ]
+  },
+  "icon": "e78a0e78ae090a148501.webp"
+ },
+ {
+  "id": 46037,
+  "name": "Dark Wizard Maya",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "70",
+   "Size": "Large",
+   "HP": "16200",
+   "MP": "2000",
+   "AC": "-65",
+   "MR": "80",
+   "EXP": "4901",
+   "Str/Con/Dex": "18/18/18",
+   "Int/Wis": "23/23",
+   "Family": "",
+   "HPR": "198",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 258,
+     "name": "Basement Floor 2 Grave of the Dead (1)"
+    }
+   ]
+  },
+  "icon": "7cb6554d225bc4b4dea3.webp"
+ },
+ {
+  "id": 46123,
+  "name": "Thebes Horus",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "70",
+   "Size": "Large",
+   "HP": "24000",
+   "MP": "100",
+   "AC": "-140",
+   "MR": "80",
+   "EXP": "4901",
+   "Str/Con/Dex": "80/22/21",
+   "Int/Wis": "22/21",
+   "Family": "",
+   "HPR": "5500",
+   "MPR": "20",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {
+   "Spawn Window": "10m-1d",
+   "Avg Spawns": "1/day",
+   "Locations": [
+    {
+     "map_id": 782,
+     "name": "Thebes Osiris Altar (1)"
+    }
+   ]
+  },
+  "icon": "a5342d164ace065c0a26.webp"
+ },
+ {
+  "id": 46124,
+  "name": "Thebes Anubis",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "70",
+   "Size": "Large",
+   "HP": "30000",
+   "MP": "100",
+   "AC": "-140",
+   "MR": "80",
+   "EXP": "4901",
+   "Str/Con/Dex": "85/22/21",
+   "Int/Wis": "23/21",
+   "Family": "",
+   "HPR": "5500",
+   "MPR": "20",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Spawn Window": "10m-1d",
+   "Avg Spawns": "1/day",
+   "Locations": [
+    {
+     "map_id": 782,
+     "name": "Thebes Osiris Altar (1)"
+    }
+   ]
+  },
+  "icon": "ef41781f8e5d1a870762.webp"
+ },
+ {
+  "id": 46141,
+  "name": "Ice Queen",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Small",
+   "HP": "18000",
+   "MP": "1000",
+   "AC": "-65",
+   "MR": "90",
+   "EXP": "5000",
+   "Str/Con/Dex": "40/25/30",
+   "Int/Wis": "28/28",
+   "Family": "icequeen",
+   "HPR": "440",
+   "MPR": "250",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 74,
+     "name": "Ice Queens Castle 3F (1)"
+    }
+   ]
+  },
+  "icon": "675bbb3f83ff3f35310e.webp"
+ },
+ {
+  "id": 46142,
+  "name": "Ice Demon",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "65",
+   "Size": "Small",
+   "HP": "8400",
+   "MP": "450",
+   "AC": "-70",
+   "MR": "80",
+   "EXP": "3600",
+   "Str/Con/Dex": "30/25/25",
+   "Int/Wis": "25/25",
+   "Family": "",
+   "HPR": "275",
+   "MPR": "250",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 73,
+     "name": "Ice Queens Castle 2F (1)"
+    }
+   ]
+  },
+  "icon": "6bee8bd4772558928937.webp"
+ },
+ {
+  "id": 46196,
+  "name": "Shadow of Hardin",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Small",
+   "HP": "5000",
+   "MP": "50",
+   "AC": "-50",
+   "MR": "99",
+   "EXP": "3601",
+   "Str/Con/Dex": "8/12/7",
+   "Int/Wis": "38/16",
+   "Family": "",
+   "HPR": "40",
+   "MPR": "100",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "14.4/day",
+   "Locations": [
+    {
+     "map_id": 80,
+     "name": "Oren Ivory Tower Floor 6 (1)"
+    },
+    {
+     "map_id": 81,
+     "name": "Oren Ivory Tower Floor 7 (1)"
+    },
+    {
+     "map_id": 82,
+     "name": "Oren Ivory Tower Floor 8 (1)"
+    }
+   ]
+  },
+  "icon": "ce1946d6282c7f2653d2.webp"
+ },
+ {
+  "id": 46291,
+  "name": "Shellman",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "80",
+   "Size": "Large",
+   "HP": "12000",
+   "MP": "5000",
+   "AC": "-78",
+   "MR": "80",
+   "EXP": "6401",
+   "Str/Con/Dex": "25/25/25",
+   "Int/Wis": "25/25",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 420,
+     "name": "Abyss Lake (1)"
+    }
+   ]
+  },
+  "icon": "49d52f3b62b4ae693b11.webp"
+ },
+ {
+  "id": 81081,
+  "name": "Elindaire",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "540",
+   "MP": "250",
+   "AC": "-32",
+   "MR": "80",
+   "EXP": "2026",
+   "Str/Con/Dex": "12/15/12",
+   "Int/Wis": "17/17",
+   "Family": "foursage",
+   "HPR": "61",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "30m-1h",
+   "Avg Spawns": "48/day",
+   "Locations": [
+    {
+     "map_id": 60,
+     "name": "Eva Kingdom Dungeon Floor 2 (1)"
+    },
+    {
+     "map_id": 61,
+     "name": "Eva Kingdom Dungeon Floor 3 (1)"
+    }
+   ]
+  },
+  "icon": "23ad7c1fff2ce6ee1ab0.webp"
+ },
+ {
+  "id": 81175,
+  "name": "Wanted Criminal Kuzak",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "8",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "8",
+   "AC": "-5",
+   "MR": "5",
+   "EXP": "65",
+   "Str/Con/Dex": "14/14/14",
+   "Int/Wis": "10/8",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 1,
+     "name": "Talking Island Dungeon Floor 1 (1)"
+    }
+   ]
+  },
+  "icon": "9b36dad9a537ca4c90ca.webp"
+ },
+ {
+  "id": 91206,
+  "name": "Wyvern (Q)",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "44",
+   "Size": "Large",
+   "HP": "600",
+   "MP": "200",
+   "AC": "-55",
+   "MR": "70",
+   "EXP": "2917",
+   "Str/Con/Dex": "17/18/20",
+   "Int/Wis": "17/15",
+   "Family": "",
+   "HPR": "28",
+   "MPR": "25",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "137e05c3e65b1f7dead3.webp"
+ },
+ {
+  "id": 91207,
+  "name": "Otyu",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "40",
+   "Size": "Small",
+   "HP": "480",
+   "MP": "250",
+   "AC": "-40",
+   "MR": "50",
+   "EXP": "2501",
+   "Str/Con/Dex": "15/18/20",
+   "Int/Wis": "16/14",
+   "Family": "",
+   "HPR": "28",
+   "MPR": "25",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "4af11f3024742198e8ca.webp"
+ },
+ {
+  "id": 91291,
+  "name": "Death Knight",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "55",
+   "Size": "Small",
+   "HP": "4800",
+   "MP": "2500",
+   "AC": "-67",
+   "MR": "65",
+   "EXP": "3026",
+   "Str/Con/Dex": "75/18/17",
+   "Int/Wis": "17/15",
+   "Family": "",
+   "HPR": "458",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 11,
+     "name": "Gludio Dungeon Floor 5 (1)"
+    },
+    {
+     "map_id": 12,
+     "name": "Gludio Dungeon Floor 6 (1)"
+    },
+    {
+     "map_id": 13,
+     "name": "Gludio Dungeon Floor 7 (1)"
+    }
+   ]
+  },
+  "icon": "de08c1dd6eaf0e168194.webp"
+ },
+ {
+  "id": 91420,
+  "name": "Faust",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "57",
+   "Size": "Small",
+   "HP": "4000",
+   "MP": "200",
+   "AC": "-60",
+   "MR": "90",
+   "EXP": "3250",
+   "Str/Con/Dex": "20/20/15",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-3h",
+   "Avg Spawns": "8/day",
+   "Locations": [
+    {
+     "map_id": 53,
+     "name": "Giran Prison Floor 1 (1)"
+    }
+   ]
+  },
+  "icon": "5d526faf7277c6fda2a5.webp"
+ },
+ {
+  "id": 99037,
+  "name": "Likante",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "76",
+   "Size": "Large",
+   "HP": "2268",
+   "MP": "50",
+   "AC": "-60",
+   "MR": "60",
+   "EXP": "8980",
+   "Str/Con/Dex": "38/18/16",
+   "Int/Wis": "12/15",
+   "Family": "wolfman",
+   "HPR": "55",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-3h",
+   "Avg Spawns": "8/day",
+   "Locations": [
+    {
+     "map_id": 0,
+     "name": "Talking Island (1)"
+    }
+   ]
+  },
+  "icon": "5987239be84888d38bdd.webp"
+ },
+ {
+  "id": 99047,
+  "name": "Capalre",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Large",
+   "HP": "2160",
+   "MP": "70",
+   "AC": "-68",
+   "MR": "90",
+   "EXP": "7210",
+   "Str/Con/Dex": "40/32/25",
+   "Int/Wis": "20/20",
+   "Family": "dwarf",
+   "HPR": "110",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-3h",
+   "Avg Spawns": "8/day",
+   "Locations": [
+    {
+     "map_id": 0,
+     "name": "Talking Island (1)"
+    }
+   ]
+  },
+  "icon": "cdd0cafb0e75031a4700.webp"
+ },
+ {
+  "id": 99053,
+  "name": "Nekrose",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "70",
+   "Size": "Large",
+   "HP": "2148",
+   "MP": "500",
+   "AC": "-66",
+   "MR": "60",
+   "EXP": "6720",
+   "Str/Con/Dex": "57/55/25",
+   "Int/Wis": "10/8",
+   "Family": "orc",
+   "HPR": "110",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-3h",
+   "Avg Spawns": "8/day",
+   "Locations": [
+    {
+     "map_id": 0,
+     "name": "Talking Island (1)"
+    }
+   ]
+  },
+  "icon": "350446f8bbeb544e09d1.webp"
+ },
+ {
+  "id": 99059,
+  "name": "Orukuce",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "70",
+   "Size": "Large",
+   "HP": "2388",
+   "MP": "500",
+   "AC": "-69",
+   "MR": "60",
+   "EXP": "7720",
+   "Str/Con/Dex": "60/67/28",
+   "Int/Wis": "10/8",
+   "Family": "orc",
+   "HPR": "165",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-3h",
+   "Avg Spawns": "8/day",
+   "Locations": [
+    {
+     "map_id": 0,
+     "name": "Talking Island (1)"
+    }
+   ]
+  },
+  "icon": "6c664770e6aadcd8eaa0.webp"
+ },
+ {
+  "id": 99065,
+  "name": "Arlpeer",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "68",
+   "Size": "Large",
+   "HP": "4000",
+   "MP": "300",
+   "AC": "-57",
+   "MR": "92",
+   "EXP": "7370",
+   "Str/Con/Dex": "21/20/15",
+   "Int/Wis": "18/15",
+   "Family": "spider",
+   "HPR": "400",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-3h",
+   "Avg Spawns": "8/day",
+   "Locations": [
+    {
+     "map_id": 0,
+     "name": "Talking Island (1)"
+    }
+   ]
+  },
+  "icon": "cc643efb21da92bf4584.webp"
+ },
+ {
+  "id": 99087,
+  "name": "Bigfoot Mayo",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "65",
+   "Size": "Large",
+   "HP": "8400",
+   "MP": "2000",
+   "AC": "-70",
+   "MR": "90",
+   "EXP": "10890",
+   "Str/Con/Dex": "69/25/20",
+   "Int/Wis": "17/18",
+   "Family": "snow",
+   "HPR": "440",
+   "MPR": "300",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "ee460e5b616279843317.webp"
+ },
+ {
+  "id": 456912,
+  "name": "Pirate Ship Owner",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "85",
+   "Size": "Large",
+   "HP": "20000",
+   "MP": "1000",
+   "AC": "-70",
+   "MR": "100",
+   "EXP": "2500",
+   "Str/Con/Dex": "40/45/40",
+   "Int/Wis": "40/40",
+   "Family": "abc1",
+   "HPR": "100",
+   "MPR": "110",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "452afb08044df8e67ef5.webp"
+ },
+ {
+  "id": 460315,
+  "name": "Corroded Dark Wizard Maya",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "70",
+   "Size": "Large",
+   "HP": "16200",
+   "MP": "2000",
+   "AC": "-65",
+   "MR": "80",
+   "EXP": "4901",
+   "Str/Con/Dex": "18/18/18",
+   "Int/Wis": "23/23",
+   "Family": "",
+   "HPR": "198",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "3h 30m-7h",
+   "Avg Spawns": "3.43/day",
+   "Locations": [
+    {
+     "map_id": 2,
+     "name": "Talking Island Dungeon Floor 2 (1)"
+    }
+   ]
+  },
+  "icon": "7cb6554d225bc4b4dea3.webp"
+ },
+ {
+  "id": 600340,
+  "name": "Forgotten Mambo Rabbit",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Small",
+   "HP": "3600",
+   "MP": "300",
+   "AC": "-35",
+   "MR": "50",
+   "EXP": "20000",
+   "Str/Con/Dex": "18/18/18",
+   "Int/Wis": "18/18",
+   "Family": "pirate",
+   "HPR": "9",
+   "MPR": "20",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 70,
+     "name": "Forgotten Island (1)"
+    }
+   ]
+  },
+  "icon": "3844813f9412f8a62172.webp"
+ },
+ {
+  "id": 600341,
+  "name": "Forgotten Mambo Rabbit",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Small",
+   "HP": "4800",
+   "MP": "300",
+   "AC": "-40",
+   "MR": "60",
+   "EXP": "20000",
+   "Str/Con/Dex": "20/18/18",
+   "Int/Wis": "22/22",
+   "Family": "spirit",
+   "HPR": "22",
+   "MPR": "20",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 70,
+     "name": "Forgotten Island (1)"
+    }
+   ]
+  },
+  "icon": "ac3900d50f4c94918d97.webp"
+ },
+ {
+  "id": 600342,
+  "name": "Shadow of Hardon",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "64",
+   "Size": "Small",
+   "HP": "5999",
+   "MP": "100",
+   "AC": "-100",
+   "MR": "40",
+   "EXP": "7202",
+   "Str/Con/Dex": "50/50/50",
+   "Int/Wis": "50/50",
+   "Family": "",
+   "HPR": "99",
+   "MPR": "200",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "14.4/day",
+   "Locations": [
+    {
+     "map_id": 80,
+     "name": "Oren Ivory Tower Floor 6 (1)"
+    },
+    {
+     "map_id": 81,
+     "name": "Oren Ivory Tower Floor 7 (1)"
+    },
+    {
+     "map_id": 82,
+     "name": "Oren Ivory Tower Floor 8 (1)"
+    }
+   ]
+  },
+  "icon": "ce1946d6282c7f2653d2.webp"
+ },
+ {
+  "id": 5100000,
+  "name": "Devil King",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "85",
+   "Size": "Large",
+   "HP": "32000",
+   "MP": "5000",
+   "AC": "-120",
+   "MR": "120",
+   "EXP": "34000",
+   "Str/Con/Dex": "90/21/21",
+   "Int/Wis": "18/21",
+   "Family": "chaos",
+   "HPR": "3500",
+   "MPR": "3000",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "6339cf4dab477512b298.webp"
+ },
+ {
+  "id": 5100001,
+  "name": "Devil King's Mambo Rabbit (One-Eyed)",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "71",
+   "Size": "Small",
+   "HP": "2500",
+   "MP": "300",
+   "AC": "-35",
+   "MR": "50",
+   "EXP": "15000",
+   "Str/Con/Dex": "66/18/49",
+   "Int/Wis": "18/18",
+   "Family": "pirate",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "3844813f9412f8a62172.webp"
+ },
+ {
+  "id": 5100002,
+  "name": "Devil King's Mambo Rabbit (Carrot)",
+  "badges": [
+   "Boss"
+  ],
+  "stats": {
+   "Level": "71",
+   "Size": "Small",
+   "HP": "2500",
+   "MP": "300",
+   "AC": "-40",
+   "MR": "60",
+   "EXP": "15000",
+   "Str/Con/Dex": "44/18/50",
+   "Int/Wis": "22/22",
+   "Family": "spirit",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "ac3900d50f4c94918d97.webp"
+ },
+ {
+  "id": 5100003,
+  "name": "Devil King's Spirit",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "75",
+   "Size": "Large",
+   "HP": "5000",
+   "MP": "3000",
+   "AC": "-60",
+   "MR": "90",
+   "EXP": "21500",
+   "Str/Con/Dex": "44/20/52",
+   "Int/Wis": "18/22",
+   "Family": "pollution",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "e444cceda1091d143c44.webp"
+ },
+ {
+  "id": 5100004,
+  "name": "Devil King's Death Knight",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "85",
+   "Size": "Small",
+   "HP": "7000",
+   "MP": "3000",
+   "AC": "-67",
+   "MR": "80",
+   "EXP": "11500",
+   "Str/Con/Dex": "69/18/30",
+   "Int/Wis": "20/15",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "de08c1dd6eaf0e168194.webp"
+ },
+ {
+  "id": 5100005,
+  "name": "Devil King's Zenith Queen",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "71",
+   "Size": "Large",
+   "HP": "4000",
+   "MP": "250",
+   "AC": "-65",
+   "MR": "70",
+   "EXP": "19000",
+   "Str/Con/Dex": "44/19/45",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "90f9a7cde4386e76702f.webp"
+ },
+ {
+  "id": 5100006,
+  "name": "Devil King's Seer",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "74",
+   "Size": "Large",
+   "HP": "3000",
+   "MP": "300",
+   "AC": "-66",
+   "MR": "75",
+   "EXP": "16500",
+   "Str/Con/Dex": "44/15/62",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77e1367341c771b04376.webp"
+ },
+ {
+  "id": 5100007,
+  "name": "Devil King's Vampire",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "75",
+   "Size": "Small",
+   "HP": "4000",
+   "MP": "300",
+   "AC": "-58",
+   "MR": "85",
+   "EXP": "19000",
+   "Str/Con/Dex": "44/25/62",
+   "Int/Wis": "20/20",
+   "Family": "vampire",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "5688598274647b4b6b84.webp"
+ },
+ {
+  "id": 5100008,
+  "name": "Devil King's Zombie Lord",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "75",
+   "Size": "Large",
+   "HP": "5000",
+   "MP": "100",
+   "AC": "-58",
+   "MR": "50",
+   "EXP": "21500",
+   "Str/Con/Dex": "44/25/62",
+   "Int/Wis": "15/10",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "57e771801761979e6321.webp"
+ },
+ {
+  "id": 5100009,
+  "name": "Devil King's Cougar",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "74",
+   "Size": "Large",
+   "HP": "5000",
+   "MP": "400",
+   "AC": "-65",
+   "MR": "75",
+   "EXP": "21500",
+   "Str/Con/Dex": "50/20/63",
+   "Int/Wis": "20/8",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "e1142ce182c1ce32a988.webp"
+ },
+ {
+  "id": 5100010,
+  "name": "Devil King's Mummy Lord",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "58",
+   "Size": "Large",
+   "HP": "3000",
+   "MP": "750",
+   "AC": "-55",
+   "MR": "80",
+   "EXP": "16500",
+   "Str/Con/Dex": "120/15/14",
+   "Int/Wis": "22/22",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "05a828e0399d25a0fd10.webp"
+ },
+ {
+  "id": 5100011,
+  "name": "Devil King's Iris",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "72",
+   "Size": "Small",
+   "HP": "3000",
+   "MP": "900",
+   "AC": "-70",
+   "MR": "80",
+   "EXP": "16500",
+   "Str/Con/Dex": "44/13/13",
+   "Int/Wis": "18/13",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "3060cfc306f9f4ab8612.webp"
+ },
+ {
+  "id": 5100012,
+  "name": "Devil King's Knight Vald",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "76",
+   "Size": "Large",
+   "HP": "10000",
+   "MP": "600",
+   "AC": "-70",
+   "MR": "80",
+   "EXP": "30000",
+   "Str/Con/Dex": "44/20/25",
+   "Int/Wis": "22/18",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "397fad93fbcb29393384.webp"
+ },
+ {
+  "id": 5100013,
+  "name": "Devil King's Lich",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "80",
+   "Size": "Large",
+   "HP": "5000",
+   "MP": "1250",
+   "AC": "-75",
+   "MR": "140",
+   "EXP": "21500",
+   "Str/Con/Dex": "31/20/66",
+   "Int/Wis": "23/22",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "a532a3bc86c36393862d.webp"
+ },
+ {
+  "id": 5100014,
+  "name": "Devil King's Grim Reaper",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "82",
+   "Size": "Large",
+   "HP": "12000",
+   "MP": "1200",
+   "AC": "-80",
+   "MR": "130",
+   "EXP": "33000",
+   "Str/Con/Dex": "44/20/20",
+   "Int/Wis": "20/20",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "95371e26477abdaca1d0.webp"
+ },
+ {
+  "id": 5100015,
+  "name": "Devil King's Ifrit",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "71",
+   "Size": "Large",
+   "HP": "2500",
+   "MP": "300",
+   "AC": "-28",
+   "MR": "40",
+   "EXP": "15000",
+   "Str/Con/Dex": "44/18/18",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "d4a343fed3989d4b7500.webp"
+ },
+ {
+  "id": 5100016,
+  "name": "Devil King's Phoenix",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "76",
+   "Size": "Large",
+   "HP": "8000",
+   "MP": "200",
+   "AC": "-63",
+   "MR": "120",
+   "EXP": "27000",
+   "Str/Con/Dex": "66/18/18",
+   "Int/Wis": "22/22",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "c9f677af150b943ad938.webp"
+ },
+ {
+  "id": 7311202,
+  "name": "Glarielle",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "52",
+   "Size": "Small",
+   "HP": "3600",
+   "MP": "310",
+   "AC": "-70",
+   "MR": "80",
+   "EXP": "6226",
+   "Str/Con/Dex": "16/50/120",
+   "Int/Wis": "40/17",
+   "Family": "darkelf",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Spawn Window": "2h 30m-5h",
+   "Avg Spawns": "4.8/day",
+   "Locations": [
+    {
+     "map_id": 20,
+     "name": "Elven Forest Dungeon Floor 2 (1)"
+    },
+    {
+     "map_id": 21,
+     "name": "Elven Forest Dungeon Floor 3 (1)"
+    }
+   ]
+  },
+  "icon": "c5d45982ea2b917963cf.webp"
+ },
+ {
+  "id": 7311203,
+  "name": "Faruuk",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "54",
+   "Size": "Small",
+   "HP": "5000",
+   "MP": "1000",
+   "AC": "-80",
+   "MR": "80",
+   "EXP": "6500",
+   "Str/Con/Dex": "60/60/30",
+   "Int/Wis": "40/40",
+   "Family": "nord",
+   "HPR": "150",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Spawn Window": "1h 30m-4h",
+   "Avg Spawns": "6/day",
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
+  "icon": "c24d5ff3e137e44ccfef.webp"
+ }
+]

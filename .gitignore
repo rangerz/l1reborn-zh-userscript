@@ -8,3 +8,6 @@ dist/*
 
 # scripts/pagetool.py 抓下來的官網頁面
 .cache/
+
+# 抓回來的官網圖片（只留本地）
+data/reborn/images/

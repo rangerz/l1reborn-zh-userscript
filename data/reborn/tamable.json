@@ -1,0 +1,5873 @@
+[
+ {
+  "id": 91165,
+  "name": "Skull Dragon",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "70",
+   "Size": "Large",
+   "HP": "850",
+   "MP": "450",
+   "AC": "-75",
+   "MR": "100",
+   "EXP": "4901",
+   "Str/Con/Dex": "22/20/18",
+   "Int/Wis": "22/16",
+   "Family": "Dragon",
+   "HPR": "400",
+   "MPR": "100",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 1002,
+    "name": "Hidden Dragon Land (32)"
+   }
+  ],
+  "icon": "910adf016d54149cb2b2.webp"
+ },
+ {
+  "id": 5000114,
+  "name": "Dark King Bugbear",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "54",
+   "Size": "Large",
+   "HP": "540",
+   "MP": "30",
+   "AC": "-40",
+   "MR": "20",
+   "EXP": "4000",
+   "Str/Con/Dex": "18/18/12",
+   "Int/Wis": "10/12",
+   "Family": "bugbear",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 811,
+    "name": "글루디오 던전 5층 (15)"
+   },
+   {
+    "map_id": 813,
+    "name": "글루디오 던전 7층 (15)"
+   }
+  ],
+  "icon": "3701aaa707a05ac54ac0.webp"
+ },
+ {
+  "id": 5000111,
+  "name": "Evil Bugbear",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "53",
+   "Size": "Large",
+   "HP": "530",
+   "MP": "30",
+   "AC": "-25",
+   "MR": "10",
+   "EXP": "4000",
+   "Str/Con/Dex": "25/18/12",
+   "Int/Wis": "10/12",
+   "Family": "bugbear",
+   "HPR": "38",
+   "MPR": "12",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 808,
+    "name": "글루디오 던전 2층 (10)"
+   },
+   {
+    "map_id": 809,
+    "name": "Bone Dungeon Renewal 3F (10)"
+   },
+   {
+    "map_id": 810,
+    "name": "글루디오 던전 4층 (15)"
+   },
+   {
+    "map_id": 811,
+    "name": "글루디오 던전 5층 (30)"
+   },
+   {
+    "map_id": 813,
+    "name": "글루디오 던전 7층 (15)"
+   }
+  ],
+  "icon": "21a7451f25f515707127.webp"
+ },
+ {
+  "id": 46137,
+  "name": "Ice Queen Royal Guard",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "52",
+   "Size": "Large",
+   "HP": "742",
+   "MP": "30",
+   "AC": "-36",
+   "MR": "50",
+   "EXP": "2501",
+   "Str/Con/Dex": "18/20/30",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "30",
+   "MPR": "10",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 74,
+    "name": "Ice Queens Castle 3F (1)"
+   }
+  ],
+  "icon": "481eef20b80e0aa20985.webp"
+ },
+ {
+  "id": 5000103,
+  "name": "Cunning Elder",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "51",
+   "Size": "Small",
+   "HP": "510",
+   "MP": "60",
+   "AC": "-40",
+   "MR": "30",
+   "EXP": "5000",
+   "Str/Con/Dex": "15/14/10",
+   "Int/Wis": "16/16",
+   "Family": "elder",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 808,
+    "name": "글루디오 던전 2층 (5)"
+   },
+   {
+    "map_id": 810,
+    "name": "글루디오 던전 4층 (10)"
+   },
+   {
+    "map_id": 811,
+    "name": "글루디오 던전 5층 (10)"
+   },
+   {
+    "map_id": 812,
+    "name": "글루디오 던전 6층 (15)"
+   },
+   {
+    "map_id": 813,
+    "name": "글루디오 던전 7층 (10)"
+   }
+  ],
+  "icon": "24bf1ab8d55c6dbfb5e6.webp"
+ },
+ {
+  "id": 91174,
+  "name": "Hatchling Female",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Small",
+   "HP": "2000",
+   "MP": "600",
+   "AC": "-55",
+   "MR": "15",
+   "EXP": "2501",
+   "Str/Con/Dex": "12/10/10",
+   "Int/Wis": "16/14",
+   "Family": "",
+   "HPR": "45",
+   "MPR": "35",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 1002,
+    "name": "Hidden Dragon Land (16)"
+   }
+  ],
+  "icon": "3ebaf9b7a735242f07a8.webp"
+ },
+ {
+  "id": 91173,
+  "name": "Hatchling Male",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Small",
+   "HP": "2200",
+   "MP": "300",
+   "AC": "-55",
+   "MR": "15",
+   "EXP": "2501",
+   "Str/Con/Dex": "12/10/10",
+   "Int/Wis": "14/12",
+   "Family": "",
+   "HPR": "22",
+   "MPR": "12",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 1002,
+    "name": "Hidden Dragon Land (16)"
+   }
+  ],
+  "icon": "925f28605e724f805b9b.webp"
+ },
+ {
+  "id": 46135,
+  "name": "Ice Queen Royal Guard",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "610",
+   "MP": "30",
+   "AC": "-34",
+   "MR": "50",
+   "EXP": "2501",
+   "Str/Con/Dex": "18/20/30",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "30",
+   "MPR": "10",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 73,
+    "name": "Ice Queens Castle 2F (1)"
+   }
+  ],
+  "icon": "481eef20b80e0aa20985.webp"
+ },
+ {
+  "id": 91182,
+  "name": "Dwarven General",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "700",
+   "MP": "15",
+   "AC": "-50",
+   "MR": "70",
+   "EXP": "2026",
+   "Str/Con/Dex": "16/10/9",
+   "Int/Wis": "16/16",
+   "Family": "",
+   "HPR": "600",
+   "MPR": "2",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 1002,
+    "name": "Hidden Dragon Land (64)"
+   }
+  ],
+  "icon": "f5001dc06aa17dc8784b.webp"
+ },
+ {
+  "id": 91183,
+  "name": "Dwarven Shaman",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "700",
+   "MP": "600",
+   "AC": "-35",
+   "MR": "90",
+   "EXP": "2026",
+   "Str/Con/Dex": "16/10/9",
+   "Int/Wis": "16/16",
+   "Family": "",
+   "HPR": "600",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 1002,
+    "name": "Hidden Dragon Land (64)"
+   }
+  ],
+  "icon": "6bec9a42e8ffb28ad620.webp"
+ },
+ {
+  "id": 5000107,
+  "name": "Black Zombie",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "41",
+   "Size": "Small",
+   "HP": "410",
+   "MP": "12",
+   "AC": "-40",
+   "MR": "5",
+   "EXP": "3200",
+   "Str/Con/Dex": "18/16/6",
+   "Int/Wis": "2/5",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 810,
+    "name": "글루디오 던전 4층 (5)"
+   },
+   {
+    "map_id": 811,
+    "name": "글루디오 던전 5층 (10)"
+   },
+   {
+    "map_id": 812,
+    "name": "글루디오 던전 6층 (15)"
+   },
+   {
+    "map_id": 813,
+    "name": "글루디오 던전 7층 (5)"
+   }
+  ],
+  "icon": "8b3059e6c5bfd25c1955.webp"
+ },
+ {
+  "id": 45420,
+  "name": "Cyclops",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "40",
+   "Size": "Large",
+   "HP": "800",
+   "MP": "50",
+   "AC": "-23",
+   "MR": "30",
+   "EXP": "1601",
+   "Str/Con/Dex": "20/18/7",
+   "Int/Wis": "5/5",
+   "Family": "cyclops",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (9)"
+   }
+  ],
+  "icon": "ba4726df73d278bc7a30.webp"
+ },
+ {
+  "id": 45407,
+  "name": "Cimaera",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "39",
+   "Size": "Small",
+   "HP": "550",
+   "MP": "40",
+   "AC": "-25",
+   "MR": "35",
+   "EXP": "1522",
+   "Str/Con/Dex": "29/18/32",
+   "Int/Wis": "8/8",
+   "Family": "cimaera",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 103,
+    "name": "Tower of Insolence 3F (30)"
+   },
+   {
+    "map_id": 104,
+    "name": "Tower of Insolence 4F (36)"
+   },
+   {
+    "map_id": 105,
+    "name": "Tower of Insolence 5F (126)"
+   },
+   {
+    "map_id": 107,
+    "name": "Tower of Insolence 7F (104)"
+   },
+   {
+    "map_id": 108,
+    "name": "Tower of Insolence 8F (110)"
+   },
+   {
+    "map_id": 109,
+    "name": "Tower of Insolence 9F (101)"
+   },
+   {
+    "map_id": 110,
+    "name": "Tower of Insolence 10F (104)"
+   }
+  ],
+  "icon": "9c5f2b5bfd15b15ab482.webp"
+ },
+ {
+  "id": 91180,
+  "name": "Dwarven Worker",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "38",
+   "Size": "Small",
+   "HP": "650",
+   "MP": "15",
+   "AC": "-35",
+   "MR": "60",
+   "EXP": "2810",
+   "Str/Con/Dex": "16/10/9",
+   "Int/Wis": "16/16",
+   "Family": "",
+   "HPR": "600",
+   "MPR": "2",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 1002,
+    "name": "Hidden Dragon Land (64)"
+   }
+  ],
+  "icon": "8b2af6ec8939514a5c02.webp"
+ },
+ {
+  "id": 91181,
+  "name": "Dwarven Worker",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "38",
+   "Size": "Small",
+   "HP": "650",
+   "MP": "15",
+   "AC": "-40",
+   "MR": "70",
+   "EXP": "1445",
+   "Str/Con/Dex": "16/10/9",
+   "Int/Wis": "16/16",
+   "Family": "",
+   "HPR": "600",
+   "MPR": "2",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 1002,
+    "name": "Hidden Dragon Land (64)"
+   }
+  ],
+  "icon": "d938ea22beff29c4d1a8.webp"
+ },
+ {
+  "id": 45373,
+  "name": "Ettin",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "35",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "70",
+   "AC": "-22",
+   "MR": "50",
+   "EXP": "1226",
+   "Str/Con/Dex": "20/18/16",
+   "Int/Wis": "16/18",
+   "Family": "brute",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 32,
+    "name": "Dragon Valley Dungeon Floor 3 (8)"
+   },
+   {
+    "map_id": 33,
+    "name": "Dragon Valley Dungeon Floor 4 (8)"
+   },
+   {
+    "map_id": 35,
+    "name": "Dragon Valley Dungeon Floor 5 (14)"
+   },
+   {
+    "map_id": 36,
+    "name": "Dragon Valley Dungeon Floor 6 (20)"
+   }
+  ],
+  "icon": "77cff9e86b32132eb5e8.webp"
+ },
+ {
+  "id": 45349,
+  "name": "Beholder",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "33",
+   "Size": "Large",
+   "HP": "450",
+   "MP": "500",
+   "AC": "-10",
+   "MR": "50",
+   "EXP": "1090",
+   "Str/Con/Dex": "10/13/12",
+   "Int/Wis": "18/18",
+   "Family": "gazer",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (31)"
+   },
+   {
+    "map_id": 60,
+    "name": "Eva Kingdom Dungeon Floor 2 (4)"
+   },
+   {
+    "map_id": 61,
+    "name": "Eva Kingdom Dungeon Floor 3 (10)"
+   }
+  ],
+  "icon": "05ba53802281f2a116c4.webp"
+ },
+ {
+  "id": 45346,
+  "name": "Ghast Lord",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "33",
+   "Size": "Small",
+   "HP": "300",
+   "MP": "50",
+   "AC": "-13",
+   "MR": "20",
+   "EXP": "1090",
+   "Str/Con/Dex": "18/18/16",
+   "Int/Wis": "11/12",
+   "Family": "ghast",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (4)"
+   }
+  ],
+  "icon": "5799e289df5828f047c6.webp"
+ },
+ {
+  "id": 45351,
+  "name": "Giant - Light",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "33",
+   "Size": "Large",
+   "HP": "420",
+   "MP": "10",
+   "AC": "-25",
+   "MR": "40",
+   "EXP": "1090",
+   "Str/Con/Dex": "22/19/15",
+   "Int/Wis": "14/13",
+   "Family": "giant",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (56)"
+   }
+  ],
+  "icon": "a6035686b3cd94c96c4f.webp"
+ },
+ {
+  "id": 91305,
+  "name": "Guignol's Watcher",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "33",
+   "Size": "Large",
+   "HP": "450",
+   "MP": "500",
+   "AC": "-10",
+   "MR": "50",
+   "EXP": "1090",
+   "Str/Con/Dex": "10/13/12",
+   "Int/Wis": "18/18",
+   "Family": "gazer",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 2000,
+    "name": "Ancient Space 1F (60)"
+   }
+  ],
+  "icon": "05ba53802281f2a116c4.webp"
+ },
+ {
+  "id": 45295,
+  "name": "Giant - Dark",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "32",
+   "Size": "Large",
+   "HP": "380",
+   "MP": "10",
+   "AC": "-22",
+   "MR": "25",
+   "EXP": "1025",
+   "Str/Con/Dex": "20/16/12",
+   "Int/Wis": "11/10",
+   "Family": "giant",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (58)"
+   }
+  ],
+  "icon": "a44f7bdb98406eea14c2.webp"
+ },
+ {
+  "id": 45308,
+  "name": "Muryan - Large",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "32",
+   "Size": "Small",
+   "HP": "380",
+   "MP": "10",
+   "AC": "-22",
+   "MR": "25",
+   "EXP": "1025",
+   "Str/Con/Dex": "20/16/12",
+   "Int/Wis": "11/10",
+   "Family": "murrian",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 400,
+    "name": "All Associations Region (37)"
+   }
+  ],
+  "icon": "a56f265f0c8b216fad22.webp"
+ },
+ {
+  "id": 91300,
+  "name": "Guignol's Warrior",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "31",
+   "Size": "Small",
+   "HP": "300",
+   "MP": "50",
+   "AC": "-25",
+   "MR": "40",
+   "EXP": "962",
+   "Str/Con/Dex": "18/15/12",
+   "Int/Wis": "10/12",
+   "Family": "livingarmour",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 2000,
+    "name": "Ancient Space 1F (30)"
+   }
+  ],
+  "icon": "f12ce2b4df8a0adeeaba.webp"
+ },
+ {
+  "id": 45322,
+  "name": "Living Armor",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "31",
+   "Size": "Small",
+   "HP": "300",
+   "MP": "50",
+   "AC": "-25",
+   "MR": "40",
+   "EXP": "962",
+   "Str/Con/Dex": "18/15/12",
+   "Int/Wis": "10/12",
+   "Family": "livingarmour",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 78,
+    "name": "Oren Ivory Tower Floor 4 (30)"
+   },
+   {
+    "map_id": 79,
+    "name": "Oren Ivory Tower Floor 5 (30)"
+   },
+   {
+    "map_id": 82,
+    "name": "Oren Ivory Tower Floor 8 (30)"
+   }
+  ],
+  "icon": "f12ce2b4df8a0adeeaba.webp"
+ },
+ {
+  "id": 45296,
+  "name": "Gelatinous Cube",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "30",
+   "Size": "Large",
+   "HP": "350",
+   "MP": "30",
+   "AC": "-33",
+   "MR": "0",
+   "EXP": "901",
+   "Str/Con/Dex": "21/20/8",
+   "Int/Wis": "9/5",
+   "Family": "gelatine",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 301,
+    "name": "Tower of Insolence Underground Path (40)"
+   }
+  ],
+  "icon": "4734ce911ccef992e391.webp"
+ },
+ {
+  "id": 45337,
+  "name": "Giant - Tan",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "30",
+   "Size": "Large",
+   "HP": "400",
+   "MP": "10",
+   "AC": "-20",
+   "MR": "30",
+   "EXP": "901",
+   "Str/Con/Dex": "19/18/12",
+   "Int/Wis": "10/10",
+   "Family": "giant",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (57)"
+   }
+  ],
+  "icon": "b9ec9553f32ebcfea771.webp"
+ },
+ {
+  "id": 45298,
+  "name": "King Bugbear",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "30",
+   "Size": "Large",
+   "HP": "400",
+   "MP": "30",
+   "AC": "-13",
+   "MR": "20",
+   "EXP": "901",
+   "Str/Con/Dex": "21/18/12",
+   "Int/Wis": "10/12",
+   "Family": "bugbear",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 12,
+    "name": "Gludio Dungeon Floor 6 (12)"
+   },
+   {
+    "map_id": 13,
+    "name": "Gludio Dungeon Floor 7 (30)"
+   },
+   {
+    "map_id": 23,
+    "name": "Windawood Castle Dungeon 1F (10)"
+   },
+   {
+    "map_id": 24,
+    "name": "Windawood Castle Dungeon 2F (30)"
+   },
+   {
+    "map_id": 27,
+    "name": "Training Dungeon Floor 3 (10)"
+   },
+   {
+    "map_id": 28,
+    "name": "Training Dungeon Floor 4 (40)"
+   }
+  ],
+  "icon": "3701aaa707a05ac54ac0.webp"
+ },
+ {
+  "id": 45289,
+  "name": "Muryan",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "30",
+   "Size": "Small",
+   "HP": "350",
+   "MP": "50",
+   "AC": "-12",
+   "MR": "35",
+   "EXP": "901",
+   "Str/Con/Dex": "17/18/16",
+   "Int/Wis": "16/25",
+   "Family": "murrian",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 31,
+    "name": "Dragon Valley Dungeon Floor 2 (18)"
+   },
+   {
+    "map_id": 32,
+    "name": "Dragon Valley Dungeon Floor 3 (26)"
+   },
+   {
+    "map_id": 33,
+    "name": "Dragon Valley Dungeon Floor 4 (26)"
+   },
+   {
+    "map_id": 35,
+    "name": "Dragon Valley Dungeon Floor 5 (26)"
+   }
+  ],
+  "icon": "df1170ae04131897852e.webp"
+ },
+ {
+  "id": 45294,
+  "name": "Yeti",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "30",
+   "Size": "Large",
+   "HP": "400",
+   "MP": "10",
+   "AC": "-18",
+   "MR": "0",
+   "EXP": "901",
+   "Str/Con/Dex": "22/20/12",
+   "Int/Wis": "6/9",
+   "Family": "yeti",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (25)"
+   },
+   {
+    "map_id": 72,
+    "name": "Ice Crystal Cave (20)"
+   },
+   {
+    "map_id": 73,
+    "name": "Ice Queens Castle 2F (20)"
+   },
+   {
+    "map_id": 74,
+    "name": "Ice Queens Castle 3F (20)"
+   }
+  ],
+  "icon": "1f9ba0048b5aefacb428.webp"
+ },
+ {
+  "id": 45286,
+  "name": "Skeleton Fighter",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "29",
+   "Size": "Small",
+   "HP": "280",
+   "MP": "60",
+   "AC": "-15",
+   "MR": "25",
+   "EXP": "842",
+   "Str/Con/Dex": "18/14/14",
+   "Int/Wis": "14/14",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (60)"
+   },
+   {
+    "map_id": 30,
+    "name": "Dragon Valley Dungeon Floor 1 (26)"
+   },
+   {
+    "map_id": 31,
+    "name": "Dragon Valley Dungeon Floor 2 (24)"
+   },
+   {
+    "map_id": 32,
+    "name": "Dragon Valley Dungeon Floor 3 (26)"
+   },
+   {
+    "map_id": 33,
+    "name": "Dragon Valley Dungeon Floor 4 (26)"
+   }
+  ],
+  "icon": "8924ff4512ae5787d1f3.webp"
+ },
+ {
+  "id": 45278,
+  "name": "Ogre",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "28",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "20",
+   "AC": "-18",
+   "MR": "20",
+   "EXP": "785",
+   "Str/Con/Dex": "20/18/12",
+   "Int/Wis": "8/12",
+   "Family": "ogre",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (94)"
+   }
+  ],
+  "icon": "73fe2c33d78dcfa321e6.webp"
+ },
+ {
+  "id": 45280,
+  "name": "Troll",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "28",
+   "Size": "Large",
+   "HP": "270",
+   "MP": "30",
+   "AC": "-15",
+   "MR": "20",
+   "EXP": "785",
+   "Str/Con/Dex": "18/16/16",
+   "Int/Wis": "8/8",
+   "Family": "troll",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 30,
+    "name": "Dragon Valley Dungeon Floor 1 (20)"
+   },
+   {
+    "map_id": 31,
+    "name": "Dragon Valley Dungeon Floor 2 (20)"
+   },
+   {
+    "map_id": 32,
+    "name": "Dragon Valley Dungeon Floor 3 (10)"
+   },
+   {
+    "map_id": 33,
+    "name": "Dragon Valley Dungeon Floor 4 (10)"
+   }
+  ],
+  "icon": "c0aed920a63ff1d7d3c1.webp"
+ },
+ {
+  "id": 45269,
+  "name": "Skeleton Guard",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "27",
+   "Size": "Small",
+   "HP": "270",
+   "MP": "60",
+   "AC": "-15",
+   "MR": "25",
+   "EXP": "730",
+   "Str/Con/Dex": "16/14/15",
+   "Int/Wis": "14/14",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (60)"
+   },
+   {
+    "map_id": 30,
+    "name": "Dragon Valley Dungeon Floor 1 (24)"
+   },
+   {
+    "map_id": 31,
+    "name": "Dragon Valley Dungeon Floor 2 (24)"
+   },
+   {
+    "map_id": 32,
+    "name": "Dragon Valley Dungeon Floor 3 (26)"
+   },
+   {
+    "map_id": 33,
+    "name": "Dragon Valley Dungeon Floor 4 (26)"
+   }
+  ],
+  "icon": "d17712fb3fee314c6d37.webp"
+ },
+ {
+  "id": 45270,
+  "name": "Skeleton Marksman",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "27",
+   "Size": "Small",
+   "HP": "250",
+   "MP": "60",
+   "AC": "-15",
+   "MR": "25",
+   "EXP": "730",
+   "Str/Con/Dex": "16/14/16",
+   "Int/Wis": "16/16",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (60)"
+   },
+   {
+    "map_id": 30,
+    "name": "Dragon Valley Dungeon Floor 1 (24)"
+   },
+   {
+    "map_id": 31,
+    "name": "Dragon Valley Dungeon Floor 2 (24)"
+   },
+   {
+    "map_id": 32,
+    "name": "Dragon Valley Dungeon Floor 3 (26)"
+   },
+   {
+    "map_id": 33,
+    "name": "Dragon Valley Dungeon Floor 4 (26)"
+   },
+   {
+    "map_id": 666,
+    "name": "Hell (100)"
+   }
+  ],
+  "icon": "83a051b96d1fff303aec.webp"
+ },
+ {
+  "id": 45267,
+  "name": "Snow Tiger",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "27",
+   "Size": "Large",
+   "HP": "270",
+   "MP": "0",
+   "AC": "-18",
+   "MR": "0",
+   "EXP": "730",
+   "Str/Con/Dex": "19/18/16",
+   "Int/Wis": "10/12",
+   "Family": "tiger",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (59)"
+   },
+   {
+    "map_id": 72,
+    "name": "Ice Crystal Cave (20)"
+   },
+   {
+    "map_id": 73,
+    "name": "Ice Queens Castle 2F (20)"
+   },
+   {
+    "map_id": 74,
+    "name": "Ice Queens Castle 3F (20)"
+   }
+  ],
+  "icon": "fe64695a29d36fb0dbfe.webp"
+ },
+ {
+  "id": 45252,
+  "name": "Dire Bear",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "26",
+   "Size": "Large",
+   "HP": "300",
+   "MP": "30",
+   "AC": "-15",
+   "MR": "5",
+   "EXP": "677",
+   "Str/Con/Dex": "14/18/12",
+   "Int/Wis": "8/12",
+   "Family": "bear",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 400,
+    "name": "All Associations Region (48)"
+   }
+  ],
+  "icon": "d0f48549f27c8ad075b7.webp"
+ },
+ {
+  "id": 45264,
+  "name": "Harpy",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "26",
+   "Size": "Small",
+   "HP": "230",
+   "MP": "150",
+   "AC": "-18",
+   "MR": "25",
+   "EXP": "677",
+   "Str/Con/Dex": "16/10/18",
+   "Int/Wis": "10/12",
+   "Family": "harpy",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (30)"
+   }
+  ],
+  "icon": "0905d9537368789c0d88.webp"
+ },
+ {
+  "id": 45207,
+  "name": "Ice Man",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "26",
+   "Size": "Large",
+   "HP": "200",
+   "MP": "20",
+   "AC": "-20",
+   "MR": "15",
+   "EXP": "677",
+   "Str/Con/Dex": "17/17/17",
+   "Int/Wis": "12/12",
+   "Family": "iceman",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (35)"
+   },
+   {
+    "map_id": 72,
+    "name": "Ice Crystal Cave (30)"
+   },
+   {
+    "map_id": 73,
+    "name": "Ice Queens Castle 2F (30)"
+   },
+   {
+    "map_id": 74,
+    "name": "Ice Queens Castle 3F (20)"
+   }
+  ],
+  "icon": "093fbbe4092b54e91a73.webp"
+ },
+ {
+  "id": 45259,
+  "name": "Scorpion",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "26",
+   "Size": "Large",
+   "HP": "200",
+   "MP": "30",
+   "AC": "-15",
+   "MR": "5",
+   "EXP": "677",
+   "Str/Con/Dex": "14/18/12",
+   "Int/Wis": "8/12",
+   "Family": "scorpion",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (116)"
+   }
+  ],
+  "icon": "a48769ddb11db00141f9.webp"
+ },
+ {
+  "id": 46162,
+  "name": "Elmore Zombie Commander",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "25",
+   "Size": "Large",
+   "HP": "180",
+   "MP": "0",
+   "AC": "-18",
+   "MR": "10",
+   "EXP": "626",
+   "Str/Con/Dex": "17/18/15",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (1)"
+   }
+  ],
+  "icon": "2fb8d447154d0b357b4e.webp"
+ },
+ {
+  "id": 45808,
+  "name": "Lycanthrope",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "25",
+   "Size": "Small",
+   "HP": "180",
+   "MP": "60",
+   "AC": "-15",
+   "MR": "35",
+   "EXP": "626",
+   "Str/Con/Dex": "17/16/13",
+   "Int/Wis": "12/12",
+   "Family": "wolf",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 252,
+    "name": "Heine Basement Prison (10)"
+   }
+  ],
+  "icon": "410390a5d7b47ecdb2a3.webp"
+ },
+ {
+  "id": 45809,
+  "name": "Ratman",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "25",
+   "Size": "Small",
+   "HP": "180",
+   "MP": "10",
+   "AC": "-15",
+   "MR": "35",
+   "EXP": "626",
+   "Str/Con/Dex": "17/16/16",
+   "Int/Wis": "12/12",
+   "Family": "ratman",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 252,
+    "name": "Heine Basement Prison (10)"
+   }
+  ],
+  "icon": "46ceeb0c7c8b2de1002a.webp"
+ },
+ {
+  "id": 45247,
+  "name": "Skeletal Pirate",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "25",
+   "Size": "Small",
+   "HP": "220",
+   "MP": "10",
+   "AC": "-18",
+   "MR": "40",
+   "EXP": "626",
+   "Str/Con/Dex": "16/12/16",
+   "Int/Wis": "10/10",
+   "Family": "pirate",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 442,
+    "name": "Pirate Island Dungeon 2F (37)"
+   },
+   {
+    "map_id": 443,
+    "name": "Pirate Island Dungeon 3F (20)"
+   }
+  ],
+  "icon": "367a2bdd762955c0bc4c.webp"
+ },
+ {
+  "id": 45248,
+  "name": "Undead Elmore General",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "25",
+   "Size": "Small",
+   "HP": "180",
+   "MP": "0",
+   "AC": "-18",
+   "MR": "10",
+   "EXP": "626",
+   "Str/Con/Dex": "17/18/15",
+   "Int/Wis": "10/12",
+   "Family": "elmore",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (49)"
+   }
+  ],
+  "icon": "02e23bc202eba55606a4.webp"
+ },
+ {
+  "id": 45237,
+  "name": "Dire Wolf",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "24",
+   "Size": "Large",
+   "HP": "120",
+   "MP": "60",
+   "AC": "-20",
+   "MR": "25",
+   "EXP": "577",
+   "Str/Con/Dex": "17/18/15",
+   "Int/Wis": "16/12",
+   "Family": "direwolf",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 400,
+    "name": "All Associations Region (26)"
+   }
+  ],
+  "icon": "c0f4e200de7543dec7da.webp"
+ },
+ {
+  "id": 45805,
+  "name": "Lizardman",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "23",
+   "Size": "Small",
+   "HP": "166",
+   "MP": "10",
+   "AC": "-13",
+   "MR": "32",
+   "EXP": "530",
+   "Str/Con/Dex": "15/13/15",
+   "Int/Wis": "11/11",
+   "Family": "lizardman",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 252,
+    "name": "Heine Basement Prison (10)"
+   }
+  ],
+  "icon": "fa13710675d6afb3b332.webp"
+ },
+ {
+  "id": 45223,
+  "name": "Bugbear",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "22",
+   "Size": "Large",
+   "HP": "250",
+   "MP": "30",
+   "AC": "-6",
+   "MR": "10",
+   "EXP": "485",
+   "Str/Con/Dex": "19/18/12",
+   "Int/Wis": "10/12",
+   "Family": "bugbear",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (23)"
+   },
+   {
+    "map_id": 8,
+    "name": "Gludio Dungeon Floor 2 (6)"
+   },
+   {
+    "map_id": 9,
+    "name": "Gludio Dungeon Floor 3 (25)"
+   },
+   {
+    "map_id": 10,
+    "name": "Gludio Dungeon Floor 4 (30)"
+   },
+   {
+    "map_id": 11,
+    "name": "Gludio Dungeon Floor 5 (35)"
+   },
+   {
+    "map_id": 12,
+    "name": "Gludio Dungeon Floor 6 (30)"
+   },
+   {
+    "map_id": 23,
+    "name": "Windawood Castle Dungeon 1F (20)"
+   },
+   {
+    "map_id": 24,
+    "name": "Windawood Castle Dungeon 2F (30)"
+   },
+   {
+    "map_id": 26,
+    "name": "Training Dungeon Floor 2 (20)"
+   },
+   {
+    "map_id": 27,
+    "name": "Training Dungeon Floor 3 (40)"
+   },
+   {
+    "map_id": 28,
+    "name": "Training Dungeon Floor 4 (50)"
+   }
+  ],
+  "icon": "21a7451f25f515707127.webp"
+ },
+ {
+  "id": 45738,
+  "name": "Bugbear",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "22",
+   "Size": "Large",
+   "HP": "250",
+   "MP": "30",
+   "AC": "-6",
+   "MR": "10",
+   "EXP": "485",
+   "Str/Con/Dex": "19/18/12",
+   "Int/Wis": "10/12",
+   "Family": "bugbear",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 13,
+    "name": "Gludio Dungeon Floor 7 (30)"
+   }
+  ],
+  "icon": "21a7451f25f515707127.webp"
+ },
+ {
+  "id": 45221,
+  "name": "Death",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "22",
+   "Size": "Small",
+   "HP": "140",
+   "MP": "40",
+   "AC": "-50",
+   "MR": "5",
+   "EXP": "485",
+   "Str/Con/Dex": "12/11/11",
+   "Int/Wis": "13/9",
+   "Family": "death",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 80,
+    "name": "Oren Ivory Tower Floor 6 (30)"
+   },
+   {
+    "map_id": 81,
+    "name": "Oren Ivory Tower Floor 7 (30)"
+   },
+   {
+    "map_id": 82,
+    "name": "Oren Ivory Tower Floor 8 (30)"
+   }
+  ],
+  "icon": "9a11534aedf7d46317bb.webp"
+ },
+ {
+  "id": 45698,
+  "name": "Spirit of Ancient Person",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "22",
+   "Size": "Small",
+   "HP": "140",
+   "MP": "40",
+   "AC": "-50",
+   "MR": "5",
+   "EXP": "485",
+   "Str/Con/Dex": "12/11/11",
+   "Int/Wis": "13/9",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 2000,
+    "name": "Ancient Space 1F (11)"
+   }
+  ],
+  "icon": "9a11534aedf7d46317bb.webp"
+ },
+ {
+  "id": 45224,
+  "name": "Undead Elmore Wizard",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "22",
+   "Size": "Small",
+   "HP": "130",
+   "MP": "100",
+   "AC": "-10",
+   "MR": "50",
+   "EXP": "485",
+   "Str/Con/Dex": "15/17/10",
+   "Int/Wis": "10/7",
+   "Family": "elmore",
+   "HPR": "0",
+   "MPR": "8",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (54)"
+   }
+  ],
+  "icon": "8173e4dfe1262bba6088.webp"
+ },
+ {
+  "id": 45215,
+  "name": "Elder",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "21",
+   "Size": "Small",
+   "HP": "250",
+   "MP": "60",
+   "AC": "-5",
+   "MR": "30",
+   "EXP": "442",
+   "Str/Con/Dex": "10/14/10",
+   "Int/Wis": "16/16",
+   "Family": "elder",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (13)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (8)"
+   }
+  ],
+  "icon": "24bf1ab8d55c6dbfb5e6.webp"
+ },
+ {
+  "id": 45213,
+  "name": "Ghast",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "21",
+   "Size": "Small",
+   "HP": "200",
+   "MP": "30",
+   "AC": "-10",
+   "MR": "10",
+   "EXP": "442",
+   "Str/Con/Dex": "17/18/16",
+   "Int/Wis": "8/8",
+   "Family": "ghast",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (3)"
+   }
+  ],
+  "icon": "4673d0d654650271e4a4.webp"
+ },
+ {
+  "id": 45174,
+  "name": "Ghost - Red",
+  "badges": [
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "20",
+   "Size": "Small",
+   "HP": "120",
+   "MP": "10",
+   "AC": "-45",
+   "MR": "5",
+   "EXP": "401",
+   "Str/Con/Dex": "11/11/11",
+   "Int/Wis": "13/9",
+   "Family": "ghost",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 80,
+    "name": "Oren Ivory Tower Floor 6 (30)"
+   },
+   {
+    "map_id": 81,
+    "name": "Oren Ivory Tower Floor 7 (30)"
+   }
+  ],
+  "icon": "b6e4d45792b9caa0ca48.webp"
+ },
+ {
+  "id": 45190,
+  "name": "Giant Soldier Ant",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "20",
+   "Size": "Large",
+   "HP": "150",
+   "MP": "100",
+   "AC": "-7",
+   "MR": "60",
+   "EXP": "401",
+   "Str/Con/Dex": "30/18/20",
+   "Int/Wis": "15/17",
+   "Family": "ant",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (98)"
+   },
+   {
+    "map_id": 44,
+    "name": "Ant Caves 2F (25)"
+   },
+   {
+    "map_id": 45,
+    "name": "Ant Caves 3F (25)"
+   },
+   {
+    "map_id": 46,
+    "name": "Ant Caves 4F (25)"
+   },
+   {
+    "map_id": 47,
+    "name": "Ant Caves 5F (25)"
+   },
+   {
+    "map_id": 48,
+    "name": "Ant Caves 6F (25)"
+   },
+   {
+    "map_id": 49,
+    "name": "Ant Caves 7F (25)"
+   },
+   {
+    "map_id": 50,
+    "name": "Ant Caves 8F (25)"
+   },
+   {
+    "map_id": 51,
+    "name": "Ant Caves 9F (50)"
+   }
+  ],
+  "icon": "f93db64e014848060678.webp"
+ },
+ {
+  "id": 45158,
+  "name": "Mad Lizardman",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "20",
+   "Size": "Small",
+   "HP": "200",
+   "MP": "10",
+   "AC": "-4",
+   "MR": "10",
+   "EXP": "401",
+   "Str/Con/Dex": "14/16/16",
+   "Int/Wis": "10/10",
+   "Family": "lizardman",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 440,
+    "name": "Pirate Island First Part (287)"
+   },
+   {
+    "map_id": 441,
+    "name": "Pirate Island Dungeon 1F (58)"
+   },
+   {
+    "map_id": 442,
+    "name": "Pirate Island Dungeon 2F (17)"
+   },
+   {
+    "map_id": 480,
+    "name": "Pirate's Isle (90)"
+   }
+  ],
+  "icon": "a311603a4ccda6c9647d.webp"
+ },
+ {
+  "id": 45192,
+  "name": "Ratman",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "20",
+   "Size": "Small",
+   "HP": "150",
+   "MP": "10",
+   "AC": "-5",
+   "MR": "10",
+   "EXP": "401",
+   "Str/Con/Dex": "12/16/12",
+   "Int/Wis": "8/11",
+   "Family": "ratman",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 59,
+    "name": "Eva Kingdom Dungeon Floor 1 (24)"
+   },
+   {
+    "map_id": 60,
+    "name": "Eva Kingdom Dungeon Floor 2 (20)"
+   },
+   {
+    "map_id": 61,
+    "name": "Eva Kingdom Dungeon Floor 3 (30)"
+   }
+  ],
+  "icon": "46ceeb0c7c8b2de1002a.webp"
+ },
+ {
+  "id": 45804,
+  "name": "Vakuuk",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "20",
+   "Size": "Small",
+   "HP": "144",
+   "MP": "0",
+   "AC": "-10",
+   "MR": "28",
+   "EXP": "401",
+   "Str/Con/Dex": "16/15/12",
+   "Int/Wis": "10/10",
+   "Family": "cockroach",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 252,
+    "name": "Heine Basement Prison (10)"
+   }
+  ],
+  "icon": "c35eef9468a9cbd57524.webp"
+ },
+ {
+  "id": 45803,
+  "name": "Werewolf",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "20",
+   "Size": "Small",
+   "HP": "144",
+   "MP": "60",
+   "AC": "-10",
+   "MR": "28",
+   "EXP": "401",
+   "Str/Con/Dex": "16/16/13",
+   "Int/Wis": "10/10",
+   "Family": "wolf",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 252,
+    "name": "Heine Basement Prison (10)"
+   }
+  ],
+  "icon": "5c0d987f68d9c00350a2.webp"
+ },
+ {
+  "id": 45197,
+  "name": "Wild Magic",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "20",
+   "Size": "Small",
+   "HP": "200",
+   "MP": "40",
+   "AC": "-10",
+   "MR": "10",
+   "EXP": "401",
+   "Str/Con/Dex": "18/18/12",
+   "Int/Wis": "8/6",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 440,
+    "name": "Pirate Island First Part (75)"
+   },
+   {
+    "map_id": 480,
+    "name": "Pirate's Isle (20)"
+   }
+  ],
+  "icon": "ddb72e726a46f5097b87.webp"
+ },
+ {
+  "id": 45182,
+  "name": "Ice Golem",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "18",
+   "Size": "Large",
+   "HP": "220",
+   "MP": "0",
+   "AC": "-8",
+   "MR": "7",
+   "EXP": "325",
+   "Str/Con/Dex": "46/16/10",
+   "Int/Wis": "6/5",
+   "Family": "golem",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 72,
+    "name": "Ice Crystal Cave (30)"
+   },
+   {
+    "map_id": 73,
+    "name": "Ice Queens Castle 2F (30)"
+   },
+   {
+    "map_id": 74,
+    "name": "Ice Queens Castle 3F (20)"
+   }
+  ],
+  "icon": "e3b92df078b270c47d7c.webp"
+ },
+ {
+  "id": 45184,
+  "name": "Shelob",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "18",
+   "Size": "Large",
+   "HP": "200",
+   "MP": "30",
+   "AC": "-5",
+   "MR": "10",
+   "EXP": "325",
+   "Str/Con/Dex": "18/16/14",
+   "Int/Wis": "5/6",
+   "Family": "spider",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (30)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (44)"
+   },
+   {
+    "map_id": 8,
+    "name": "Gludio Dungeon Floor 2 (12)"
+   },
+   {
+    "map_id": 9,
+    "name": "Gludio Dungeon Floor 3 (18)"
+   },
+   {
+    "map_id": 10,
+    "name": "Gludio Dungeon Floor 4 (13)"
+   },
+   {
+    "map_id": 11,
+    "name": "Gludio Dungeon Floor 5 (20)"
+   },
+   {
+    "map_id": 12,
+    "name": "Gludio Dungeon Floor 6 (14)"
+   },
+   {
+    "map_id": 13,
+    "name": "Gludio Dungeon Floor 7 (30)"
+   },
+   {
+    "map_id": 23,
+    "name": "Windawood Castle Dungeon 1F (30)"
+   },
+   {
+    "map_id": 24,
+    "name": "Windawood Castle Dungeon 2F (30)"
+   },
+   {
+    "map_id": 30,
+    "name": "Dragon Valley Dungeon Floor 1 (14)"
+   },
+   {
+    "map_id": 808,
+    "name": "글루디오 던전 2층 (10)"
+   }
+  ],
+  "icon": "8729784f5de7c709dea7.webp"
+ },
+ {
+  "id": 45163,
+  "name": "Wild Fang",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "18",
+   "Size": "Small",
+   "HP": "180",
+   "MP": "10",
+   "AC": "-6",
+   "MR": "10",
+   "EXP": "325",
+   "Str/Con/Dex": "17/16/13",
+   "Int/Wis": "8/6",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 440,
+    "name": "Pirate Island First Part (220)"
+   },
+   {
+    "map_id": 480,
+    "name": "Pirate's Isle (20)"
+   }
+  ],
+  "icon": "d816188c69f4ab13b603.webp"
+ },
+ {
+  "id": 45139,
+  "name": "Wild Venom",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "18",
+   "Size": "Small",
+   "HP": "180",
+   "MP": "10",
+   "AC": "0",
+   "MR": "5",
+   "EXP": "325",
+   "Str/Con/Dex": "16/16/14",
+   "Int/Wis": "8/6",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 440,
+    "name": "Pirate Island First Part (135)"
+   },
+   {
+    "map_id": 480,
+    "name": "Pirate's Isle (20)"
+   }
+  ],
+  "icon": "6a0058c21942877e138a.webp"
+ },
+ {
+  "id": 45173,
+  "name": "Lycanthrope",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "17",
+   "Size": "Small",
+   "HP": "120",
+   "MP": "60",
+   "AC": "-4",
+   "MR": "7",
+   "EXP": "290",
+   "Str/Con/Dex": "16/16/13",
+   "Int/Wis": "10/10",
+   "Family": "wolf",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (35)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (163)"
+   }
+  ],
+  "icon": "410390a5d7b47ecdb2a3.webp"
+ },
+ {
+  "id": 45171,
+  "name": "Neruga Orc",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "17",
+   "Size": "Small",
+   "HP": "150",
+   "MP": "15",
+   "AC": "-8",
+   "MR": "7",
+   "EXP": "290",
+   "Str/Con/Dex": "17/14/13",
+   "Int/Wis": "10/8",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (83)"
+   }
+  ],
+  "icon": "cf4ac6e3d4ce12174817.webp"
+ },
+ {
+  "id": 45307,
+  "name": "Alligator",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "16",
+   "Size": "Small",
+   "HP": "80",
+   "MP": "5",
+   "AC": "-6",
+   "MR": "0",
+   "EXP": "257",
+   "Str/Con/Dex": "15/13/13",
+   "Int/Wis": "5/6",
+   "Family": "alligator",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 59,
+    "name": "Eva Kingdom Dungeon Floor 1 (24)"
+   },
+   {
+    "map_id": 60,
+    "name": "Eva Kingdom Dungeon Floor 2 (20)"
+   },
+   {
+    "map_id": 61,
+    "name": "Eva Kingdom Dungeon Floor 3 (30)"
+   }
+  ],
+  "icon": "61657e721f3fe518d845.webp"
+ },
+ {
+  "id": 45165,
+  "name": "Black Knight",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "16",
+   "Size": "Small",
+   "HP": "100",
+   "MP": "10",
+   "AC": "-10",
+   "MR": "10",
+   "EXP": "257",
+   "Str/Con/Dex": "16/16/15",
+   "Int/Wis": "12/12",
+   "Family": "antiking",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (12)"
+   }
+  ],
+  "icon": "bfc487df3f4f80cad1d9.webp"
+ },
+ {
+  "id": 81066,
+  "name": "Black Knight Search Party",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "16",
+   "Size": "Small",
+   "HP": "100",
+   "MP": "10",
+   "AC": "-10",
+   "MR": "10",
+   "EXP": "257",
+   "Str/Con/Dex": "16/16/15",
+   "Int/Wis": "12/12",
+   "Family": "antiking",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (26)"
+   }
+  ],
+  "icon": "bfc487df3f4f80cad1d9.webp"
+ },
+ {
+  "id": 45157,
+  "name": "Ghoul",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "16",
+   "Size": "Small",
+   "HP": "110",
+   "MP": "30",
+   "AC": "-4",
+   "MR": "13",
+   "EXP": "257",
+   "Str/Con/Dex": "16/17/16",
+   "Int/Wis": "4/11",
+   "Family": "ghoul",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (25)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (42)"
+   },
+   {
+    "map_id": 8,
+    "name": "Gludio Dungeon Floor 2 (10)"
+   },
+   {
+    "map_id": 9,
+    "name": "Gludio Dungeon Floor 3 (12)"
+   },
+   {
+    "map_id": 10,
+    "name": "Gludio Dungeon Floor 4 (18)"
+   },
+   {
+    "map_id": 11,
+    "name": "Gludio Dungeon Floor 5 (20)"
+   },
+   {
+    "map_id": 12,
+    "name": "Gludio Dungeon Floor 6 (30)"
+   },
+   {
+    "map_id": 13,
+    "name": "Gludio Dungeon Floor 7 (30)"
+   },
+   {
+    "map_id": 14,
+    "name": "Underground Passageway (10)"
+   },
+   {
+    "map_id": 23,
+    "name": "Windawood Castle Dungeon 1F (20)"
+   },
+   {
+    "map_id": 24,
+    "name": "Windawood Castle Dungeon 2F (20)"
+   },
+   {
+    "map_id": 26,
+    "name": "Training Dungeon Floor 2 (40)"
+   },
+   {
+    "map_id": 27,
+    "name": "Training Dungeon Floor 3 (60)"
+   },
+   {
+    "map_id": 308,
+    "name": "Lastabad Dungeon 2F (4)"
+   }
+  ],
+  "icon": "8b3059e6c5bfd25c1955.webp"
+ },
+ {
+  "id": 91306,
+  "name": "Guardian of Noble Will",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "16",
+   "Size": "Small",
+   "HP": "110",
+   "MP": "15",
+   "AC": "-18",
+   "MR": "30",
+   "EXP": "257",
+   "Str/Con/Dex": "14/8/16",
+   "Int/Wis": "14/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 2000,
+    "name": "Ancient Space 1F (20)"
+   }
+  ],
+  "icon": "da98ad08405302cd7ba0.webp"
+ },
+ {
+  "id": 45162,
+  "name": "Silhouette",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "16",
+   "Size": "Small",
+   "HP": "110",
+   "MP": "15",
+   "AC": "-18",
+   "MR": "30",
+   "EXP": "257",
+   "Str/Con/Dex": "14/8/16",
+   "Int/Wis": "14/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 80,
+    "name": "Oren Ivory Tower Floor 6 (30)"
+   },
+   {
+    "map_id": 81,
+    "name": "Oren Ivory Tower Floor 7 (30)"
+   },
+   {
+    "map_id": 82,
+    "name": "Oren Ivory Tower Floor 8 (30)"
+   }
+  ],
+  "icon": "da98ad08405302cd7ba0.webp"
+ },
+ {
+  "id": 45161,
+  "name": "Spartoi",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "16",
+   "Size": "Small",
+   "HP": "120",
+   "MP": "30",
+   "AC": "-3",
+   "MR": "18",
+   "EXP": "257",
+   "Str/Con/Dex": "17/15/16",
+   "Int/Wis": "14/14",
+   "Family": "spartoi",
+   "HPR": "5",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (140)"
+   },
+   {
+    "map_id": 7,
+    "name": "Gludio Dungeon Floor 1 (20)"
+   },
+   {
+    "map_id": 8,
+    "name": "Gludio Dungeon Floor 2 (10)"
+   },
+   {
+    "map_id": 9,
+    "name": "Gludio Dungeon Floor 3 (10)"
+   },
+   {
+    "map_id": 10,
+    "name": "Gludio Dungeon Floor 4 (10)"
+   },
+   {
+    "map_id": 11,
+    "name": "Gludio Dungeon Floor 5 (10)"
+   },
+   {
+    "map_id": 12,
+    "name": "Gludio Dungeon Floor 6 (10)"
+   },
+   {
+    "map_id": 13,
+    "name": "Gludio Dungeon Floor 7 (10)"
+   },
+   {
+    "map_id": 23,
+    "name": "Windawood Castle Dungeon 1F (10)"
+   },
+   {
+    "map_id": 24,
+    "name": "Windawood Castle Dungeon 2F (20)"
+   },
+   {
+    "map_id": 26,
+    "name": "Training Dungeon Floor 2 (20)"
+   },
+   {
+    "map_id": 30,
+    "name": "Dragon Valley Dungeon Floor 1 (26)"
+   },
+   {
+    "map_id": 307,
+    "name": "Lastabad Dungeon 1F (45)"
+   }
+  ],
+  "icon": "935c40824138cf28ef9a.webp"
+ },
+ {
+  "id": 45181,
+  "name": "Spartoi",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "16",
+   "Size": "Small",
+   "HP": "120",
+   "MP": "30",
+   "AC": "-3",
+   "MR": "18",
+   "EXP": "257",
+   "Str/Con/Dex": "17/16/16",
+   "Int/Wis": "14/14",
+   "Family": "spartoi",
+   "HPR": "5",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (10)"
+   }
+  ],
+  "icon": "935c40824138cf28ef9a.webp"
+ },
+ {
+  "id": 45149,
+  "name": "Atuba Orc",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "15",
+   "Size": "Small",
+   "HP": "120",
+   "MP": "15",
+   "AC": "-5",
+   "MR": "10",
+   "EXP": "226",
+   "Str/Con/Dex": "14/14/14",
+   "Int/Wis": "10/12",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (72)"
+   }
+  ],
+  "icon": "4a6261bbfd135f133398.webp"
+ },
+ {
+  "id": 45143,
+  "name": "Duda-Mara Orc",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "15",
+   "Size": "Small",
+   "HP": "100",
+   "MP": "50",
+   "AC": "-5",
+   "MR": "20",
+   "EXP": "226",
+   "Str/Con/Dex": "12/14/14",
+   "Int/Wis": "16/15",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (57)"
+   }
+  ],
+  "icon": "cf4ac6e3d4ce12174817.webp"
+ },
+ {
+  "id": 45144,
+  "name": "Lizardman",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "15",
+   "Size": "Small",
+   "HP": "90",
+   "MP": "10",
+   "AC": "-2",
+   "MR": "5",
+   "EXP": "226",
+   "Str/Con/Dex": "15/13/10",
+   "Int/Wis": "5/5",
+   "Family": "lizardman",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (177)"
+   },
+   {
+    "map_id": 59,
+    "name": "Eva Kingdom Dungeon Floor 1 (24)"
+   }
+  ],
+  "icon": "fa13710675d6afb3b332.webp"
+ },
+ {
+  "id": 45145,
+  "name": "Lizardman",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "15",
+   "Size": "Small",
+   "HP": "90",
+   "MP": "10",
+   "AC": "-2",
+   "MR": "5",
+   "EXP": "226",
+   "Str/Con/Dex": "15/13/10",
+   "Int/Wis": "5/5",
+   "Family": "lizardman",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (20)"
+   }
+  ],
+  "icon": "fa13710675d6afb3b332.webp"
+ },
+ {
+  "id": 45141,
+  "name": "Mimic",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "15",
+   "Size": "Small",
+   "HP": "120",
+   "MP": "20",
+   "AC": "-2",
+   "MR": "20",
+   "EXP": "226",
+   "Str/Con/Dex": "16/12/14",
+   "Int/Wis": "11/10",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 78,
+    "name": "Oren Ivory Tower Floor 4 (30)"
+   },
+   {
+    "map_id": 79,
+    "name": "Oren Ivory Tower Floor 5 (30)"
+   }
+  ],
+  "icon": "22cee9ab389722c66ff9.webp"
+ },
+ {
+  "id": 45147,
+  "name": "Owlbear",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "15",
+   "Size": "Large",
+   "HP": "250",
+   "MP": "10",
+   "AC": "-6",
+   "MR": "10",
+   "EXP": "226",
+   "Str/Con/Dex": "18/13/14",
+   "Int/Wis": "8/7",
+   "Family": "bear",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (54)"
+   }
+  ],
+  "icon": "21431faaa45556138118.webp"
+ },
+ {
+  "id": 45148,
+  "name": "Owlbear",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "15",
+   "Size": "Large",
+   "HP": "250",
+   "MP": "10",
+   "AC": "-6",
+   "MR": "10",
+   "EXP": "226",
+   "Str/Con/Dex": "18/13/14",
+   "Int/Wis": "8/7",
+   "Family": "bear",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (15)"
+   }
+  ],
+  "icon": "21431faaa45556138118.webp"
+ },
+ {
+  "id": 45155,
+  "name": "Troglodyte",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "15",
+   "Size": "Small",
+   "HP": "60",
+   "MP": "30",
+   "AC": "-4",
+   "MR": "10",
+   "EXP": "226",
+   "Str/Con/Dex": "16/18/17",
+   "Int/Wis": "12/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 59,
+    "name": "Eva Kingdom Dungeon Floor 1 (24)"
+   }
+  ],
+  "icon": "d0f28d6a22aae2c88505.webp"
+ },
+ {
+  "id": 45140,
+  "name": "Hobgoblin",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "14",
+   "Size": "Small",
+   "HP": "90",
+   "MP": "30",
+   "AC": "1",
+   "MR": "1",
+   "EXP": "197",
+   "Str/Con/Dex": "13/13/13",
+   "Int/Wis": "9/9",
+   "Family": "goblin",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (31)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (77)"
+   }
+  ],
+  "icon": "6f0dbf63df4468f592c7.webp"
+ },
+ {
+  "id": 45138,
+  "name": "Orc Scout",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "14",
+   "Size": "Small",
+   "HP": "90",
+   "MP": "15",
+   "AC": "-3",
+   "MR": "5",
+   "EXP": "197",
+   "Str/Con/Dex": "14/14/14",
+   "Int/Wis": "10/8",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 666,
+    "name": "Hell (30)"
+   }
+  ],
+  "icon": "d9f1760c311cb7b98017.webp"
+ },
+ {
+  "id": 45136,
+  "name": "Shelob",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "14",
+   "Size": "Large",
+   "HP": "100",
+   "MP": "15",
+   "AC": "0",
+   "MR": "12",
+   "EXP": "197",
+   "Str/Con/Dex": "15/13/17",
+   "Int/Wis": "5/6",
+   "Family": "spider",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (28)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (165)"
+   },
+   {
+    "map_id": 8,
+    "name": "Gludio Dungeon Floor 2 (20)"
+   },
+   {
+    "map_id": 10,
+    "name": "Gludio Dungeon Floor 4 (10)"
+   },
+   {
+    "map_id": 25,
+    "name": "Training Dungeon Floor 1 (4)"
+   }
+  ],
+  "icon": "8729784f5de7c709dea7.webp"
+ },
+ {
+  "id": 45133,
+  "name": "Snowman",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "14",
+   "Size": "Small",
+   "HP": "80",
+   "MP": "0",
+   "AC": "-10",
+   "MR": "0",
+   "EXP": "197",
+   "Str/Con/Dex": "14/16/10",
+   "Int/Wis": "8/6",
+   "Family": "snowman",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (31)"
+   },
+   {
+    "map_id": 72,
+    "name": "Ice Crystal Cave (10)"
+   }
+  ],
+  "icon": "94c86d8a08c720ff5a4c.webp"
+ },
+ {
+  "id": 45127,
+  "name": "Rova Orc",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "13",
+   "Size": "Small",
+   "HP": "80",
+   "MP": "20",
+   "AC": "-2",
+   "MR": "5",
+   "EXP": "170",
+   "Str/Con/Dex": "12/12/12",
+   "Int/Wis": "14/8",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (77)"
+   }
+  ],
+  "icon": "6765db09b77d6d27962f.webp"
+ },
+ {
+  "id": 45130,
+  "name": "Skeleton Axeman",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "13",
+   "Size": "Small",
+   "HP": "90",
+   "MP": "20",
+   "AC": "0",
+   "MR": "10",
+   "EXP": "170",
+   "Str/Con/Dex": "18/14/14",
+   "Int/Wis": "10/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 11,
+    "name": "Gludio Dungeon Floor 5 (15)"
+   },
+   {
+    "map_id": 23,
+    "name": "Windawood Castle Dungeon 1F (20)"
+   },
+   {
+    "map_id": 307,
+    "name": "Lastabad Dungeon 1F (20)"
+   }
+  ],
+  "icon": "bc94d9d1d381722a3d9d.webp"
+ },
+ {
+  "id": 45131,
+  "name": "Skeleton Soldier",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "13",
+   "Size": "Small",
+   "HP": "90",
+   "MP": "15",
+   "AC": "8",
+   "MR": "10",
+   "EXP": "170",
+   "Str/Con/Dex": "16/14/15",
+   "Int/Wis": "10/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 8,
+    "name": "Gludio Dungeon Floor 2 (10)"
+   },
+   {
+    "map_id": 11,
+    "name": "Gludio Dungeon Floor 5 (15)"
+   },
+   {
+    "map_id": 23,
+    "name": "Windawood Castle Dungeon 1F (20)"
+   },
+   {
+    "map_id": 307,
+    "name": "Lastabad Dungeon 1F (24)"
+   }
+  ],
+  "icon": "a485efd04acf3f169ffe.webp"
+ },
+ {
+  "id": 45126,
+  "name": "Stone Golem",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "13",
+   "Size": "Large",
+   "HP": "150",
+   "MP": "50",
+   "AC": "-1",
+   "MR": "5",
+   "EXP": "170",
+   "Str/Con/Dex": "58/16/10",
+   "Int/Wis": "10/6",
+   "Family": "golem",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (33)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (38)"
+   },
+   {
+    "map_id": 9,
+    "name": "Gludio Dungeon Floor 3 (10)"
+   },
+   {
+    "map_id": 10,
+    "name": "Gludio Dungeon Floor 4 (6)"
+   },
+   {
+    "map_id": 25,
+    "name": "Training Dungeon Floor 1 (20)"
+   }
+  ],
+  "icon": "83e114aac78d0c1eeef2.webp"
+ },
+ {
+  "id": 45134,
+  "name": "Stone Golem",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "13",
+   "Size": "Large",
+   "HP": "150",
+   "MP": "50",
+   "AC": "-1",
+   "MR": "5",
+   "EXP": "170",
+   "Str/Con/Dex": "18/16/10",
+   "Int/Wis": "10/6",
+   "Family": "golem",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (5)"
+   }
+  ],
+  "icon": "83e114aac78d0c1eeef2.webp"
+ },
+ {
+  "id": 45115,
+  "name": "Giant Ant",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "12",
+   "Size": "Small",
+   "HP": "90",
+   "MP": "20",
+   "AC": "-4",
+   "MR": "60",
+   "EXP": "145",
+   "Str/Con/Dex": "15/13/13",
+   "Int/Wis": "5/6",
+   "Family": "ant",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (139)"
+   },
+   {
+    "map_id": 44,
+    "name": "Ant Caves 2F (50)"
+   },
+   {
+    "map_id": 45,
+    "name": "Ant Caves 3F (50)"
+   },
+   {
+    "map_id": 46,
+    "name": "Ant Caves 4F (50)"
+   },
+   {
+    "map_id": 47,
+    "name": "Ant Caves 5F (50)"
+   },
+   {
+    "map_id": 48,
+    "name": "Ant Caves 6F (50)"
+   },
+   {
+    "map_id": 49,
+    "name": "Ant Caves 7F (50)"
+   },
+   {
+    "map_id": 50,
+    "name": "Ant Caves 8F (50)"
+   },
+   {
+    "map_id": 51,
+    "name": "Ant Caves 9F (25)"
+   }
+  ],
+  "icon": "6c900b361808db1dada0.webp"
+ },
+ {
+  "id": 45121,
+  "name": "Orc Wizard",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "12",
+   "Size": "Small",
+   "HP": "80",
+   "MP": "50",
+   "AC": "0",
+   "MR": "30",
+   "EXP": "145",
+   "Str/Con/Dex": "6/12/10",
+   "Int/Wis": "10/13",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (67)"
+   }
+  ],
+  "icon": "f97ae02593fd52f01e72.webp"
+ },
+ {
+  "id": 45122,
+  "name": "Skeleton Archer",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "12",
+   "Size": "Small",
+   "HP": "80",
+   "MP": "25",
+   "AC": "0",
+   "MR": "10",
+   "EXP": "145",
+   "Str/Con/Dex": "16/14/16",
+   "Int/Wis": "10/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (36)"
+   },
+   {
+    "map_id": 8,
+    "name": "Gludio Dungeon Floor 2 (25)"
+   },
+   {
+    "map_id": 9,
+    "name": "Gludio Dungeon Floor 3 (17)"
+   },
+   {
+    "map_id": 10,
+    "name": "Gludio Dungeon Floor 4 (6)"
+   },
+   {
+    "map_id": 11,
+    "name": "Gludio Dungeon Floor 5 (20)"
+   },
+   {
+    "map_id": 23,
+    "name": "Windawood Castle Dungeon 1F (30)"
+   },
+   {
+    "map_id": 25,
+    "name": "Training Dungeon Floor 1 (20)"
+   }
+  ],
+  "icon": "3342e4baa621405e0920.webp"
+ },
+ {
+  "id": 45129,
+  "name": "Skeleton Archer",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "12",
+   "Size": "Small",
+   "HP": "80",
+   "MP": "25",
+   "AC": "5",
+   "MR": "10",
+   "EXP": "145",
+   "Str/Con/Dex": "16/14/16",
+   "Int/Wis": "10/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (20)"
+   }
+  ],
+  "icon": "3342e4baa621405e0920.webp"
+ },
+ {
+  "id": 45116,
+  "name": "Vakuuk",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "12",
+   "Size": "Small",
+   "HP": "100",
+   "MP": "0",
+   "AC": "-1",
+   "MR": "0",
+   "EXP": "145",
+   "Str/Con/Dex": "17/15/16",
+   "Int/Wis": "2/2",
+   "Family": "cockroach",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 59,
+    "name": "Eva Kingdom Dungeon Floor 1 (24)"
+   },
+   {
+    "map_id": 60,
+    "name": "Eva Kingdom Dungeon Floor 2 (20)"
+   },
+   {
+    "map_id": 301,
+    "name": "Tower of Insolence Underground Path (40)"
+   }
+  ],
+  "icon": "517ee3bbcd766ee8ca89.webp"
+ },
+ {
+  "id": 45101,
+  "name": "Alligator",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "10",
+   "Size": "Small",
+   "HP": "90",
+   "MP": "20",
+   "AC": "1",
+   "MR": "60",
+   "EXP": "101",
+   "Str/Con/Dex": "15/13/13",
+   "Int/Wis": "5/6",
+   "Family": "alligator",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (55)"
+   }
+  ],
+  "icon": "61657e721f3fe518d845.webp"
+ },
+ {
+  "id": 45098,
+  "name": "Gandi Orc",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "10",
+   "Size": "Small",
+   "HP": "80",
+   "MP": "25",
+   "AC": "0",
+   "MR": "15",
+   "EXP": "101",
+   "Str/Con/Dex": "10/17/10",
+   "Int/Wis": "10/17",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (84)"
+   }
+  ],
+  "icon": "6765db09b77d6d27962f.webp"
+ },
+ {
+  "id": 45109,
+  "name": "Orc Zombie",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "10",
+   "Size": "Small",
+   "HP": "100",
+   "MP": "25",
+   "AC": "0",
+   "MR": "1",
+   "EXP": "101",
+   "Str/Con/Dex": "10/10/10",
+   "Int/Wis": "8/7",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (20)"
+   }
+  ],
+  "icon": "9b7b152aadb421f7c2c1.webp"
+ },
+ {
+  "id": 45107,
+  "name": "Skeleton",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "10",
+   "Size": "Small",
+   "HP": "80",
+   "MP": "30",
+   "AC": "3",
+   "MR": "10",
+   "EXP": "101",
+   "Str/Con/Dex": "16/14/16",
+   "Int/Wis": "10/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (20)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (54)"
+   },
+   {
+    "map_id": 8,
+    "name": "Gludio Dungeon Floor 2 (30)"
+   },
+   {
+    "map_id": 9,
+    "name": "Gludio Dungeon Floor 3 (35)"
+   },
+   {
+    "map_id": 10,
+    "name": "Gludio Dungeon Floor 4 (6)"
+   },
+   {
+    "map_id": 11,
+    "name": "Gludio Dungeon Floor 5 (20)"
+   },
+   {
+    "map_id": 23,
+    "name": "Windawood Castle Dungeon 1F (30)"
+   },
+   {
+    "map_id": 25,
+    "name": "Training Dungeon Floor 1 (30)"
+   },
+   {
+    "map_id": 307,
+    "name": "Lastabad Dungeon 1F (25)"
+   }
+  ],
+  "icon": "0a9a0cc511364449e2c7.webp"
+ },
+ {
+  "id": 45114,
+  "name": "Skeleton",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "10",
+   "Size": "Small",
+   "HP": "80",
+   "MP": "30",
+   "AC": "3",
+   "MR": "10",
+   "EXP": "101",
+   "Str/Con/Dex": "16/14/16",
+   "Int/Wis": "10/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (30)"
+   }
+  ],
+  "icon": "0a9a0cc511364449e2c7.webp"
+ },
+ {
+  "id": 45092,
+  "name": "Dwarf Warrior",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "9",
+   "Size": "Small",
+   "HP": "70",
+   "MP": "5",
+   "AC": "5",
+   "MR": "1",
+   "EXP": "82",
+   "Str/Con/Dex": "15/13/15",
+   "Int/Wis": "9/9",
+   "Family": "dwarf",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (8)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (166)"
+   }
+  ],
+  "icon": "d938ea22beff29c4d1a8.webp"
+ },
+ {
+  "id": 45024,
+  "name": "Werewolf",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "9",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "20",
+   "AC": "4",
+   "MR": "10",
+   "EXP": "82",
+   "Str/Con/Dex": "15/15/12",
+   "Int/Wis": "10/10",
+   "Family": "wolf",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (105)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (169)"
+   },
+   {
+    "map_id": 25,
+    "name": "Training Dungeon Floor 1 (10)"
+   },
+   {
+    "map_id": 68,
+    "name": "Singing Island (4)"
+   }
+  ],
+  "icon": "5c0d987f68d9c00350a2.webp"
+ },
+ {
+  "id": 45094,
+  "name": "Werewolf",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "9",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "20",
+   "AC": "4",
+   "MR": "10",
+   "EXP": "82",
+   "Str/Con/Dex": "15/15/12",
+   "Int/Wis": "10/10",
+   "Family": "wolf",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (15)"
+   }
+  ],
+  "icon": "5c0d987f68d9c00350a2.webp"
+ },
+ {
+  "id": 45083,
+  "name": "Crawling Claw",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "8",
+   "Size": "Small",
+   "HP": "30",
+   "MP": "15",
+   "AC": "0",
+   "MR": "5",
+   "EXP": "65",
+   "Str/Con/Dex": "12/11/17",
+   "Int/Wis": "9/5",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 12,
+    "name": "Gludio Dungeon Floor 6 (3)"
+   },
+   {
+    "map_id": 14,
+    "name": "Underground Passageway (60)"
+   },
+   {
+    "map_id": 24,
+    "name": "Windawood Castle Dungeon 2F (20)"
+   }
+  ],
+  "icon": "57520317fb8342c9908c.webp"
+ },
+ {
+  "id": 45079,
+  "name": "Gnoll",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "8",
+   "Size": "Small",
+   "HP": "60",
+   "MP": "5",
+   "AC": "4",
+   "MR": "1",
+   "EXP": "65",
+   "Str/Con/Dex": "18/15/10",
+   "Int/Wis": "8/6",
+   "Family": "nord",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (56)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (158)"
+   }
+  ],
+  "icon": "c24d5ff3e137e44ccfef.webp"
+ },
+ {
+  "id": 45082,
+  "name": "Orc Fighter",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "8",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "8",
+   "AC": "5",
+   "MR": "5",
+   "EXP": "65",
+   "Str/Con/Dex": "14/14/14",
+   "Int/Wis": "10/8",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (50)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (110)"
+   },
+   {
+    "map_id": 7,
+    "name": "Gludio Dungeon Floor 1 (10)"
+   },
+   {
+    "map_id": 25,
+    "name": "Training Dungeon Floor 1 (20)"
+   },
+   {
+    "map_id": 68,
+    "name": "Singing Island (39)"
+   },
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (28)"
+   }
+  ],
+  "icon": "81cc6be636e4fced7795.webp"
+ },
+ {
+  "id": 45120,
+  "name": "Orc Fighter",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "8",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "8",
+   "AC": "5",
+   "MR": "5",
+   "EXP": "65",
+   "Str/Con/Dex": "14/14/14",
+   "Int/Wis": "10/8",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (20)"
+   }
+  ],
+  "icon": "81cc6be636e4fced7795.webp"
+ },
+ {
+  "id": 45088,
+  "name": "Paper Man",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "8",
+   "Size": "Small",
+   "HP": "40",
+   "MP": "5",
+   "AC": "-10",
+   "MR": "5",
+   "EXP": "65",
+   "Str/Con/Dex": "11/16/10",
+   "Int/Wis": "10/8",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 75,
+    "name": "Oren Ivory Tower Floor 1 (10)"
+   },
+   {
+    "map_id": 76,
+    "name": "Oren Ivory Tower Floor 2 (10)"
+   },
+   {
+    "map_id": 77,
+    "name": "Oren Ivory Tower Floor 3 (10)"
+   },
+   {
+    "map_id": 78,
+    "name": "Oren Ivory Tower Floor 4 (10)"
+   },
+   {
+    "map_id": 79,
+    "name": "Oren Ivory Tower Floor 5 (10)"
+   }
+  ],
+  "icon": "62a65b56d884ae76aba0.webp"
+ },
+ {
+  "id": 45068,
+  "name": "Floating Eye",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "7",
+   "Size": "Small",
+   "HP": "40",
+   "MP": "30",
+   "AC": "5",
+   "MR": "20",
+   "EXP": "50",
+   "Str/Con/Dex": "10/13/12",
+   "Int/Wis": "9/7",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (25)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (33)"
+   },
+   {
+    "map_id": 12,
+    "name": "Gludio Dungeon Floor 6 (4)"
+   },
+   {
+    "map_id": 25,
+    "name": "Training Dungeon Floor 1 (10)"
+   }
+  ],
+  "icon": "8ddf4d7e7a54c307806b.webp"
+ },
+ {
+  "id": 45064,
+  "name": "Imp Elder",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "6",
+   "Size": "Small",
+   "HP": "100",
+   "MP": "50",
+   "AC": "10",
+   "MR": "30",
+   "EXP": "37",
+   "Str/Con/Dex": "9/11/14",
+   "Int/Wis": "12/12",
+   "Family": "imp",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 666,
+    "name": "Hell (30)"
+   }
+  ],
+  "icon": "2e7876ce5ce94cd8879a.webp"
+ },
+ {
+  "id": 45060,
+  "name": "Slime",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "6",
+   "Size": "Small",
+   "HP": "60",
+   "MP": "10",
+   "AC": "-10",
+   "MR": "10",
+   "EXP": "37",
+   "Str/Con/Dex": "10/16/10",
+   "Int/Wis": "7/7",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (33)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (3)"
+   },
+   {
+    "map_id": 7,
+    "name": "Gludio Dungeon Floor 1 (10)"
+   },
+   {
+    "map_id": 8,
+    "name": "Gludio Dungeon Floor 2 (5)"
+   },
+   {
+    "map_id": 9,
+    "name": "Gludio Dungeon Floor 3 (5)"
+   },
+   {
+    "map_id": 10,
+    "name": "Gludio Dungeon Floor 4 (5)"
+   },
+   {
+    "map_id": 11,
+    "name": "Gludio Dungeon Floor 5 (5)"
+   },
+   {
+    "map_id": 12,
+    "name": "Gludio Dungeon Floor 6 (5)"
+   },
+   {
+    "map_id": 13,
+    "name": "Gludio Dungeon Floor 7 (5)"
+   },
+   {
+    "map_id": 14,
+    "name": "Underground Passageway (10)"
+   },
+   {
+    "map_id": 23,
+    "name": "Windawood Castle Dungeon 1F (5)"
+   },
+   {
+    "map_id": 24,
+    "name": "Windawood Castle Dungeon 2F (5)"
+   },
+   {
+    "map_id": 25,
+    "name": "Training Dungeon Floor 1 (5)"
+   },
+   {
+    "map_id": 26,
+    "name": "Training Dungeon Floor 2 (5)"
+   },
+   {
+    "map_id": 27,
+    "name": "Training Dungeon Floor 3 (5)"
+   },
+   {
+    "map_id": 28,
+    "name": "Training Dungeon Floor 4 (5)"
+   },
+   {
+    "map_id": 30,
+    "name": "Dragon Valley Dungeon Floor 1 (15)"
+   },
+   {
+    "map_id": 31,
+    "name": "Dragon Valley Dungeon Floor 2 (15)"
+   },
+   {
+    "map_id": 32,
+    "name": "Dragon Valley Dungeon Floor 3 (15)"
+   },
+   {
+    "map_id": 33,
+    "name": "Dragon Valley Dungeon Floor 4 (15)"
+   },
+   {
+    "map_id": 35,
+    "name": "Dragon Valley Dungeon Floor 5 (15)"
+   },
+   {
+    "map_id": 36,
+    "name": "Dragon Valley Dungeon Floor 6 (15)"
+   },
+   {
+    "map_id": 37,
+    "name": "Lair of Antharas (15)"
+   },
+   {
+    "map_id": 666,
+    "name": "Hell (15)"
+   }
+  ],
+  "icon": "df2de6c56abb8be2ef64.webp"
+ },
+ {
+  "id": 45023,
+  "name": "Wild Boar",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "6",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "5",
+   "AC": "7",
+   "MR": "1",
+   "EXP": "37",
+   "Str/Con/Dex": "11/12/10",
+   "Int/Wis": "6/5",
+   "Family": "animal",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (7)"
+   },
+   {
+    "map_id": 68,
+    "name": "Singing Island (14)"
+   },
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (31)"
+   }
+  ],
+  "icon": "c984d74a225d1fd14def.webp"
+ },
+ {
+  "id": 45058,
+  "name": "Wild Boar",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "6",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "5",
+   "AC": "7",
+   "MR": "1",
+   "EXP": "37",
+   "Str/Con/Dex": "11/12/10",
+   "Int/Wis": "6/5",
+   "Family": "animal",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (11)"
+   }
+  ],
+  "icon": "c984d74a225d1fd14def.webp"
+ },
+ {
+  "id": 45065,
+  "name": "Zombie",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "6",
+   "Size": "Small",
+   "HP": "45",
+   "MP": "12",
+   "AC": "8",
+   "MR": "5",
+   "EXP": "37",
+   "Str/Con/Dex": "14/16/6",
+   "Int/Wis": "2/5",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (47)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (100)"
+   },
+   {
+    "map_id": 8,
+    "name": "Gludio Dungeon Floor 2 (20)"
+   },
+   {
+    "map_id": 9,
+    "name": "Gludio Dungeon Floor 3 (18)"
+   },
+   {
+    "map_id": 10,
+    "name": "Gludio Dungeon Floor 4 (10)"
+   },
+   {
+    "map_id": 14,
+    "name": "Underground Passageway (30)"
+   },
+   {
+    "map_id": 23,
+    "name": "Windawood Castle Dungeon 1F (20)"
+   },
+   {
+    "map_id": 24,
+    "name": "Windawood Castle Dungeon 2F (20)"
+   },
+   {
+    "map_id": 25,
+    "name": "Training Dungeon Floor 1 (20)"
+   },
+   {
+    "map_id": 26,
+    "name": "Training Dungeon Floor 2 (60)"
+   },
+   {
+    "map_id": 307,
+    "name": "Lastabad Dungeon 1F (30)"
+   }
+  ],
+  "icon": "8b3059e6c5bfd25c1955.webp"
+ },
+ {
+  "id": 45066,
+  "name": "Zombie",
+  "badges": [
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "6",
+   "Size": "Small",
+   "HP": "45",
+   "MP": "12",
+   "AC": "8",
+   "MR": "5",
+   "EXP": "37",
+   "Str/Con/Dex": "16/16/6",
+   "Int/Wis": "2/5",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (25)"
+   }
+  ],
+  "icon": "8b3059e6c5bfd25c1955.webp"
+ },
+ {
+  "id": 45757,
+  "name": "Zombie",
+  "badges": [
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "6",
+   "Size": "Small",
+   "HP": "40",
+   "MP": "4",
+   "AC": "8",
+   "MR": "5",
+   "EXP": "37",
+   "Str/Con/Dex": "14/16/6",
+   "Int/Wis": "2/5",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 8015,
+    "name": "Unknown (10)"
+   }
+  ],
+  "icon": "8b3059e6c5bfd25c1955.webp"
+ },
+ {
+  "id": 45290,
+  "name": "Bats",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "30",
+   "AC": "-9",
+   "MR": "15",
+   "EXP": "26",
+   "Str/Con/Dex": "16/16/16",
+   "Int/Wis": "16/16",
+   "Family": "",
+   "HPR": "5",
+   "MPR": "5",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 101,
+    "name": "Tower of Insolence 1F (25)"
+   }
+  ],
+  "icon": "b6d82b217c47f5b99ec6.webp"
+ },
+ {
+  "id": 45046,
+  "name": "Beagle",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "30",
+   "AC": "-25",
+   "MR": "15",
+   "EXP": "26",
+   "Str/Con/Dex": "11/10/10",
+   "Int/Wis": "14/13",
+   "Family": "dog",
+   "HPR": "2",
+   "MPR": "5",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (5)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (9)"
+   }
+  ],
+  "icon": "b4d26fcac9a1fc42dd33.webp"
+ },
+ {
+  "id": 45040,
+  "name": "Bear",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "0",
+   "AC": "-28",
+   "MR": "0",
+   "EXP": "26",
+   "Str/Con/Dex": "16/16/8",
+   "Int/Wis": "8/8",
+   "Family": "bear",
+   "HPR": "8",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (60)"
+   }
+  ],
+  "icon": "c9a6b0739343223d6b70.webp"
+ },
+ {
+  "id": 45032,
+  "name": "Blob",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "10",
+   "AC": "7",
+   "MR": "0",
+   "EXP": "26",
+   "Str/Con/Dex": "15/17/8",
+   "Int/Wis": "7/4",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 20,
+    "name": "Elven Forest Dungeon Floor 2 (20)"
+   },
+   {
+    "map_id": 21,
+    "name": "Elven Forest Dungeon Floor 3 (10)"
+   }
+  ],
+  "icon": "df2de6c56abb8be2ef64.webp"
+ },
+ {
+  "id": 45039,
+  "name": "Cat",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "30",
+   "AC": "-20",
+   "MR": "15",
+   "EXP": "26",
+   "Str/Con/Dex": "9/8/13",
+   "Int/Wis": "15/15",
+   "Family": "animal",
+   "HPR": "2",
+   "MPR": "5",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (5)"
+   }
+  ],
+  "icon": "850925f77ad40b28f49e.webp"
+ },
+ {
+  "id": 45054,
+  "name": "Collie",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "40",
+   "MP": "5",
+   "AC": "-25",
+   "MR": "1",
+   "EXP": "26",
+   "Str/Con/Dex": "10/16/14",
+   "Int/Wis": "6/10",
+   "Family": "dog",
+   "HPR": "5",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 68,
+    "name": "Singing Island (1)"
+   },
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (2)"
+   }
+  ],
+  "icon": "ea30229f478b83fb0352.webp"
+ },
+ {
+  "id": 45042,
+  "name": "Doberman",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "5",
+   "AC": "-25",
+   "MR": "1",
+   "EXP": "37",
+   "Str/Con/Dex": "16/10/16",
+   "Int/Wis": "8/6",
+   "Family": "dog",
+   "HPR": "5",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (6)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (12)"
+   },
+   {
+    "map_id": 68,
+    "name": "Singing Island (9)"
+   }
+  ],
+  "icon": "93ab14ce784bd44a2af2.webp"
+ },
+ {
+  "id": 45041,
+  "name": "Dwarf",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "30",
+   "MP": "5",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "26",
+   "Str/Con/Dex": "10/12/10",
+   "Int/Wis": "10/7",
+   "Family": "dwarf",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (38)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (248)"
+   },
+   {
+    "map_id": 68,
+    "name": "Singing Island (11)"
+   },
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (15)"
+   }
+  ],
+  "icon": "8b2af6ec8939514a5c02.webp"
+ },
+ {
+  "id": 45052,
+  "name": "Fatigued Ratman",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "30",
+   "MP": "10",
+   "AC": "6",
+   "MR": "10",
+   "EXP": "26",
+   "Str/Con/Dex": "12/16/12",
+   "Int/Wis": "6/11",
+   "Family": "ratman",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (30)"
+   },
+   {
+    "map_id": 86,
+    "name": "Hidden Valley Dungeon (10)"
+   }
+  ],
+  "icon": "46ceeb0c7c8b2de1002a.webp"
+ },
+ {
+  "id": 45048,
+  "name": "Fox",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "15",
+   "MP": "30",
+   "AC": "-25",
+   "MR": "15",
+   "EXP": "26",
+   "Str/Con/Dex": "10/10/15",
+   "Int/Wis": "15/10",
+   "Family": "animal",
+   "HPR": "2",
+   "MPR": "5",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (12)"
+   }
+  ],
+  "icon": "f7eb0e1ecd762b6e7950.webp"
+ },
+ {
+  "id": 45053,
+  "name": "Husky",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "5",
+   "AC": "-20",
+   "MR": "0",
+   "EXP": "37",
+   "Str/Con/Dex": "10/17/15",
+   "Int/Wis": "7/7",
+   "Family": "dog",
+   "HPR": "5",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (26)"
+   },
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (1)"
+   }
+  ],
+  "icon": "9a7f5020ef4fa806240b.webp"
+ },
+ {
+  "id": 45033,
+  "name": "Imp",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "40",
+   "AC": "6",
+   "MR": "1",
+   "EXP": "26",
+   "Str/Con/Dex": "9/10/14",
+   "Int/Wis": "8/7",
+   "Family": "imp",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (79)"
+   }
+  ],
+  "icon": "801c290a37bc9674e9c9.webp"
+ },
+ {
+  "id": 45711,
+  "name": "Jindo Puppy",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "30",
+   "MP": "30",
+   "AC": "-10",
+   "MR": "15",
+   "EXP": "26",
+   "Str/Con/Dex": "10/10/12",
+   "Int/Wis": "14/15",
+   "Family": "",
+   "HPR": "5",
+   "MPR": "5",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (5)"
+   },
+   {
+    "map_id": 68,
+    "name": "Singing Island (1)"
+   },
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (1)"
+   }
+  ],
+  "icon": "221ec34979c48ea22f07.webp"
+ },
+ {
+  "id": 45049,
+  "name": "Killer Rabbit",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "30",
+   "AC": "-20",
+   "MR": "15",
+   "EXP": "26",
+   "Str/Con/Dex": "9/10/9",
+   "Int/Wis": "16/16",
+   "Family": "manborabbit",
+   "HPR": "2",
+   "MPR": "5",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (4)"
+   }
+  ],
+  "icon": "a8b52fa75c5a70a55bbf.webp"
+ },
+ {
+  "id": 45044,
+  "name": "Raccoon",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "30",
+   "MP": "20",
+   "AC": "-20",
+   "MR": "15",
+   "EXP": "26",
+   "Str/Con/Dex": "15/10/12",
+   "Int/Wis": "14/12",
+   "Family": "animal",
+   "HPR": "2",
+   "MPR": "5",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 440,
+    "name": "Pirate Island First Part (13)"
+   }
+  ],
+  "icon": "ad46e486e1c41dd8b4ee.webp"
+ },
+ {
+  "id": 45047,
+  "name": "Saint Bernard",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "30",
+   "MP": "30",
+   "AC": "-23",
+   "MR": "15",
+   "EXP": "26",
+   "Str/Con/Dex": "10/13/10",
+   "Int/Wis": "13/14",
+   "Family": "dog",
+   "HPR": "2",
+   "MPR": "5",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (11)"
+   }
+  ],
+  "icon": "82227d3b211739c77c33.webp"
+ },
+ {
+  "id": 45034,
+  "name": "Shepherd",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "30",
+   "MP": "5",
+   "AC": "-9",
+   "MR": "1",
+   "EXP": "26",
+   "Str/Con/Dex": "15/12/15",
+   "Int/Wis": "7/7",
+   "Family": "dog",
+   "HPR": "5",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (11)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (22)"
+   },
+   {
+    "map_id": 68,
+    "name": "Singing Island (13)"
+   },
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (3)"
+   }
+  ],
+  "icon": "dd0dad00679fa646ee93.webp"
+ },
+ {
+  "id": 45313,
+  "name": "Tiger",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Large",
+   "HP": "40",
+   "MP": "5",
+   "AC": "-10",
+   "MR": "0",
+   "EXP": "26",
+   "Str/Con/Dex": "16/15/13",
+   "Int/Wis": "7/9",
+   "Family": "tiger",
+   "HPR": "5",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 480,
+    "name": "Pirate's Isle (3)"
+   }
+  ],
+  "icon": "1abc51c43f11c6ddc416.webp"
+ },
+ {
+  "id": 45036,
+  "name": "Valley Bear",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "0",
+   "AC": "10",
+   "MR": "0",
+   "EXP": "26",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "99/0",
+   "Family": "bear",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (10)"
+   }
+  ],
+  "icon": "c9a6b0739343223d6b70.webp"
+ },
+ {
+  "id": 45037,
+  "name": "Valley Lycanthrope",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "35",
+   "MP": "10",
+   "AC": "6",
+   "MR": "7",
+   "EXP": "26",
+   "Str/Con/Dex": "16/16/13",
+   "Int/Wis": "10/10",
+   "Family": "wolf",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (78)"
+   }
+  ],
+  "icon": "410390a5d7b47ecdb2a3.webp"
+ },
+ {
+  "id": 45038,
+  "name": "Valley Shelob",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Large",
+   "HP": "30",
+   "MP": "15",
+   "AC": "8",
+   "MR": "12",
+   "EXP": "26",
+   "Str/Con/Dex": "15/13/17",
+   "Int/Wis": "5/6",
+   "Family": "spider",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (83)"
+   }
+  ],
+  "icon": "8729784f5de7c709dea7.webp"
+ },
+ {
+  "id": 45043,
+  "name": "Wolf",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "30",
+   "MP": "5",
+   "AC": "-18",
+   "MR": "1",
+   "EXP": "37",
+   "Str/Con/Dex": "13/13/16",
+   "Int/Wis": "8/7",
+   "Family": "wolf",
+   "HPR": "5",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (2)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (66)"
+   },
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (1)"
+   }
+  ],
+  "icon": "dd81576029a1c505b62c.webp"
+ },
+ {
+  "id": 45027,
+  "name": "Eidlon",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "4",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "5",
+   "AC": "10",
+   "MR": "1",
+   "EXP": "17",
+   "Str/Con/Dex": "11/10/11",
+   "Int/Wis": "8/7",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (25)"
+   }
+  ],
+  "icon": "d8cd4135c766de24f434.webp"
+ },
+ {
+  "id": 45029,
+  "name": "Fungus",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "4",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "10",
+   "AC": "5",
+   "MR": "0",
+   "EXP": "17",
+   "Str/Con/Dex": "6/10/12",
+   "Int/Wis": "6/6",
+   "Family": "fungus",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (4)"
+   },
+   {
+    "map_id": 72,
+    "name": "Ice Crystal Cave (10)"
+   },
+   {
+    "map_id": 73,
+    "name": "Ice Queens Castle 2F (10)"
+   }
+  ],
+  "icon": "50e6f5bb584233b56f40.webp"
+ },
+ {
+  "id": 45030,
+  "name": "Fungus",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "4",
+   "Size": "Small",
+   "HP": "40",
+   "MP": "10",
+   "AC": "5",
+   "MR": "1",
+   "EXP": "17",
+   "Str/Con/Dex": "6/10/12",
+   "Int/Wis": "6/6",
+   "Family": "fungus",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (5)"
+   },
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (15)"
+   }
+  ],
+  "icon": "50e6f5bb584233b56f40.webp"
+ },
+ {
+  "id": 45025,
+  "name": "Gremlin",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "4",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "20",
+   "AC": "10",
+   "MR": "1",
+   "EXP": "17",
+   "Str/Con/Dex": "11/12/18",
+   "Int/Wis": "8/7",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (19)"
+   }
+  ],
+  "icon": "0c5e8730c72bee9c8e5a.webp"
+ },
+ {
+  "id": 45026,
+  "name": "Mutated Alligator",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "4",
+   "Size": "Small",
+   "HP": "25",
+   "MP": "10",
+   "AC": "8",
+   "MR": "60",
+   "EXP": "17",
+   "Str/Con/Dex": "15/13/13",
+   "Int/Wis": "5/6",
+   "Family": "alligator",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 68,
+    "name": "Singing Island (15)"
+   },
+   {
+    "map_id": 86,
+    "name": "Hidden Valley Dungeon (20)"
+   }
+  ],
+  "icon": "61657e721f3fe518d845.webp"
+ },
+ {
+  "id": 91190,
+  "name": "Blue Event Egg",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "3",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "15",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "10",
+   "Str/Con/Dex": "12/11/12",
+   "Int/Wis": "8/7",
+   "Family": "kobold",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [],
+  "icon": "4c78081dc5ee39fd8c9d.webp"
+ },
+ {
+  "id": 45016,
+  "name": "Kobold",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "3",
+   "Size": "Small",
+   "HP": "7",
+   "MP": "15",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "10",
+   "Str/Con/Dex": "12/11/12",
+   "Int/Wis": "8/7",
+   "Family": "kobold",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (52)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (26)"
+   },
+   {
+    "map_id": 68,
+    "name": "Singing Island (13)"
+   }
+  ],
+  "icon": "d0b8c02dc7c13276f836.webp"
+ },
+ {
+  "id": 45754,
+  "name": "Kobold",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "3",
+   "Size": "Small",
+   "HP": "7",
+   "MP": "0",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "10",
+   "Str/Con/Dex": "12/11/12",
+   "Int/Wis": "8/7",
+   "Family": "kobold",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 8015,
+    "name": "Unknown (32)"
+   }
+  ],
+  "icon": "d0b8c02dc7c13276f836.webp"
+ },
+ {
+  "id": 45020,
+  "name": "Monster Mushroom",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "3",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "10",
+   "AC": "10",
+   "MR": "0",
+   "EXP": "10",
+   "Str/Con/Dex": "6/10/12",
+   "Int/Wis": "6/6",
+   "Family": "fungus",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 8015,
+    "name": "Unknown (40)"
+   }
+  ],
+  "icon": "50e6f5bb584233b56f40.webp"
+ },
+ {
+  "id": 91191,
+  "name": "Multicolor Event Egg",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "3",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "15",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "10",
+   "Str/Con/Dex": "12/11/12",
+   "Int/Wis": "8/7",
+   "Family": "kobold",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [],
+  "icon": "4c78081dc5ee39fd8c9d.webp"
+ },
+ {
+  "id": 45019,
+  "name": "Orc Archer",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "3",
+   "Size": "Small",
+   "HP": "12",
+   "MP": "4",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "10",
+   "Str/Con/Dex": "12/11/12",
+   "Int/Wis": "8/7",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (52)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (129)"
+   },
+   {
+    "map_id": 7,
+    "name": "Gludio Dungeon Floor 1 (10)"
+   },
+   {
+    "map_id": 25,
+    "name": "Training Dungeon Floor 1 (20)"
+   },
+   {
+    "map_id": 68,
+    "name": "Singing Island (15)"
+   },
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (5)"
+   }
+  ],
+  "icon": "c2f2e4753971df592790.webp"
+ },
+ {
+  "id": 45050,
+  "name": "Orc Archer",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "3",
+   "Size": "Small",
+   "HP": "12",
+   "MP": "4",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "10",
+   "Str/Con/Dex": "12/11/12",
+   "Int/Wis": "8/7",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (30)"
+   }
+  ],
+  "icon": "c2f2e4753971df592790.webp"
+ },
+ {
+  "id": 91189,
+  "name": "Red Event Egg",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "3",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "15",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "10",
+   "Str/Con/Dex": "12/11/12",
+   "Int/Wis": "8/7",
+   "Family": "kobold",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [],
+  "icon": "cd74b565557cd4c4d94c.webp"
+ },
+ {
+  "id": 91188,
+  "name": "Yellow Event Egg",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "3",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "15",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "10",
+   "Str/Con/Dex": "12/11/12",
+   "Int/Wis": "8/7",
+   "Family": "kobold",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [],
+  "icon": "cd74b565557cd4c4d94c.webp"
+ },
+ {
+  "id": 45008,
+  "name": "Goblin",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "2",
+   "Size": "Small",
+   "HP": "3",
+   "MP": "10",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "5",
+   "Str/Con/Dex": "10/12/10",
+   "Int/Wis": "7/7",
+   "Family": "goblin",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (76)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (103)"
+   },
+   {
+    "map_id": 68,
+    "name": "Singing Island (29)"
+   },
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (31)"
+   }
+  ],
+  "icon": "b1bb8978f897d25e83c6.webp"
+ },
+ {
+  "id": 45737,
+  "name": "Goblin",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "2",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "10",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "1",
+   "Str/Con/Dex": "10/12/10",
+   "Int/Wis": "7/7",
+   "Family": "goblin",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 8014,
+    "name": "Unknown (50)"
+   }
+  ],
+  "icon": "b1bb8978f897d25e83c6.webp"
+ },
+ {
+  "id": 45755,
+  "name": "Goblin",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "2",
+   "Size": "Small",
+   "HP": "3",
+   "MP": "10",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "5",
+   "Str/Con/Dex": "10/12/10",
+   "Int/Wis": "7/7",
+   "Family": "goblin",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 8015,
+    "name": "Unknown (40)"
+   }
+  ],
+  "icon": "b1bb8978f897d25e83c6.webp"
+ },
+ {
+  "id": 45009,
+  "name": "Orc",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "2",
+   "Size": "Small",
+   "HP": "6",
+   "MP": "4",
+   "AC": "10",
+   "MR": "0",
+   "EXP": "5",
+   "Str/Con/Dex": "6/12/10",
+   "Int/Wis": "10/6",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (87)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (129)"
+   },
+   {
+    "map_id": 7,
+    "name": "Gludio Dungeon Floor 1 (6)"
+   },
+   {
+    "map_id": 25,
+    "name": "Training Dungeon Floor 1 (20)"
+   },
+   {
+    "map_id": 68,
+    "name": "Singing Island (18)"
+   },
+   {
+    "map_id": 69,
+    "name": "Hidden Valley (21)"
+   }
+  ],
+  "icon": "049b0241622b33eaf42a.webp"
+ },
+ {
+  "id": 45017,
+  "name": "Orc",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "2",
+   "Size": "Small",
+   "HP": "6",
+   "MP": "4",
+   "AC": "10",
+   "MR": "0",
+   "EXP": "10",
+   "Str/Con/Dex": "6/12/10",
+   "Int/Wis": "10/6",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "locations": [
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (4)"
+   }
+  ],
+  "icon": "049b0241622b33eaf42a.webp"
+ },
+ {
+  "id": 45018,
+  "name": "Orc",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "2",
+   "Size": "Small",
+   "HP": "6",
+   "MP": "4",
+   "AC": "10",
+   "MR": "0",
+   "EXP": "5",
+   "Str/Con/Dex": "6/12/10",
+   "Int/Wis": "10/6",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 304,
+    "name": "Cave of Silence (25)"
+   }
+  ],
+  "icon": "049b0241622b33eaf42a.webp"
+ },
+ {
+  "id": 45756,
+  "name": "Orc",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "2",
+   "Size": "Small",
+   "HP": "6",
+   "MP": "4",
+   "AC": "10",
+   "MR": "0",
+   "EXP": "5",
+   "Str/Con/Dex": "6/12/10",
+   "Int/Wis": "10/6",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "locations": [
+   {
+    "map_id": 8015,
+    "name": "Unknown (24)"
+   }
+  ],
+  "icon": "049b0241622b33eaf42a.webp"
+ },
+ {
+  "id": 5000116,
+  "name": "Spirit of Spartoi",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "2",
+   "Size": "Large",
+   "HP": "800",
+   "MP": "30",
+   "AC": "-40",
+   "MR": "20",
+   "EXP": "4000",
+   "Str/Con/Dex": "18/18/12",
+   "Int/Wis": "10/12",
+   "Family": "bugbear",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "locations": [
+   {
+    "map_id": 808,
+    "name": "글루디오 던전 2층 (3)"
+   },
+   {
+    "map_id": 809,
+    "name": "Bone Dungeon Renewal 3F (3)"
+   },
+   {
+    "map_id": 810,
+    "name": "글루디오 던전 4층 (3)"
+   },
+   {
+    "map_id": 811,
+    "name": "글루디오 던전 5층 (6)"
+   },
+   {
+    "map_id": 813,
+    "name": "글루디오 던전 7층 (3)"
+   }
+  ],
+  "icon": "40d613c12c8d37fa45f3.webp"
+ },
+ {
+  "id": 70984,
+  "name": "Milk Cow",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "1",
+   "Size": "Small",
+   "HP": "40",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "locations": [
+   {
+    "map_id": 0,
+    "name": "Talking Island (3)"
+   },
+   {
+    "map_id": 4,
+    "name": "Mainland Aden (26)"
+   },
+   {
+    "map_id": 8015,
+    "name": "Unknown (1)"
+   }
+  ],
+  "icon": "af7fbbeb651183cc8e81.webp"
+ }
+]

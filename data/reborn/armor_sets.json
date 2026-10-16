@@ -1,0 +1,2764 @@
+[
+ {
+  "id": 121,
+  "name": "2026 Freedom Cloak Morph: Seeker",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH freedom cloak seeker morph",
+  "items": [
+   {
+    "id": 500057,
+    "name": "2026 Freedom Cloak of the Seeker",
+    "blessed": true,
+    "icon": "2552.webp"
+   }
+  ]
+ },
+ {
+  "id": 120,
+  "name": "2026 Freedom Cloak Morph: Truth",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH freedom cloak truth morph",
+  "items": [
+   {
+    "id": 500056,
+    "name": "2026 Freedom Cloak of Truth",
+    "blessed": true,
+    "icon": "1223.webp"
+   }
+  ]
+ },
+ {
+  "id": 122,
+  "name": "2026 Freedom Cloak Morph: War Wizard",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH freedom cloak war wizard morph",
+  "items": [
+   {
+    "id": 500058,
+    "name": "2026 Freedom Cloak of the War Wizard",
+    "blessed": true,
+    "icon": "2551.webp"
+   }
+  ]
+ },
+ {
+  "id": 112,
+  "name": "Aden Guard Turban (1 Hour)",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH 6406",
+  "items": [
+   {
+    "id": 600400,
+    "name": "Aden Guard Transformation Turban (1 Hour)",
+    "blessed": false,
+    "icon": "2517.webp"
+   }
+  ]
+ },
+ {
+  "id": 51,
+  "name": "Affection Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "HPR +2, MPR +2",
+  "items": [
+   {
+    "id": 20418,
+    "name": "Amulet of Affection",
+    "blessed": false,
+    "icon": "1613.webp"
+   },
+   {
+    "id": 20433,
+    "name": "Ring of Bravery",
+    "blessed": false,
+    "icon": "1615.webp"
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "name": "Amulet of Beagle",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH beagle",
+  "items": [
+   {
+    "id": 20349,
+    "name": "Amulet of Beagle",
+    "blessed": false,
+    "icon": "1517.webp"
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "name": "Amulet of Snow Man",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH snowman",
+  "items": [
+   {
+    "id": 20350,
+    "name": "Amulet of Snow Man",
+    "blessed": false,
+    "icon": "1184.webp"
+   }
+  ]
+ },
+ {
+  "id": 43,
+  "name": "Arcane King Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -4, HP +50, MP +50, HPR +10, MPR +10, STR +1, DEX +1, CON +1, WIS +1, CHA +1, INT +1",
+  "items": [
+   {
+    "id": 20057,
+    "name": "Cloak of Arcane King",
+    "blessed": false,
+    "icon": "1908.webp"
+   },
+   {
+    "id": 20109,
+    "name": "Robe of Dread Queen",
+    "blessed": false,
+    "icon": "1909.webp"
+   },
+   {
+    "id": 20178,
+    "name": "Gloves of Assassin King",
+    "blessed": false,
+    "icon": "1911.webp"
+   },
+   {
+    "id": 20200,
+    "name": "Boots of Dread King",
+    "blessed": false,
+    "icon": "1910.webp"
+   }
+  ]
+ },
+ {
+  "id": 85,
+  "name": "Baranka Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -2, MR +5, POLYMORPH 5284",
+  "items": [
+   {
+    "id": 20022,
+    "name": "Helmet of Baranka",
+    "blessed": false,
+    "icon": "1527.webp"
+   },
+   {
+    "id": 20116,
+    "name": "Armor of Baranka",
+    "blessed": false,
+    "icon": "1533.webp"
+   },
+   {
+    "id": 20169,
+    "name": "Gloves of Baranka",
+    "blessed": false,
+    "icon": "1526.webp"
+   },
+   {
+    "id": 20202,
+    "name": "Boots of Baranka",
+    "blessed": false,
+    "icon": "1525.webp"
+   }
+  ]
+ },
+ {
+  "id": 113,
+  "name": "Black Wizard Turban (1 Hour)",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH black wizard turban morph",
+  "items": [
+   {
+    "id": 600401,
+    "name": "Black Wizard Transformation Turban (1 Hour)",
+    "blessed": false,
+    "icon": "2517.webp"
+   }
+  ]
+ },
+ {
+  "id": 53,
+  "name": "Blue Curse Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "WIS -2, INT +2",
+  "items": [
+   {
+    "id": 20424,
+    "name": "Amulet of Blue Curse",
+    "blessed": false,
+    "icon": "2031.webp"
+   },
+   {
+    "id": 21019,
+    "name": "Earrings of purification",
+    "blessed": false,
+    "icon": "2030.webp"
+   }
+  ]
+ },
+ {
+  "id": 41,
+  "name": "Blue Pirate Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -1, HP +10, INT +1",
+  "items": [
+   {
+    "id": 20044,
+    "name": "Blue Pirate Bandanna",
+    "blessed": false,
+    "icon": "1764.webp"
+   },
+   {
+    "id": 20155,
+    "name": "Blue Pirate Leather Armor",
+    "blessed": false,
+    "icon": "1768.webp"
+   },
+   {
+    "id": 20188,
+    "name": "Blue Pirate Gloves",
+    "blessed": false,
+    "icon": "1765.webp"
+   },
+   {
+    "id": 20217,
+    "name": "Blue Pirate Boots",
+    "blessed": false,
+    "icon": "1766.webp"
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "name": "Blue Soccer Uniform",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH blue uniform",
+  "items": [
+   {
+    "id": 20457,
+    "name": "Blue Soccer Uniform",
+    "blessed": false,
+    "icon": "2075.webp"
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "name": "Bone Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -2, HP +10",
+  "items": [
+   {
+    "id": 20045,
+    "name": "Skull Helmet",
+    "blessed": false,
+    "icon": "453.webp"
+   },
+   {
+    "id": 20124,
+    "name": "Bone Armor",
+    "blessed": false,
+    "icon": "448.webp"
+   },
+   {
+    "id": 20221,
+    "name": "Bone Shield",
+    "blessed": false,
+    "icon": "457.webp"
+   }
+  ]
+ },
+ {
+  "id": 92,
+  "name": "Brumak's Guise",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH 4168",
+  "items": [
+   {
+    "id": 500118,
+    "name": "Brumak's Guise",
+    "blessed": false,
+    "icon": "1866.webp"
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "name": "Carrot and Stocking",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH snowman",
+  "items": [
+   {
+    "id": 20351,
+    "name": "Carrot",
+    "blessed": false,
+    "icon": "25.webp"
+   },
+   {
+    "id": 20352,
+    "name": "Stocking",
+    "blessed": false,
+    "icon": "303.webp"
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "name": "Cerenis Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -2, MP +100, MPR +5, MR +10, WIS +1, INT +1, POLYMORPH young kelenis",
+  "items": [
+   {
+    "id": 20042,
+    "name": "Circlet of Cerenis",
+    "blessed": false,
+    "icon": "969.webp"
+   },
+   {
+    "id": 20151,
+    "name": "Robe of Cerenis",
+    "blessed": false,
+    "icon": "972.webp"
+   },
+   {
+    "id": 20185,
+    "name": "Gloves of Cerenis",
+    "blessed": false,
+    "icon": "971.webp"
+   },
+   {
+    "id": 20215,
+    "name": "Boots of Cerenis",
+    "blessed": false,
+    "icon": "964.webp"
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "name": "Cloak of Sashin",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH death",
+  "items": [
+   {
+    "id": 20342,
+    "name": "Cloak of Sashin",
+    "blessed": false,
+    "icon": "1515.webp"
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "name": "Cloak of Vampire",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH vampire",
+  "items": [
+   {
+    "id": 20079,
+    "name": "Vampire Cloak",
+    "blessed": false,
+    "icon": "1514.webp"
+   }
+  ]
+ },
+ {
+  "id": 93,
+  "name": "Dark Elder Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -5, MPR +5, MR +5, SP +1, Resist Wind +10, POLYMORPH re dark elder",
+  "items": [
+   {
+    "id": 20160,
+    "name": "Robe of Dark Elder",
+    "blessed": false,
+    "icon": "1229.webp"
+   },
+   {
+    "id": 20218,
+    "name": "Sandals of Dark Elder",
+    "blessed": false,
+    "icon": "1230.webp"
+   },
+   {
+    "id": 500040,
+    "name": "Cap of Dark Elder",
+    "blessed": false,
+    "icon": "1234.webp"
+   }
+  ]
+ },
+ {
+  "id": 76,
+  "name": "Dark Elf Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -3, DEX +2, Resist Wind +10, POLYMORPH 1-54 re darkelf bow, 55-59 darkelf 55, 60-64 darkelf 60, 65-69 darkelf 65, 70-74 darkelf 70, 75-79 darkelf 75, 80+ darkelf 80",
+  "items": [
+   {
+    "id": 30012,
+    "name": "Dark Elf Tunic",
+    "blessed": false,
+    "icon": "982.webp"
+   },
+   {
+    "id": 30013,
+    "name": "Dark Elf Sandals",
+    "blessed": false,
+    "icon": "452.webp"
+   },
+   {
+    "id": 30014,
+    "name": "Dark Elf Circlet",
+    "blessed": false,
+    "icon": "511.webp"
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "name": "Death Knight Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -8, STR +1, CHA +1, INT +1, POLYMORPH 1-54 death 52, 55-59 death 55, 60-64 death 60, 65-69 death 65, 70-74 death 70, 75-79 death 75, 80+ death 80",
+  "items": [
+   {
+    "id": 20010,
+    "name": "Death Knight Helmet",
+    "blessed": false,
+    "icon": "713.webp"
+   },
+   {
+    "id": 20100,
+    "name": "Death Knight Armor",
+    "blessed": false,
+    "icon": "695.webp"
+   },
+   {
+    "id": 20166,
+    "name": "Death Knight Gloves",
+    "blessed": false,
+    "icon": "708.webp"
+   },
+   {
+    "id": 20198,
+    "name": "Death Knight Boots",
+    "blessed": false,
+    "icon": "701.webp"
+   }
+  ]
+ },
+ {
+  "id": 108,
+  "name": "Death Knight Set Placeholder 01",
+  "bonus_label": null,
+  "bonus": null,
+  "items": [
+   {
+    "id": 9900001,
+    "name": "Item 9900001",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 97,
+  "name": "Death Knight Set Placeholder 05",
+  "bonus_label": null,
+  "bonus": null,
+  "items": [
+   {
+    "id": 9900005,
+    "name": "Item 9900005",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 98,
+  "name": "Death Knight Set Placeholder 06",
+  "bonus_label": null,
+  "bonus": null,
+  "items": [
+   {
+    "id": 9900006,
+    "name": "Item 9900006",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 99,
+  "name": "Death Knight Set Placeholder 07",
+  "bonus_label": null,
+  "bonus": null,
+  "items": [
+   {
+    "id": 9900007,
+    "name": "Item 9900007",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 100,
+  "name": "Death Knight Set Placeholder 08",
+  "bonus_label": null,
+  "bonus": null,
+  "items": [
+   {
+    "id": 9900008,
+    "name": "Item 9900008",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 101,
+  "name": "Death Knight Set Placeholder 09",
+  "bonus_label": null,
+  "bonus": null,
+  "items": [
+   {
+    "id": 9900009,
+    "name": "Item 9900009",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 102,
+  "name": "Death Knight Set Placeholder 10",
+  "bonus_label": null,
+  "bonus": null,
+  "items": [
+   {
+    "id": 9900010,
+    "name": "Item 9900010",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 1,
+  "name": "Demon Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -5, HPR +5, MPR +5, MR +10, INT +1, Resist Fire +10, POLYMORPH demon",
+  "items": [
+   {
+    "id": 20009,
+    "name": "Demon Helmet",
+    "blessed": false,
+    "icon": "714.webp"
+   },
+   {
+    "id": 20099,
+    "name": "Demon Armor",
+    "blessed": false,
+    "icon": "696.webp"
+   },
+   {
+    "id": 20165,
+    "name": "Demon Gloves",
+    "blessed": false,
+    "icon": "709.webp"
+   },
+   {
+    "id": 20197,
+    "name": "Demon Boots",
+    "blessed": false,
+    "icon": "702.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673701,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -2, MP +22, STR +3, Resist Water +25, Resist Wind +25",
+  "items": [
+   {
+    "id": 7673501,
+    "name": "Civerb's Ward",
+    "blessed": false,
+    "icon": "7711.webp"
+   },
+   {
+    "id": 7673502,
+    "name": "Civerb's Icon",
+    "blessed": false,
+    "icon": "7517.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673702,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -12, Resist Wind +25",
+  "items": [
+   {
+    "id": 7673504,
+    "name": "Hsarus' Iron Heel",
+    "blessed": false,
+    "icon": "7713.webp"
+   },
+   {
+    "id": 7673505,
+    "name": "Hsarus' Iron Fist",
+    "blessed": false,
+    "icon": "7714.webp"
+   },
+   {
+    "id": 7673506,
+    "name": "Hsarus' Iron Stay",
+    "blessed": false,
+    "icon": "7715.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673703,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -3, Resist Water +15, Resist Wind +15, Resist Fire +15, Resist Earth +15",
+  "items": [
+   {
+    "id": 7673508,
+    "name": "Cleglaw's Claw",
+    "blessed": false,
+    "icon": "7717.webp"
+   },
+   {
+    "id": 7673509,
+    "name": "Cleglaw's Pincers",
+    "blessed": false,
+    "icon": "7504.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673704,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -6, DEX +5, Resist Water +35, Resist Wind +35, Resist Fire +35, Resist Earth +35",
+  "items": [
+   {
+    "id": 7673510,
+    "name": "Iratha's Collar",
+    "blessed": false,
+    "icon": "7517.webp"
+   },
+   {
+    "id": 7673511,
+    "name": "Iratha's Cuff",
+    "blessed": false,
+    "icon": "7505.webp"
+   },
+   {
+    "id": 7673512,
+    "name": "Iratha's Coil",
+    "blessed": false,
+    "icon": "7718.webp"
+   },
+   {
+    "id": 7673513,
+    "name": "Iratha's Cord",
+    "blessed": false,
+    "icon": "7719.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673705,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -6, Resist Water +26, Resist Wind +26, Resist Fire +26, Resist Earth +26",
+  "items": [
+   {
+    "id": 7673515,
+    "name": "Isenhart's Parry",
+    "blessed": false,
+    "icon": "7721.webp"
+   },
+   {
+    "id": 7673516,
+    "name": "Isenhart's Case",
+    "blessed": false,
+    "icon": "7722.webp"
+   },
+   {
+    "id": 7673517,
+    "name": "Isenhart's Horns",
+    "blessed": false,
+    "icon": "7723.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673706,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -6, STR +2, Resist Water +8, Resist Wind +8, Resist Fire +32, Resist Earth +8",
+  "items": [
+   {
+    "id": 7673519,
+    "name": "Vidala's Fetlock",
+    "blessed": false,
+    "icon": "7725.webp"
+   },
+   {
+    "id": 7673520,
+    "name": "Vidala's Ambush",
+    "blessed": false,
+    "icon": "7726.webp"
+   },
+   {
+    "id": 7673521,
+    "name": "Vidala's Snare",
+    "blessed": false,
+    "icon": "7517.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673707,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "HP +50, Resist Water +40, Resist Earth +15",
+  "items": [
+   {
+    "id": 7673522,
+    "name": "Milabrega's Orb",
+    "blessed": false,
+    "icon": "7727.webp"
+   },
+   {
+    "id": 7673524,
+    "name": "Milabrega's Diadem",
+    "blessed": false,
+    "icon": "7729.webp"
+   },
+   {
+    "id": 7673525,
+    "name": "Milabrega's Robe",
+    "blessed": false,
+    "icon": "7659.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673708,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -6, MP +70, MR +3, STR +2, Resist Water +35, Resist Wind +35, Resist Fire +65, Resist Earth +35",
+  "items": [
+   {
+    "id": 7673527,
+    "name": "Cathan's Mesh",
+    "blessed": false,
+    "icon": "7731.webp"
+   },
+   {
+    "id": 7673528,
+    "name": "Cathan's Visage",
+    "blessed": false,
+    "icon": "7732.webp"
+   },
+   {
+    "id": 7673529,
+    "name": "Cathan's Sigil",
+    "blessed": false,
+    "icon": "7517.webp"
+   },
+   {
+    "id": 7673530,
+    "name": "Cathan's Seal",
+    "blessed": false,
+    "icon": "7518.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673709,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -6, MP +20, STR +2, Resist Water +20, Resist Wind +20, Resist Fire +20, Resist Earth +20",
+  "items": [
+   {
+    "id": 7673532,
+    "name": "Tancred's Spine",
+    "blessed": false,
+    "icon": "7734.webp"
+   },
+   {
+    "id": 7673533,
+    "name": "Tancred's Hobnails",
+    "blessed": false,
+    "icon": "7735.webp"
+   },
+   {
+    "id": 7673534,
+    "name": "Tancred's Weird",
+    "blessed": false,
+    "icon": "7517.webp"
+   },
+   {
+    "id": 7673535,
+    "name": "Tancred's Skull",
+    "blessed": false,
+    "icon": "7736.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673710,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -6, MP +20, Resist Fire +12",
+  "items": [
+   {
+    "id": 7673536,
+    "name": "Sigon's Gage",
+    "blessed": false,
+    "icon": "7737.webp"
+   },
+   {
+    "id": 7673537,
+    "name": "Sigon's Visor",
+    "blessed": false,
+    "icon": "7738.webp"
+   },
+   {
+    "id": 7673538,
+    "name": "Sigon's Shelter",
+    "blessed": false,
+    "icon": "7739.webp"
+   },
+   {
+    "id": 7673539,
+    "name": "Sigon's Sabot",
+    "blessed": false,
+    "icon": "7740.webp"
+   },
+   {
+    "id": 7673540,
+    "name": "Sigon's Wrap",
+    "blessed": false,
+    "icon": "7741.webp"
+   },
+   {
+    "id": 7673541,
+    "name": "Sigon's Guard",
+    "blessed": false,
+    "icon": "7742.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673711,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -6, MP +10, Resist Earth +25",
+  "items": [
+   {
+    "id": 7673542,
+    "name": "Infernal Cranium",
+    "blessed": false,
+    "icon": "7743.webp"
+   },
+   {
+    "id": 7673544,
+    "name": "Infernal Sign",
+    "blessed": false,
+    "icon": "7745.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673712,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -11",
+  "items": [
+   {
+    "id": 7673545,
+    "name": "Berserker's Headgear",
+    "blessed": false,
+    "icon": "7746.webp"
+   },
+   {
+    "id": 7673546,
+    "name": "Berserker's Hauberk",
+    "blessed": false,
+    "icon": "7747.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673713,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "Resist Water +40, Resist Wind +40, Resist Fire +40, Resist Earth +40",
+  "items": [
+   {
+    "id": 7673548,
+    "name": "Death's Hand",
+    "blessed": false,
+    "icon": "7749.webp"
+   },
+   {
+    "id": 7673549,
+    "name": "Death's Guard",
+    "blessed": false,
+    "icon": "7750.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673714,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -6, HP +75, Resist Water +25, Resist Wind +25, Resist Fire +75, Resist Earth +25",
+  "items": [
+   {
+    "id": 7673552,
+    "name": "Angelic Mantle",
+    "blessed": false,
+    "icon": "7753.webp"
+   },
+   {
+    "id": 7673553,
+    "name": "Angelic Halo",
+    "blessed": false,
+    "icon": "7518.webp"
+   },
+   {
+    "id": 7673554,
+    "name": "Angelic Wings",
+    "blessed": false,
+    "icon": "7517.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673715,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -7, DEX +2, Resist Water +25",
+  "items": [
+   {
+    "id": 7673556,
+    "name": "Arctic Furs",
+    "blessed": false,
+    "icon": "7755.webp"
+   },
+   {
+    "id": 7673557,
+    "name": "Arctic Binding",
+    "blessed": false,
+    "icon": "7756.webp"
+   },
+   {
+    "id": 7673558,
+    "name": "Arctic Mitts",
+    "blessed": false,
+    "icon": "7757.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673716,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -12, MP +75, WIS +2, Resist Wind +15, Resist Fire +20",
+  "items": [
+   {
+    "id": 7673559,
+    "name": "Arcanna's Sign",
+    "blessed": false,
+    "icon": "7517.webp"
+   },
+   {
+    "id": 7673561,
+    "name": "Arcanna's Head",
+    "blessed": false,
+    "icon": "7759.webp"
+   },
+   {
+    "id": 7673562,
+    "name": "Arcanna's Flesh",
+    "blessed": false,
+    "icon": "7760.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673717,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -6, Resist Water +50, Resist Wind +50, Resist Fire +50, Resist Earth +70",
+  "items": [
+   {
+    "id": 7673563,
+    "name": "Natalya's Totem",
+    "blessed": false,
+    "icon": "7761.webp"
+   },
+   {
+    "id": 7673565,
+    "name": "Natalya's Shadow",
+    "blessed": false,
+    "icon": "7763.webp"
+   },
+   {
+    "id": 7673566,
+    "name": "Natalya's Soul",
+    "blessed": false,
+    "icon": "7764.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673718,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -6, MP +150, STR +9, DEX +9, CON +9, WIS +9, Resist Water +50, Resist Wind +50, Resist Fire +50, Resist Earth +50",
+  "items": [
+   {
+    "id": 7673567,
+    "name": "Aldur's Stony Gaze",
+    "blessed": false,
+    "icon": "7765.webp"
+   },
+   {
+    "id": 7673568,
+    "name": "Aldur's Deception",
+    "blessed": false,
+    "icon": "7766.webp"
+   },
+   {
+    "id": 7673570,
+    "name": "Aldur's Advance",
+    "blessed": false,
+    "icon": "7768.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673719,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -16, HP +150, MR +10, Resist Water +90, Resist Wind +90, Resist Fire +90, Resist Earth +50",
+  "items": [
+   {
+    "id": 7673571,
+    "name": "Immortal King's Will",
+    "blessed": false,
+    "icon": "7769.webp"
+   },
+   {
+    "id": 7673572,
+    "name": "Immortal King's Soul Cage",
+    "blessed": false,
+    "icon": "7770.webp"
+   },
+   {
+    "id": 7673573,
+    "name": "Immortal King's Detail",
+    "blessed": false,
+    "icon": "7771.webp"
+   },
+   {
+    "id": 7673574,
+    "name": "Immortal King's Forge",
+    "blessed": false,
+    "icon": "7772.webp"
+   },
+   {
+    "id": 7673575,
+    "name": "Immortal King's Pillar",
+    "blessed": false,
+    "icon": "7773.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673720,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -9, HP +150, Resist Water +50, Resist Wind +50, Resist Fire +50, Resist Earth +50",
+  "items": [
+   {
+    "id": 7673577,
+    "name": "Tal Rasha's Fine-Spun Cloth",
+    "blessed": false,
+    "icon": "7775.webp"
+   },
+   {
+    "id": 7673578,
+    "name": "Tal Rasha's Adjudication",
+    "blessed": false,
+    "icon": "7517.webp"
+   },
+   {
+    "id": 7673580,
+    "name": "Tal Rasha's Guardianship",
+    "blessed": false,
+    "icon": "7490.webp"
+   },
+   {
+    "id": 7673581,
+    "name": "Tal Rasha's Horadric Crest",
+    "blessed": false,
+    "icon": "7777.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673721,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "HP +150, Resist Water +50, Resist Wind +50, Resist Fire +50, Resist Earth +50",
+  "items": [
+   {
+    "id": 7673582,
+    "name": "Griswold's Valor",
+    "blessed": false,
+    "icon": "7683.webp"
+   },
+   {
+    "id": 7673583,
+    "name": "Griswold's Heart",
+    "blessed": false,
+    "icon": "7778.webp"
+   },
+   {
+    "id": 7673585,
+    "name": "Griswold's Honor",
+    "blessed": false,
+    "icon": "7780.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673722,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -6, MP +100, HPR +4, Resist Water +90, Resist Wind +100, Resist Fire +50, Resist Earth +50",
+  "items": [
+   {
+    "id": 7673586,
+    "name": "Trang-Oul's Guise",
+    "blessed": false,
+    "icon": "7736.webp"
+   },
+   {
+    "id": 7673587,
+    "name": "Trang-Oul's Scales",
+    "blessed": false,
+    "icon": "7781.webp"
+   },
+   {
+    "id": 7673588,
+    "name": "Trang-Oul's Wing",
+    "blessed": false,
+    "icon": "7680.webp"
+   },
+   {
+    "id": 7673589,
+    "name": "Trang-Oul's Claws",
+    "blessed": false,
+    "icon": "7782.webp"
+   },
+   {
+    "id": 7673590,
+    "name": "Trang-Oul's Girth",
+    "blessed": false,
+    "icon": "7783.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673723,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -5, Resist Water +100, Resist Wind +100, Resist Fire +100, Resist Earth +100",
+  "items": [
+   {
+    "id": 7673591,
+    "name": "M'avina's True Sight",
+    "blessed": false,
+    "icon": "7784.webp"
+   },
+   {
+    "id": 7673592,
+    "name": "M'avina's Embrace",
+    "blessed": false,
+    "icon": "7592.webp"
+   },
+   {
+    "id": 7673593,
+    "name": "M'avina's Icy Clutch",
+    "blessed": false,
+    "icon": "7785.webp"
+   },
+   {
+    "id": 7673594,
+    "name": "M'avina's Tenet",
+    "blessed": false,
+    "icon": "7786.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673724,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "MP +100, DEX +2, Resist Water +50, Resist Wind +50, Resist Fire +50, Resist Earth +50",
+  "items": [
+   {
+    "id": 7673596,
+    "name": "Telling of Beads",
+    "blessed": false,
+    "icon": "7517.webp"
+   },
+   {
+    "id": 7673597,
+    "name": "Laying of Hands",
+    "blessed": false,
+    "icon": "7788.webp"
+   },
+   {
+    "id": 7673598,
+    "name": "Rite of Passage",
+    "blessed": false,
+    "icon": "7789.webp"
+   },
+   {
+    "id": 7673599,
+    "name": "Dark Adherent",
+    "blessed": false,
+    "icon": "7790.webp"
+   },
+   {
+    "id": 7673600,
+    "name": "Credendum",
+    "blessed": false,
+    "icon": "7791.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673725,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "Resist Water +50, Resist Wind +50, Resist Fire +50, Resist Earth +50",
+  "items": [
+   {
+    "id": 7673602,
+    "name": "Taebaek's Glory",
+    "blessed": false,
+    "icon": "7793.webp"
+   },
+   {
+    "id": 7673603,
+    "name": "Haemosu's Adamant",
+    "blessed": false,
+    "icon": "7794.webp"
+   },
+   {
+    "id": 7673604,
+    "name": "Ondal's Almighty",
+    "blessed": false,
+    "icon": "7795.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673726,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -10, HP +50, STR +4, DEX +2, Resist Water +15, Resist Wind +15, Resist Fire +15, Resist Earth +15",
+  "items": [
+   {
+    "id": 7673605,
+    "name": "Guillaume's Face",
+    "blessed": false,
+    "icon": "7619.webp"
+   },
+   {
+    "id": 7673606,
+    "name": "Wilhelm's Pride",
+    "blessed": false,
+    "icon": "7719.webp"
+   },
+   {
+    "id": 7673607,
+    "name": "Magnus' Skin",
+    "blessed": false,
+    "icon": "7796.webp"
+   },
+   {
+    "id": 7673608,
+    "name": "Whitstan's Guard",
+    "blessed": false,
+    "icon": "7797.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673727,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "Resist Water +30, Resist Wind +30, Resist Fire +30, Resist Earth +30",
+  "items": [
+   {
+    "id": 7673609,
+    "name": "Hwanin's Splendor",
+    "blessed": false,
+    "icon": "7798.webp"
+   },
+   {
+    "id": 7673610,
+    "name": "Hwanin's Refuge",
+    "blessed": false,
+    "icon": "7587.webp"
+   },
+   {
+    "id": 7673611,
+    "name": "Hwanin's Blessing",
+    "blessed": false,
+    "icon": "7615.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673728,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "Resist Water +30, Resist Wind +30, Resist Fire +30, Resist Earth +30",
+  "items": [
+   {
+    "id": 7673614,
+    "name": "Sazabi's Ghost Liberator",
+    "blessed": false,
+    "icon": "7801.webp"
+   },
+   {
+    "id": 7673615,
+    "name": "Sazabi's Mental Sheath",
+    "blessed": false,
+    "icon": "7802.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673730,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "STR +4",
+  "items": [
+   {
+    "id": 7673618,
+    "name": "Cow King's Horns",
+    "blessed": false,
+    "icon": "7575.webp"
+   },
+   {
+    "id": 7673619,
+    "name": "Cow King's Hide",
+    "blessed": false,
+    "icon": "7805.webp"
+   },
+   {
+    "id": 7673620,
+    "name": "Cow King's Hooves",
+    "blessed": false,
+    "icon": "7609.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673731,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "MP +100, HPR +3, STR +4, DEX +3, Resist Water +50, Resist Wind +50, Resist Fire +50, Resist Earth +50",
+  "items": [
+   {
+    "id": 7673622,
+    "name": "Naj's Light Plate",
+    "blessed": false,
+    "icon": "7806.webp"
+   },
+   {
+    "id": 7673623,
+    "name": "Naj's Circlet",
+    "blessed": false,
+    "icon": "7807.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673732,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "MP +50",
+  "items": [
+   {
+    "id": 7673624,
+    "name": "Sander's Paragon",
+    "blessed": false,
+    "icon": "7808.webp"
+   },
+   {
+    "id": 7673625,
+    "name": "Sander's Riprap",
+    "blessed": false,
+    "icon": "7809.webp"
+   },
+   {
+    "id": 7673626,
+    "name": "Sander's Taboo",
+    "blessed": false,
+    "icon": "7810.webp"
+   }
+  ]
+ },
+ {
+  "id": 7673749,
+  "name": "Diablo Uniques v1",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "Resist Earth +26",
+  "items": [
+   {
+    "id": 7673501,
+    "name": "Civerb's Ward",
+    "blessed": false,
+    "icon": "7711.webp"
+   }
+  ]
+ },
+ {
+  "id": 88,
+  "name": "Doomed Cerenis Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -2, MP +100, MPR +5, MR +10, WIS +1, INT +4, POLYMORPH young kelenis",
+  "items": [
+   {
+    "id": 500020,
+    "name": "Doomed Circlet of Cerenis",
+    "blessed": false,
+    "icon": "969.webp"
+   },
+   {
+    "id": 500021,
+    "name": "Doomed Robe of Cerenis",
+    "blessed": false,
+    "icon": "972.webp"
+   },
+   {
+    "id": 500022,
+    "name": "Doomed Gloves of Cerenis",
+    "blessed": false,
+    "icon": "971.webp"
+   },
+   {
+    "id": 500023,
+    "name": "Doomed Boots of Cerenis",
+    "blessed": false,
+    "icon": "964.webp"
+   }
+  ]
+ },
+ {
+  "id": 86,
+  "name": "Doomed Death Knight Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -8, STR +4, CHA +1, INT +1, POLYMORPH death 75",
+  "items": [
+   {
+    "id": 500013,
+    "name": "Doomed Death Knight Helmet",
+    "blessed": false,
+    "icon": "713.webp"
+   },
+   {
+    "id": 500014,
+    "name": "Doomed Death Knight Armor",
+    "blessed": false,
+    "icon": "695.webp"
+   },
+   {
+    "id": 500015,
+    "name": "Doomed Death Knight Gloves",
+    "blessed": false,
+    "icon": "708.webp"
+   },
+   {
+    "id": 500016,
+    "name": "Doomed Death Knight Boots",
+    "blessed": false,
+    "icon": "701.webp"
+   }
+  ]
+ },
+ {
+  "id": 87,
+  "name": "Doomed Helvine Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -3, DEX +4, Resist Wind +10, POLYMORPH young helvine",
+  "items": [
+   {
+    "id": 500017,
+    "name": "Doomed Helvine Tunic",
+    "blessed": false,
+    "icon": "2776.webp"
+   },
+   {
+    "id": 500018,
+    "name": "Doomed Helvine Boots",
+    "blessed": false,
+    "icon": "2782.webp"
+   },
+   {
+    "id": 500019,
+    "name": "Doomed Helvine Circlet",
+    "blessed": false,
+    "icon": "2770.webp"
+   }
+  ]
+ },
+ {
+  "id": 89,
+  "name": "Doomed Lance Master Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -8, HPR +5, MR +10, STR +4, POLYMORPH spearm 75",
+  "items": [
+   {
+    "id": 500024,
+    "name": "Doomed Helmet of Lance Master",
+    "blessed": false,
+    "icon": "2044.webp"
+   },
+   {
+    "id": 500025,
+    "name": "Doomed Armor of Lance Master",
+    "blessed": false,
+    "icon": "2034.webp"
+   },
+   {
+    "id": 500026,
+    "name": "Doomed Gloves of Lance Master",
+    "blessed": false,
+    "icon": "2037.webp"
+   },
+   {
+    "id": 500027,
+    "name": "Doomed Boots of Lance Master",
+    "blessed": false,
+    "icon": "2039.webp"
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "name": "Drake Captain Transformation Turban",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH drake morph",
+  "items": [
+   {
+    "id": 20452,
+    "name": "Drake Captain Transformation Turban",
+    "blessed": false,
+    "icon": "2517.webp"
+   }
+  ]
+ },
+ {
+  "id": 115,
+  "name": "Drake Captain Turban (1 Hour)",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH drake morph",
+  "items": [
+   {
+    "id": 600403,
+    "name": "Drake Captain Transformation Turban (1 Hour)",
+    "blessed": false,
+    "icon": "2517.webp"
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "name": "Dwarf Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -1, HP +5, POLYMORPH re dwarf",
+  "items": [
+   {
+    "id": 20007,
+    "name": "Dwarvish Iron Helm",
+    "blessed": false,
+    "icon": "52.webp"
+   },
+   {
+    "id": 20052,
+    "name": "Dwarvish Cloak",
+    "blessed": false,
+    "icon": "27.webp"
+   },
+   {
+    "id": 20223,
+    "name": "Dwarvish Round Shield",
+    "blessed": false,
+    "icon": "95.webp"
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "name": "Easter Bunny Hat",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH rabbit",
+  "items": [
+   {
+    "id": 20343,
+    "name": "Easter Bunny Hat",
+    "blessed": false,
+    "icon": "1866.webp"
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "name": "Easter Bunny Hat w/Carrot",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH carrot rabbit",
+  "items": [
+   {
+    "id": 20344,
+    "name": "Easter Bunny Hat w/Carrot",
+    "blessed": false,
+    "icon": "1866.webp"
+   }
+  ]
+ },
+ {
+  "id": 38,
+  "name": "Elven Named Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -2, HP +15, MP +10, MR +10",
+  "items": [
+   {
+    "id": 20389,
+    "name": "Elven Helm of %i",
+    "blessed": false,
+    "icon": "53.webp"
+   },
+   {
+    "id": 20393,
+    "name": "Elven Armor of %i",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20401,
+    "name": "Elven Cloak of %i",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20409,
+    "name": "Elven Gloves of %i",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20406,
+    "name": "Elven Boots of %i",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 94,
+  "name": "Empowered Death Knight Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -8, STR +1, CHA +1, INT +1, POLYMORPH death 80",
+  "items": [
+   {
+    "id": 500046,
+    "name": "Empowered Death Knight Helmet",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 500047,
+    "name": "Empowered Death Knight Armor",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 500048,
+    "name": "Empowered Death Knight Gloves",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 500049,
+    "name": "Empowered Death Knight Boots",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 44,
+  "name": "Fidelity Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -20, HP +100, MP +20, HPR +10",
+  "items": [
+   {
+    "id": 20390,
+    "name": "Helm of Fidelity",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20395,
+    "name": "Armor of Fidelity",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20402,
+    "name": "Cloak of Fidelity",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20410,
+    "name": "Gloves of Fidelity",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20408,
+    "name": "Boots of Fidelity",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 500086,
+  "name": "Freedom Cloak Morph: Seeker",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH freedom cloak seeker morph",
+  "items": [
+   {
+    "id": 500086,
+    "name": "Freedom Cloak of the Seeker",
+    "blessed": true,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 500085,
+  "name": "Freedom Cloak Morph: Truth",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH freedom cloak truth morph",
+  "items": [
+   {
+    "id": 500085,
+    "name": "Freedom Cloak of Truth",
+    "blessed": true,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 500087,
+  "name": "Freedom Cloak Morph: War Wizard",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH freedom cloak war wizard morph",
+  "items": [
+   {
+    "id": 500087,
+    "name": "Freedom Cloak of the War Wizard",
+    "blessed": true,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 96,
+  "name": "Goblin Mask",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH goblin",
+  "items": [
+   {
+    "id": 500071,
+    "name": "Goblin Mask",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 54,
+  "name": "Green Curse Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "DEX +2, CHA -2",
+  "items": [
+   {
+    "id": 20425,
+    "name": "Amulet of Green Curse",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 21019,
+    "name": "Earrings of purification",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "name": "Hakama",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH hakama",
+  "items": [
+   {
+    "id": 20347,
+    "name": "Hakama",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 114,
+  "name": "Harpy Turban (1 Hour)",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH harpy turban morph",
+  "items": [
+   {
+    "id": 600402,
+    "name": "Harpy Transformation Turban (1 Hour)",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 119,
+  "name": "Heavenly Knight Turban (1 Hour)",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH 7968",
+  "items": [
+   {
+    "id": 600407,
+    "name": "Heavenly Knight Transformation Turban (1 Hour)",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "name": "Helmet for Horse Riding",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH princess horse",
+  "items": [
+   {
+    "id": 20383,
+    "name": "Helmet for Horse Riding",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "name": "High Bear Choker",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH high bear",
+  "items": [
+   {
+    "id": 20419,
+    "name": "High Bear Collar",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "name": "High Collie Choker",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH high collie",
+  "items": [
+   {
+    "id": 20345,
+    "name": "High Collie Choker",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "name": "High Raccoon Necklace",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH high raccoon",
+  "items": [
+   {
+    "id": 20346,
+    "name": "High Raccoon Choker",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "name": "Holiday Attire",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH haregi",
+  "items": [
+   {
+    "id": 20348,
+    "name": "Holiday Attire",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 46,
+  "name": "Hope Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "MP +5",
+  "items": [
+   {
+    "id": 20413,
+    "name": "Amulet of Hope",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20428,
+    "name": "Ring of Hope",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "name": "Iris Transformation Turban",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH iris morph",
+  "items": [
+   {
+    "id": 20453,
+    "name": "Iris Transformation Turban",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 116,
+  "name": "Iris Turban (1 Hour)",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH iris morph",
+  "items": [
+   {
+    "id": 600404,
+    "name": "Iris Transformation Turban (1 Hour)",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 40,
+  "name": "Iron Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -7, HP +30, STR +1",
+  "items": [
+   {
+    "id": 20003,
+    "name": "Iron Visor",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20091,
+    "name": "Iron Plate Mail",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20163,
+    "name": "Iron Gloves",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20194,
+    "name": "Iron Boots",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20220,
+    "name": "Iron Shield",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "name": "Knight Vald Transformation Turban",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH knight vald morph",
+  "items": [
+   {
+    "id": 20454,
+    "name": "Knight Vald Transformation Turban",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 117,
+  "name": "Knight Vald Turban (1 Hour)",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH knight vald morph",
+  "items": [
+   {
+    "id": 600405,
+    "name": "Knight Vald Transformation Turban (1 Hour)",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "name": "Kurtz Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -8, HPR +5, MR +10, STR +2, POLYMORPH black knight chief morph",
+  "items": [
+   {
+    "id": 20041,
+    "name": "Helmet of Kurtz",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20150,
+    "name": "Armor of Kurtz",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20184,
+    "name": "Gloves of Kurtz",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20214,
+    "name": "Boots of Kurtz",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "name": "Leather Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -3",
+  "items": [
+   {
+    "id": 20001,
+    "name": "Leather Cap",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20090,
+    "name": "Leather Vest",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20193,
+    "name": "Leather Sandal",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20219,
+    "name": "Leather Shield",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 90,
+  "name": "Leather Set Copy 5",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -3",
+  "items": [
+   {
+    "id": 20001,
+    "name": "Leather Cap",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20090,
+    "name": "Leather Vest",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20193,
+    "name": "Leather Sandal",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20219,
+    "name": "Leather Shield",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "name": "Left-Hand Ring of Dopple Boss",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH re skeleton",
+  "items": [
+   {
+    "id": 20278,
+    "name": "Left-Hand Ring of Doppelganger Boss",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 91,
+  "name": "Lethira's Mask",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH 4171",
+  "items": [
+   {
+    "id": 500117,
+    "name": "Lethira's Mask",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 47,
+  "name": "Luck Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "MP +10",
+  "items": [
+   {
+    "id": 20414,
+    "name": "Amulet of Luck",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20430,
+    "name": "Ring of Luck",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "name": "Lucky Cat Scarf",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH manekineko",
+  "items": [
+   {
+    "id": 20420,
+    "name": "Lucky Cat Scarf",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "name": "Mage Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "MP +50, MPR +5, INT +1",
+  "items": [
+   {
+    "id": 20012,
+    "name": "Wizard Cap",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20111,
+    "name": "Wizard Clothing",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 57,
+  "name": "Male Swimwear: Briefs",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH 6746",
+  "items": [
+   {
+    "id": 21063,
+    "name": "Swimwear Men`s Briefs",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 58,
+  "name": "Male Swimwear: Trunks",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH 6747",
+  "items": [
+   {
+    "id": 21064,
+    "name": "Swimwear Men`s Trunks",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 50,
+  "name": "Miracle Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "HP +15, MP +10",
+  "items": [
+   {
+    "id": 20417,
+    "name": "Amulet of Miracle",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20432,
+    "name": "Ring of Miracles",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "name": "Necklace of Doppleganger Boss",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH re werewolf",
+  "items": [
+   {
+    "id": 20250,
+    "name": "Necklace of Doppelganger Boss",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "name": "Orcish Fighter Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -3, POLYMORPH orc fighter",
+  "items": [
+   {
+    "id": 20034,
+    "name": "Orcish Helm",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20072,
+    "name": "Orcish Cloak",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20135,
+    "name": "Orcish Ring Mail",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20237,
+    "name": "Orcish Shield",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 48,
+  "name": "Passion Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "HP +10",
+  "items": [
+   {
+    "id": 20415,
+    "name": "Amulet of Passion",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20429,
+    "name": "Ring of Passion",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "name": "Pretender King Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -6, HPR +12, MR +10, STR +1, DEX +1, CON +1, WIS +1, CHA +1, INT +1, POLYMORPH Ken Lauhel Morph",
+  "items": [
+   {
+    "id": 20024,
+    "name": "Helmet of Ken Rauhel",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20118,
+    "name": "Armor of Ken Rauhel",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20170,
+    "name": "Gloves of Ken Rauhel",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20203,
+    "name": "Boots of Ken Rauhel",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "name": "Pumpkin Costume (Halloween Blessing Cap)",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH Halloween jack o lantern",
+  "items": [
+   {
+    "id": 20380,
+    "name": "Pumpkin Costume",
+    "blessed": true,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "name": "Pumpkin Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH jack o lantern",
+  "items": [
+   {
+    "id": 20047,
+    "name": "Pumpkin Costume",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 52,
+  "name": "Red Curse Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "STR +2, CON -2",
+  "items": [
+   {
+    "id": 20423,
+    "name": "Amulet of Red Curse",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 21019,
+    "name": "Earrings of purification",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 75,
+  "name": "Red Knight Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -2, HP +10, MR +10",
+  "items": [
+   {
+    "id": 20230,
+    "name": "Shield of Red Knight",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20027,
+    "name": "Red Knight`s Hood",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "name": "Red Mask",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH red orc",
+  "items": [
+   {
+    "id": 20382,
+    "name": "Red Mask",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "name": "Red Orc Mask",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH red orc",
+  "items": [
+   {
+    "id": 20458,
+    "name": "Red Orc`s Mask",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "name": "Red Soccer Uniform",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH red uniform",
+  "items": [
+   {
+    "id": 20456,
+    "name": "Red Soccer Uniform",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "name": "Right-Hand Ring of Dopple Boss",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH orc fighter",
+  "items": [
+   {
+    "id": 20277,
+    "name": "Right-Hand Ring of Doppelganger Boss",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 95,
+  "name": "Ring of Crawling Claw",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC +70, POLYMORPH crawling claw",
+  "items": [
+   {
+    "id": 500055,
+    "name": "Ring of Crawling Claw",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "name": "Studded Leather Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -3",
+  "items": [
+   {
+    "id": 20038,
+    "name": "Studded Leather Cap",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20148,
+    "name": "Studded Leather Vest",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20241,
+    "name": "Studded Leather Shield",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20212,
+    "name": "Studded Leather Sandals",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "name": "Succubus Queen Transformation Turban",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH succubus queen morph",
+  "items": [
+   {
+    "id": 20455,
+    "name": "Succubus Queen Transformation Turban",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 118,
+  "name": "Succubus Queen Turban (1 Hour)",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH succubus queen morph",
+  "items": [
+   {
+    "id": 600406,
+    "name": "Succubus Queen Transformation Turban (1 Hour)",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 55,
+  "name": "T-Shirt of Ghost Man",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH 5484",
+  "items": [
+   {
+    "id": 21061,
+    "name": "T-Shirt of Ghost Man",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 56,
+  "name": "T-Shirt of Ghost Woman",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH 5412",
+  "items": [
+   {
+    "id": 21062,
+    "name": "T-Shirt of Ghost Woman",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 49,
+  "name": "Truth Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "HP +15",
+  "items": [
+   {
+    "id": 20416,
+    "name": "Amulet of Truth",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20431,
+    "name": "Ring of Truth",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 45,
+  "name": "Wet Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -10, HP +100",
+  "items": [
+   {
+    "id": 21051,
+    "name": "Wet Helmet",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 21052,
+    "name": "Wet Cloak",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 21053,
+    "name": "Wet Armor",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 21054,
+    "name": "Wet Gloves",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 21055,
+    "name": "Wet Boots",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 21056,
+    "name": "Wet Shield",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 59,
+  "name": "Woman SwimSuit",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH 6749",
+  "items": [
+   {
+    "id": 21065,
+    "name": "Swimwear Female`s One Piece",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 60,
+  "name": "Women Swimwear: Bikini",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "POLYMORPH 6750",
+  "items": [
+   {
+    "id": 21066,
+    "name": "Swimwear Female`s Bikini",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ },
+ {
+  "id": 42,
+  "name": "Yahee Set",
+  "bonus_label": "Base Bonuses:",
+  "bonus": "AC -88, HP +100, MP +100, HPR +15, MPR +15, STR +1, DEX +1, CON +1, WIS +1, CHA +1, INT +1",
+  "items": [
+   {
+    "id": 20031,
+    "name": "Helm of Yahee",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20069,
+    "name": "Cloak of Yahee",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20083,
+    "name": "Shirt of Yahee",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20131,
+    "name": "Armor of Yahee",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20179,
+    "name": "Gloves of Yahee",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20209,
+    "name": "Boots of Yahee",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20290,
+    "name": "Ring of Yahee",
+    "blessed": false,
+    "icon": null
+   },
+   {
+    "id": 20261,
+    "name": "Amulet of Yahee",
+    "blessed": false,
+    "icon": null
+   }
+  ]
+ }
+]
