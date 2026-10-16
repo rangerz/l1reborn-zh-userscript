@@ -167,8 +167,8 @@
   "Raccoon": "浣熊",
   "Raccoon (C)": "經典浣熊",
   "Raccoon (High)": "高階浣熊",
-  "Weakness, Disease, Slow": "衰弱術、疾病術、緩速術",
-  "Attack 17.2% slower · Movement 50.0% faster · MPR +3 · HP/Lv 3-9 to 5-9 · MP/Lv 2-4 to 5-7 · Abilities: Weakness, Disease, Slow": "攻擊放慢 17.2% · 移動加快 50.0% · MPR +3 · 每級 HP 3-9 改為 5-9 · 每級 MP 2-4 改為 5-7 · 能力：衰弱術、疾病術、緩速術",
+  "Weakness, Disease, Slow": "弱化術、疾病術、緩速術",
+  "Attack 17.2% slower · Movement 50.0% faster · MPR +3 · HP/Lv 3-9 to 5-9 · MP/Lv 2-4 to 5-7 · Abilities: Weakness, Disease, Slow": "攻擊放慢 17.2% · 移動加快 50.0% · MPR +3 · 每級 HP 3-9 改為 5-9 · 每級 MP 2-4 改為 5-7 · 能力：弱化術、疾病術、緩速術",
   "Red Hatchling": "紅幼龍",
   "Saint Bernard": "聖伯納",
   "Saint Bernard (C)": "經典聖伯納",
@@ -228,5 +228,5 @@
   "min(24, 34) + 6 = 30": "min(24, 34) + 6 = 30",
   "summons.": "召喚怪。",
   "Notes: Elementals can only be summoned when you have no active pets/summons, and they consume all": "附註：精靈只能在場上沒有任何寵物／召喚怪時召喚，且牠們會消耗所有",
-  "control (so you can keep only one). Tame Monster and Create Zombie use the same pool as pets.": "控制額度（因此只能維持一隻）。迷魅怪物與召喚殭屍與寵物共用同一個額度池。"
+  "control (so you can keep only one). Tame Monster and Create Zombie use the same pool as pets.": "控制額度（因此只能維持一隻）。迷魅術與造屍術與寵物共用同一個額度池。"
 }
