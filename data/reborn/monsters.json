@@ -36177,6 +36177,66 @@
   ]
  },
  {
+  "id": 45051,
+  "name": "Imp",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "40",
+   "AC": "6",
+   "MR": "1",
+   "EXP": "26",
+   "Str/Con/Dex": "9/10/14",
+   "Int/Wis": "8/7",
+   "Family": "imp",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "801c290a37bc9674e9c9.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 13,
+    "max": 36,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40029,
+    "name": "Ivory Tower Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40056,
+    "name": "Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40082,
+    "name": "Scroll of Return - Singing Island",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   }
+  ]
+ },
+ {
   "id": 45093,
   "name": "Werewolf",
   "band": "detail",
@@ -36280,6 +36340,50 @@
     "min": 1,
     "max": 1,
     "chance_pct": 0.02
+   }
+  ]
+ },
+ {
+  "id": 45100,
+  "name": "Betrayer's Skeleton Guardsman",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "10",
+   "Size": "Small",
+   "HP": "100",
+   "MP": "60",
+   "AC": "-1",
+   "MR": "5",
+   "EXP": "101",
+   "Str/Con/Dex": "16/14/15",
+   "Int/Wis": "14/14",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "d17712fb3fee314c6d37.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 25,
+    "max": 54,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40581,
+    "name": "Undead Key",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 50.0
    }
   ]
  },
@@ -36392,6 +36496,50 @@
   ]
  },
  {
+  "id": 45105,
+  "name": "Zombie",
+  "band": "detail",
+  "badges": [
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "6",
+   "Size": "Small",
+   "HP": "40",
+   "MP": "4",
+   "AC": "8",
+   "MR": "5",
+   "EXP": "37",
+   "Str/Con/Dex": "14/16/6",
+   "Int/Wis": "2/5",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "8b3059e6c5bfd25c1955.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 15,
+    "max": 38,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40029,
+    "name": "Ivory Tower Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   }
+  ]
+ },
+ {
   "id": 45108,
   "name": "Skeleton",
   "band": "detail",
@@ -36489,6 +36637,41 @@
     "min": 1,
     "max": 1,
     "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 45111,
+  "name": "Island Drake",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "11",
+   "Size": "Large",
+   "HP": "100",
+   "MP": "50",
+   "AC": "3",
+   "MR": "0",
+   "EXP": "122",
+   "Str/Con/Dex": "32/18/18",
+   "Int/Wis": "15/15",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "7fdfcc999f6840bcb935.webp",
+  "drops": [
+   {
+    "item_id": 49265,
+    "name": "Drake Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
    }
   ]
  },
@@ -36597,6 +36780,58 @@
     "min": 1,
     "max": 1,
     "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 45125,
+  "name": "Giran Imp",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "12",
+   "Size": "Small",
+   "HP": "70",
+   "MP": "40",
+   "AC": "2",
+   "MR": "1",
+   "EXP": "145",
+   "Str/Con/Dex": "9/10/14",
+   "Int/Wis": "8/7",
+   "Family": "imp",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "e680f4742a4e4b7c236c.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 33,
+    "max": 65,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40405,
+    "name": "Fur",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40307,
+    "name": "Relic of Sayha",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.1
    }
   ]
  },
@@ -36838,6 +37073,188 @@
   ]
  },
  {
+  "id": 45168,
+  "name": "Giran Imp Elder",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "16",
+   "Size": "Small",
+   "HP": "100",
+   "MP": "50",
+   "AC": "-2",
+   "MR": "10",
+   "EXP": "257",
+   "Str/Con/Dex": "9/11/14",
+   "Int/Wis": "12/12",
+   "Family": "imp",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "7c1f4cba02c1c6075abf.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 50,
+    "max": 93,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40405,
+    "name": "Fur",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40307,
+    "name": "Relic of Sayha",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.1
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40047,
+    "name": "Emerald",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40177,
+    "name": "Spellbook(Meditate)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40406,
+    "name": "Hard Leather",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 45169,
+  "name": "Giran Crabman",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "17",
+   "Size": "Small",
+   "HP": "150",
+   "MP": "0",
+   "AC": "-12",
+   "MR": "1",
+   "EXP": "290",
+   "Str/Con/Dex": "18/15/12",
+   "Int/Wis": "5/6",
+   "Family": "crab",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "0b40c29154b78106594e.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 56,
+    "max": 102,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40100,
+    "name": "Scroll of Teleportation",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 49047,
+    "name": "Crab Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.1
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40089,
+    "name": "Scroll of Resurrection",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40172,
+    "name": "Spellbook(WeaponBreak)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40187,
+    "name": "Spellbook(EnchantStr)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40255,
+    "name": "Spirit Crystal(NaturesBlessing)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
   "id": 45170,
   "name": "Giran Troglodyte",
   "band": "detail",
@@ -36991,6 +37408,89 @@
   ]
  },
  {
+  "id": 45172,
+  "name": "Dire Bat",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "17",
+   "Size": "Small",
+   "HP": "180",
+   "MP": "200",
+   "AC": "-10",
+   "MR": "10",
+   "EXP": "290",
+   "Str/Con/Dex": "14/16/14",
+   "Int/Wis": "5/6",
+   "Family": "bat",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "4dfa79bb5d4b1986df28.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 56,
+    "max": 102,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40100,
+    "name": "Scroll of Teleportation",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40119,
+    "name": "Scroll of Curse Removal",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40307,
+    "name": "Relic of Sayha",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.1
+   },
+   {
+    "item_id": 40198,
+    "name": "Spellbook(Tornado)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.3
+   }
+  ]
+ },
+ {
   "id": 45175,
   "name": "Dark Elf Guard",
   "band": "detail",
@@ -37118,6 +37618,49 @@
     "min": 1,
     "max": 1,
     "chance_pct": 0.5
+   }
+  ]
+ },
+ {
+  "id": 45185,
+  "name": "Orcish Court Guard",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "18",
+   "Size": "Small",
+   "HP": "500",
+   "MP": "0",
+   "AC": "-3",
+   "MR": "15",
+   "EXP": "325",
+   "Str/Con/Dex": "17/14/20",
+   "Int/Wis": "10/8",
+   "Family": "guard",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "6765db09b77d6d27962f.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 61,
+    "max": 110,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40002,
+    "name": "Lantern",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
    }
   ]
  },
@@ -37574,6 +38117,121 @@
   ]
  },
  {
+  "id": 45230,
+  "name": "Giran Ramia - Green",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "22",
+   "Size": "Large",
+   "HP": "200",
+   "MP": "30",
+   "AC": "-6",
+   "MR": "10",
+   "EXP": "485",
+   "Str/Con/Dex": "15/15/12",
+   "Int/Wis": "10/12",
+   "Family": "lahmia",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "fb16a418665fb059c9d8.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 87,
+    "max": 150,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40017,
+    "name": "Cure Poison Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40458,
+    "name": "Shining Scale",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 8.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.1
+   },
+   {
+    "item_id": 40088,
+    "name": "Scroll of Shape Change",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40100,
+    "name": "Scroll of Teleportation",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40172,
+    "name": "Spellbook(WeaponBreak)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40236,
+    "name": "Spirit Crystal(ResistElemental)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 140088,
+    "name": "Scroll of Shape Change",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40255,
+    "name": "Spirit Crystal(NaturesBlessing)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
   "id": 45231,
   "name": "Priest of Chaos (Spearman)",
   "band": "detail",
@@ -37836,6 +38494,363 @@
   ]
  },
  {
+  "id": 45235,
+  "name": "Large Rat",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "24",
+   "Size": "Small",
+   "HP": "300",
+   "MP": "60",
+   "AC": "-5",
+   "MR": "10",
+   "EXP": "577",
+   "Str/Con/Dex": "18/14/16",
+   "Int/Wis": "5/6",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "a9cb7d0e11f227a16fdf.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 102,
+    "max": 173,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40100,
+    "name": "Scroll of Teleportation",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40304,
+    "name": "Relic of Maphr",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.1
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 45243,
+  "name": "Giran Snow Tiger",
+  "band": "detail",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "23",
+   "Size": "Small",
+   "HP": "180",
+   "MP": "0",
+   "AC": "-8",
+   "MR": "0",
+   "EXP": "530",
+   "Str/Con/Dex": "19/18/16",
+   "Int/Wis": "10/12",
+   "Family": "tiger",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "d9795ed9c29fa1a59cc5.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 94,
+    "max": 162,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40018,
+    "name": "Greater Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40056,
+    "name": "Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 5.0
+   },
+   {
+    "item_id": 40012,
+    "name": "Greater Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.1
+   }
+  ]
+ },
+ {
+  "id": 45245,
+  "name": "Dark Elementalist",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "550",
+   "MP": "320",
+   "AC": "-38",
+   "MR": "45",
+   "EXP": "2026",
+   "Str/Con/Dex": "12/15/12",
+   "Int/Wis": "17/17",
+   "Family": "elemental",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "cedd27376d73bd5b0577.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 109,
+    "max": 186,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 15.0
+   },
+   {
+    "item_id": 40119,
+    "name": "Scroll of Curse Removal",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 13.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40100,
+    "name": "Scroll of Teleportation",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40430,
+    "name": "Large Cave Crystal",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40432,
+    "name": "Diad Scroll Piece",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.4
+   },
+   {
+    "item_id": 40265,
+    "name": "Dark Spirit Crystal(BlindHiding)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40266,
+    "name": "Dark Spirit Crystal(EnchantVenom)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40267,
+    "name": "Dark Spirit Crystal(ShadowArmor)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40275,
+    "name": "Dark Spirit Crystal(DoubleBreak)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40277,
+    "name": "Dark Spirit Crystal(ShadowFang)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40278,
+    "name": "Dark Spirit Crystal(FinalBurn)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40444,
+    "name": "Black Lump of Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40271,
+    "name": "Dark Spirit Crystal(BurningSpirit)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40272,
+    "name": "Dark Spirit Crystal(DarkBlind)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40273,
+    "name": "Dark Spirit Crystal(VenomResist)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40465,
+    "name": "Elementalist Ring",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40216,
+    "name": "Spellbook(DecayPotion)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.1
+   },
+   {
+    "item_id": 40213,
+    "name": "Spellbook(ImmuneToHarm)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.07
+   },
+   {
+    "item_id": 40223,
+    "name": "Spellbook(AbsoluteBarrier)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.02
+   }
+  ]
+ },
+ {
   "id": 45253,
   "name": "Dark Elf Guard",
   "band": "detail",
@@ -37975,6 +38990,79 @@
   ]
  },
  {
+  "id": 45258,
+  "name": "Middle Oum",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "26",
+   "Size": "Small",
+   "HP": "230",
+   "MP": "150",
+   "AC": "-18",
+   "MR": "25",
+   "EXP": "677",
+   "Str/Con/Dex": "16/10/18",
+   "Int/Wis": "10/12",
+   "Family": "oum",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "4166f452385782bb0ec4.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 118,
+    "max": 198,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40011,
+    "name": "Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40089,
+    "name": "Scroll of Resurrection",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   }
+  ]
+ },
+ {
   "id": 45260,
   "name": "Scorpaitan",
   "band": "detail",
@@ -38094,6 +39182,207 @@
     "min": 1,
     "max": 1,
     "chance_pct": 1.0
+   }
+  ]
+ },
+ {
+  "id": 45271,
+  "name": "Greater Dark Elemental",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "28",
+   "Size": "Large",
+   "HP": "270",
+   "MP": "30",
+   "AC": "-15",
+   "MR": "20",
+   "EXP": "785",
+   "Str/Con/Dex": "18/16/16",
+   "Int/Wis": "8/8",
+   "Family": "elemental",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "47ac605cbb0e4041cafa.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 135,
+    "max": 225,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40100,
+    "name": "Scroll of Teleportation",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40119,
+    "name": "Scroll of Curse Removal",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40470,
+    "name": "Piece of Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40193,
+    "name": "Spellbook(BlessWeapon)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40200,
+    "name": "Spellbook(Berzerkers)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40241,
+    "name": "Spirit Crystal(ElementalFallDown)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40258,
+    "name": "Spirit Crystal(BurningWeapon)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40265,
+    "name": "Dark Spirit Crystal(BlindHiding)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40266,
+    "name": "Dark Spirit Crystal(EnchantVenom)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40267,
+    "name": "Dark Spirit Crystal(ShadowArmor)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40275,
+    "name": "Dark Spirit Crystal(DoubleBreak)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40277,
+    "name": "Dark Spirit Crystal(ShadowFang)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40278,
+    "name": "Dark Spirit Crystal(FinalBurn)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40271,
+    "name": "Dark Spirit Crystal(BurningSpirit)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40272,
+    "name": "Dark Spirit Crystal(DarkBlind)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40223,
+    "name": "Spellbook(AbsoluteBarrier)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.02
+   },
+   {
+    "item_id": 40224,
+    "name": "Spellbook(AdvanceSpirit)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.02
    }
   ]
  },
@@ -38600,6 +39889,353 @@
     "min": 1,
     "max": 1,
     "chance_pct": 0.015
+   }
+  ]
+ },
+ {
+  "id": 45300,
+  "name": "Ancient Apparition",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "1000",
+   "MP": "400",
+   "AC": "-32",
+   "MR": "50",
+   "EXP": "0",
+   "Str/Con/Dex": "17/17/18",
+   "Int/Wis": "18/25",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "72ffaf47aadd6ad4def2.webp",
+  "drops": [
+   {
+    "item_id": 40548,
+    "name": "Apparition`s Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
+   }
+  ]
+ },
+ {
+  "id": 45310,
+  "name": "Shade Elemental",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "25",
+   "Size": "Large",
+   "HP": "250",
+   "MP": "550",
+   "AC": "-32",
+   "MR": "75",
+   "EXP": "626",
+   "Str/Con/Dex": "17/17/18",
+   "Int/Wis": "22/25",
+   "Family": "elemental",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "921bb682434e3952c3ba.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 109,
+    "max": 186,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40100,
+    "name": "Scroll of Teleportation",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40119,
+    "name": "Scroll of Curse Removal",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40265,
+    "name": "Dark Spirit Crystal(BlindHiding)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40266,
+    "name": "Dark Spirit Crystal(EnchantVenom)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40267,
+    "name": "Dark Spirit Crystal(ShadowArmor)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40271,
+    "name": "Dark Spirit Crystal(BurningSpirit)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40272,
+    "name": "Dark Spirit Crystal(DarkBlind)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40273,
+    "name": "Dark Spirit Crystal(VenomResist)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40277,
+    "name": "Dark Spirit Crystal(ShadowFang)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40278,
+    "name": "Dark Spirit Crystal(FinalBurn)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   }
+  ]
+ },
+ {
+  "id": 45312,
+  "name": "Giran Shelob",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "20",
+   "Size": "Large",
+   "HP": "180",
+   "MP": "30",
+   "AC": "-5",
+   "MR": "10",
+   "EXP": "401",
+   "Str/Con/Dex": "18/14/16",
+   "Int/Wis": "5/6",
+   "Family": "spider",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "8729784f5de7c709dea7.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 73,
+    "max": 129,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 140100,
+    "name": "Scroll of Teleportation",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 30.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40017,
+    "name": "Cure Poison Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40018,
+    "name": "Greater Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40090,
+    "name": "Blank Scroll (Level 1)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40091,
+    "name": "Blank Scroll (Level 2)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 49046,
+    "name": "Spider Leg Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40304,
+    "name": "Relic of Maphr",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.1
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40092,
+    "name": "Blank Scroll (Level 3)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40093,
+    "name": "Blank Scroll (Level 4)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40174,
+    "name": "Spellbook(Slow)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40181,
+    "name": "Spellbook(TameMonster)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40211,
+    "name": "Spellbook(FogOfSleeping)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.4
+   },
+   {
+    "item_id": 40213,
+    "name": "Spellbook(ImmuneToHarm)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.01
    }
   ]
  },
@@ -39218,6 +40854,210 @@
   ]
  },
  {
+  "id": 45325,
+  "name": "Giran Cimaera",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "31",
+   "Size": "Small",
+   "HP": "260",
+   "MP": "40",
+   "AC": "-23",
+   "MR": "35",
+   "EXP": "962",
+   "Str/Con/Dex": "19/18/16",
+   "Int/Wis": "8/8",
+   "Family": "cimaera",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "9d2b618780bdefaed351.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 163,
+    "max": 270,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40010,
+    "name": "Lesser Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 15.0
+   },
+   {
+    "item_id": 40011,
+    "name": "Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40017,
+    "name": "Cure Poison Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40089,
+    "name": "Scroll of Resurrection",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40119,
+    "name": "Scroll of Curse Removal",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40126,
+    "name": "Scroll of Identify",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40397,
+    "name": "Cimaera Skin (Dragon)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40398,
+    "name": "Cimaera Skin (Goat)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40399,
+    "name": "Cimaera Skin (Lion)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40400,
+    "name": "Cimaera Skin (Snake)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40090,
+    "name": "Blank Scroll (Level 1)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 8.0
+   },
+   {
+    "item_id": 40091,
+    "name": "Blank Scroll (Level 2)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40012,
+    "name": "Greater Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40092,
+    "name": "Blank Scroll (Level 3)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40019,
+    "name": "Condensed Lesser Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 40018,
+    "name": "Greater Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40020,
+    "name": "Condensed Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40021,
+    "name": "Condensed Greater Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   }
+  ]
+ },
+ {
   "id": 45327,
   "name": "Dark Elf Ranger",
   "band": "detail",
@@ -39608,6 +41448,442 @@
   ]
  },
  {
+  "id": 45340,
+  "name": "Heavy Oum",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "32",
+   "Size": "Large",
+   "HP": "400",
+   "MP": "20",
+   "AC": "-23",
+   "MR": "10",
+   "EXP": "1025",
+   "Str/Con/Dex": "15/13/13",
+   "Int/Wis": "5/6",
+   "Family": "oum",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "0c3555f4dc81008f76f4.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 173,
+    "max": 285,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40012,
+    "name": "Greater Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40018,
+    "name": "Greater Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40430,
+    "name": "Large Cave Crystal",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 45345,
+  "name": "Giran Iron Golem",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "32",
+   "Size": "Large",
+   "HP": "580",
+   "MP": "10",
+   "AC": "-25",
+   "MR": "50",
+   "EXP": "1025",
+   "Str/Con/Dex": "70/18/8",
+   "Int/Wis": "5/5",
+   "Family": "golem",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "c1186cc9c24df745e20b.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 173,
+    "max": 285,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40119,
+    "name": "Scroll of Curse Removal",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40317,
+    "name": "Whetstone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40408,
+    "name": "Lump of Iron",
+    "status": null,
+    "min": 1,
+    "max": 3,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40496,
+    "name": "Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 3,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40304,
+    "name": "Relic of Maphr",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.1
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40187,
+    "name": "Spellbook(EnchantStr)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40192,
+    "name": "Spellbook(Weakness)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40277,
+    "name": "Dark Spirit Crystal(ShadowFang)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40899,
+    "name": "Lump of Rough Iron",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40247,
+    "name": "Spirit Crystal(EarthSkin)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40275,
+    "name": "Dark Spirit Crystal(DoubleBreak)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40252,
+    "name": "Spirit Crystal(ExoticVitalize)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.4
+   },
+   {
+    "item_id": 40238,
+    "name": "Spirit Crystal(BloodtoSoul)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   },
+   {
+    "item_id": 40251,
+    "name": "Spirit Crystal(IronSkin)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45352,
+  "name": "Doppelganger",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "33",
+   "Size": "Small",
+   "HP": "320",
+   "MP": "30",
+   "AC": "-20",
+   "MR": "20",
+   "EXP": "1090",
+   "Str/Con/Dex": "19/19/15",
+   "Int/Wis": "11/13",
+   "Family": "doppel",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "dce42ecb2b95899246e1.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 184,
+    "max": 302,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40088,
+    "name": "Scroll of Shape Change",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40010,
+    "name": "Lesser Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40011,
+    "name": "Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40012,
+    "name": "Greater Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40008,
+    "name": "Maple Wand",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40217,
+    "name": "Spellbook(CounterDetection)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40396,
+    "name": "Green Dragon Scales",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.012
+   }
+  ]
+ },
+ {
+  "id": 45353,
+  "name": "Priest of Chaos (Spearman)",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "33",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "300",
+   "AC": "-65",
+   "MR": "0",
+   "EXP": "1090",
+   "Str/Con/Dex": "25/25/25",
+   "Int/Wis": "25/25",
+   "Family": "chaos",
+   "HPR": "5",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77693d442754e3be81b2.webp",
+  "drops": [
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 14.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40444,
+    "name": "Black Lump of Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40443,
+    "name": "Black Lump of Pure Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
   "id": 45376,
   "name": "Giran Lava Golem",
   "band": "detail",
@@ -39938,6 +42214,282 @@
     "min": 1,
     "max": 1,
     "chance_pct": 0.02
+   }
+  ]
+ },
+ {
+  "id": 45490,
+  "name": "Priest of Chaos (Spearman)",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "44",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "300",
+   "AC": "-54",
+   "MR": "0",
+   "EXP": "1937",
+   "Str/Con/Dex": "22/22/22",
+   "Int/Wis": "22/22",
+   "Family": "chaos",
+   "HPR": "5",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77693d442754e3be81b2.webp",
+  "drops": [
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 14.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40444,
+    "name": "Black Lump of Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40443,
+    "name": "Black Lump of Pure Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 45507,
+  "name": "Disciple of Death (Dual-Bladed Horror)",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "57",
+   "Size": "Large",
+   "HP": "2000",
+   "MP": "100",
+   "AC": "-66",
+   "MR": "70",
+   "EXP": "3250",
+   "Str/Con/Dex": "70/20/11",
+   "Int/Wis": "20/20",
+   "Family": "",
+   "HPR": "10",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "0948e44230c121631773.webp",
+  "drops": [
+   {
+    "item_id": 40541,
+    "name": "Dark Star",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
+   }
+  ]
+ },
+ {
+  "id": 45543,
+  "name": "Priest of Chaos (Spearman)",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "300",
+   "AC": "-60",
+   "MR": "100",
+   "EXP": "2501",
+   "Str/Con/Dex": "25/25/25",
+   "Int/Wis": "25/25",
+   "Family": "chaos",
+   "HPR": "5",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77693d442754e3be81b2.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 333,
+    "max": 536,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40443,
+    "name": "Black Lump of Pure Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40444,
+    "name": "Black Lump of Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 45544,
+  "name": "Follower of Chaos",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "250",
+   "MP": "300",
+   "AC": "-60",
+   "MR": "100",
+   "EXP": "2501",
+   "Str/Con/Dex": "25/25/25",
+   "Int/Wis": "25/25",
+   "Family": "chaos",
+   "HPR": "5",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77693d442754e3be81b2.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 333,
+    "max": 536,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40443,
+    "name": "Black Lump of Pure Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40444,
+    "name": "Black Lump of Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
    }
   ]
  },
@@ -40761,6 +43313,298 @@
   ]
  },
  {
+  "id": 45627,
+  "name": "Priest of Chaos (Calvary)",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "55",
+   "Size": "Large",
+   "HP": "1000",
+   "MP": "300",
+   "AC": "-70",
+   "MR": "100",
+   "EXP": "3026",
+   "Str/Con/Dex": "25/25/25",
+   "Int/Wis": "18/18",
+   "Family": "chaos",
+   "HPR": "10",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "a20ffcfe466a246cf83e.webp",
+  "drops": [
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 14.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40444,
+    "name": "Black Lump of Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40443,
+    "name": "Black Lump of Pure Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 45722,
+  "name": "Dark Elemental",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "30",
+   "Size": "Small",
+   "HP": "250",
+   "MP": "120",
+   "AC": "-10",
+   "MR": "30",
+   "EXP": "901",
+   "Str/Con/Dex": "15/13/14",
+   "Int/Wis": "14/14",
+   "Family": "elemental",
+   "HPR": "5",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "ec61fc84351e561a683a.webp",
+  "drops": [
+   {
+    "item_id": 41207,
+    "name": "Ash of Sailor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   }
+  ]
+ },
+ {
+  "id": 45749,
+  "name": "Paj",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "35",
+   "Size": "Small",
+   "HP": "300",
+   "MP": "300",
+   "AC": "-60",
+   "MR": "100",
+   "EXP": "2500",
+   "Str/Con/Dex": "35/21/11",
+   "Int/Wis": "18/21",
+   "Family": "",
+   "HPR": "10",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "83abf831119eeece93a3.webp",
+  "drops": [
+   {
+    "item_id": 40916,
+    "name": "Seal of Air",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 30.0
+   },
+   {
+    "item_id": 40718,
+    "name": "Fragment of Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40443,
+    "name": "Black Lump of Pure Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40444,
+    "name": "Black Lump of Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 240074,
+    "name": "Scroll of Enchant Armor",
+    "status": "Cursed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.4
+   },
+   {
+    "item_id": 240087,
+    "name": "Scroll of Enchant Weapon",
+    "status": "Cursed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.4
+   }
+  ]
+ },
+ {
+  "id": 45751,
+  "name": "Pasaj",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "40",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "300",
+   "AC": "-60",
+   "MR": "100",
+   "EXP": "3000",
+   "Str/Con/Dex": "35/21/11",
+   "Int/Wis": "18/21",
+   "Family": "",
+   "HPR": "10",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "e1c39368ebf2344c895b.webp",
+  "drops": [
+   {
+    "item_id": 40916,
+    "name": "Seal of Air",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 30.0
+   },
+   {
+    "item_id": 40718,
+    "name": "Fragment of Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40443,
+    "name": "Black Lump of Pure Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40444,
+    "name": "Black Lump of Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 240074,
+    "name": "Scroll of Enchant Armor",
+    "status": "Cursed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.4
+   },
+   {
+    "item_id": 240087,
+    "name": "Scroll of Enchant Weapon",
+    "status": "Cursed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.4
+   },
+   {
+    "item_id": 40972,
+    "name": "Resiliant Muscles of Pasaj",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   },
+   {
+    "item_id": 40973,
+    "name": "Wings of Pasaj",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
   "id": 45753,
   "name": "Varlok",
   "band": "detail",
@@ -41001,6 +43845,191 @@
   ]
  },
  {
+  "id": 45758,
+  "name": "Orc Archer",
+  "band": "detail",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "3",
+   "Size": "Small",
+   "HP": "12",
+   "MP": "4",
+   "AC": "10",
+   "MR": "2",
+   "EXP": "10",
+   "Str/Con/Dex": "12/11/12",
+   "Int/Wis": "8/7",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "c2f2e4753971df592790.webp",
+  "drops": [
+   {
+    "item_id": 40029,
+    "name": "Ivory Tower Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 80.0
+   },
+   {
+    "item_id": 40056,
+    "name": "Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40095,
+    "name": "Ivory Tower Scroll of Return",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40098,
+    "name": "Ivory Tower Scroll of Identify",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 8,
+    "max": 12,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40744,
+    "name": "Silver Arrow",
+    "status": null,
+    "min": 10,
+    "max": 30,
+    "chance_pct": 60.0
+   }
+  ]
+ },
+ {
+  "id": 45759,
+  "name": "Orc Fighter",
+  "band": "detail",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "8",
+   "Size": "Small",
+   "HP": "50",
+   "MP": "8",
+   "AC": "5",
+   "MR": "5",
+   "EXP": "65",
+   "Str/Con/Dex": "14/14/14",
+   "Int/Wis": "10/8",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "81cc6be636e4fced7795.webp",
+  "drops": [
+   {
+    "item_id": 40029,
+    "name": "Ivory Tower Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 80.0
+   },
+   {
+    "item_id": 40001,
+    "name": "Lamp",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40056,
+    "name": "Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40095,
+    "name": "Ivory Tower Scroll of Return",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 8,
+    "max": 24,
+    "chance_pct": 60.0
+   }
+  ]
+ },
+ {
+  "id": 45760,
+  "name": "Floating Eye",
+  "band": "detail",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "7",
+   "Size": "Small",
+   "HP": "40",
+   "MP": "30",
+   "AC": "5",
+   "MR": "20",
+   "EXP": "50",
+   "Str/Con/Dex": "10/13/12",
+   "Int/Wis": "9/7",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "8ddf4d7e7a54c307806b.webp",
+  "drops": [
+   {
+    "item_id": 40029,
+    "name": "Ivory Tower Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 80.0
+   },
+   {
+    "item_id": 40057,
+    "name": "Floating Eye Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   }
+  ]
+ },
+ {
   "id": 45761,
   "name": "Dwarf",
   "band": "detail",
@@ -41072,6 +44101,66 @@
     "min": 1,
     "max": 1,
     "chance_pct": 30.0
+   }
+  ]
+ },
+ {
+  "id": 45762,
+  "name": "Imp",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "5",
+   "Size": "Small",
+   "HP": "20",
+   "MP": "40",
+   "AC": "6",
+   "MR": "1",
+   "EXP": "26",
+   "Str/Con/Dex": "9/10/14",
+   "Int/Wis": "8/7",
+   "Family": "imp",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "801c290a37bc9674e9c9.webp",
+  "drops": [
+   {
+    "item_id": 40029,
+    "name": "Ivory Tower Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 80.0
+   },
+   {
+    "item_id": 40056,
+    "name": "Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40095,
+    "name": "Ivory Tower Scroll of Return",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 4,
+    "max": 8,
+    "chance_pct": 60.0
    }
   ]
  },
@@ -41502,6 +44591,172 @@
   ]
  },
  {
+  "id": 45767,
+  "name": "Gnoll",
+  "band": "detail",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "8",
+   "Size": "Small",
+   "HP": "35",
+   "MP": "5",
+   "AC": "4",
+   "MR": "1",
+   "EXP": "65",
+   "Str/Con/Dex": "18/15/10",
+   "Int/Wis": "8/6",
+   "Family": "nord",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "c24d5ff3e137e44ccfef.webp",
+  "drops": [
+   {
+    "item_id": 40029,
+    "name": "Ivory Tower Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 80.0
+   },
+   {
+    "item_id": 40056,
+    "name": "Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 4,
+    "max": 16,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40095,
+    "name": "Ivory Tower Scroll of Return",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40098,
+    "name": "Ivory Tower Scroll of Identify",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40496,
+    "name": "Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40002,
+    "name": "Lantern",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40044,
+    "name": "Diamond",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40045,
+    "name": "Ruby",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40046,
+    "name": "Sapphire",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40047,
+    "name": "Emerald",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40307,
+    "name": "Relic of Sayha",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   }
+  ]
+ },
+ {
+  "id": 45768,
+  "name": "Stone Golem",
+  "band": "detail",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "13",
+   "Size": "Large",
+   "HP": "350",
+   "MP": "50",
+   "AC": "-1",
+   "MR": "5",
+   "EXP": "170",
+   "Str/Con/Dex": "58/16/10",
+   "Int/Wis": "10/6",
+   "Family": "golem",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "83e114aac78d0c1eeef2.webp",
+  "drops": [
+   {
+    "item_id": 40653,
+    "name": "Red Key",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 49039,
+    "name": "Magic Doll: Stone Golem",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.02
+   }
+  ]
+ },
+ {
   "id": 45769,
   "name": "Lycanthrope",
   "band": "detail",
@@ -41542,6 +44797,1013 @@
     "min": 1,
     "max": 1,
     "chance_pct": 6.0
+   }
+  ]
+ },
+ {
+  "id": 45782,
+  "name": "Polluted Great Spirit's Dirty Sycophant",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "30",
+   "Size": "Small",
+   "HP": "250",
+   "MP": "120",
+   "AC": "-10",
+   "MR": "30",
+   "EXP": "901",
+   "Str/Con/Dex": "15/13/14",
+   "Int/Wis": "14/14",
+   "Family": "pollution",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "ec61fc84351e561a683a.webp",
+  "drops": [
+   {
+    "item_id": 41080,
+    "name": "Polluted Spirit",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   }
+  ]
+ },
+ {
+  "id": 45794,
+  "name": "Servant of Spirit",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "40",
+   "Size": "Small",
+   "HP": "500",
+   "MP": "200",
+   "AC": "-25",
+   "MR": "45",
+   "EXP": "1601",
+   "Str/Con/Dex": "14/14/14",
+   "Int/Wis": "12/18",
+   "Family": "pollution",
+   "HPR": "20",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "a806388cf3c86f22d9da.webp",
+  "drops": [
+   {
+    "item_id": 40017,
+    "name": "Cure Poison Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 41086,
+    "name": "Roots",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 41087,
+    "name": "Bark",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 41088,
+    "name": "Leaves",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 41089,
+    "name": "Branch",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   }
+  ]
+ },
+ {
+  "id": 45832,
+  "name": "Cursed Dark Elf Knight",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "620",
+   "MP": "200",
+   "AC": "-38",
+   "MR": "60",
+   "EXP": "2026",
+   "Str/Con/Dex": "18/19/15",
+   "Int/Wis": "15/15",
+   "Family": "darkelf",
+   "HPR": "10",
+   "MPR": "20",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "3b61106654791b37e49e.webp",
+  "drops": [
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 41244,
+    "name": "Lastavard Supplies Box",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40987,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45833,
+  "name": "Cursed Dark Elf Knight",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "580",
+   "MP": "200",
+   "AC": "-42",
+   "MR": "60",
+   "EXP": "2026",
+   "Str/Con/Dex": "18/19/15",
+   "Int/Wis": "15/15",
+   "Family": "darkelf",
+   "HPR": "10",
+   "MPR": "20",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "3b61106654791b37e49e.webp",
+  "drops": [
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 41244,
+    "name": "Lastavard Supplies Box",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40987,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45834,
+  "name": "Cursed Dark Elf Knight",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "48",
+   "Size": "Small",
+   "HP": "720",
+   "MP": "200",
+   "AC": "-42",
+   "MR": "60",
+   "EXP": "2305",
+   "Str/Con/Dex": "18/19/15",
+   "Int/Wis": "15/15",
+   "Family": "darkelf",
+   "HPR": "10",
+   "MPR": "20",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "3b61106654791b37e49e.webp",
+  "drops": [
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 41244,
+    "name": "Lastavard Supplies Box",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40987,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45835,
+  "name": "Cursed Dark Elf Warrior",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "48",
+   "Size": "Small",
+   "HP": "750",
+   "MP": "200",
+   "AC": "-38",
+   "MR": "45",
+   "EXP": "2305",
+   "Str/Con/Dex": "15/15/20",
+   "Int/Wis": "17/17",
+   "Family": "darkelf",
+   "HPR": "20",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "c574f843c1999fb76dcd.webp",
+  "drops": [
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 41244,
+    "name": "Lastavard Supplies Box",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40988,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45839,
+  "name": "Cursed Dark Elf Knight",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "43",
+   "Size": "Small",
+   "HP": "520",
+   "MP": "200",
+   "AC": "-36",
+   "MR": "60",
+   "EXP": "1850",
+   "Str/Con/Dex": "18/19/15",
+   "Int/Wis": "17/15",
+   "Family": "darkelf",
+   "HPR": "10",
+   "MPR": "20",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "3b61106654791b37e49e.webp",
+  "drops": [
+   {
+    "item_id": 41244,
+    "name": "Lastavard Supplies Box",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40987,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45840,
+  "name": "Cursed Dark Elf Warrior",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "43",
+   "Size": "Small",
+   "HP": "520",
+   "MP": "200",
+   "AC": "-36",
+   "MR": "45",
+   "EXP": "1850",
+   "Str/Con/Dex": "15/15/20",
+   "Int/Wis": "17/17",
+   "Family": "darkelf",
+   "HPR": "20",
+   "MPR": "20",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "c574f843c1999fb76dcd.webp",
+  "drops": [
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 41244,
+    "name": "Lastavard Supplies Box",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40988,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45842,
+  "name": "Cursed Dark Elf Knight",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "590",
+   "MP": "200",
+   "AC": "-38",
+   "MR": "60",
+   "EXP": "2026",
+   "Str/Con/Dex": "18/19/15",
+   "Int/Wis": "17/15",
+   "Family": "darkelf",
+   "HPR": "10",
+   "MPR": "20",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "3b61106654791b37e49e.webp",
+  "drops": [
+   {
+    "item_id": 41244,
+    "name": "Lastavard Supplies Box",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40987,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45843,
+  "name": "Cursed Dark Elf Warrior",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "540",
+   "MP": "200",
+   "AC": "-34",
+   "MR": "45",
+   "EXP": "2026",
+   "Str/Con/Dex": "15/15/20",
+   "Int/Wis": "17/17",
+   "Family": "darkelf",
+   "HPR": "20",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "c574f843c1999fb76dcd.webp",
+  "drops": [
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 41244,
+    "name": "Lastavard Supplies Box",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40988,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45847,
+  "name": "Cursed Dark Elf Wizard",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "44",
+   "Size": "Small",
+   "HP": "420",
+   "MP": "300",
+   "AC": "-34",
+   "MR": "80",
+   "EXP": "1937",
+   "Str/Con/Dex": "16/15/18",
+   "Int/Wis": "18/16",
+   "Family": "darkelf",
+   "HPR": "15",
+   "MPR": "25",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "45c58278aa4e084ff0a8.webp",
+  "drops": [
+   {
+    "item_id": 40490,
+    "name": "Black Spirit Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40989,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45849,
+  "name": "Cursed Dark Elf Warrior",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "44",
+   "Size": "Small",
+   "HP": "550",
+   "MP": "200",
+   "AC": "-37",
+   "MR": "45",
+   "EXP": "1937",
+   "Str/Con/Dex": "15/15/20",
+   "Int/Wis": "17/17",
+   "Family": "darkelf",
+   "HPR": "20",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "c574f843c1999fb76dcd.webp",
+  "drops": [
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 41244,
+    "name": "Lastavard Supplies Box",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40988,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45853,
+  "name": "Cursed Dark Elf Wizard",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "440",
+   "MP": "300",
+   "AC": "-35",
+   "MR": "80",
+   "EXP": "2026",
+   "Str/Con/Dex": "16/15/18",
+   "Int/Wis": "18/16",
+   "Family": "darkelf",
+   "HPR": "15",
+   "MPR": "25",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "45c58278aa4e084ff0a8.webp",
+  "drops": [
+   {
+    "item_id": 40490,
+    "name": "Black Spirit Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40989,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45859,
+  "name": "Cursed Dark Elf Wizard",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "47",
+   "Size": "Small",
+   "HP": "480",
+   "MP": "300",
+   "AC": "-36",
+   "MR": "80",
+   "EXP": "2210",
+   "Str/Con/Dex": "16/15/18",
+   "Int/Wis": "18/16",
+   "Family": "darkelf",
+   "HPR": "15",
+   "MPR": "25",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "45c58278aa4e084ff0a8.webp",
+  "drops": [
+   {
+    "item_id": 40490,
+    "name": "Black Spirit Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40989,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45860,
+  "name": "Cursed Dark Elf Wizard",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "47",
+   "Size": "Small",
+   "HP": "480",
+   "MP": "300",
+   "AC": "-38",
+   "MR": "80",
+   "EXP": "2210",
+   "Str/Con/Dex": "16/15/18",
+   "Int/Wis": "18/16",
+   "Family": "darkelf",
+   "HPR": "15",
+   "MPR": "25",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "45c58278aa4e084ff0a8.webp",
+  "drops": [
+   {
+    "item_id": 40490,
+    "name": "Black Spirit Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40989,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45861,
+  "name": "Cursed Dark Elf Warrior",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "47",
+   "Size": "Small",
+   "HP": "650",
+   "MP": "200",
+   "AC": "-38",
+   "MR": "45",
+   "EXP": "2210",
+   "Str/Con/Dex": "15/15/20",
+   "Int/Wis": "17/17",
+   "Family": "darkelf",
+   "HPR": "20",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "c574f843c1999fb76dcd.webp",
+  "drops": [
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 41244,
+    "name": "Lastavard Supplies Box",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40988,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45862,
+  "name": "Cursed Dark Elf Warrior",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "620",
+   "MP": "200",
+   "AC": "-38",
+   "MR": "45",
+   "EXP": "2210",
+   "Str/Con/Dex": "15/15/20",
+   "Int/Wis": "17/17",
+   "Family": "darkelf",
+   "HPR": "20",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "c574f843c1999fb76dcd.webp",
+  "drops": [
+   {
+    "item_id": 41243,
+    "name": "Lastavard Supplies Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 41244,
+    "name": "Lastavard Supplies Box",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40969,
+    "name": "Crystal of Dark Elf Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40988,
+    "name": "Black Wizard Earrings",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45875,
+  "name": "Skeletal Pirate Head",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "32",
+   "Size": "Small",
+   "HP": "350",
+   "MP": "10",
+   "AC": "-23",
+   "MR": "50",
+   "EXP": "1025",
+   "Str/Con/Dex": "18/14/16",
+   "Int/Wis": "12/10",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "204c677fdafbe15b017d.webp",
+  "drops": [
+   {
+    "item_id": 40710,
+    "name": "Friend`s Bag",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
    }
   ]
  },
@@ -41601,6 +45863,335 @@
     "min": 1,
     "max": 1,
     "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 45883,
+  "name": "Ribil",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "1",
+   "Size": "Small",
+   "HP": "330",
+   "MP": "15",
+   "AC": "-22",
+   "MR": "0",
+   "EXP": "1",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "f845b5e3f8acad7ea922.webp",
+  "drops": [
+   {
+    "item_id": 40596,
+    "name": "Death Covenant",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 80.0
+   }
+  ]
+ },
+ {
+  "id": 45884,
+  "name": "Dedoff",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "1",
+   "Size": "Small",
+   "HP": "330",
+   "MP": "15",
+   "AC": "-22",
+   "MR": "0",
+   "EXP": "1",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "f845b5e3f8acad7ea922.webp",
+  "drops": [
+   {
+    "item_id": 40596,
+    "name": "Death Covenant",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 80.0
+   }
+  ]
+ },
+ {
+  "id": 45885,
+  "name": "Ica",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "1",
+   "Size": "Small",
+   "HP": "330",
+   "MP": "15",
+   "AC": "-22",
+   "MR": "0",
+   "EXP": "1",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "8879ee898cf8d7a3c97c.webp",
+  "drops": [
+   {
+    "item_id": 40596,
+    "name": "Death Covenant",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 80.0
+   }
+  ]
+ },
+ {
+  "id": 45886,
+  "name": "Toad",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "1",
+   "Size": "Small",
+   "HP": "330",
+   "MP": "15",
+   "AC": "-22",
+   "MR": "0",
+   "EXP": "1",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "f845b5e3f8acad7ea922.webp",
+  "drops": [
+   {
+    "item_id": 40596,
+    "name": "Death Covenant",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 80.0
+   }
+  ]
+ },
+ {
+  "id": 45887,
+  "name": "Rodeck",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "1",
+   "Size": "Small",
+   "HP": "330",
+   "MP": "15",
+   "AC": "-22",
+   "MR": "0",
+   "EXP": "1",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "f845b5e3f8acad7ea922.webp",
+  "drops": [
+   {
+    "item_id": 40596,
+    "name": "Death Covenant",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 80.0
+   }
+  ]
+ },
+ {
+  "id": 45888,
+  "name": "Atushin",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "1",
+   "Size": "Small",
+   "HP": "330",
+   "MP": "15",
+   "AC": "-22",
+   "MR": "0",
+   "EXP": "1",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "8879ee898cf8d7a3c97c.webp",
+  "drops": [
+   {
+    "item_id": 40596,
+    "name": "Death Covenant",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 80.0
+   }
+  ]
+ },
+ {
+  "id": 45889,
+  "name": "Toda",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "1",
+   "Size": "Small",
+   "HP": "330",
+   "MP": "15",
+   "AC": "-22",
+   "MR": "0",
+   "EXP": "1",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "8879ee898cf8d7a3c97c.webp",
+  "drops": [
+   {
+    "item_id": 40596,
+    "name": "Death Covenant",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 80.0
+   }
+  ]
+ },
+ {
+  "id": 45890,
+  "name": "Oum",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "19",
+   "Size": "Small",
+   "HP": "152",
+   "MP": "50",
+   "AC": "-10",
+   "MR": "19",
+   "EXP": "362",
+   "Str/Con/Dex": "12/10/11",
+   "Int/Wis": "9/9",
+   "Family": "oum",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "4166f452385782bb0ec4.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 20,
+    "max": 300,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40089,
+    "name": "Scroll of Resurrection",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   }
+  ]
+ },
+ {
+  "id": 45891,
+  "name": "Wild Oum",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "21",
+   "Size": "Small",
+   "HP": "168",
+   "MP": "20",
+   "AC": "-11",
+   "MR": "21",
+   "EXP": "442",
+   "Str/Con/Dex": "13/10/11",
+   "Int/Wis": "9/9",
+   "Family": "oum",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "237650e58f6c43cd34fe.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 100,
+    "max": 400,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40089,
+    "name": "Scroll of Resurrection",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
    }
   ]
  },
@@ -41739,6 +46330,360 @@
     "min": 1,
     "max": 1,
     "chance_pct": 10.0
+   }
+  ]
+ },
+ {
+  "id": 45899,
+  "name": "Dark Elf Deserters",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "30",
+   "Size": "Small",
+   "HP": "240",
+   "MP": "320",
+   "AC": "-10",
+   "MR": "39",
+   "EXP": "901",
+   "Str/Con/Dex": "9/10/10",
+   "Int/Wis": "16/18",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "f2d060af72bd196d6dba.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 50,
+    "max": 400,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40100,
+    "name": "Scroll of Teleportation",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40119,
+    "name": "Scroll of Curse Removal",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40432,
+    "name": "Diad Scroll Piece",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40011,
+    "name": "Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 140100,
+    "name": "Scroll of Teleportation",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40999,
+    "name": "Dark Elven Soldier Badge",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 16.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40444,
+    "name": "Black Lump of Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 122,
+    "name": "Lastavard Staff",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40221,
+    "name": "Spellbook(MassSlow)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40274,
+    "name": "Dark Spirit Crystal(DressDex)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 20103,
+    "name": "Lastabad Robe",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 49132,
+    "name": "Memory Crystal(Insight)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45907,
+  "name": "Dark Elementalist",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "33",
+   "Size": "Small",
+   "HP": "297",
+   "MP": "400",
+   "AC": "-11",
+   "MR": "43",
+   "EXP": "1090",
+   "Str/Con/Dex": "15/10/15",
+   "Int/Wis": "16/17",
+   "Family": "elemental",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "cedd27376d73bd5b0577.webp",
+  "drops": [
+   {
+    "item_id": 40100,
+    "name": "Scroll of Teleportation",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40432,
+    "name": "Diad Scroll Piece",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40018,
+    "name": "Greater Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40429,
+    "name": "Piece of Large Cave Scroll",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40465,
+    "name": "Elementalist Ring",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 45910,
+  "name": "Greater Dark Elemental",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "31",
+   "Size": "Large",
+   "HP": "310",
+   "MP": "30",
+   "AC": "-16",
+   "MR": "30",
+   "EXP": "962",
+   "Str/Con/Dex": "17/11/16",
+   "Int/Wis": "10/10",
+   "Family": "elemental",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "47ac605cbb0e4041cafa.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 50,
+    "max": 300,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40432,
+    "name": "Diad Scroll Piece",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40470,
+    "name": "Piece of Soul",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40304,
+    "name": "Relic of Maphr",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 12.0
+   }
+  ]
+ },
+ {
+  "id": 45911,
+  "name": "Dark Elemental",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "29",
+   "Size": "Small",
+   "HP": "290",
+   "MP": "120",
+   "AC": "-15",
+   "MR": "29",
+   "EXP": "842",
+   "Str/Con/Dex": "18/11/12",
+   "Int/Wis": "10/10",
+   "Family": "elemental",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "ec61fc84351e561a683a.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 50,
+    "max": 200,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40432,
+    "name": "Diad Scroll Piece",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40304,
+    "name": "Relic of Maphr",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 12.0
    }
   ]
  },
@@ -42042,6 +46987,81 @@
   ]
  },
  {
+  "id": 45925,
+  "name": "Eva Acaleph",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "30",
+   "Size": "Small",
+   "HP": "440",
+   "MP": "55",
+   "AC": "-16",
+   "MR": "2",
+   "EXP": "901",
+   "Str/Con/Dex": "9/15/12",
+   "Int/Wis": "5/6",
+   "Family": "jellyfish",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {},
+  "icon": "7e49b7e01c04744029c7.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 20,
+    "max": 300,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40017,
+    "name": "Cure Poison Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 80.0
+   },
+   {
+    "item_id": 40050,
+    "name": "High Quality Sapphire",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40046,
+    "name": "Sapphire",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40210,
+    "name": "Spellbook(LightningStorm)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
   "id": 45926,
   "name": "Cursed Beholder",
   "band": "detail",
@@ -42161,6 +47181,105 @@
     "min": 1,
     "max": 1,
     "chance_pct": 0.6
+   }
+  ]
+ },
+ {
+  "id": 45927,
+  "name": "Eva Crabman",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "32",
+   "Size": "Small",
+   "HP": "400",
+   "MP": "0",
+   "AC": "-20",
+   "MR": "1",
+   "EXP": "1025",
+   "Str/Con/Dex": "18/15/12",
+   "Int/Wis": "5/6",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {},
+  "icon": "0b40c29154b78106594e.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 20,
+    "max": 300,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40187,
+    "name": "Spellbook(EnchantStr)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40172,
+    "name": "Spellbook(WeaponBreak)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 140100,
+    "name": "Scroll of Teleportation",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 49047,
+    "name": "Crab Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40238,
+    "name": "Spirit Crystal(BloodtoSoul)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40255,
+    "name": "Spirit Crystal(NaturesBlessing)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
    }
   ]
  },
@@ -42510,6 +47629,89 @@
   ]
  },
  {
+  "id": 45933,
+  "name": "Eva Shark",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "36",
+   "Size": "Large",
+   "HP": "580",
+   "MP": "0",
+   "AC": "-15",
+   "MR": "5",
+   "EXP": "1297",
+   "Str/Con/Dex": "18/16/18",
+   "Int/Wis": "5/5",
+   "Family": "shark",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {},
+  "icon": "21a1087cf5c0feae0e2b.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 20,
+    "max": 300,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40008,
+    "name": "Maple Wand",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40088,
+    "name": "Scroll of Shape Change",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 49040,
+    "name": "Shark Eggs",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
   "id": 45934,
   "name": "Eva Aste",
   "band": "detail",
@@ -42595,6 +47797,234 @@
     "min": 1,
     "max": 1,
     "chance_pct": 1.0
+   }
+  ]
+ },
+ {
+  "id": 45936,
+  "name": "Eva Sea Dancer",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "38",
+   "Size": "Large",
+   "HP": "600",
+   "MP": "220",
+   "AC": "-23",
+   "MR": "30",
+   "EXP": "1445",
+   "Str/Con/Dex": "10/12/10",
+   "Int/Wis": "17/17",
+   "Family": "seadancer",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {},
+  "icon": "6a354f7b53abb991f974.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 200,
+    "max": 1000,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40250,
+    "name": "Spirit Crystal(BlessOfEarth)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40174,
+    "name": "Spellbook(Slow)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40183,
+    "name": "Spellbook(ConeOfCold)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40195,
+    "name": "Spellbook(IceLance)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40202,
+    "name": "Spellbook(FullHeal)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40253,
+    "name": "Spirit Crystal(WaterLife)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40254,
+    "name": "Spirit Crystal(NaturesTouch)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 49111,
+    "name": "Dragon Tablet(AwakenFafurion)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40255,
+    "name": "Spirit Crystal(NaturesBlessing)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   },
+   {
+    "item_id": 41151,
+    "name": "Spirit Crystal(Aqua Protect)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 45937,
+  "name": "Eva Turtle Dragon",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "38",
+   "Size": "Large",
+   "HP": "680",
+   "MP": "10",
+   "AC": "-28",
+   "MR": "5",
+   "EXP": "1445",
+   "Str/Con/Dex": "16/18/15",
+   "Int/Wis": "12/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "53e9d37e929a97c674e7.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 20,
+    "max": 300,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40601,
+    "name": "Turtle Dragon Shell",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 140100,
+    "name": "Scroll of Teleportation",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40250,
+    "name": "Spirit Crystal(BlessOfEarth)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 49042,
+    "name": "Turtle Dragon Egg",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 49263,
+    "name": "Great King Turtle Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40183,
+    "name": "Spellbook(ConeOfCold)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40247,
+    "name": "Spirit Crystal(EarthSkin)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40254,
+    "name": "Spirit Crystal(NaturesTouch)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
    }
   ]
  },
@@ -42716,6 +48146,119 @@
     "min": 1,
     "max": 1,
     "chance_pct": 0.025
+   }
+  ]
+ },
+ {
+  "id": 45939,
+  "name": "Eva Crustacean",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "40",
+   "Size": "Large",
+   "HP": "750",
+   "MP": "100",
+   "AC": "-30",
+   "MR": "0",
+   "EXP": "1601",
+   "Str/Con/Dex": "20/18/16",
+   "Int/Wis": "14/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {},
+  "icon": "829c94d4eaa65c798ea1.webp",
+  "drops": [
+   {
+    "item_id": 40056,
+    "name": "Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 20,
+    "max": 300,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40172,
+    "name": "Spellbook(WeaponBreak)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 49260,
+    "name": "Claw of Crustacean",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40183,
+    "name": "Spellbook(ConeOfCold)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40185,
+    "name": "Spellbook(Darkness)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40192,
+    "name": "Spellbook(Weakness)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40195,
+    "name": "Spellbook(IceLance)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
    }
   ]
  },
@@ -44980,6 +50523,737 @@
   ]
  },
  {
+  "id": 46015,
+  "name": "Middle Oum",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "32",
+   "Size": "Small",
+   "HP": "450",
+   "MP": "50",
+   "AC": "-23",
+   "MR": "30",
+   "EXP": "1025",
+   "Str/Con/Dex": "18/18/16",
+   "Int/Wis": "5/5",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "4166f452385782bb0ec4.webp",
+  "drops": [
+   {
+    "item_id": 40020,
+    "name": "Condensed Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40011,
+    "name": "Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40089,
+    "name": "Scroll of Resurrection",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 46027,
+  "name": "Corrupted Zombie",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "12",
+   "Size": "Small",
+   "HP": "120",
+   "MP": "0",
+   "AC": "-5",
+   "MR": "10",
+   "EXP": "145",
+   "Str/Con/Dex": "14/16/6",
+   "Int/Wis": "2/5",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "4d2fe6c4b0be3af93393.webp",
+  "drops": [
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 46028,
+  "name": "Corrupted Zombie",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "22",
+   "Size": "Small",
+   "HP": "120",
+   "MP": "0",
+   "AC": "-5",
+   "MR": "10",
+   "EXP": "145",
+   "Str/Con/Dex": "14/16/6",
+   "Int/Wis": "2/5",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "63b13d37f0ab1fec5f4d.webp",
+  "drops": [
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 46029,
+  "name": "Corrupted Skeleton Archer",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "18",
+   "Size": "Small",
+   "HP": "200",
+   "MP": "0",
+   "AC": "-10",
+   "MR": "8",
+   "EXP": "325",
+   "Str/Con/Dex": "16/14/16",
+   "Int/Wis": "10/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "2d668a714d8d6a487801.webp",
+  "drops": [
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 46030,
+  "name": "Corrupted Skeleton Axeman",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "20",
+   "Size": "Small",
+   "HP": "220",
+   "MP": "0",
+   "AC": "-12",
+   "MR": "8",
+   "EXP": "401",
+   "Str/Con/Dex": "18/14/14",
+   "Int/Wis": "10/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "d67830569bd8cd07ccbc.webp",
+  "drops": [
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 46031,
+  "name": "Corrupted Skeleton Soldier",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "22",
+   "Size": "Small",
+   "HP": "250",
+   "MP": "0",
+   "AC": "-15",
+   "MR": "18",
+   "EXP": "485",
+   "Str/Con/Dex": "16/14/15",
+   "Int/Wis": "10/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "c73c7e76d93218e9bc1d.webp",
+  "drops": [
+   {
+    "item_id": 41111,
+    "name": "Worn Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 46033,
+  "name": "Corrupted Zombie Wizard",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "24",
+   "Size": "Small",
+   "HP": "250",
+   "MP": "350",
+   "AC": "-20",
+   "MR": "20",
+   "EXP": "677",
+   "Str/Con/Dex": "16/14/16",
+   "Int/Wis": "18/18",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "110532a7c31c490345f9.webp",
+  "drops": [
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 46034,
+  "name": "Corrupted Zombie General",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "32",
+   "Size": "Small",
+   "HP": "300",
+   "MP": "250",
+   "AC": "-22",
+   "MR": "20",
+   "EXP": "1025",
+   "Str/Con/Dex": "20/14/18",
+   "Int/Wis": "10/12",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "c24a1f0bb94dfc01649f.webp",
+  "drops": [
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 46035,
+  "name": "Corrupted Zombie Lord",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "35",
+   "Size": "Large",
+   "HP": "2500",
+   "MP": "300",
+   "AC": "-25",
+   "MR": "50",
+   "EXP": "1226",
+   "Str/Con/Dex": "14/16/16",
+   "Int/Wis": "12/15",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "57e771801761979e6321.webp",
+  "drops": [
+   {
+    "item_id": 41112,
+    "name": "Old Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 140089,
+    "name": "Scroll of Resurrection",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 140074,
+    "name": "Scroll of Enchant Armor",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 140087,
+    "name": "Scroll of Enchant Weapon",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   },
+   {
+    "item_id": 49114,
+    "name": "Dragon Tablet(HorrorOfDeath)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 46036,
+  "name": "Corrupted Skeleton Knight",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "55",
+   "Size": "Large",
+   "HP": "9250",
+   "MP": "250",
+   "AC": "-68",
+   "MR": "40",
+   "EXP": "3026",
+   "Str/Con/Dex": "22/25/18",
+   "Int/Wis": "15/10",
+   "Family": "skeleton",
+   "HPR": "40",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "f88e09229616b29f0836.webp",
+  "drops": [
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 41112,
+    "name": "Old Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 140089,
+    "name": "Scroll of Resurrection",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 240074,
+    "name": "Scroll of Enchant Armor",
+    "status": "Cursed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 240087,
+    "name": "Scroll of Enchant Weapon",
+    "status": "Cursed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   }
+  ]
+ },
+ {
+  "id": 46053,
+  "name": "Evil Spirit of Ship",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "1000",
+   "MP": "200",
+   "AC": "-35",
+   "MR": "45",
+   "EXP": "2026",
+   "Str/Con/Dex": "23/20/17",
+   "Int/Wis": "12/12",
+   "Family": "elemental",
+   "HPR": "20",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "ec61fc84351e561a683a.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 200,
+    "max": 800,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 41207,
+    "name": "Ash of Sailor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 240074,
+    "name": "Scroll of Enchant Armor",
+    "status": "Cursed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.4
+   },
+   {
+    "item_id": 240087,
+    "name": "Scroll of Enchant Weapon",
+    "status": "Cursed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.4
+   }
+  ]
+ },
+ {
+  "id": 46054,
+  "name": "Deep Sea Crabman",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "32",
+   "Size": "Small",
+   "HP": "450",
+   "MP": "20",
+   "AC": "-28",
+   "MR": "30",
+   "EXP": "2500",
+   "Str/Con/Dex": "18/16/16",
+   "Int/Wis": "8/8",
+   "Family": "crab",
+   "HPR": "9",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {},
+  "icon": "0b40c29154b78106594e.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 200,
+    "max": 800,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 49047,
+    "name": "Crab Meat",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 16.0
+   },
+   {
+    "item_id": 40050,
+    "name": "High Quality Sapphire",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 41045,
+    "name": "Logbook Page 8",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 41207,
+    "name": "Ash of Sailor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40048,
+    "name": "High Quality Diamond",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40049,
+    "name": "High Quality Ruby",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40051,
+    "name": "High Quality Emerald",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40041,
+    "name": "Scale of Mermaid",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40044,
+    "name": "Diamond",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 240074,
+    "name": "Scroll of Enchant Armor",
+    "status": "Cursed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.5
+   },
+   {
+    "item_id": 40255,
+    "name": "Spirit Crystal(NaturesBlessing)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
   "id": 46055,
   "name": "Drowned Male",
   "band": "detail",
@@ -45068,6 +51342,811 @@
     "min": 1,
     "max": 1,
     "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 46071,
+  "name": "Unchosen One",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "32",
+   "Size": "Small",
+   "HP": "100",
+   "MP": "30",
+   "AC": "-35",
+   "MR": "100",
+   "EXP": "2500",
+   "Str/Con/Dex": "12/16/11",
+   "Int/Wis": "8/16",
+   "Family": "",
+   "HPR": "10",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "83abf831119eeece93a3.webp",
+  "drops": [
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 0,
+    "max": 0,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40443,
+    "name": "Black Lump of Pure Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40718,
+    "name": "Fragment of Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 41206,
+    "name": "Dull Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.6
+   }
+  ]
+ },
+ {
+  "id": 46073,
+  "name": "Unchosen One",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "35",
+   "Size": "Large",
+   "HP": "150",
+   "MP": "30",
+   "AC": "-45",
+   "MR": "100",
+   "EXP": "5000",
+   "Str/Con/Dex": "13/18/11",
+   "Int/Wis": "8/18",
+   "Family": "",
+   "HPR": "10",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "e1c39368ebf2344c895b.webp",
+  "drops": [
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 0,
+    "max": 0,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40443,
+    "name": "Black Lump of Pure Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40718,
+    "name": "Fragment of Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 41206,
+    "name": "Dull Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 46091,
+  "name": "Guard",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "38",
+   "Size": "Small",
+   "HP": "840",
+   "MP": "30",
+   "AC": "-38",
+   "MR": "50",
+   "EXP": "4000",
+   "Str/Con/Dex": "20/17/16",
+   "Int/Wis": "8/12",
+   "Family": "daemon",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "1ec81ecff49fdd03e8df.webp",
+  "drops": [
+   {
+    "item_id": 41206,
+    "name": "Dull Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 40718,
+    "name": "Fragment of Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 46098,
+  "name": "Patrol 2",
+  "band": "detail",
+  "badges": [
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "300",
+   "AC": "-60",
+   "MR": "75",
+   "EXP": "4000",
+   "Str/Con/Dex": "35/21/11",
+   "Int/Wis": "18/21",
+   "Family": "chaos",
+   "HPR": "80",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77693d442754e3be81b2.webp",
+  "drops": [
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 41206,
+    "name": "Dull Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 46099,
+  "name": "Patrol 3",
+  "band": "detail",
+  "badges": [
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "300",
+   "AC": "-60",
+   "MR": "75",
+   "EXP": "4000",
+   "Str/Con/Dex": "35/21/11",
+   "Int/Wis": "18/21",
+   "Family": "chaos",
+   "HPR": "80",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77693d442754e3be81b2.webp",
+  "drops": [
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 41206,
+    "name": "Dull Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 46101,
+  "name": "Patrol 5",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "300",
+   "AC": "-60",
+   "MR": "100",
+   "EXP": "4000",
+   "Str/Con/Dex": "35/21/11",
+   "Int/Wis": "18/21",
+   "Family": "chaos",
+   "HPR": "80",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77693d442754e3be81b2.webp",
+  "drops": [
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 41206,
+    "name": "Dull Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 46102,
+  "name": "Patrol 6",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "300",
+   "AC": "-60",
+   "MR": "100",
+   "EXP": "4000",
+   "Str/Con/Dex": "35/21/11",
+   "Int/Wis": "18/21",
+   "Family": "chaos",
+   "HPR": "80",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77693d442754e3be81b2.webp",
+  "drops": [
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 41206,
+    "name": "Dull Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 46104,
+  "name": "Patrol 8",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "300",
+   "AC": "-60",
+   "MR": "100",
+   "EXP": "4000",
+   "Str/Con/Dex": "35/21/11",
+   "Int/Wis": "18/21",
+   "Family": "chaos",
+   "HPR": "80",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77693d442754e3be81b2.webp",
+  "drops": [
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 41206,
+    "name": "Dull Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 46105,
+  "name": "Patrol 9",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "300",
+   "AC": "-60",
+   "MR": "100",
+   "EXP": "4000",
+   "Str/Con/Dex": "35/21/11",
+   "Int/Wis": "18/21",
+   "Family": "chaos",
+   "HPR": "80",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77693d442754e3be81b2.webp",
+  "drops": [
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 40016,
+    "name": "Potion of Wisdom",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 40.0
+   },
+   {
+    "item_id": 41206,
+    "name": "Dull Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 46130,
+  "name": "Yeti",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "44",
+   "Size": "Large",
+   "HP": "528",
+   "MP": "10",
+   "AC": "-29",
+   "MR": "22",
+   "EXP": "1937",
+   "Str/Con/Dex": "16/20/12",
+   "Int/Wis": "6/9",
+   "Family": "yeti",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "1f9ba0048b5aefacb428.webp",
+  "drops": [
+   {
+    "item_id": 49289,
+    "name": "Magic Doll: Yeti",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.02
+   }
+  ]
+ },
+ {
+  "id": 46153,
+  "name": "Yeti",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "49",
+   "Size": "Large",
+   "HP": "598",
+   "MP": "10",
+   "AC": "-33",
+   "MR": "24",
+   "EXP": "2402",
+   "Str/Con/Dex": "18/20/12",
+   "Int/Wis": "6/9",
+   "Family": "yeti",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "1f9ba0048b5aefacb428.webp",
+  "drops": [
+   {
+    "item_id": 49289,
+    "name": "Magic Doll: Yeti",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.02
+   }
+  ]
+ },
+ {
+  "id": 46154,
+  "name": "Yeti",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "51",
+   "Size": "Large",
+   "HP": "720",
+   "MP": "10",
+   "AC": "-35",
+   "MR": "26",
+   "EXP": "2602",
+   "Str/Con/Dex": "20/20/12",
+   "Int/Wis": "6/9",
+   "Family": "yeti",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "1f9ba0048b5aefacb428.webp",
+  "drops": [
+   {
+    "item_id": 49289,
+    "name": "Magic Doll: Yeti",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.02
+   }
+  ]
+ },
+ {
+  "id": 46161,
+  "name": "Orc Emissary Leader",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "28",
+   "Size": "Small",
+   "HP": "300",
+   "MP": "25",
+   "AC": "-15",
+   "MR": "15",
+   "EXP": "0",
+   "Str/Con/Dex": "20/18/18",
+   "Int/Wis": "18/10",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "492c7ca69102a8d8f699.webp",
+  "drops": [
+   {
+    "item_id": 49221,
+    "name": "Official Note of Orc Emissary Leader",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
+   }
+  ]
+ },
+ {
+  "id": 46163,
+  "name": "Vengeful Spirit of Commander of Elmore Solsheica",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Tameable",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "25",
+   "Size": "Large",
+   "HP": "180",
+   "MP": "0",
+   "AC": "-18",
+   "MR": "10",
+   "EXP": "626",
+   "Str/Con/Dex": "17/18/15",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "7a807db946ca4ae838f9.webp",
+  "drops": [
+   {
+    "item_id": 49190,
+    "name": "Sealed Article of Solsheica",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
+   }
+  ]
+ },
+ {
+  "id": 46170,
+  "name": "Stone Golem",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "875",
+   "MP": "10",
+   "AC": "-50",
+   "MR": "45",
+   "EXP": "2501",
+   "Str/Con/Dex": "58/16/10",
+   "Int/Wis": "11/6",
+   "Family": "golem",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "fb5bf36b72e3dd1a4626.webp",
+  "drops": [
+   {
+    "item_id": 49039,
+    "name": "Magic Doll: Stone Golem",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.02
+   }
+  ]
+ },
+ {
+  "id": 46177,
+  "name": "Elder",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "55",
+   "Size": "Small",
+   "HP": "1059",
+   "MP": "50",
+   "AC": "-35",
+   "MR": "30",
+   "EXP": "3026",
+   "Str/Con/Dex": "10/14/10",
+   "Int/Wis": "16/16",
+   "Family": "elder",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "24bf1ab8d55c6dbfb5e6.webp",
+  "drops": [
+   {
+    "item_id": 49037,
+    "name": "Magic Doll: Elder",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.1
+   }
+  ]
+ },
+ {
+  "id": 46181,
+  "name": "Dark Elder",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "57",
+   "Size": "Small",
+   "HP": "1137",
+   "MP": "50",
+   "AC": "-37",
+   "MR": "90",
+   "EXP": "3250",
+   "Str/Con/Dex": "12/15/12",
+   "Int/Wis": "17/17",
+   "Family": "elder",
+   "HPR": "200",
+   "MPR": "200",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "52609a119c35ccef96f0.webp",
+  "drops": [
+   {
+    "item_id": 49037,
+    "name": "Magic Doll: Elder",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.1
    }
   ]
  },
@@ -45219,6 +52298,76 @@
     "max": 1,
     "chance_pct": 0.0308,
     "rune_types": 25
+   }
+  ]
+ },
+ {
+  "id": 46225,
+  "name": "Cockatrice",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "34",
+   "Size": "Large",
+   "HP": "450",
+   "MP": "100",
+   "AC": "-15",
+   "MR": "30",
+   "EXP": "1157",
+   "Str/Con/Dex": "25/18/18",
+   "Int/Wis": "12/12",
+   "Family": "cockatrice",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "688643a47129303c8ec1.webp",
+  "drops": [
+   {
+    "item_id": 49293,
+    "name": "Magic Doll: Cockatrice",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.03
+   }
+  ]
+ },
+ {
+  "id": 46226,
+  "name": "Succubus",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "37",
+   "Size": "Small",
+   "HP": "400",
+   "MP": "250",
+   "AC": "-25",
+   "MR": "50",
+   "EXP": "1370",
+   "Str/Con/Dex": "15/15/18",
+   "Int/Wis": "18/25",
+   "Family": "succubus",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "1ae890e6a24df735dd4b.webp",
+  "drops": [
+   {
+    "item_id": 41249,
+    "name": "Magic Doll: Succubus",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.03
    }
   ]
  },
@@ -46674,6 +53823,113 @@
   "icon": null
  },
  {
+  "id": 70972,
+  "name": "Priest of Corruption (Assassin)",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "1997.webp",
+  "drops": [
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 14.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40444,
+    "name": "Black Lump of Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40443,
+    "name": "Black Lump of Pure Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40477,
+    "name": "Tarak`s Devil Book, Volume 1",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40478,
+    "name": "Tarak`s Devil Book, Volume 2",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40479,
+    "name": "Tarak`s Devil Book, Volume 3",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40480,
+    "name": "Tarak`s Devil Book, Volume 4",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
   "id": 71092,
   "name": "Scout",
   "band": "detail",
@@ -46722,6 +53978,670 @@
   },
   "spawn": {},
   "icon": null
+ },
+ {
+  "id": 81042,
+  "name": "Acaleph",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "25",
+   "Size": "Small",
+   "HP": "120",
+   "MP": "5",
+   "AC": "-14",
+   "MR": "2",
+   "EXP": "626",
+   "Str/Con/Dex": "9/15/12",
+   "Int/Wis": "5/6",
+   "Family": "jellyfish",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {},
+  "icon": "7d61b597a9b106f15164.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 109,
+    "max": 186,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40017,
+    "name": "Cure Poison Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.1
+   }
+  ]
+ },
+ {
+  "id": 81048,
+  "name": "Muryan - Large",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "29",
+   "Size": "Small",
+   "HP": "280",
+   "MP": "60",
+   "AC": "-15",
+   "MR": "25",
+   "EXP": "842",
+   "Str/Con/Dex": "18/14/14",
+   "Int/Wis": "14/14",
+   "Family": "murrian",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "a56f265f0c8b216fad22.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 144,
+    "max": 240,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40079,
+    "name": "Scroll of Escape",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40088,
+    "name": "Scroll of Shape Change",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40119,
+    "name": "Scroll of Curse Removal",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40304,
+    "name": "Relic of Maphr",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.1
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 140074,
+    "name": "Scroll of Enchant Armor",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   },
+   {
+    "item_id": 140087,
+    "name": "Scroll of Enchant Weapon",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.1
+   }
+  ]
+ },
+ {
+  "id": 81071,
+  "name": "Contaminated Orc",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "35",
+   "Size": "Small",
+   "HP": "380",
+   "MP": "20",
+   "AC": "-22",
+   "MR": "0",
+   "EXP": "1226",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "88321ed672464c0dc849.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 205,
+    "max": 336,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 41081,
+    "name": "Orc Fang",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   }
+  ]
+ },
+ {
+  "id": 81072,
+  "name": "Contaminated Orc Warrior",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "40",
+   "Size": "Small",
+   "HP": "420",
+   "MP": "20",
+   "AC": "-25",
+   "MR": "0",
+   "EXP": "1601",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "9604e173b8e68992ddd2.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 265,
+    "max": 429,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 41082,
+    "name": "Orc Fang Amulet",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 81074,
+  "name": "Contaminated Orc Spearman",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "42",
+   "Size": "Small",
+   "HP": "450",
+   "MP": "20",
+   "AC": "-25",
+   "MR": "0",
+   "EXP": "1765",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "orc",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "7d5af788e99f5733fd50.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 292,
+    "max": 470,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 41085,
+    "name": "Pearl of Prophet",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   },
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 3.0
+   }
+  ]
+ },
+ {
+  "id": 81075,
+  "name": "Ramia",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "22",
+   "Size": "Large",
+   "HP": "200",
+   "MP": "30",
+   "AC": "-6",
+   "MR": "10",
+   "EXP": "485",
+   "Str/Con/Dex": "15/15/12",
+   "Int/Wis": "10/12",
+   "Family": "lahmia",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Wind"
+  },
+  "spawn": {},
+  "icon": "fb16a418665fb059c9d8.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 87,
+    "max": 150,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40017,
+    "name": "Cure Poison Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 140100,
+    "name": "Scroll of Teleportation",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40458,
+    "name": "Shining Scale",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 8.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.1
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40172,
+    "name": "Spellbook(WeaponBreak)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40232,
+    "name": "Spirit Crystal(ResistMagic)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.0
+   },
+   {
+    "item_id": 40253,
+    "name": "Spirit Crystal(WaterLife)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.4
+   },
+   {
+    "item_id": 40255,
+    "name": "Spirit Crystal(NaturesBlessing)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 81078,
+  "name": "Giant Gaurding Ant",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "24",
+   "Size": "Large",
+   "HP": "150",
+   "MP": "40",
+   "AC": "-20",
+   "MR": "25",
+   "EXP": "577",
+   "Str/Con/Dex": "17/18/15",
+   "Int/Wis": "8/12",
+   "Family": "ant",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "365775c8ec16845c0488.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 102,
+    "max": 173,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40010,
+    "name": "Lesser Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40011,
+    "name": "Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40012,
+    "name": "Greater Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40018,
+    "name": "Greater Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40048,
+    "name": "High Quality Diamond",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40049,
+    "name": "High Quality Ruby",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40050,
+    "name": "High Quality Sapphire",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40051,
+    "name": "High Quality Emerald",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 81079,
+  "name": "Giant Centipede",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "26",
+   "Size": "Large",
+   "HP": "200",
+   "MP": "40",
+   "AC": "-20",
+   "MR": "70",
+   "EXP": "626",
+   "Str/Con/Dex": "16/15/20",
+   "Int/Wis": "16/8",
+   "Family": "centipede",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "bca1b5599946d59bec54.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 118,
+    "max": 198,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40017,
+    "name": "Cure Poison Potion",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40045,
+    "name": "Ruby",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 140100,
+    "name": "Scroll of Teleportation",
+    "status": "Blessed",
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40049,
+    "name": "High Quality Ruby",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
  },
  {
   "id": 81082,
@@ -46968,6 +54888,77 @@
     "max": 1,
     "chance_pct": 0.087,
     "rune_types": 37
+   }
+  ]
+ },
+ {
+  "id": 81086,
+  "name": "Bugbear",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "22",
+   "Size": "Large",
+   "HP": "250",
+   "MP": "30",
+   "AC": "-6",
+   "MR": "10",
+   "EXP": "485",
+   "Str/Con/Dex": "19/18/12",
+   "Int/Wis": "10/12",
+   "Family": "bugbear",
+   "HPR": "25",
+   "MPR": "3",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "21a7451f25f515707127.webp",
+  "drops": [
+   {
+    "item_id": 41248,
+    "name": "Magic Doll: Bugbear",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.02
+   }
+  ]
+ },
+ {
+  "id": 81102,
+  "name": "Cockatrice",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "48",
+   "Size": "Large",
+   "HP": "400",
+   "MP": "250",
+   "AC": "-20",
+   "MR": "30",
+   "EXP": "1157",
+   "Str/Con/Dex": "25/18/18",
+   "Int/Wis": "12/12",
+   "Family": "cockatrice",
+   "HPR": "40",
+   "MPR": "25",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "688643a47129303c8ec1.webp",
+  "drops": [
+   {
+    "item_id": 49293,
+    "name": "Magic Doll: Cockatrice",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.04
    }
   ]
  },
@@ -47577,6 +55568,110 @@
   ]
  },
  {
+  "id": 81176,
+  "name": "Dark Elder",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Small",
+   "HP": "1500",
+   "MP": "1000",
+   "AC": "-45",
+   "MR": "90",
+   "EXP": "2501",
+   "Str/Con/Dex": "12/15/12",
+   "Int/Wis": "17/17",
+   "Family": "elder",
+   "HPR": "200",
+   "MPR": "200",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "52609a119c35ccef96f0.webp",
+  "drops": [
+   {
+    "item_id": 49037,
+    "name": "Magic Doll: Elder",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.1
+   }
+  ]
+ },
+ {
+  "id": 81219,
+  "name": "Bugbear",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "32",
+   "Size": "Large",
+   "HP": "450",
+   "MP": "50",
+   "AC": "-6",
+   "MR": "10",
+   "EXP": "0",
+   "Str/Con/Dex": "19/18/12",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "7",
+   "MPR": "5",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "21a7451f25f515707127.webp",
+  "drops": [
+   {
+    "item_id": 41248,
+    "name": "Magic Doll: Bugbear",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.025
+   }
+  ]
+ },
+ {
+  "id": 81254,
+  "name": "Cracked Time",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "1",
+   "Size": "Small",
+   "HP": "1",
+   "MP": "0",
+   "AC": "10",
+   "MR": "0",
+   "EXP": "2",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "a73c9a61727784767260.webp",
+  "drops": [
+   {
+    "item_id": 49202,
+    "name": "Thought Piece of Time",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
+   }
+  ]
+ },
+ {
   "id": 81255,
   "name": "Redcoat",
   "band": "detail",
@@ -48038,6 +56133,81 @@
     "min": 1,
     "max": 1,
     "chance_pct": 0.003
+   }
+  ]
+ },
+ {
+  "id": 90510,
+  "name": "Elf Ranger Pet",
+  "band": "detail",
+  "badges": [
+   "NPC"
+  ],
+  "stats": {
+   "Level": "0",
+   "Size": "Small",
+   "HP": "0",
+   "MP": "0",
+   "AC": "0",
+   "MR": "0",
+   "EXP": "0",
+   "Str/Con/Dex": "0/0/0",
+   "Int/Wis": "0/0",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "5.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 350,
+    "max": 500,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40020,
+    "name": "Condensed Healing Potion",
+    "status": null,
+    "min": 1,
+    "max": 3,
+    "chance_pct": 36.0
+   },
+   {
+    "item_id": 49101,
+    "name": "Fragment of Time",
+    "status": null,
+    "min": 3,
+    "max": 3,
+    "chance_pct": 30.0
+   },
+   {
+    "item_id": 40306,
+    "name": "Relic of Eva",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 12.0
+   },
+   {
+    "item_id": 49316,
+    "name": "Piece of Lesser Kukulcan Treasure (Upper)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 49110,
+    "name": "Dragon Tablet(MagmaArrow)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
    }
   ]
  },
@@ -48738,6 +56908,129 @@
   ]
  },
  {
+  "id": 91309,
+  "name": "Priest Guignol",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "66",
+   "Size": "Large",
+   "HP": "20000",
+   "MP": "1250",
+   "AC": "-75",
+   "MR": "99",
+   "EXP": "4357",
+   "Str/Con/Dex": "50/20/66",
+   "Int/Wis": "23/22",
+   "Family": "",
+   "HPR": "250",
+   "MPR": "350",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "a532a3bc86c36393862d.webp",
+  "drops": [
+   {
+    "item_id": 49168,
+    "name": "Secret Medicine of Destruction",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
+   }
+  ]
+ },
+ {
+  "id": 91401,
+  "name": "Evil Spirit",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "52",
+   "Size": "Small",
+   "HP": "650",
+   "MP": "200",
+   "AC": "-46",
+   "MR": "50",
+   "EXP": "4328",
+   "Str/Con/Dex": "17/18/15",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "e13e377db3c6473cd9ae.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 173,
+    "max": 285,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 41074,
+    "name": "Bandit Pouch",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 5.0
+   }
+  ]
+ },
+ {
+  "id": 91403,
+  "name": "Evil Spirit",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "52",
+   "Size": "Small",
+   "HP": "650",
+   "MP": "200",
+   "AC": "-46",
+   "MR": "50",
+   "EXP": "4328",
+   "Str/Con/Dex": "20/20/15",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "47033fb6b38d4e049eb1.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 426,
+    "max": 680,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 41074,
+    "name": "Bandit Pouch",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 5.0
+   }
+  ]
+ },
+ {
   "id": 91408,
   "name": "Bandit Leader Klein",
   "band": "detail",
@@ -48784,6 +57077,94 @@
   ]
  },
  {
+  "id": 91409,
+  "name": "Evil Spirit",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "650",
+   "MP": "200",
+   "AC": "-40",
+   "MR": "40",
+   "EXP": "3242",
+   "Str/Con/Dex": "17/18/15",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "b60044f6c1a1d44dacad.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 153,
+    "max": 254,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 41074,
+    "name": "Bandit Pouch",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 5.0
+   }
+  ]
+ },
+ {
+  "id": 91410,
+  "name": "Evil Spirit",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "52",
+   "Size": "Small",
+   "HP": "650",
+   "MP": "200",
+   "AC": "-46",
+   "MR": "40",
+   "EXP": "4328",
+   "Str/Con/Dex": "20/20/15",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "47033fb6b38d4e049eb1.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 426,
+    "max": 680,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 41074,
+    "name": "Bandit Pouch",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 5.0
+   }
+  ]
+ },
+ {
   "id": 91414,
   "name": "Bandit Leader Klein",
   "band": "detail",
@@ -48826,6 +57207,287 @@
     "max": 1,
     "chance_pct": 0.052,
     "rune_types": 23
+   }
+  ]
+ },
+ {
+  "id": 91415,
+  "name": "Evil Spirit",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "570",
+   "MP": "250",
+   "AC": "-40",
+   "MR": "50",
+   "EXP": "3242",
+   "Str/Con/Dex": "17/18/15",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "b60044f6c1a1d44dacad.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 153,
+    "max": 254,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 41074,
+    "name": "Bandit Pouch",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 5.0
+   }
+  ]
+ },
+ {
+  "id": 91416,
+  "name": "Evil Spirit",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "45",
+   "Size": "Small",
+   "HP": "650",
+   "MP": "200",
+   "AC": "-46",
+   "MR": "40",
+   "EXP": "3242",
+   "Str/Con/Dex": "17/18/15",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "b60044f6c1a1d44dacad.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 265,
+    "max": 429,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 41074,
+    "name": "Bandit Pouch",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 5.0
+   }
+  ]
+ },
+ {
+  "id": 91417,
+  "name": "Evil Spirit",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "52",
+   "Size": "Small",
+   "HP": "550",
+   "MP": "200",
+   "AC": "-46",
+   "MR": "38",
+   "EXP": "4328",
+   "Str/Con/Dex": "20/20/15",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "47033fb6b38d4e049eb1.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 426,
+    "max": 680,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 41074,
+    "name": "Bandit Pouch",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 5.0
+   }
+  ]
+ },
+ {
+  "id": 91418,
+  "name": "Evil Spirit",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "52",
+   "Size": "Small",
+   "HP": "570",
+   "MP": "200",
+   "AC": "-46",
+   "MR": "40",
+   "EXP": "4328",
+   "Str/Con/Dex": "17/18/15",
+   "Int/Wis": "10/12",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "e13e377db3c6473cd9ae.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 426,
+    "max": 680,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 41074,
+    "name": "Bandit Pouch",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 5.0
+   }
+  ]
+ },
+ {
+  "id": 91511,
+  "name": "Alopus Nero",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "62",
+   "Size": "Small",
+   "HP": "3700",
+   "MP": "900",
+   "AC": "-75",
+   "MR": "99",
+   "EXP": "4097",
+   "Str/Con/Dex": "125/50/24",
+   "Int/Wis": "40/35",
+   "Family": "",
+   "HPR": "5000",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "f54ef51d2878ad7608e0.webp",
+  "drops": [
+   {
+    "item_id": 50550,
+    "name": "Secret of the Sea A",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
+   }
+  ]
+ },
+ {
+  "id": 91512,
+  "name": "Alopus Nero",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "64",
+   "Size": "Small",
+   "HP": "4700",
+   "MP": "900",
+   "AC": "-75",
+   "MR": "99",
+   "EXP": "4097",
+   "Str/Con/Dex": "125/50/24",
+   "Int/Wis": "40/35",
+   "Family": "",
+   "HPR": "5000",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "51d090ee684770fbb64c.webp",
+  "drops": [
+   {
+    "item_id": 50551,
+    "name": "Secret of the Sea B",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
+   }
+  ]
+ },
+ {
+  "id": 91513,
+  "name": "Alopus Nero",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "66",
+   "Size": "Small",
+   "HP": "5700",
+   "MP": "900",
+   "AC": "-75",
+   "MR": "99",
+   "EXP": "4097",
+   "Str/Con/Dex": "125/50/24",
+   "Int/Wis": "40/35",
+   "Family": "",
+   "HPR": "5000",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "0ec5b96614d6a90efb59.webp",
+  "drops": [
+   {
+    "item_id": 50552,
+    "name": "Secret of the Sea C",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
    }
   ]
  },
@@ -48970,6 +57632,105 @@
     "max": 1,
     "chance_pct": 0.087,
     "rune_types": 37
+   }
+  ]
+ },
+ {
+  "id": 91608,
+  "name": "Parutia Garuda",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "64",
+   "Size": "Small",
+   "HP": "3200",
+   "MP": "700",
+   "AC": "-50",
+   "MR": "10",
+   "EXP": "4097",
+   "Str/Con/Dex": "18/18/18",
+   "Int/Wis": "15/15",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "ce8c144fde50bb41fc42.webp",
+  "drops": [
+   {
+    "item_id": 50635,
+    "name": "Gale Feather A",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
+   }
+  ]
+ },
+ {
+  "id": 91609,
+  "name": "Parutia Garuda",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "64",
+   "Size": "Small",
+   "HP": "4900",
+   "MP": "800",
+   "AC": "-50",
+   "MR": "10",
+   "EXP": "4357",
+   "Str/Con/Dex": "20/19/18",
+   "Int/Wis": "15/15",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "46402a85855773e798cc.webp",
+  "drops": [
+   {
+    "item_id": 50636,
+    "name": "Gale Feather B",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
+   }
+  ]
+ },
+ {
+  "id": 91610,
+  "name": "Parutia Garuda",
+  "band": "detail",
+  "badges": [],
+  "stats": {
+   "Level": "64",
+   "Size": "Small",
+   "HP": "5900",
+   "MP": "900",
+   "AC": "-50",
+   "MR": "10",
+   "EXP": "4625",
+   "Str/Con/Dex": "22/20/18",
+   "Int/Wis": "15/15",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "42f32cc0ef71dc2e41c5.webp",
+  "drops": [
+   {
+    "item_id": 50637,
+    "name": "Gale Feather C",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 100.0
    }
   ]
  },
@@ -49683,6 +58444,49 @@
   ]
  },
  {
+  "id": 97048,
+  "name": "Corrupted Zombie Lord",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "59",
+   "Size": "Large",
+   "HP": "2500",
+   "MP": "300",
+   "AC": "-25",
+   "MR": "50",
+   "EXP": "7500",
+   "Str/Con/Dex": "22/16/16",
+   "Int/Wis": "12/15",
+   "Family": "zombie",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "57e771801761979e6321.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 1180,
+    "max": 2360,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
   "id": 99006,
   "name": "Phantom Demon",
   "band": "detail",
@@ -49816,6 +58620,41 @@
     "max": 1,
     "chance_pct": 0.052,
     "rune_types": 23
+   }
+  ]
+ },
+ {
+  "id": 99030,
+  "name": "Succubus",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "47",
+   "Size": "Small",
+   "HP": "400",
+   "MP": "250",
+   "AC": "-30",
+   "MR": "50",
+   "EXP": "2210",
+   "Str/Con/Dex": "15/15/18",
+   "Int/Wis": "20/26",
+   "Family": "succubus",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "1ae890e6a24df735dd4b.webp",
+  "drops": [
+   {
+    "item_id": 41249,
+    "name": "Magic Doll: Succubus",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.04
    }
   ]
  },
@@ -50008,6 +58847,41 @@
   ]
  },
  {
+  "id": 99068,
+  "name": "Stone Golem",
+  "band": "detail",
+  "badges": [
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "53",
+   "Size": "Large",
+   "HP": "2100",
+   "MP": "50",
+   "AC": "-11",
+   "MR": "15",
+   "EXP": "2870",
+   "Str/Con/Dex": "60/18/12",
+   "Int/Wis": "10/6",
+   "Family": "golem",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "fb5bf36b72e3dd1a4626.webp",
+  "drops": [
+   {
+    "item_id": 49039,
+    "name": "Magic Doll: Stone Golem",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.03
+   }
+  ]
+ },
+ {
   "id": 99071,
   "name": "Kurtz",
   "band": "detail",
@@ -50075,6 +58949,313 @@
     "max": 1,
     "chance_pct": 0.087,
     "rune_types": 37
+   }
+  ]
+ },
+ {
+  "id": 99072,
+  "name": "Corroded Skeleton Knight",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "70",
+   "Size": "Large",
+   "HP": "9250",
+   "MP": "250",
+   "AC": "-70",
+   "MR": "50",
+   "EXP": "9810",
+   "Str/Con/Dex": "25/28/20",
+   "Int/Wis": "15/10",
+   "Family": "skeleton",
+   "HPR": "200",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "f88e09229616b29f0836.webp",
+  "drops": [
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 41112,
+    "name": "Old Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 60.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   }
+  ]
+ },
+ {
+  "id": 99073,
+  "name": "Corroded Zombie",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Small",
+   "HP": "1600",
+   "MP": "96",
+   "AC": "-40",
+   "MR": "70",
+   "EXP": "2005",
+   "Str/Con/Dex": "30/25/6",
+   "Int/Wis": "2/5",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "63b13d37f0ab1fec5f4d.webp",
+  "drops": [
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 99074,
+  "name": "Corroded Skeleton Axeman",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "53",
+   "Size": "Small",
+   "HP": "1720",
+   "MP": "96",
+   "AC": "-50",
+   "MR": "90",
+   "EXP": "2122",
+   "Str/Con/Dex": "32/30/14",
+   "Int/Wis": "10/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "d67830569bd8cd07ccbc.webp",
+  "drops": [
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 99075,
+  "name": "Corroded Skeleton Soldier",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "53",
+   "Size": "Small",
+   "HP": "1800",
+   "MP": "106",
+   "AC": "-45",
+   "MR": "80",
+   "EXP": "2122",
+   "Str/Con/Dex": "25/14/20",
+   "Int/Wis": "10/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "c73c7e76d93218e9bc1d.webp",
+  "drops": [
+   {
+    "item_id": 41111,
+    "name": "Worn Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 99076,
+  "name": "Corroded Skeleton Archer",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "53",
+   "Size": "Small",
+   "HP": "1640",
+   "MP": "106",
+   "AC": "-43",
+   "MR": "90",
+   "EXP": "2122",
+   "Str/Con/Dex": "16/14/35",
+   "Int/Wis": "18/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "2d668a714d8d6a487801.webp",
+  "drops": [
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 99077,
+  "name": "Corroded Zombie General",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Small",
+   "HP": "2480",
+   "MP": "250",
+   "AC": "-60",
+   "MR": "150",
+   "EXP": "2430",
+   "Str/Con/Dex": "35/35/25",
+   "Int/Wis": "10/12",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "c24a1f0bb94dfc01649f.webp",
+  "drops": [
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   }
+  ]
+ },
+ {
+  "id": 99078,
+  "name": "Corroded Zombie Wizard",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Can TU"
+  ],
+  "stats": {
+   "Level": "57",
+   "Size": "Small",
+   "HP": "1440",
+   "MP": "500",
+   "AC": "-55",
+   "MR": "120",
+   "EXP": "2430",
+   "Str/Con/Dex": "16/14/16",
+   "Int/Wis": "35/30",
+   "Family": "skeleton",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "110532a7c31c490345f9.webp",
+  "drops": [
+   {
+    "item_id": 41110,
+    "name": "Keepsake Sack",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 41158,
+    "name": "Crystal Orb of Maya",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
    }
   ]
  },
@@ -50584,6 +59765,112 @@
     "max": 1,
     "chance_pct": 0.087,
     "rune_types": 37
+   }
+  ]
+ },
+ {
+  "id": 99154,
+  "name": "Stone Golem",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "50",
+   "Size": "Large",
+   "HP": "875",
+   "MP": "10",
+   "AC": "-50",
+   "MR": "45",
+   "EXP": "2501",
+   "Str/Con/Dex": "58/16/10",
+   "Int/Wis": "11/6",
+   "Family": "golem",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "fb5bf36b72e3dd1a4626.webp",
+  "drops": [
+   {
+    "item_id": 49039,
+    "name": "Magic Doll: Stone Golem",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.03
+   }
+  ]
+ },
+ {
+  "id": 99161,
+  "name": "Elder",
+  "band": "detail",
+  "badges": [
+   "Aggro",
+   "Tameable"
+  ],
+  "stats": {
+   "Level": "55",
+   "Size": "Small",
+   "HP": "1059",
+   "MP": "50",
+   "AC": "-35",
+   "MR": "30",
+   "EXP": "3026",
+   "Str/Con/Dex": "10/14/10",
+   "Int/Wis": "16/16",
+   "Family": "elder",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "24bf1ab8d55c6dbfb5e6.webp",
+  "drops": [
+   {
+    "item_id": 49037,
+    "name": "Magic Doll: Elder",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.1
+   }
+  ]
+ },
+ {
+  "id": 99165,
+  "name": "Dark Elder",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "57",
+   "Size": "Small",
+   "HP": "1137",
+   "MP": "50",
+   "AC": "-37",
+   "MR": "90",
+   "EXP": "3250",
+   "Str/Con/Dex": "12/15/12",
+   "Int/Wis": "17/17",
+   "Family": "elder",
+   "HPR": "200",
+   "MPR": "200",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {},
+  "icon": "52609a119c35ccef96f0.webp",
+  "drops": [
+   {
+    "item_id": 49037,
+    "name": "Magic Doll: Elder",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.1
    }
   ]
  },
@@ -54753,6 +64040,277 @@
     "max": 1,
     "chance_pct": 0.0125,
     "rune_types": 37
+   }
+  ]
+ },
+ {
+  "id": 7210021,
+  "name": "Valakas",
+  "band": "detail",
+  "badges": [
+   "NPC",
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Large",
+   "HP": "50000",
+   "MP": "5000",
+   "AC": "-50",
+   "MR": "100",
+   "EXP": "9026",
+   "Str/Con/Dex": "60/60/60",
+   "Int/Wis": "60/60",
+   "Family": "dragon",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {},
+  "icon": "5.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 5000,
+    "max": 15000,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40048,
+    "name": "High Quality Diamond",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40049,
+    "name": "High Quality Ruby",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40050,
+    "name": "High Quality Sapphire",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40051,
+    "name": "High Quality Emerald",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40052,
+    "name": "Highest Quality Diamond",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40053,
+    "name": "Highest Quality Ruby",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40054,
+    "name": "Highest Quality Sapphire",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40055,
+    "name": "Highest Quality Emerald",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 41149,
+    "name": "Spirit Crystal(Soul of Flame)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.01
+   }
+  ]
+ },
+ {
+  "id": 7210022,
+  "name": "Phoenix",
+  "band": "detail",
+  "badges": [
+   "NPC",
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "89",
+   "Size": "Large",
+   "HP": "40353",
+   "MP": "16740",
+   "AC": "-104",
+   "MR": "116",
+   "EXP": "3482",
+   "Str/Con/Dex": "35/18/18",
+   "Int/Wis": "22/22",
+   "Family": "phoenix",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "5.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 5000,
+    "max": 15000,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40219,
+    "name": "Spellbook(MeteorStrike)",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.06
+   }
+  ]
+ },
+ {
+  "id": 7210023,
+  "name": "Ifrit",
+  "band": "detail",
+  "badges": [
+   "NPC",
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "60",
+   "Size": "Large",
+   "HP": "30000",
+   "MP": "300",
+   "AC": "-50",
+   "MR": "80",
+   "EXP": "2117",
+   "Str/Con/Dex": "20/18/18",
+   "Int/Wis": "18/18",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "Water"
+  },
+  "spawn": {},
+  "icon": "5.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 5000,
+    "max": 15000,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40048,
+    "name": "High Quality Diamond",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40049,
+    "name": "High Quality Ruby",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40050,
+    "name": "High Quality Sapphire",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40051,
+    "name": "High Quality Emerald",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40074,
+    "name": "Scroll of Enchant Armor",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 4.0
+   },
+   {
+    "item_id": 40087,
+    "name": "Scroll of Enchant Weapon",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 2.0
    }
   ]
  },
@@ -75372,6 +84930,196 @@
   ]
  },
  {
+  "id": 7311201,
+  "name": "Mystic Goblin",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "49",
+   "Size": "Small",
+   "HP": "500",
+   "MP": "1000",
+   "AC": "-30",
+   "MR": "60",
+   "EXP": "15000",
+   "Str/Con/Dex": "40/12/10",
+   "Int/Wis": "40/7",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "b1bb8978f897d25e83c6.webp",
+  "drops": [
+   {
+    "item_id": 41292,
+    "name": "Mushroom Soup of Fantasy",
+    "status": null,
+    "min": 1,
+    "max": 3,
+    "chance_pct": 7.0
+   },
+   {
+    "item_id": 41284,
+    "name": "Mushroom Soup",
+    "status": null,
+    "min": 1,
+    "max": 3,
+    "chance_pct": 3.5
+   },
+   {
+    "item_id": 49056,
+    "name": "Crab Meat Soup",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 2.8
+   },
+   {
+    "item_id": 49251,
+    "name": "Basilisk Egg Soup",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.8
+   },
+   {
+    "item_id": 49064,
+    "name": "Crab Meat Soup of Fantasy",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 1.75
+   },
+   {
+    "item_id": 49259,
+    "name": "Basilisk Egg Soup of Fantasy",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 1.75
+   },
+   {
+    "item_id": 600322,
+    "name": "Dragon's Ruby",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 0.3808
+   },
+   {
+    "item_id": 600324,
+    "name": "Dragon's Diamond",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.1284
+   },
+   {
+    "item_id": 600323,
+    "name": "Dragon's Sapphire",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.0572
+   },
+   {
+    "item_id": 500089,
+    "name": "Goblin King's Key",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.05
+   }
+  ]
+ },
+ {
+  "id": 7311204,
+  "name": "Greedy Goblin",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "49",
+   "Size": "Small",
+   "HP": "500",
+   "MP": "500",
+   "AC": "-30",
+   "MR": "40",
+   "EXP": "1200",
+   "Str/Con/Dex": "80/12/10",
+   "Int/Wis": "30/7",
+   "Family": "none",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "b1bb8978f897d25e83c6.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 2432,
+    "max": 4863,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 5,
+    "chance_pct": 15.0
+   },
+   {
+    "item_id": 41159,
+    "name": "Reborn Feather",
+    "status": null,
+    "min": 1,
+    "max": 20,
+    "chance_pct": 5.0
+   },
+   {
+    "item_id": 600100,
+    "name": "Skull of Reborn",
+    "status": null,
+    "min": 1,
+    "max": 3,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 600305,
+    "name": "Blessed Adena",
+    "status": "Blessed",
+    "min": 1,
+    "max": 5,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40391,
+    "name": "Calculator",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   },
+   {
+    "item_id": 500089,
+    "name": "Goblin King's Key",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.05
+   }
+  ]
+ },
+ {
   "id": 7311207,
   "name": "Queen Charlotte, Mother of the Swarm",
   "band": "detail",
@@ -76618,6 +86366,172 @@
   ]
  },
  {
+  "id": 7311221,
+  "name": "TI Mystic Goblin",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "17",
+   "Size": "Small",
+   "HP": "175",
+   "MP": "350",
+   "AC": "-11",
+   "MR": "21",
+   "EXP": "5250",
+   "Str/Con/Dex": "14/4/4",
+   "Int/Wis": "14/2",
+   "Family": "",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "b1bb8978f897d25e83c6.webp",
+  "drops": [
+   {
+    "item_id": 41292,
+    "name": "Mushroom Soup of Fantasy",
+    "status": null,
+    "min": 1,
+    "max": 3,
+    "chance_pct": 20.0
+   },
+   {
+    "item_id": 49064,
+    "name": "Crab Meat Soup of Fantasy",
+    "status": null,
+    "min": 1,
+    "max": 3,
+    "chance_pct": 5.6
+   },
+   {
+    "item_id": 49259,
+    "name": "Basilisk Egg Soup of Fantasy",
+    "status": null,
+    "min": 1,
+    "max": 3,
+    "chance_pct": 4.2
+   },
+   {
+    "item_id": 600322,
+    "name": "Dragon's Ruby",
+    "status": null,
+    "min": 1,
+    "max": 2,
+    "chance_pct": 0.3808
+   },
+   {
+    "item_id": 600324,
+    "name": "Dragon's Diamond",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.1284
+   },
+   {
+    "item_id": 600323,
+    "name": "Dragon's Sapphire",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.0572
+   },
+   {
+    "item_id": 500089,
+    "name": "Goblin King's Key",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.05
+   }
+  ]
+ },
+ {
+  "id": 7311224,
+  "name": "TI Greedy Goblin",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "17",
+   "Size": "Small",
+   "HP": "700",
+   "MP": "175",
+   "AC": "-11",
+   "MR": "14",
+   "EXP": "420",
+   "Str/Con/Dex": "28/4/4",
+   "Int/Wis": "11/2",
+   "Family": "none",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "b1bb8978f897d25e83c6.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 2432,
+    "max": 4863,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 5,
+    "chance_pct": 15.0
+   },
+   {
+    "item_id": 41159,
+    "name": "Reborn Feather",
+    "status": null,
+    "min": 1,
+    "max": 20,
+    "chance_pct": 5.0
+   },
+   {
+    "item_id": 600100,
+    "name": "Skull of Reborn",
+    "status": null,
+    "min": 1,
+    "max": 3,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 600305,
+    "name": "Blessed Adena",
+    "status": "Blessed",
+    "min": 1,
+    "max": 5,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40391,
+    "name": "Calculator",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   },
+   {
+    "item_id": 500089,
+    "name": "Goblin King's Key",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.05
+   }
+  ]
+ },
+ {
   "id": 7311229,
   "name": "TI Goblin King",
   "band": "detail",
@@ -76730,6 +86644,89 @@
     "min": 1,
     "max": 1,
     "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 7311230,
+  "name": "TI Treasure Goblin",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "17",
+   "Size": "Small",
+   "HP": "175",
+   "MP": "175",
+   "AC": "-11",
+   "MR": "14",
+   "EXP": "420",
+   "Str/Con/Dex": "28/4/4",
+   "Int/Wis": "11/2",
+   "Family": "none",
+   "HPR": "0",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "b1bb8978f897d25e83c6.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 2432,
+    "max": 4863,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40013,
+    "name": "Haste Potion",
+    "status": null,
+    "min": 1,
+    "max": 5,
+    "chance_pct": 15.0
+   },
+   {
+    "item_id": 41159,
+    "name": "Reborn Feather",
+    "status": null,
+    "min": 1,
+    "max": 20,
+    "chance_pct": 5.0
+   },
+   {
+    "item_id": 600100,
+    "name": "Skull of Reborn",
+    "status": null,
+    "min": 1,
+    "max": 3,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 600305,
+    "name": "Blessed Adena",
+    "status": "Blessed",
+    "min": 1,
+    "max": 5,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40391,
+    "name": "Calculator",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.2
+   },
+   {
+    "item_id": 500089,
+    "name": "Goblin King's Key",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 0.05
    }
   ]
  }

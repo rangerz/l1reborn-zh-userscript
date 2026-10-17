@@ -5,7 +5,8 @@
 - 詳情：.cache/manual/monsters/npc_<id>.html（?page=lookup-monsters&npc=<id>&mode=standard），補列表沒收的怪物
   （item_sources 掉落裡出現、但列表沒有的），band 記為 'detail'，多一個 drops 欄位。
   詳情頁也有固定 NPC（map_details 的怪物清單裡出現）：卡片名字列有座標標籤，記為 positions；沒有掉落區就不輸出 drops。
-  官網查不到的 ID（頁面沒有怪物區塊）不輸出，只在結尾列出。"""
+  官網查不到的 ID（頁面沒有怪物區塊）不輸出，只在結尾列出（目前 26510、26511、45007、81241、81242、95448）。
+  詳情頁的來源：map_details、kill_quests、items/item_sources.json 的掉落來源裡出現、但列表沒有的怪物（前兩者 65＋3 隻，item_sources 另補 156 隻，其中 4 隻官網查不到）。"""
 import html, json, re, shutil
 from pathlib import Path
 
