@@ -7,7 +7,15 @@
   配方 = {npc, ingredients}；材料 = {item_id, name, qty, output?, total?, sub_recipes?, circular?}：output／total 是頁面對該材料行標的
   「(Output xM)」「(Total: T)」原值；材料自己可製作時 sub_recipes 是它的配方（多一個 output_qty），官網遇到循環就停並標 circular。
 - used-in-guide（?page=used-in-guide&item=<id>）是同一份配方的反向索引（某材料被哪些配方用到），不另外抓，需要時由 recipes.json 反推
-  （頂層配方反推的次數與 misc.json 的 used_in_recipes 有 525／533 件相同，其餘差 1）。"""
+  （頂層配方反推的「材料用到幾個不同道具」與 misc.json 的 used_in_recipes 有 525／533 件相同，其餘 8 件差 1。
+  8 件都實抓 ?page=used-in-guide&item=<id> 驗證（存檔 .cache/manual/recipes/used_in_7.json 只含其中 7 件，40396 當時只看頁面）：
+  清單上的每個配方 recipes.json 都有，沒有「官網有、我們沒有」的，所以不是解析器漏配方。
+  差異來自官網的兩個數字都不等於我們的反推（卡片＝查詢卡的「Used in N recipes」，清單＝used-in-guide 列出的配方數）：
+  - 卡片比清單多：40055（14／13）、40396（4／3）、90010（4／3）、40308（166／157），多出的是什麼官網沒說；
+    40439、40469、40487、40510 的卡片等於清單。
+  - 清單比 recipes.json 少：40439、40469、40487 各少 Black Magic Powder（40964）的那個配方，40308 少 10 個（Black Magic Powder、
+    Bring Stone、Magic Gem 的幾個數量版本）；其餘 4 件清單＝recipes.json。為何隱藏不確定，「沒有 NPC」不是原因（40055 的清單就有無 NPC 的配方）。
+  所以不要拿官網的 N 當 recipes.json 的對照真值。）"""
 import html, json, re, shutil
 from html.parser import HTMLParser
 from pathlib import Path
