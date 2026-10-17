@@ -7,7 +7,8 @@
   詳情頁也有固定 NPC（map_details 的怪物清單裡出現）：卡片名字列有座標標籤，記為 positions；沒有掉落區就不輸出 drops。
   官網查不到的 ID（頁面沒有怪物區塊）不輸出，只在結尾列出（目前 26510、26511、45007、81241、81242、95448）。
   詳情頁的來源：map_details、kill_quests、items/item_sources.json 的掉落來源裡出現、但列表沒有的怪物（前兩者 65＋3 隻，item_sources 另補 156 隻，其中 4 隻官網查不到）；
-  另外 map_details 的 npcs（固定 NPC）裡列表沒有的 378 隻也補了（全是 NPC 徽章，沒有掉落；377 隻有座標，只有 33 隻有圖，70901 沒座標）。"""
+  另外 map_details 的 npcs（固定 NPC）裡列表沒有的 378 隻也補了（全是 NPC 徽章，沒有掉落；377 隻有座標，只有 33 隻有圖，70901 沒座標）。
+  詳情頁的座標比 map_details 少（37 隻筆數不一致，70901 重抓確認官網卡片沒有座標），positions 不是完整座標，完整座標請看 map_details.json。"""
 import html, json, re, shutil
 from pathlib import Path
 
