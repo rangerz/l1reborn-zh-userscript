@@ -1,0 +1,6534 @@
+[
+ {
+  "id": 1,
+  "name": "Fungus Party!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45029,
+    "name": "Fungus",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Ice Crystal Cave",
+   "Ice Queens Castle 2F",
+   "Mainland Aden"
+  ],
+  "rewards": [
+   {
+    "item_id": 41292,
+    "name": "Mushroom Soup of Fantasy",
+    "qty": 5,
+    "icon": "2575.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45029,
+    "name": "Fungus",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "name": "Fungus Party but edgier!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45030,
+    "name": "Fungus",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Cave of Silence",
+   "Mainland Aden"
+  ],
+  "rewards": [
+   {
+    "item_id": 41292,
+    "name": "Mushroom Soup of Fantasy",
+    "qty": 5,
+    "icon": "2575.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45030,
+    "name": "Fungus",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "name": "Horrificaly Red!",
+  "description": "No description provided.",
+  "badges": [
+   "Weekly"
+  ],
+  "weekly": true,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45471,
+    "name": "Horrific Cerberus",
+    "count": 200
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 22F",
+   "Tower of Insolence 23F",
+   "Tower of Insolence 24F",
+   "Tower of Insolence 25F",
+   "Tower of Insolence 27F",
+   "Tower of Insolence 28F",
+   "Tower of Insolence 29F",
+   "Tower of Insolence 30F"
+  ],
+  "rewards": [
+   {
+    "item_id": 40393,
+    "name": "Red Dragon Scales",
+    "qty": 1,
+    "icon": "549.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45471,
+    "name": "Horrific Cerberus",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "name": "Wight Dragon Scale!",
+  "description": "No description provided.",
+  "badges": [
+   "Weekly"
+  ],
+  "weekly": true,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45455,
+    "name": "Raging Spartoi",
+    "count": 200
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 33F",
+   "Tower of Insolence 34F",
+   "Tower of Insolence 35F",
+   "Tower of Insolence 37F",
+   "Tower of Insolence 38F",
+   "Tower of Insolence 39F",
+   "Tower of Insolence 40F"
+  ],
+  "rewards": [
+   {
+    "item_id": 40394,
+    "name": "White Dragon Scales",
+    "qty": 1,
+    "icon": "550.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45455,
+    "name": "Raging Spartoi",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "name": "Blue Balls!",
+  "description": "No description provided.",
+  "badges": [
+   "Weekly"
+  ],
+  "weekly": true,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45394,
+    "name": "Succubus",
+    "count": 200
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 11F",
+   "Tower of Insolence 12F",
+   "Tower of Insolence 13F",
+   "Tower of Insolence 14F"
+  ],
+  "rewards": [
+   {
+    "item_id": 40395,
+    "name": "Blue Dragon Scales",
+    "qty": 1,
+    "icon": "547.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45394,
+    "name": "Succubus",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "name": "That Shining scale looks Green!",
+  "description": "No description provided.",
+  "badges": [
+   "Weekly"
+  ],
+  "weekly": true,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45332,
+    "name": "Mutant Ramia - Green",
+    "count": 200
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 2F",
+   "Tower of Insolence 3F",
+   "Tower of Insolence 4F"
+  ],
+  "rewards": [
+   {
+    "item_id": 40396,
+    "name": "Green Dragon Scales",
+    "qty": 1,
+    "icon": "548.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45332,
+    "name": "Mutant Ramia - Green",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "name": "ToI 1-10F",
+  "description": "Kill a variety of monsters found on Tower of Insolence floors 1-10!",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45332,
+    "name": "Mutant Ramia - Green",
+    "count": 100
+   },
+   {
+    "npc_id": 45348,
+    "name": "Mutant Shelob",
+    "count": 100
+   },
+   {
+    "npc_id": 81173,
+    "name": "Cockatrice",
+    "count": 100
+   },
+   {
+    "npc_id": 45407,
+    "name": "Cimaera",
+    "count": 100
+   },
+   {
+    "npc_id": 45380,
+    "name": "Medusa",
+    "count": 100
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 2F",
+   "Tower of Insolence 3F",
+   "Tower of Insolence 4F",
+   "Tower of Insolence 5F",
+   "Tower of Insolence 7F",
+   "Tower of Insolence 8F",
+   "Tower of Insolence 9F",
+   "Tower of Insolence 10F"
+  ],
+  "rewards": [
+   {
+    "item_id": 42039,
+    "name": "Teleport - TOI 10F",
+    "qty": 1,
+    "icon": "2878.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45332,
+    "name": "Mutant Ramia - Green",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45348,
+    "name": "Mutant Shelob",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 81173,
+    "name": "Cockatrice",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45407,
+    "name": "Cimaera",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45380,
+    "name": "Medusa",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45513,
+    "name": "Zenith Queen",
+    "standard_pct": 100.0,
+    "classic_pct": 50.0
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "name": "TOI 21-30F",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45440,
+    "name": "Nightmare",
+    "count": 100
+   },
+   {
+    "npc_id": 45471,
+    "name": "Horrific Cerberus",
+    "count": 100
+   },
+   {
+    "npc_id": 45481,
+    "name": "Lesser Demon",
+    "count": 100
+   },
+   {
+    "npc_id": 45384,
+    "name": "Horrific Fire Egg",
+    "count": 100
+   },
+   {
+    "npc_id": 45515,
+    "name": "Ifrit",
+    "count": 100
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 21F",
+   "Tower of Insolence 22F",
+   "Tower of Insolence 23F",
+   "Tower of Insolence 24F",
+   "Tower of Insolence 25F",
+   "Tower of Insolence 30F",
+   "Tower of Insolence 27F",
+   "Tower of Insolence 28F",
+   "Tower of Insolence 29F"
+  ],
+  "rewards": [
+   {
+    "item_id": 42037,
+    "name": "Teleport - TOI 30F",
+    "qty": 1,
+    "icon": "2878.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45440,
+    "name": "Nightmare",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45471,
+    "name": "Horrific Cerberus",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45481,
+    "name": "Lesser Demon",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45384,
+    "name": "Horrific Fire Egg",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45515,
+    "name": "Ifrit",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "name": "TOI 11-20F",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45394,
+    "name": "Succubus",
+    "count": 100
+   },
+   {
+    "npc_id": 45409,
+    "name": "Dire Wolf",
+    "count": 100
+   },
+   {
+    "npc_id": 45386,
+    "name": "Dancing Sword",
+    "count": 100
+   },
+   {
+    "npc_id": 45399,
+    "name": "Wicked Mimic",
+    "count": 100
+   },
+   {
+    "npc_id": 45406,
+    "name": "Wicked Beholder",
+    "count": 100
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 11F",
+   "Tower of Insolence 12F",
+   "Tower of Insolence 13F",
+   "Tower of Insolence 14F",
+   "Tower of Insolence 20F",
+   "Tower of Insolence 15F",
+   "Tower of Insolence 17F",
+   "Tower of Insolence 18F",
+   "Tower of Insolence 19F"
+  ],
+  "rewards": [
+   {
+    "item_id": 42038,
+    "name": "Teleport - TOI 20F",
+    "qty": 1,
+    "icon": "2878.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45394,
+    "name": "Succubus",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45409,
+    "name": "Dire Wolf",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45386,
+    "name": "Dancing Sword",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45399,
+    "name": "Wicked Mimic",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45406,
+    "name": "Wicked Beholder",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45547,
+    "name": "Seer",
+    "standard_pct": 100.0,
+    "classic_pct": 50.0
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "name": "ToI 31-40F",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45455,
+    "name": "Raging Spartoi",
+    "count": 100
+   },
+   {
+    "npc_id": 45493,
+    "name": "Raging Skeleton Fighter",
+    "count": 100
+   },
+   {
+    "npc_id": 45494,
+    "name": "Raging Skeleton Marksman",
+    "count": 100
+   },
+   {
+    "npc_id": 45454,
+    "name": "Raging Ghoul",
+    "count": 100
+   },
+   {
+    "npc_id": 45402,
+    "name": "Raging Skeleton Axeman",
+    "count": 50
+   },
+   {
+    "npc_id": 45403,
+    "name": "Raging Skeleton Pike",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 33F",
+   "Tower of Insolence 34F",
+   "Tower of Insolence 35F",
+   "Tower of Insolence 37F",
+   "Tower of Insolence 38F",
+   "Tower of Insolence 39F",
+   "Tower of Insolence 40F",
+   "Tower of Insolence 31F",
+   "Tower of Insolence 32F"
+  ],
+  "rewards": [
+   {
+    "item_id": 42036,
+    "name": "Teleport - TOI 40F",
+    "qty": 1,
+    "icon": "2878.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45455,
+    "name": "Raging Spartoi",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45493,
+    "name": "Raging Skeleton Fighter",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45494,
+    "name": "Raging Skeleton Marksman",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45454,
+    "name": "Raging Ghoul",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45402,
+    "name": "Raging Skeleton Axeman",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45403,
+    "name": "Raging Skeleton Pike",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "name": "TOI 41-50F",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45496,
+    "name": "Lesser Dragon",
+    "count": 100
+   },
+   {
+    "npc_id": 45479,
+    "name": "Horrific Iron Golem",
+    "count": 100
+   },
+   {
+    "npc_id": 45522,
+    "name": "Bone Dragon",
+    "count": 100
+   },
+   {
+    "npc_id": 45480,
+    "name": "Fire Necromancer",
+    "count": 100
+   },
+   {
+    "npc_id": 45514,
+    "name": "Fire Ghost",
+    "count": 50
+   },
+   {
+    "npc_id": 45519,
+    "name": "Fire Ghost",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 41F",
+   "Tower of Insolence 43F",
+   "Tower of Insolence 44F",
+   "Tower of Insolence 45F",
+   "Tower of Insolence 47F",
+   "Tower of Insolence 48F",
+   "Tower of Insolence 49F",
+   "Tower of Insolence 50F",
+   "Tower of Insolence 42F"
+  ],
+  "rewards": [
+   {
+    "item_id": 42035,
+    "name": "Teleport - TOI 50F",
+    "qty": 1,
+    "icon": "2878.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45496,
+    "name": "Lesser Dragon",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45479,
+    "name": "Horrific Iron Golem",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45522,
+    "name": "Bone Dragon",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45480,
+    "name": "Fire Necromancer",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45514,
+    "name": "Fire Ghost",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45519,
+    "name": "Fire Ghost",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "name": "TOI 51-60F",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45468,
+    "name": "Cursed Orc Zombie",
+    "count": 100
+   },
+   {
+    "npc_id": 45506,
+    "name": "Cursed Elmore Wizard",
+    "count": 100
+   },
+   {
+    "npc_id": 45541,
+    "name": "Cursed Elmore General",
+    "count": 100
+   },
+   {
+    "npc_id": 45524,
+    "name": "Cursed Elmore Soldier",
+    "count": 200
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 51F",
+   "Tower of Insolence 52F",
+   "Tower of Insolence 53F",
+   "Tower of Insolence 57F",
+   "Tower of Insolence 58F",
+   "Tower of Insolence 54F",
+   "Tower of Insolence 55F",
+   "Tower of Insolence 59F",
+   "Tower of Insolence 60F"
+  ],
+  "rewards": [
+   {
+    "item_id": 42033,
+    "name": "Teleport - TOI 60F",
+    "qty": 1,
+    "icon": "2878.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45468,
+    "name": "Cursed Orc Zombie",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45506,
+    "name": "Cursed Elmore Wizard",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45541,
+    "name": "Cursed Elmore General",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45524,
+    "name": "Cursed Elmore Soldier",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "name": "TOI 61-70F",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45520,
+    "name": "Spirit Taurverus of Fire",
+    "count": 50
+   },
+   {
+    "npc_id": 45572,
+    "name": "Astagio of Fire",
+    "count": 50
+   },
+   {
+    "npc_id": 45528,
+    "name": "Cruel Snow Tiger",
+    "count": 200
+   },
+   {
+    "npc_id": 45485,
+    "name": "Dark Lycanthrope",
+    "count": 200
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 62F",
+   "Tower of Insolence 64F",
+   "Tower of Insolence 65F",
+   "Tower of Insolence 67F",
+   "Tower of Insolence 68F",
+   "Tower of Insolence 69F",
+   "Tower of Insolence 70F",
+   "Tower of Insolence 63F",
+   "Tower of Insolence 61F"
+  ],
+  "rewards": [
+   {
+    "item_id": 42032,
+    "name": "Teleport - TOI 70F",
+    "qty": 1,
+    "icon": "2878.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45520,
+    "name": "Spirit Taurverus of Fire",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45572,
+    "name": "Astagio of Fire",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45528,
+    "name": "Cruel Snow Tiger",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45485,
+    "name": "Dark Lycanthrope",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "name": "TOI 71-80F",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45503,
+    "name": "Black Knight of Darkness",
+    "count": 100
+   },
+   {
+    "npc_id": 45580,
+    "name": "Succubus Queen of Darkness",
+    "count": 100
+   },
+   {
+    "npc_id": 45540,
+    "name": "Fire Warrior of Darkness",
+    "count": 150
+   },
+   {
+    "npc_id": 45532,
+    "name": "Fire Archer of Darkness",
+    "count": 150
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 71F",
+   "Tower of Insolence 72F",
+   "Tower of Insolence 73F",
+   "Tower of Insolence 74F",
+   "Tower of Insolence 77F",
+   "Tower of Insolence 78F",
+   "Tower of Insolence 75F",
+   "Tower of Insolence 79F",
+   "Tower of Insolence 80F"
+  ],
+  "rewards": [
+   {
+    "item_id": 42031,
+    "name": "Teleport - TOI 80F",
+    "qty": 1,
+    "icon": "2878.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45503,
+    "name": "Black Knight of Darkness",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45580,
+    "name": "Succubus Queen of Darkness",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45540,
+    "name": "Fire Warrior of Darkness",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45532,
+    "name": "Fire Archer of Darkness",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "name": "TOI 81-90F",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45581,
+    "name": "Insolent Zenith Queen",
+    "count": 100
+   },
+   {
+    "npc_id": 45604,
+    "name": "Marquise Vampire",
+    "count": 100
+   },
+   {
+    "npc_id": 45586,
+    "name": "Lesser Seer",
+    "count": 100
+   },
+   {
+    "npc_id": 45589,
+    "name": "Zombie Lord of Fear",
+    "count": 100
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 81F",
+   "Tower of Insolence 82F",
+   "Tower of Insolence 83F",
+   "Tower of Insolence 84F",
+   "Tower of Insolence 87F",
+   "Tower of Insolence 88F",
+   "Tower of Insolence 85F",
+   "Tower of Insolence 89F",
+   "Tower of Insolence 90F"
+  ],
+  "rewards": [
+   {
+    "item_id": 42030,
+    "name": "Teleport - TOI 90F",
+    "qty": 1,
+    "icon": "2878.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45581,
+    "name": "Insolent Zenith Queen",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45604,
+    "name": "Marquise Vampire",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45586,
+    "name": "Lesser Seer",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45589,
+    "name": "Zombie Lord of Fear",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "name": "TOI 91-100F",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45619,
+    "name": "Great Spirit of Earth",
+    "count": 75
+   },
+   {
+    "npc_id": 45622,
+    "name": "Great Spirit of Fire",
+    "count": 75
+   },
+   {
+    "npc_id": 45621,
+    "name": "Great Spirit of Wind",
+    "count": 75
+   },
+   {
+    "npc_id": 45620,
+    "name": "Great Spirit of Water",
+    "count": 75
+   },
+   {
+    "npc_id": 45595,
+    "name": "Insolent Iris",
+    "count": 100
+   },
+   {
+    "npc_id": 45664,
+    "name": "Insolent Knight Vald",
+    "count": 100
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 91F",
+   "Tower of Insolence 92F",
+   "Tower of Insolence 93F",
+   "Tower of Insolence 94F",
+   "Tower of Insolence 95F",
+   "Tower of Insolence 97F",
+   "Tower of Insolence 98F",
+   "Tower of Insolence 99F",
+   "Tower of Insolence 100F"
+  ],
+  "rewards": [
+   {
+    "item_id": 40113,
+    "name": "TOI Teleport Scroll, 100F",
+    "qty": 1,
+    "icon": "1035.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45619,
+    "name": "Great Spirit of Earth",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45622,
+    "name": "Great Spirit of Fire",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45621,
+    "name": "Great Spirit of Wind",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45620,
+    "name": "Great Spirit of Water",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45595,
+    "name": "Insolent Iris",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45664,
+    "name": "Insolent Knight Vald",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "name": "Heavy Metal!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45479,
+    "name": "Horrific Iron Golem",
+    "count": 150
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 42F"
+  ],
+  "rewards": [
+   {
+    "item_id": 40441,
+    "name": "Rough Platinum Piece",
+    "qty": 5,
+    "icon": "1425.webp"
+   },
+   {
+    "item_id": 40468,
+    "name": "Rough Silver Piece",
+    "qty": 5,
+    "icon": "1428.webp"
+   },
+   {
+    "item_id": 40489,
+    "name": "Rough Gold Piece",
+    "qty": 5,
+    "icon": "1422.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45479,
+    "name": "Horrific Iron Golem",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "name": "Heavier Metal!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45503,
+    "name": "Black Knight of Darkness",
+    "count": 150
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 71F",
+   "Tower of Insolence 72F",
+   "Tower of Insolence 73F",
+   "Tower of Insolence 74F",
+   "Tower of Insolence 77F",
+   "Tower of Insolence 78F"
+  ],
+  "rewards": [
+   {
+    "item_id": 40441,
+    "name": "Rough Platinum Piece",
+    "qty": 7,
+    "icon": "1425.webp"
+   },
+   {
+    "item_id": 40468,
+    "name": "Rough Silver Piece",
+    "qty": 7,
+    "icon": "1428.webp"
+   },
+   {
+    "item_id": 40489,
+    "name": "Rough Gold Piece",
+    "qty": 7,
+    "icon": "1422.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45503,
+    "name": "Black Knight of Darkness",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "name": "Ancient Giant - Skull",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45610,
+    "name": "Ancient Giant",
+    "count": 1
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 600100,
+    "name": "Skull of Reborn",
+    "qty": 1,
+    "icon": "2280.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45610,
+    "name": "Ancient Giant",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "name": "Ancient Giant - Treasure!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45610,
+    "name": "Ancient Giant",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 20314,
+    "name": "Ring of Ancient Giant",
+    "qty": 1,
+    "icon": "981.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45610,
+    "name": "Ancient Giant",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "name": "Death Knight - Skull",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 91291,
+    "name": "Death Knight",
+    "count": 1
+   }
+  ],
+  "maps": [
+   "Hell"
+  ],
+  "rewards": [
+   {
+    "item_id": 600100,
+    "name": "Skull of Reborn",
+    "qty": 1,
+    "icon": "2280.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 91291,
+    "name": "Death Knight",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "name": "Death Knight - Treasure DKS!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 91291,
+    "name": "Death Knight",
+    "count": 10
+   }
+  ],
+  "maps": [
+   "Hell"
+  ],
+  "rewards": [
+   {
+    "item_id": 58,
+    "name": "Fire Sword of Death Knight",
+    "qty": 1,
+    "icon": "1259.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 91291,
+    "name": "Death Knight",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "name": "Death Knight - Treasure Ronde!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 91291,
+    "name": "Death Knight",
+    "count": 10
+   }
+  ],
+  "maps": [
+   "Hell"
+  ],
+  "rewards": [
+   {
+    "item_id": 76,
+    "name": "Edoryu of Ronde",
+    "qty": 1,
+    "icon": "1260.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 91291,
+    "name": "Death Knight",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "name": "Arachnophobia!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45289,
+    "name": "Muryan",
+    "count": 100
+   }
+  ],
+  "maps": [
+   "Dragon Valley Dungeon Floor 2",
+   "Dragon Valley Dungeon Floor 3",
+   "Dragon Valley Dungeon Floor 4",
+   "Dragon Valley Dungeon Floor 5"
+  ],
+  "rewards": [
+   {
+    "item_id": 140074,
+    "name": "Scroll of Enchant ArmorBlessed",
+    "qty": 5,
+    "icon": "467.webp"
+   },
+   {
+    "item_id": 140087,
+    "name": "Scroll of Enchant WeaponBlessed",
+    "qty": 5,
+    "icon": "468.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45289,
+    "name": "Muryan",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "name": "Kalbis - Dark",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46111,
+    "name": "Kalbis - Dark",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Thebes Desert"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46111,
+    "name": "Kalbis - Dark",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "name": "Kalbis - Red",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46112,
+    "name": "Kalbis - Red",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Thebes Desert"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46112,
+    "name": "Kalbis - Red",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "name": "Mandragora - Dark",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46108,
+    "name": "Mandragora - Dark",
+    "count": 150
+   }
+  ],
+  "maps": [
+   "Thebes Desert"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46108,
+    "name": "Mandragora - Dark",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 38,
+  "name": "Mandragora - White",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46107,
+    "name": "Mandragora - White",
+    "count": 150
+   }
+  ],
+  "maps": [
+   "Thebes Desert"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46107,
+    "name": "Mandragora - White",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "name": "Obelisk - Dark",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46114,
+    "name": "Obelisk - Dark",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Thebes Desert"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46114,
+    "name": "Obelisk - Dark",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 40,
+  "name": "Obelisk - White",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46113,
+    "name": "Obelisk - White",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Thebes Desert"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46113,
+    "name": "Obelisk - White",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 41,
+  "name": "Scarab - Blue",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46110,
+    "name": "Scarab - Blue",
+    "count": 150
+   }
+  ],
+  "maps": [
+   "Thebes Desert"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46110,
+    "name": "Scarab - Blue",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 42,
+  "name": "Scarab - Yellow",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46109,
+    "name": "Scarab - Yellow",
+    "count": 150
+   }
+  ],
+  "maps": [
+   "Thebes Desert"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46109,
+    "name": "Scarab - Yellow",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 43,
+  "name": "Sphinx - Dark",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46116,
+    "name": "Sphinx - Dark",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Thebes Desert"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46116,
+    "name": "Sphinx - Dark",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 44,
+  "name": "Sphinx - White",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46115,
+    "name": "Sphinx - White",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Thebes Desert"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46115,
+    "name": "Sphinx - White",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 45,
+  "name": "Horus Falcon - Blue",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46118,
+    "name": "Horus Falcon - Blue",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Thebes Pyramid Inside"
+  ],
+  "rewards": [
+   {
+    "item_id": 49100,
+    "name": "Opened High-Grade Treasure Chest of Osiris",
+    "qty": 1,
+    "icon": "3220.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46118,
+    "name": "Horus Falcon - Blue",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 46,
+  "name": "Horus Falcon - Yellow",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46117,
+    "name": "Horus Falcon - Yellow",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Thebes Pyramid Inside"
+  ],
+  "rewards": [
+   {
+    "item_id": 49100,
+    "name": "Opened High-Grade Treasure Chest of Osiris",
+    "qty": 1,
+    "icon": "3220.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46117,
+    "name": "Horus Falcon - Yellow",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 47,
+  "name": "Thebes Elder - Purple",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46122,
+    "name": "Thebes Elder - Purple",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Thebes Pyramid Inside"
+  ],
+  "rewards": [
+   {
+    "item_id": 49100,
+    "name": "Opened High-Grade Treasure Chest of Osiris",
+    "qty": 1,
+    "icon": "3220.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46122,
+    "name": "Thebes Elder - Purple",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 48,
+  "name": "Thebes Elder - Yellow",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46121,
+    "name": "Thebes Elder - Yellow",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Thebes Pyramid Inside"
+  ],
+  "rewards": [
+   {
+    "item_id": 49100,
+    "name": "Opened High-Grade Treasure Chest of Osiris",
+    "qty": 1,
+    "icon": "3220.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46121,
+    "name": "Thebes Elder - Yellow",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 49,
+  "name": "Thebes Guardian - Dark",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46119,
+    "name": "Thebes Guardian - Dark",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Thebes Pyramid Inside"
+  ],
+  "rewards": [
+   {
+    "item_id": 49100,
+    "name": "Opened High-Grade Treasure Chest of Osiris",
+    "qty": 1,
+    "icon": "3220.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46119,
+    "name": "Thebes Guardian - Dark",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 50,
+  "name": "Thebes Guardian - Red",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46120,
+    "name": "Thebes Guardian - Red",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Thebes Pyramid Inside"
+  ],
+  "rewards": [
+   {
+    "item_id": 49100,
+    "name": "Opened High-Grade Treasure Chest of Osiris",
+    "qty": 1,
+    "icon": "3220.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46120,
+    "name": "Thebes Guardian - Red",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 51,
+  "name": "Ecu Azte - Purple",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90502,
+    "name": "Ecu Azte (Purple)",
+    "count": 150
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90502,
+    "name": "Ecu Azte (Purple)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 52,
+  "name": "Ecu Azte - Red",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90503,
+    "name": "Ecu Azte (Red)",
+    "count": 150
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90503,
+    "name": "Ecu Azte (Red)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 53,
+  "name": "Ecu Bla - Green",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90508,
+    "name": "Ecu Bla (Green)",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90508,
+    "name": "Ecu Bla (Green)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 54,
+  "name": "Ecu Bla - Yellow",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90509,
+    "name": "Ecu Bla (Yellow)",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90509,
+    "name": "Ecu Bla (Yellow)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 55,
+  "name": "Ecu Ette - Leaves",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90511,
+    "name": "Ecu Ette (Leaves)",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90511,
+    "name": "Ecu Ette (Leaves)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 56,
+  "name": "Ecu Juraka - Blue",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90506,
+    "name": "Ecu Juraka (Blue)",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90506,
+    "name": "Ecu Juraka (Blue)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 57,
+  "name": "Ecu Juraka - Green",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90507,
+    "name": "Ecu Juraka (Green)",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90507,
+    "name": "Ecu Juraka (Green)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 58,
+  "name": "Ecu Yuka - Blue",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90504,
+    "name": "Ecu Yuka (Blue)",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90504,
+    "name": "Ecu Yuka (Blue)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 59,
+  "name": "Ecu Yuka - White",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90505,
+    "name": "Ecu Yuka (White)",
+    "count": 75
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49092,
+    "name": "Cracked Nucleus",
+    "qty": 1,
+    "icon": "3026.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90505,
+    "name": "Ecu Yuka (White)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 60,
+  "name": "Jad Ske - Purple",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90514,
+    "name": "Jad Ske (Purple)",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49309,
+    "name": "Opened Greater Kukulcan Treasure",
+    "qty": 1,
+    "icon": "3316.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90514,
+    "name": "Jad Ske (Purple)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 61,
+  "name": "Jad Ske - Red",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90515,
+    "name": "Jad Ske (Red)",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49309,
+    "name": "Opened Greater Kukulcan Treasure",
+    "qty": 1,
+    "icon": "3316.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90515,
+    "name": "Jad Ske (Red)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 62,
+  "name": "Jad Teo - Yellow",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90517,
+    "name": "Jad Teo (Yellow)",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49309,
+    "name": "Opened Greater Kukulcan Treasure",
+    "qty": 1,
+    "icon": "3316.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90517,
+    "name": "Jad Teo (Yellow)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 63,
+  "name": "Jad Teo - Blue",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90516,
+    "name": "Jad Teo (Blue)",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49309,
+    "name": "Opened Greater Kukulcan Treasure",
+    "qty": 1,
+    "icon": "3316.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90516,
+    "name": "Jad Teo (Blue)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 64,
+  "name": "Jad Tow - Red",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90513,
+    "name": "Jad Tow (Red)",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49309,
+    "name": "Opened Greater Kukulcan Treasure",
+    "qty": 1,
+    "icon": "3316.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90513,
+    "name": "Jad Tow (Red)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 65,
+  "name": "Jad Tow - Blue",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 90512,
+    "name": "Jad Tow (Blue)",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Tikal Temple"
+  ],
+  "rewards": [
+   {
+    "item_id": 49309,
+    "name": "Opened Greater Kukulcan Treasure",
+    "qty": 1,
+    "icon": "3316.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 90512,
+    "name": "Jad Tow (Blue)",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 66,
+  "name": "Tears of the Elves!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Combo"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": true,
+  "targets": [
+   {
+    "npc_id": 45364,
+    "name": "Dark Elf",
+    "count": 200
+   },
+   {
+    "npc_id": 45265,
+    "name": "Dark Elf",
+    "count": 200
+   }
+  ],
+  "maps": [
+   "Forgotten Island",
+   "Mainland Aden"
+  ],
+  "rewards": [
+   {
+    "item_id": 40498,
+    "name": "Wind Tear",
+    "qty": 5,
+    "icon": "865.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45265,
+    "name": "Dark Elf",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45364,
+    "name": "Dark Elf",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 67,
+  "name": "Get Plucked!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Combo"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": true,
+  "targets": [
+   {
+    "npc_id": 45321,
+    "name": "Griffon",
+    "count": 200
+   },
+   {
+    "npc_id": 45445,
+    "name": "Griffon",
+    "count": 200
+   }
+  ],
+  "maps": [
+   "Mainland Aden",
+   "Forgotten Island"
+  ],
+  "rewards": [
+   {
+    "item_id": 40491,
+    "name": "Griffon Feather",
+    "qty": 5,
+    "icon": "861.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45321,
+    "name": "Griffon",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45445,
+    "name": "Griffon",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 68,
+  "name": "Giant Ant Queen - Skull",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45614,
+    "name": "Giant Ant Queen",
+    "count": 1
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 600100,
+    "name": "Skull of Reborn",
+    "qty": 1,
+    "icon": "2280.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45614,
+    "name": "Giant Ant Queen",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 69,
+  "name": "Giant Ant Queen - Treasure Silver!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45614,
+    "name": "Giant Ant Queen",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 20050,
+    "name": "Silver Wing of Giant Ant Queen",
+    "qty": 1,
+    "icon": "1249.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45614,
+    "name": "Giant Ant Queen",
+    "standard_pct": 0.1,
+    "classic_pct": 0.05
+   }
+  ]
+ },
+ {
+  "id": 70,
+  "name": "Giant Ant Queen - Treasure Gold!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45614,
+    "name": "Giant Ant Queen",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 20049,
+    "name": "Golden Wing of Giant Ant Queen",
+    "qty": 1,
+    "icon": "1248.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45614,
+    "name": "Giant Ant Queen",
+    "standard_pct": 0.1,
+    "classic_pct": 0.05
+   }
+  ]
+ },
+ {
+  "id": 71,
+  "name": "Kurtz - Skull",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45600,
+    "name": "Kurtz",
+    "count": 1
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 600100,
+    "name": "Skull of Reborn",
+    "qty": 1,
+    "icon": "2280.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45600,
+    "name": "Kurtz",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 72,
+  "name": "Kurtz - Treasure!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45600,
+    "name": "Kurtz",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 54,
+    "name": "Sword of Kurtz",
+    "qty": 1,
+    "icon": "2746.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45600,
+    "name": "Kurtz",
+    "standard_pct": 0.15,
+    "classic_pct": 0.08
+   }
+  ]
+ },
+ {
+  "id": 73,
+  "name": "Doppelganger - Skull!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45546,
+    "name": "Doppelganger Boss",
+    "count": 1
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 600100,
+    "name": "Skull of Reborn",
+    "qty": 1,
+    "icon": "2280.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45546,
+    "name": "Doppelganger Boss",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 74,
+  "name": "Ken Rauhel - Skull",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45680,
+    "name": "Ken Rauhel",
+    "count": 1
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 600100,
+    "name": "Skull of Reborn",
+    "qty": 1,
+    "icon": "2280.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45680,
+    "name": "Ken Rauhel",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 75,
+  "name": "Cerenis - Skull!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45678,
+    "name": "Cerenis",
+    "count": 1
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 600100,
+    "name": "Skull of Reborn",
+    "qty": 1,
+    "icon": "2280.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45678,
+    "name": "Cerenis",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 76,
+  "name": "Phoenix - Skull!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45617,
+    "name": "Phoenix",
+    "count": 1
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 600100,
+    "name": "Skull of Reborn",
+    "qty": 1,
+    "icon": "2280.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45617,
+    "name": "Phoenix",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 77,
+  "name": "I'm so wet right now!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45620,
+    "name": "Great Spirit of Water",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 91F",
+   "Tower of Insolence 92F",
+   "Tower of Insolence 93F",
+   "Tower of Insolence 94F",
+   "Tower of Insolence 95F",
+   "Tower of Insolence 97F",
+   "Tower of Insolence 98F",
+   "Tower of Insolence 99F",
+   "Tower of Insolence 100F"
+  ],
+  "rewards": [
+   {
+    "item_id": 41431,
+    "name": "Scroll of Enchant Weapon: Water",
+    "qty": 5,
+    "icon": "3029.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45620,
+    "name": "Great Spirit of Water",
+    "standard_pct": 1.0,
+    "classic_pct": 0.5
+   }
+  ]
+ },
+ {
+  "id": 78,
+  "name": "I'm burning up!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45622,
+    "name": "Great Spirit of Fire",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 91F",
+   "Tower of Insolence 92F",
+   "Tower of Insolence 93F",
+   "Tower of Insolence 94F",
+   "Tower of Insolence 95F",
+   "Tower of Insolence 97F",
+   "Tower of Insolence 98F",
+   "Tower of Insolence 99F",
+   "Tower of Insolence 100F"
+  ],
+  "rewards": [
+   {
+    "item_id": 41432,
+    "name": "Scroll of Enchant Weapon: Fire",
+    "qty": 5,
+    "icon": "3032.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45622,
+    "name": "Great Spirit of Fire",
+    "standard_pct": 1.0,
+    "classic_pct": 0.5
+   }
+  ]
+ },
+ {
+  "id": 79,
+  "name": "Catching the wind!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45621,
+    "name": "Great Spirit of Wind",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 91F",
+   "Tower of Insolence 92F",
+   "Tower of Insolence 93F",
+   "Tower of Insolence 94F",
+   "Tower of Insolence 95F",
+   "Tower of Insolence 97F",
+   "Tower of Insolence 98F",
+   "Tower of Insolence 99F",
+   "Tower of Insolence 100F"
+  ],
+  "rewards": [
+   {
+    "item_id": 41429,
+    "name": "Scroll of Enchant Weapon: Wind",
+    "qty": 5,
+    "icon": "3030.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45621,
+    "name": "Great Spirit of Wind",
+    "standard_pct": 1.0,
+    "classic_pct": 0.5
+   }
+  ]
+ },
+ {
+  "id": 80,
+  "name": "It's not a boulder, it's a rock!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45619,
+    "name": "Great Spirit of Earth",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 91F",
+   "Tower of Insolence 92F",
+   "Tower of Insolence 93F",
+   "Tower of Insolence 94F",
+   "Tower of Insolence 95F",
+   "Tower of Insolence 97F",
+   "Tower of Insolence 98F",
+   "Tower of Insolence 99F",
+   "Tower of Insolence 100F"
+  ],
+  "rewards": [
+   {
+    "item_id": 41430,
+    "name": "Scroll of Enchant Weapon: Earth",
+    "qty": 5,
+    "icon": "3028.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45619,
+    "name": "Great Spirit of Earth",
+    "standard_pct": 1.0,
+    "classic_pct": 0.5
+   }
+  ]
+ },
+ {
+  "id": 81,
+  "name": "Fire Valley - NoobQuest!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45284,
+    "name": "Fire Warrior",
+    "count": 10
+   },
+   {
+    "npc_id": 45291,
+    "name": "Fire Archer",
+    "count": 10
+   },
+   {
+    "npc_id": 45365,
+    "name": "Lava Golem",
+    "count": 5
+   },
+   {
+    "npc_id": 45203,
+    "name": "Salamander",
+    "count": 10
+   },
+   {
+    "npc_id": 45263,
+    "name": "Bomb Flower",
+    "count": 5
+   },
+   {
+    "npc_id": 45359,
+    "name": "Astagio",
+    "count": 10
+   },
+   {
+    "npc_id": 45257,
+    "name": "Dragonfly",
+    "count": 10
+   },
+   {
+    "npc_id": 45206,
+    "name": "Fire Egg",
+    "count": 10
+   }
+  ],
+  "maps": [
+   "Mainland Aden"
+  ],
+  "rewards": [
+   {
+    "item_id": 40012,
+    "name": "Greater Healing Potion",
+    "qty": 200,
+    "icon": "81.webp"
+   },
+   {
+    "item_id": 41284,
+    "name": "Mushroom Soup",
+    "qty": 1,
+    "icon": "2575.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45284,
+    "name": "Fire Warrior",
+    "standard_pct": 10.0,
+    "classic_pct": 5.0
+   },
+   {
+    "npc_id": 45291,
+    "name": "Fire Archer",
+    "standard_pct": 10.0,
+    "classic_pct": 5.0
+   },
+   {
+    "npc_id": 45365,
+    "name": "Lava Golem",
+    "standard_pct": 20.0,
+    "classic_pct": 10.0
+   },
+   {
+    "npc_id": 45203,
+    "name": "Salamander",
+    "standard_pct": 10.0,
+    "classic_pct": 5.0
+   },
+   {
+    "npc_id": 45263,
+    "name": "Bomb Flower",
+    "standard_pct": 10.0,
+    "classic_pct": 5.0
+   },
+   {
+    "npc_id": 45359,
+    "name": "Astagio",
+    "standard_pct": 10.0,
+    "classic_pct": 5.0
+   },
+   {
+    "npc_id": 45257,
+    "name": "Dragonfly",
+    "standard_pct": 10.0,
+    "classic_pct": 5.0
+   },
+   {
+    "npc_id": 45206,
+    "name": "Fire Egg",
+    "standard_pct": 10.0,
+    "classic_pct": 5.0
+   }
+  ]
+ },
+ {
+  "id": 82,
+  "name": "Oren Wasteland - NoobQuest!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45224,
+    "name": "Undead Elmore Wizard",
+    "count": 25
+   },
+   {
+    "npc_id": 45216,
+    "name": "Undead Elmore Soldier",
+    "count": 25
+   },
+   {
+    "npc_id": 45248,
+    "name": "Undead Elmore General",
+    "count": 20
+   }
+  ],
+  "maps": [
+   "Mainland Aden"
+  ],
+  "rewards": [
+   {
+    "item_id": 40012,
+    "name": "Greater Healing Potion",
+    "qty": 200,
+    "icon": "81.webp"
+   },
+   {
+    "item_id": 41284,
+    "name": "Mushroom Soup",
+    "qty": 1,
+    "icon": "2575.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45224,
+    "name": "Undead Elmore Wizard",
+    "standard_pct": 10.0,
+    "classic_pct": 5.0
+   },
+   {
+    "npc_id": 45216,
+    "name": "Undead Elmore Soldier",
+    "standard_pct": 10.0,
+    "classic_pct": 5.0
+   },
+   {
+    "npc_id": 45248,
+    "name": "Undead Elmore General",
+    "standard_pct": 20.0,
+    "classic_pct": 10.0
+   }
+  ]
+ },
+ {
+  "id": 83,
+  "name": "Dwarven Iron - NoobQuest!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45041,
+    "name": "Dwarf",
+    "count": 25
+   },
+   {
+    "npc_id": 45092,
+    "name": "Dwarf Warrior",
+    "count": 25
+   }
+  ],
+  "maps": [
+   "Mainland Aden",
+   "Singing Island",
+   "Hidden Valley",
+   "Talking Island"
+  ],
+  "rewards": [
+   {
+    "item_id": 40408,
+    "name": "Lump of Iron",
+    "qty": 150,
+    "icon": "454.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45041,
+    "name": "Dwarf",
+    "standard_pct": 50.0,
+    "classic_pct": 25.0
+   },
+   {
+    "npc_id": 45092,
+    "name": "Dwarf Warrior",
+    "standard_pct": 50.0,
+    "classic_pct": 25.0
+   }
+  ]
+ },
+ {
+  "id": 84,
+  "name": "Blessed Egg!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45384,
+    "name": "Horrific Fire Egg",
+    "count": 150
+   }
+  ],
+  "maps": [
+   "Tower of Insolence 21F",
+   "Tower of Insolence 22F",
+   "Tower of Insolence 23F",
+   "Tower of Insolence 24F"
+  ],
+  "rewards": [
+   {
+    "item_id": 140074,
+    "name": "Scroll of Enchant ArmorBlessed",
+    "qty": 5,
+    "icon": "467.webp"
+   },
+   {
+    "item_id": 140087,
+    "name": "Scroll of Enchant WeaponBlessed",
+    "qty": 5,
+    "icon": "468.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45384,
+    "name": "Horrific Fire Egg",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 85,
+  "name": "Chaos - Fragments!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45625,
+    "name": "Chaos",
+    "count": 1
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "qty": 100,
+    "icon": "1997.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45625,
+    "name": "Chaos",
+    "standard_pct": 1.0,
+    "classic_pct": 0.5
+   }
+  ]
+ },
+ {
+  "id": 86,
+  "name": "Varlok - Fragments!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45613,
+    "name": "Varlok",
+    "count": 1
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 40718,
+    "name": "Fragment of Blood Stone",
+    "qty": 100,
+    "icon": "2071.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45613,
+    "name": "Varlok",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 87,
+  "name": "Can I pet that that Dawggg?",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45241,
+    "name": "Cerberus",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Hell",
+   "Gludio Dungeon Floor 4",
+   "Gludio Dungeon Floor 5",
+   "Gludio Dungeon Floor 6",
+   "Gludio Dungeon Floor 7",
+   "Windawood Castle Dungeon 1F",
+   "Windawood Castle Dungeon 2F",
+   "Training Dungeon Floor 2",
+   "Training Dungeon Floor 3",
+   "Training Dungeon Floor 4"
+  ],
+  "rewards": [
+   {
+    "item_id": 40049,
+    "name": "High Quality Ruby",
+    "qty": 5,
+    "icon": "243.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45241,
+    "name": "Cerberus",
+    "standard_pct": 5.0,
+    "classic_pct": 2.5
+   }
+  ]
+ },
+ {
+  "id": 88,
+  "name": "Beast Room!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Combo"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": true,
+  "targets": [
+   {
+    "npc_id": 45841,
+    "name": "Wolf Beast Tamer",
+    "count": 500
+   },
+   {
+    "npc_id": 45467,
+    "name": "Wolf Rider",
+    "count": 500
+   },
+   {
+    "npc_id": 45483,
+    "name": "Black Tiger",
+    "count": 500
+   },
+   {
+    "npc_id": 45836,
+    "name": "Black Tiger",
+    "count": 500
+   }
+  ],
+  "maps": [
+   "1st Floor Evil Power King's Power Room",
+   "1st Floor Dark Warrens",
+   "1st Floor Meeting Area"
+  ],
+  "rewards": [
+   {
+    "item_id": 40639,
+    "name": "Evidence Box of Dark Power Army",
+    "qty": 10,
+    "icon": "1941.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45841,
+    "name": "Wolf Beast Tamer",
+    "standard_pct": 0.15,
+    "classic_pct": 0.08
+   },
+   {
+    "npc_id": 45467,
+    "name": "Wolf Rider",
+    "standard_pct": 0.15,
+    "classic_pct": 0.08
+   },
+   {
+    "npc_id": 45483,
+    "name": "Black Tiger",
+    "standard_pct": 0.15,
+    "classic_pct": 0.08
+   }
+  ]
+ },
+ {
+  "id": 89,
+  "name": "Assassination Basement!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Combo"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": true,
+  "targets": [
+   {
+    "npc_id": 45466,
+    "name": "Oum Warrior",
+    "count": 500
+   },
+   {
+    "npc_id": 45518,
+    "name": "Heavy Oum Warrior",
+    "count": 500
+   }
+  ],
+  "maps": [
+   "Underground Training Area",
+   "Underground Passageway",
+   "Underground Control Room",
+   "Underground Duel Area",
+   "Underground Jail"
+  ],
+  "rewards": [
+   {
+    "item_id": 40668,
+    "name": "Evidence Box of Assassin Army",
+    "qty": 10,
+    "icon": "1943.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45466,
+    "name": "Oum Warrior",
+    "standard_pct": 0.15,
+    "classic_pct": 0.08
+   },
+   {
+    "npc_id": 45518,
+    "name": "Heavy Oum Warrior",
+    "standard_pct": 0.15,
+    "classic_pct": 0.08
+   }
+  ]
+ },
+ {
+  "id": 90,
+  "name": "Dark Spirits!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Combo"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": true,
+  "targets": [
+   {
+    "npc_id": 45459,
+    "name": "Guardian of Earth Spirit",
+    "count": 500
+   },
+   {
+    "npc_id": 45460,
+    "name": "Guardian of Water Spirit",
+    "count": 500
+   },
+   {
+    "npc_id": 45461,
+    "name": "Guardian of Wind Spirit",
+    "count": 500
+   },
+   {
+    "npc_id": 45462,
+    "name": "Guardian of Fire Spirit",
+    "count": 500
+   },
+   {
+    "npc_id": 45465,
+    "name": "Guardian of Darkness Spirit",
+    "count": 500
+   }
+  ],
+  "maps": [
+   "2nd Floor Dark Magic Laboratory",
+   "2nd Floor Spirit Summoning Room",
+   "2nd Floor Dark Magic Training Area",
+   "2nd Floor Dark Spirit Laboratory"
+  ],
+  "rewards": [
+   {
+    "item_id": 40636,
+    "name": "Evidence Box of Dark Spirit Army",
+    "qty": 10,
+    "icon": "1939.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45459,
+    "name": "Guardian of Earth Spirit",
+    "standard_pct": 0.15,
+    "classic_pct": 0.08
+   },
+   {
+    "npc_id": 45460,
+    "name": "Guardian of Water Spirit",
+    "standard_pct": 0.15,
+    "classic_pct": 0.08
+   },
+   {
+    "npc_id": 45461,
+    "name": "Guardian of Wind Spirit",
+    "standard_pct": 0.15,
+    "classic_pct": 0.08
+   },
+   {
+    "npc_id": 45462,
+    "name": "Guardian of Fire Spirit",
+    "standard_pct": 0.15,
+    "classic_pct": 0.08
+   },
+   {
+    "npc_id": 45465,
+    "name": "Guardian of Darkness Spirit",
+    "standard_pct": 0.15,
+    "classic_pct": 0.08
+   }
+  ]
+ },
+ {
+  "id": 91,
+  "name": "Arcane Blood Sweat and Gears!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Combo"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": true,
+  "targets": [
+   {
+    "npc_id": 45517,
+    "name": "Spiritologist of Blood",
+    "count": 500
+   },
+   {
+    "npc_id": 45486,
+    "name": "Darkness Avenger",
+    "count": 500
+   },
+   {
+    "npc_id": 45523,
+    "name": "Lord of Darkness",
+    "count": 500
+   },
+   {
+    "npc_id": 45527,
+    "name": "Blood Rain Knight",
+    "count": 500
+   }
+  ],
+  "maps": [
+   "3rd Floor Evil Spirit Altar",
+   "3rd Floor Devil Road Altar",
+   "3rd Floor Oum Experiment Room",
+   "3rd Floor Arcane King's Power Room",
+   "3rd Floor Devil Road Mercenary Room",
+   "3rd Floor Control Area",
+   "3rd Floor Mercenary Training Area",
+   "3rd Floor Arcane Army Training Area",
+   "3rd Floor Central Control Room"
+  ],
+  "rewards": [
+   {
+    "item_id": 40640,
+    "name": "Evidence Box of Arcane Army",
+    "qty": 10,
+    "icon": "1937.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45517,
+    "name": "Spiritologist of Blood",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45486,
+    "name": "Darkness Avenger",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45523,
+    "name": "Lord of Darkness",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45527,
+    "name": "Blood Rain Knight",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 92,
+  "name": "Ew! Squish it!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45190,
+    "name": "Giant Soldier Ant",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Mainland Aden",
+   "Ant Caves 2F",
+   "Ant Caves 3F",
+   "Ant Caves 4F",
+   "Ant Caves 5F",
+   "Ant Caves 6F",
+   "Ant Caves 7F",
+   "Ant Caves 8F",
+   "Ant Caves 9F"
+  ],
+  "rewards": [
+   {
+    "item_id": 40051,
+    "name": "High Quality Emerald",
+    "qty": 5,
+    "icon": "240.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45190,
+    "name": "Giant Soldier Ant",
+    "standard_pct": 5.0,
+    "classic_pct": 2.5
+   }
+  ]
+ },
+ {
+  "id": 93,
+  "name": "Fungus Party but dreamier?",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45551,
+    "name": "Fungus",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Island of Dreams"
+  ],
+  "rewards": [
+   {
+    "item_id": 41292,
+    "name": "Mushroom Soup of Fantasy",
+    "qty": 5,
+    "icon": "2575.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45551,
+    "name": "Fungus",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 95,
+  "name": "Compensate me!",
+  "description": "TheShawn is a bitch.",
+  "badges": [],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45551,
+    "name": "Fungus",
+    "count": 100
+   },
+   {
+    "npc_id": 45556,
+    "name": "Ice Man",
+    "count": 100
+   },
+   {
+    "npc_id": 45553,
+    "name": "Ice Golem",
+    "count": 100
+   },
+   {
+    "npc_id": 45554,
+    "name": "Killer Bee",
+    "count": 100
+   },
+   {
+    "npc_id": 45549,
+    "name": "Ball Lightning",
+    "count": 100
+   },
+   {
+    "npc_id": 45552,
+    "name": "Salamander",
+    "count": 100
+   },
+   {
+    "npc_id": 45555,
+    "name": "Fire Egg",
+    "count": 100
+   },
+   {
+    "npc_id": 45557,
+    "name": "Will O' Wisp",
+    "count": 10
+   },
+   {
+    "npc_id": 45558,
+    "name": "Will O' Wisp",
+    "count": 10
+   },
+   {
+    "npc_id": 45559,
+    "name": "Will O' Wisp",
+    "count": 10
+   },
+   {
+    "npc_id": 45560,
+    "name": "Will O' Wisp",
+    "count": 10
+   },
+   {
+    "npc_id": 45561,
+    "name": "Will O' Wisp",
+    "count": 10
+   }
+  ],
+  "maps": [
+   "Island of Dreams"
+  ],
+  "rewards": [
+   {
+    "item_id": 49142,
+    "name": "Candle of Reminiscence",
+    "qty": 1,
+    "icon": "2923.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45551,
+    "name": "Fungus",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45556,
+    "name": "Ice Man",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45553,
+    "name": "Ice Golem",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45554,
+    "name": "Killer Bee",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45549,
+    "name": "Ball Lightning",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45552,
+    "name": "Salamander",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45555,
+    "name": "Fire Egg",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45557,
+    "name": "Will O' Wisp",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45558,
+    "name": "Will O' Wisp",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45559,
+    "name": "Will O' Wisp",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45560,
+    "name": "Will O' Wisp",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45561,
+    "name": "Will O' Wisp",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 97,
+  "name": "Ice Queen - Treasure Chain!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46141,
+    "name": "Ice Queen",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 702,
+    "name": "Chainsword of Intense Cold",
+    "qty": 1,
+    "icon": "5123.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46141,
+    "name": "Ice Queen",
+    "standard_pct": 0.1,
+    "classic_pct": 0.05
+   }
+  ]
+ },
+ {
+  "id": 98,
+  "name": "Ice Queen - Treasure Kiringku!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46141,
+    "name": "Ice Queen",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 701,
+    "name": "Kiringku of Intense Cold",
+    "qty": 1,
+    "icon": "5125.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46141,
+    "name": "Ice Queen",
+    "standard_pct": 0.1,
+    "classic_pct": 0.05
+   }
+  ]
+ },
+ {
+  "id": 99,
+  "name": "Ice Queen - Treasure Bow!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 46141,
+    "name": "Ice Queen",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 191,
+    "name": "Bow of Cold Mastery",
+    "qty": 1,
+    "icon": "2005.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 46141,
+    "name": "Ice Queen",
+    "standard_pct": 0.1,
+    "classic_pct": 0.05
+   }
+  ]
+ },
+ {
+  "id": 100,
+  "name": "Ice Ice Baby!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45182,
+    "name": "Ice Golem",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Ice Crystal Cave",
+   "Ice Queens Castle 2F",
+   "Ice Queens Castle 3F"
+  ],
+  "rewards": [
+   {
+    "item_id": 40048,
+    "name": "High Quality Diamond",
+    "qty": 5,
+    "icon": "237.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45182,
+    "name": "Ice Golem",
+    "standard_pct": 5.0,
+    "classic_pct": 2.5
+   }
+  ]
+ },
+ {
+  "id": 101,
+  "name": "Sssssapphires!?",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45144,
+    "name": "Lizardman",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Mainland Aden",
+   "Eva Kingdom Dungeon Floor 1"
+  ],
+  "rewards": [
+   {
+    "item_id": 40050,
+    "name": "High Quality Sapphire",
+    "qty": 5,
+    "icon": "246.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45144,
+    "name": "Lizardman",
+    "standard_pct": 3.0,
+    "classic_pct": 1.5
+   }
+  ]
+ },
+ {
+  "id": 102,
+  "name": "Soul Drag..I mean Frag!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45576,
+    "name": "Priest of Chaos (Flying Spearman)",
+    "count": 25
+   },
+   {
+    "npc_id": 45599,
+    "name": "Priest of Chaos (Calvary)",
+    "count": 10
+   },
+   {
+    "npc_id": 45226,
+    "name": "Priest of Chaos (Spearman)",
+    "count": 25
+   }
+  ],
+  "maps": [
+   "Shadow Temple Floor 1",
+   "Shadow Temple Outline",
+   "Shadow Temple Floor 2"
+  ],
+  "rewards": [
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "qty": 25,
+    "icon": "1997.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45576,
+    "name": "Priest of Chaos (Flying Spearman)",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45599,
+    "name": "Priest of Chaos (Calvary)",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45227,
+    "name": "Priest of Chaos (Spearman)",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45231,
+    "name": "Priest of Chaos (Spearman)",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 103,
+  "name": "Blood for the blood god!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45739,
+    "name": "Shiboin of Earth",
+    "count": 15
+   },
+   {
+    "npc_id": 45740,
+    "name": "Shiboin of Waves",
+    "count": 15
+   },
+   {
+    "npc_id": 45741,
+    "name": "Shiboin of Fire",
+    "count": 15
+   },
+   {
+    "npc_id": 45739,
+    "name": "Shiboin of Earth",
+    "count": 15
+   }
+  ],
+  "maps": [
+   "Cave of Desire lobby",
+   "Room of Earthquakes",
+   "Room of Waves",
+   "Room of Flames"
+  ],
+  "rewards": [
+   {
+    "item_id": 40718,
+    "name": "Fragment of Blood Stone",
+    "qty": 25,
+    "icon": "2071.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45739,
+    "name": "Shiboin of Earth",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45740,
+    "name": "Shiboin of Waves",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45741,
+    "name": "Shiboin of Fire",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45739,
+    "name": "Shiboin of Earth",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 104,
+  "name": "Beleth - Treasure Staff!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45583,
+    "name": "Beleth",
+    "count": 5
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 123,
+    "name": "Staff of Beleth",
+    "qty": 1,
+    "icon": "1257.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45583,
+    "name": "Beleth",
+    "standard_pct": 0.7,
+    "classic_pct": 0.35
+   }
+  ]
+ },
+ {
+  "id": 105,
+  "name": "Beleth - Treasure Boots!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45583,
+    "name": "Beleth",
+    "count": 5
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 20204,
+    "name": "Boots of Beleth",
+    "qty": 1,
+    "icon": "1258.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45583,
+    "name": "Beleth",
+    "standard_pct": 0.7,
+    "classic_pct": 0.35
+   }
+  ]
+ },
+ {
+  "id": 106,
+  "name": "Baphomet - Treasure Staff!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45573,
+    "name": "Baphomet",
+    "count": 5
+   }
+  ],
+  "maps": [
+   "Hell"
+  ],
+  "rewards": [
+   {
+    "item_id": 124,
+    "name": "Staff of Baphomet",
+    "qty": 1,
+    "icon": "1255.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45573,
+    "name": "Baphomet",
+    "standard_pct": 0.7,
+    "classic_pct": 0.35
+   }
+  ]
+ },
+ {
+  "id": 107,
+  "name": "Baphomet - Treasure Armor!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45573,
+    "name": "Baphomet",
+    "count": 5
+   }
+  ],
+  "maps": [
+   "Hell"
+  ],
+  "rewards": [
+   {
+    "item_id": 20117,
+    "name": "Armor of Baphomet",
+    "qty": 1,
+    "icon": "1256.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45573,
+    "name": "Baphomet",
+    "standard_pct": 0.7,
+    "classic_pct": 0.35
+   }
+  ]
+ },
+ {
+  "id": 108,
+  "name": "Room of Waves - Blood Frags!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Combo"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": true,
+  "targets": [
+   {
+    "npc_id": 45745,
+    "name": "Dego",
+    "count": 100
+   },
+   {
+    "npc_id": 45744,
+    "name": "Judigo",
+    "count": 100
+   }
+  ],
+  "maps": [
+   "Room of Waves"
+  ],
+  "rewards": [
+   {
+    "item_id": 40718,
+    "name": "Fragment of Blood Stone",
+    "qty": 25,
+    "icon": "2071.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45745,
+    "name": "Dego",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45744,
+    "name": "Judigo",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 109,
+  "name": "Room of Flames - Blood Frags!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Combo"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": true,
+  "targets": [
+   {
+    "npc_id": 45746,
+    "name": "Deangus",
+    "count": 100
+   },
+   {
+    "npc_id": 45747,
+    "name": "Angus",
+    "count": 100
+   }
+  ],
+  "maps": [
+   "Room of Flames"
+  ],
+  "rewards": [
+   {
+    "item_id": 40718,
+    "name": "Fragment of Blood Stone",
+    "qty": 25,
+    "icon": "2071.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45746,
+    "name": "Deangus",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45747,
+    "name": "Angus",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 110,
+  "name": "Room of Hurricanes - Blood Frags!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Combo"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": true,
+  "targets": [
+   {
+    "npc_id": 45748,
+    "name": "Paj",
+    "count": 100
+   },
+   {
+    "npc_id": 45750,
+    "name": "Pasaj",
+    "count": 100
+   }
+  ],
+  "maps": [
+   "Room of Hurricanes"
+  ],
+  "rewards": [
+   {
+    "item_id": 40718,
+    "name": "Fragment of Blood Stone",
+    "qty": 25,
+    "icon": "2071.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45748,
+    "name": "Paj",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45750,
+    "name": "Pasaj",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 111,
+  "name": "Room of Earthquakes - Blood Frags!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Combo"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": true,
+  "targets": [
+   {
+    "npc_id": 45743,
+    "name": "Sand Tomb",
+    "count": 100
+   }
+  ],
+  "maps": [
+   "Room of Earthquakes"
+  ],
+  "rewards": [
+   {
+    "item_id": 40718,
+    "name": "Fragment of Blood Stone",
+    "qty": 25,
+    "icon": "2071.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45743,
+    "name": "Sand Tomb",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 112,
+  "name": "Soul Drag 2!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45575,
+    "name": "Disciple of Death (Fallen Succubus)",
+    "count": 25
+   },
+   {
+    "npc_id": 45597,
+    "name": "Disciple of Death (Fallen Baphomet)",
+    "count": 25
+   },
+   {
+    "npc_id": 45598,
+    "name": "Disciple of Death (Fallen Beleth)",
+    "count": 25
+   }
+  ],
+  "maps": [
+   "Shadow Temple Floor 2"
+  ],
+  "rewards": [
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "qty": 50,
+    "icon": "1997.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45575,
+    "name": "Disciple of Death (Fallen Succubus)",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45597,
+    "name": "Disciple of Death (Fallen Baphomet)",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   },
+   {
+    "npc_id": 45598,
+    "name": "Disciple of Death (Fallen Beleth)",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 113,
+  "name": "Like a rock!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45416,
+    "name": "Fang of Earth",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Elemental Grave"
+  ],
+  "rewards": [
+   {
+    "item_id": 41430,
+    "name": "Scroll of Enchant Weapon: Earth",
+    "qty": 1,
+    "icon": "3028.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45416,
+    "name": "Fang of Earth",
+    "standard_pct": 1.0,
+    "classic_pct": 0.5
+   }
+  ]
+ },
+ {
+  "id": 114,
+  "name": "Cutting Wind!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45418,
+    "name": "Fang of Wind",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Elemental Grave"
+  ],
+  "rewards": [
+   {
+    "item_id": 41429,
+    "name": "Scroll of Enchant Weapon: Wind",
+    "qty": 1,
+    "icon": "3030.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45418,
+    "name": "Fang of Wind",
+    "standard_pct": 1.0,
+    "classic_pct": 0.5
+   }
+  ]
+ },
+ {
+  "id": 115,
+  "name": "Flame on!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45424,
+    "name": "Fang of Flame",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Elemental Grave"
+  ],
+  "rewards": [
+   {
+    "item_id": 41432,
+    "name": "Scroll of Enchant Weapon: Fire",
+    "qty": 1,
+    "icon": "3032.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45424,
+    "name": "Fang of Flame",
+    "standard_pct": 1.0,
+    "classic_pct": 0.5
+   }
+  ]
+ },
+ {
+  "id": 116,
+  "name": "Now that's what I call high quality H20!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45419,
+    "name": "Fang of Glacier",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Elemental Grave"
+  ],
+  "rewards": [
+   {
+    "item_id": 41431,
+    "name": "Scroll of Enchant Weapon: Water",
+    "qty": 1,
+    "icon": "3029.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45419,
+    "name": "Fang of Glacier",
+    "standard_pct": 1.0,
+    "classic_pct": 0.5
+   }
+  ]
+ },
+ {
+  "id": 117,
+  "name": "Wind Breathing!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Daily"
+  ],
+  "weekly": false,
+  "daily": true,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45461,
+    "name": "Guardian of Wind Spirit",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "2nd Floor Dark Magic Laboratory",
+   "2nd Floor Spirit Summoning Room"
+  ],
+  "rewards": [
+   {
+    "item_id": 40645,
+    "name": "Breath of Wind",
+    "qty": 5,
+    "icon": "1926.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45461,
+    "name": "Guardian of Wind Spirit",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 118,
+  "name": "Fire Breathing!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Daily"
+  ],
+  "weekly": false,
+  "daily": true,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45462,
+    "name": "Guardian of Fire Spirit",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "2nd Floor Dark Magic Laboratory",
+   "2nd Floor Spirit Summoning Room"
+  ],
+  "rewards": [
+   {
+    "item_id": 40651,
+    "name": "Breath of Fire",
+    "qty": 5,
+    "icon": "1922.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45462,
+    "name": "Guardian of Fire Spirit",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 119,
+  "name": "Water Breathing!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Daily"
+  ],
+  "weekly": false,
+  "daily": true,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45460,
+    "name": "Guardian of Water Spirit",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "2nd Floor Dark Magic Laboratory",
+   "2nd Floor Spirit Summoning Room"
+  ],
+  "rewards": [
+   {
+    "item_id": 40643,
+    "name": "Breath of Water",
+    "qty": 5,
+    "icon": "1924.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45460,
+    "name": "Guardian of Water Spirit",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 120,
+  "name": "Earth Breathing!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Daily"
+  ],
+  "weekly": false,
+  "daily": true,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45459,
+    "name": "Guardian of Earth Spirit",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "2nd Floor Dark Magic Laboratory",
+   "2nd Floor Spirit Summoning Room"
+  ],
+  "rewards": [
+   {
+    "item_id": 40618,
+    "name": "Breath of Earth",
+    "qty": 5,
+    "icon": "1928.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45459,
+    "name": "Guardian of Earth Spirit",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 121,
+  "name": "Darkness Breathing!",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable",
+   "Daily"
+  ],
+  "weekly": false,
+  "daily": true,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45465,
+    "name": "Guardian of Darkness Spirit",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "2nd Floor Dark Magic Training Area",
+   "2nd Floor Spirit Summoning Room",
+   "2nd Floor Dark Spirit Laboratory"
+  ],
+  "rewards": [
+   {
+    "item_id": 40676,
+    "name": "Breath of Darkness",
+    "qty": 5,
+    "icon": "1930.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45465,
+    "name": "Guardian of Darkness Spirit",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 122,
+  "name": "Damn dude, that's rough",
+  "description": "No description provided.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": false,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45372,
+    "name": "Iron Golem",
+    "count": 50
+   }
+  ],
+  "maps": [
+   "Mainland Aden",
+   "Ice Crystal Cave",
+   "Ice Queens Castle 2F",
+   "Ice Queens Castle 3F",
+   "Oren Ivory Tower Floor 4",
+   "Oren Ivory Tower Floor 5",
+   "Oren Ivory Tower Floor 8"
+  ],
+  "rewards": [
+   {
+    "item_id": 40899,
+    "name": "Lump of Rough Iron",
+    "qty": 15,
+    "icon": "523.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45372,
+    "name": "Iron Golem",
+    "standard_pct": 3.0,
+    "classic_pct": 1.5
+   }
+  ]
+ },
+ {
+  "id": 123,
+  "name": "I See What You Did There",
+  "description": "A rare treasure contract from Seer. Defeat Seer 5 times to claim the Eye of Seer.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45547,
+    "name": "Seer",
+    "count": 5
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 500011,
+    "name": "Eye of SeerBlessed",
+    "qty": 1,
+    "icon": "4996.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45547,
+    "name": "Seer",
+    "standard_pct": 0.2,
+    "classic_pct": 0.1
+   }
+  ]
+ },
+ {
+  "id": 124,
+  "name": "Dead Man's Edoryu",
+  "description": "A rare treasure contract from Zombie Lord. Defeat Zombie Lord 10 times to claim a Kaiser Edoryu.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45650,
+    "name": "Zombie Lord",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 84,
+    "name": "Kaiser Edoryu",
+    "qty": 1,
+    "icon": "1078.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45650,
+    "name": "Zombie Lord",
+    "standard_pct": 0.3,
+    "classic_pct": 0.15
+   }
+  ]
+ },
+ {
+  "id": 125,
+  "name": "Mummy Issues",
+  "description": "A rare treasure contract from Mummy Lord. Defeat Mummy Lord 10 times to claim an Agile Crown of Mummy Lord.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45653,
+    "name": "Mummy Lord",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 20017,
+    "name": "Agile Crown of Mummy Lord",
+    "qty": 1,
+    "icon": "1420.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45653,
+    "name": "Mummy Lord",
+    "standard_pct": 0.2,
+    "classic_pct": 0.1
+   }
+  ]
+ },
+ {
+  "id": 126,
+  "name": "Lich, Please!",
+  "description": "A rare treasure contract from Lich. Defeat Lich 10 times to claim a Lich Robe.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45672,
+    "name": "Lich",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 20107,
+    "name": "Lich Robe",
+    "qty": 1,
+    "icon": "978.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45672,
+    "name": "Lich",
+    "standard_pct": 0.1,
+    "classic_pct": 0.05
+   }
+  ]
+ },
+ {
+  "id": 127,
+  "name": "Claws and Consequences",
+  "description": "A rare treasure contract from Cougar. Defeat Cougar 10 times to claim Dark Spirit Crystal(ArmorBreak).",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45652,
+    "name": "Cougar",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 600119,
+    "name": "Dark Spirit Crystal(ArmorBreak)",
+    "qty": 1,
+    "icon": "1137.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45652,
+    "name": "Cougar",
+    "standard_pct": 0.1,
+    "classic_pct": 0.05
+   }
+  ]
+ },
+ {
+  "id": 128,
+  "name": "Fangs for the Cloak",
+  "description": "A rare treasure contract from Vampire. Defeat Vampire 7 times to claim a Vampire Cloak.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45606,
+    "name": "Vampire",
+    "count": 7
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 20079,
+    "name": "Vampire Cloak",
+    "qty": 1,
+    "icon": "1514.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45606,
+    "name": "Vampire",
+    "standard_pct": 0.5,
+    "classic_pct": 0.25
+   }
+  ]
+ },
+ {
+  "id": 129,
+  "name": "Iris You Were Here",
+  "description": "A rare treasure contract from Iris. Defeat Iris 7 times to claim an Amulet of Iris.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45654,
+    "name": "Iris",
+    "count": 7
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 20260,
+    "name": "Amulet of Iris",
+    "qty": 1,
+    "icon": "1165.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45654,
+    "name": "Iris",
+    "standard_pct": 0.24,
+    "classic_pct": 0.12
+   }
+  ]
+ },
+ {
+  "id": 130,
+  "name": "Vald's Point",
+  "description": "A rare treasure contract from Knight Vald. Defeat Knight Vald 10 times to claim a Sword of Knight Vald.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45618,
+    "name": "Knight Vald",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 59,
+    "name": "Sword of Knight Vald",
+    "qty": 1,
+    "icon": "1181.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45618,
+    "name": "Knight Vald",
+    "standard_pct": 0.35,
+    "classic_pct": 0.18
+   }
+  ]
+ },
+ {
+  "id": 131,
+  "name": "Two Hands, One Vald",
+  "description": "A rare treasure contract from Knight Vald. Defeat Knight Vald 10 times to claim a Two-Handed Sword of Knight Vald.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45618,
+    "name": "Knight Vald",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 91204,
+    "name": "Two-Handed Sword of Knight Vald",
+    "qty": 1,
+    "icon": "1181.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45618,
+    "name": "Knight Vald",
+    "standard_pct": 0.35,
+    "classic_pct": 0.18
+   }
+  ]
+ },
+ {
+  "id": 132,
+  "name": "Don't Fear the Reaper",
+  "description": "A rare treasure contract from Grim Reaper. Defeat Grim Reaper 10 times to claim the Hand of the Reaper.",
+  "badges": [
+   "Repeatable"
+  ],
+  "weekly": false,
+  "daily": false,
+  "boss": true,
+  "combo": false,
+  "targets": [
+   {
+    "npc_id": 45673,
+    "name": "Grim Reaper",
+    "count": 10
+   }
+  ],
+  "maps": [],
+  "rewards": [
+   {
+    "item_id": 30010,
+    "name": "Hand of the Reaper",
+    "qty": 1,
+    "icon": "2008.webp"
+   }
+  ],
+  "rune_rewards": [
+   {
+    "name": "Uncommon Runes",
+    "chance_pct": 2.0,
+    "icon": "3910.webp"
+   }
+  ],
+  "sources": [
+   {
+    "npc_id": 45673,
+    "name": "Grim Reaper",
+    "standard_pct": 0.2,
+    "classic_pct": 0.1
+   }
+  ]
+ }
+]

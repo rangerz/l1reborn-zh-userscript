@@ -47,11 +47,12 @@ def parse_drops(h, stem):
     drops = []
     for r in re.findall(r'<img [^>]*inline-block w-6 h-6[^>]*>\s*<div class="flex-1">(.*?)</div>\s*</div>\s*</div>', d, re.S):
         t = txt(r)
-        m = re.fullmatch(r'(.*?) · (?:Item (\d+)|(\d+) rune types)(?: (Blessed|Cursed))? Min/Max ([\d,]+)/([\d,]+)(?: · Chance ([\d.,]+)%)?( \(grouped\))?', t)
-        assert m and bool(m.group(2)) != bool(m.group(3)), f'{stem} 掉落格式不符：{t}'
+        m = re.fullmatch(r'(.*?) · (?:Item (\d+)|(\d+) rune types)(?: (Blessed|Cursed))?(?: Min/Max ([\d,]+)/([\d,]+)| Kill Quest: (.*?) \([\d.,]+%\) Kill Quest Reward · Qty ([\d,]+))(?: · Chance ([\d.,]+)%)?( \(grouped\))?', t)
+        assert m and bool(m.group(2)) != bool(m.group(3)) and bool(m.group(5)) != bool(m.group(7)), f'{stem} 掉落格式不符：{t}'
+        lo, hi = (m.group(5), m.group(6)) if m.group(5) else (m.group(8), m.group(8))  # 擊殺任務獎勵只有固定數量 Qty
         drops.append({'item_id': int(m.group(2)) if m.group(2) else None, 'name': m.group(1), 'status': m.group(4),
-                      'min': int(num(m.group(5))), 'max': int(num(m.group(6))), 'chance_pct': num(m.group(7)) if m.group(7) else None,  # 活動怪物的機率官網不顯示
-                      **({'rune_types': int(m.group(3))} if m.group(3) else {})})
+                      'min': int(num(lo)), 'max': int(num(hi)), 'chance_pct': num(m.group(9)) if m.group(9) else None,  # 活動怪物的機率官網不顯示
+                      **({'rune_types': int(m.group(3))} if m.group(3) else {}), **({'quest': m.group(7)} if m.group(7) else {})})
     assert len(drops) == d.count('inline-block w-6 h-6'), f'{stem} 掉落列數與圖示數不符'
     return drops
 

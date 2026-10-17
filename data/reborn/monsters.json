@@ -37491,6 +37491,172 @@
   ]
  },
  {
+  "id": 45227,
+  "name": "Priest of Chaos (Spearman)",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "22",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "300",
+   "AC": "-36",
+   "MR": "100",
+   "EXP": "485",
+   "Str/Con/Dex": "25/25/25",
+   "Int/Wis": "18/18",
+   "Family": "chaos",
+   "HPR": "5",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77693d442754e3be81b2.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 333,
+    "max": 536,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40443,
+    "name": "Black Lump of Pure Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40444,
+    "name": "Black Lump of Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
+  "id": 45231,
+  "name": "Priest of Chaos (Spearman)",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "22",
+   "Size": "Large",
+   "HP": "500",
+   "MP": "300",
+   "AC": "-65",
+   "MR": "0",
+   "EXP": "485",
+   "Str/Con/Dex": "25/25/25",
+   "Int/Wis": "25/25",
+   "Family": "chaos",
+   "HPR": "5",
+   "MPR": "50",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "77693d442754e3be81b2.webp",
+  "drops": [
+   {
+    "item_id": 40308,
+    "name": "Adena",
+    "status": null,
+    "min": 333,
+    "max": 536,
+    "chance_pct": 100.0
+   },
+   {
+    "item_id": 40014,
+    "name": "Potion of Bravery",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40015,
+    "name": "Potion of Mana",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 10.0
+   },
+   {
+    "item_id": 40524,
+    "name": "Black Blood Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 6.0
+   },
+   {
+    "item_id": 40443,
+    "name": "Black Lump of Pure Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40444,
+    "name": "Black Lump of Rough Mithril",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   },
+   {
+    "item_id": 40678,
+    "name": "Fragment of Soul Stone",
+    "status": null,
+    "min": 1,
+    "max": 1,
+    "chance_pct": 2.0
+   }
+  ]
+ },
+ {
   "id": 45233,
   "name": "Dark Elf Soldier",
   "band": "detail",
@@ -40555,6 +40721,42 @@
     "max": 1,
     "chance_pct": 0.052,
     "rune_types": 23
+   }
+  ]
+ },
+ {
+  "id": 45613,
+  "name": "Varlok",
+  "band": "detail",
+  "badges": [
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "57",
+   "Size": "Large",
+   "HP": "3100",
+   "MP": "500",
+   "AC": "-66",
+   "MR": "75",
+   "EXP": "3250",
+   "Str/Con/Dex": "68/27/25",
+   "Int/Wis": "25/25",
+   "Family": "daemon",
+   "HPR": "0",
+   "MPR": "300",
+   "Weak Attr": "0"
+  },
+  "spawn": {},
+  "icon": "3bd94624fc7ca32de085.webp",
+  "drops": [
+   {
+    "item_id": 40718,
+    "name": "Fragment of Blood Stone",
+    "status": null,
+    "min": 100,
+    "max": 100,
+    "chance_pct": 0.3,
+    "quest": "Varlok - Fragments!"
    }
   ]
  },
