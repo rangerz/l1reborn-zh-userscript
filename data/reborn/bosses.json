@@ -1,6 +1,7 @@
 [
  {
   "id": 45228,
+  "mode": "standard",
   "name": "Sea Dancer",
   "badges": [
    "Boss",
@@ -35,6 +36,7 @@
  },
  {
   "id": 45317,
+  "mode": "standard",
   "name": "Bandit",
   "badges": [
    "Boss",
@@ -69,6 +71,7 @@
  },
  {
   "id": 45338,
+  "mode": "standard",
   "name": "Crocodile",
   "badges": [
    "Boss",
@@ -103,6 +106,7 @@
  },
  {
   "id": 45370,
+  "mode": "standard",
   "name": "Bandit Leader",
   "badges": [
    "Boss",
@@ -137,6 +141,7 @@
  },
  {
   "id": 45456,
+  "mode": "standard",
   "name": "Necromancer",
   "badges": [
    "Boss",
@@ -175,6 +180,7 @@
  },
  {
   "id": 45458,
+  "mode": "standard",
   "name": "Spirit of Drake",
   "badges": [
    "Boss",
@@ -209,6 +215,7 @@
  },
  {
   "id": 45464,
+  "mode": "standard",
   "name": "Sema",
   "badges": [
    "Boss",
@@ -229,11 +236,23 @@
    "MPR": "165",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 9,
+     "name": "Gludio Dungeon Floor 3 (1)"
+    },
+    {
+     "map_id": 10,
+     "name": "Gludio Dungeon Floor 4 (1)"
+    }
+   ]
+  },
   "icon": "52609a119c35ccef96f0.webp"
  },
  {
   "id": 45473,
+  "mode": "standard",
   "name": "Baltuzar",
   "badges": [
    "Boss",
@@ -254,11 +273,23 @@
    "MPR": "180",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 9,
+     "name": "Gludio Dungeon Floor 3 (1)"
+    },
+    {
+     "map_id": 10,
+     "name": "Gludio Dungeon Floor 4 (1)"
+    }
+   ]
+  },
   "icon": "baa7ece10b5d838b2239.webp"
  },
  {
   "id": 45488,
+  "mode": "standard",
   "name": "Caspa",
   "badges": [
    "Boss",
@@ -297,6 +328,7 @@
  },
  {
   "id": 45492,
+  "mode": "standard",
   "name": "Kuman",
   "badges": [
    "Boss"
@@ -330,6 +362,7 @@
  },
  {
   "id": 45497,
+  "mode": "standard",
   "name": "Merkyor",
   "badges": [
    "Boss",
@@ -350,11 +383,23 @@
    "MPR": "0",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 9,
+     "name": "Gludio Dungeon Floor 3 (1)"
+    },
+    {
+     "map_id": 10,
+     "name": "Gludio Dungeon Floor 4 (1)"
+    }
+   ]
+  },
   "icon": "23ad7c1fff2ce6ee1ab0.webp"
  },
  {
   "id": 45513,
+  "mode": "standard",
   "name": "Zenith Queen",
   "badges": [
    "Boss",
@@ -389,6 +434,7 @@
  },
  {
   "id": 45516,
+  "mode": "standard",
   "name": "Ifrit",
   "badges": [
    "Boss",
@@ -423,6 +469,7 @@
  },
  {
   "id": 45529,
+  "mode": "standard",
   "name": "Drake",
   "badges": [
    "Boss",
@@ -457,6 +504,7 @@
  },
  {
   "id": 45534,
+  "mode": "standard",
   "name": "Mambo Rabbit Pink Vest",
   "badges": [
    "Boss",
@@ -491,6 +539,7 @@
  },
  {
   "id": 45535,
+  "mode": "standard",
   "name": "Mambo Rabbit Orange Vest",
   "badges": [
    "Boss"
@@ -524,6 +573,7 @@
  },
  {
   "id": 45545,
+  "mode": "standard",
   "name": "Dark Elder",
   "badges": [
    "Boss",
@@ -558,6 +608,7 @@
  },
  {
   "id": 45546,
+  "mode": "standard",
   "name": "Doppelganger Boss",
   "badges": [
    "Boss",
@@ -592,6 +643,7 @@
  },
  {
   "id": 45547,
+  "mode": "standard",
   "name": "Seer",
   "badges": [
    "Boss",
@@ -626,6 +678,7 @@
  },
  {
   "id": 45548,
+  "mode": "standard",
   "name": "Jose",
   "badges": [
    "Boss",
@@ -660,6 +713,7 @@
  },
  {
   "id": 45573,
+  "mode": "standard",
   "name": "Baphomet",
   "badges": [
    "Boss",
@@ -694,6 +748,7 @@
  },
  {
   "id": 45574,
+  "mode": "standard",
   "name": "Palace General Kyte",
   "badges": [
    "Boss"
@@ -727,6 +782,7 @@
  },
  {
   "id": 45577,
+  "mode": "standard",
   "name": "Brigade Commander Dark Fencer",
   "badges": [
    "Boss"
@@ -760,6 +816,7 @@
  },
  {
   "id": 45583,
+  "mode": "standard",
   "name": "Beleth",
   "badges": [
    "Boss",
@@ -794,6 +851,7 @@
  },
  {
   "id": 45584,
+  "mode": "standard",
   "name": "Greater Minotaur",
   "badges": [
    "Boss",
@@ -828,6 +886,7 @@
  },
  {
   "id": 45585,
+  "mode": "standard",
   "name": "Assassin Squad Leader Blaze",
   "badges": [
    "Boss"
@@ -861,6 +920,7 @@
  },
  {
   "id": 45588,
+  "mode": "standard",
   "name": "Division Commander Sinclair",
   "badges": [
    "Boss"
@@ -894,6 +954,7 @@
  },
  {
   "id": 45600,
+  "mode": "standard",
   "name": "Kurtz",
   "badges": [
    "Boss"
@@ -927,6 +988,7 @@
  },
  {
   "id": 45602,
+  "mode": "standard",
   "name": "Evil Magic Squad Leader Carmiel",
   "badges": [
    "Boss"
@@ -960,6 +1022,7 @@
  },
  {
   "id": 45606,
+  "mode": "standard",
   "name": "Vampire",
   "badges": [
    "Boss",
@@ -994,6 +1057,7 @@
  },
  {
   "id": 45607,
+  "mode": "standard",
   "name": "Evil Power Squad Leader Kybar",
   "badges": [
    "Boss"
@@ -1027,6 +1091,7 @@
  },
  {
   "id": 45608,
+  "mode": "standard",
   "name": "Mercenary Commander Mephaisto",
   "badges": [
    "Boss"
@@ -1060,6 +1125,7 @@
  },
  {
   "id": 45609,
+  "mode": "standard",
   "name": "Ice Queen",
   "badges": [
    "Boss",
@@ -1094,6 +1160,7 @@
  },
  {
   "id": 45610,
+  "mode": "standard",
   "name": "Ancient Giant",
   "badges": [
    "Boss",
@@ -1128,6 +1195,7 @@
  },
  {
   "id": 45612,
+  "mode": "standard",
   "name": "Temple Head Bounty",
   "badges": [
    "Boss"
@@ -1161,6 +1229,7 @@
  },
  {
   "id": 45614,
+  "mode": "standard",
   "name": "Giant Ant Queen",
   "badges": [
    "Boss",
@@ -1195,6 +1264,7 @@
  },
  {
   "id": 45615,
+  "mode": "standard",
   "name": "Arcane Troup Leader Crepus",
   "badges": [
    "Boss"
@@ -1228,6 +1298,7 @@
  },
  {
   "id": 45617,
+  "mode": "standard",
   "name": "Phoenix",
   "badges": [
    "Boss",
@@ -1262,6 +1333,7 @@
  },
  {
   "id": 45618,
+  "mode": "standard",
   "name": "Knight Vald",
   "badges": [
    "Boss",
@@ -1296,6 +1368,7 @@
  },
  {
   "id": 45625,
+  "mode": "standard",
   "name": "Chaos",
   "badges": [
    "Boss",
@@ -1330,6 +1403,7 @@
  },
  {
   "id": 45640,
+  "mode": "standard",
   "name": "Unicorn",
   "badges": [
    "Boss"
@@ -1363,6 +1437,7 @@
  },
  {
   "id": 45642,
+  "mode": "standard",
   "name": "Great Spirit of Earth",
   "badges": [
    "Boss"
@@ -1396,6 +1471,7 @@
  },
  {
   "id": 45643,
+  "mode": "standard",
   "name": "Great Spirit of Water",
   "badges": [
    "Boss"
@@ -1429,6 +1505,7 @@
  },
  {
   "id": 45644,
+  "mode": "standard",
   "name": "Great Spirit of Wind",
   "badges": [
    "Boss"
@@ -1462,6 +1539,7 @@
  },
  {
   "id": 45645,
+  "mode": "standard",
   "name": "Great Spirit of Fire",
   "badges": [
    "Boss"
@@ -1495,6 +1573,7 @@
  },
  {
   "id": 45646,
+  "mode": "standard",
   "name": "Abyss Master",
   "badges": [
    "Boss"
@@ -1528,6 +1607,7 @@
  },
  {
   "id": 45648,
+  "mode": "standard",
   "name": "Slave of Assassin King",
   "badges": [
    "Boss"
@@ -1561,6 +1641,7 @@
  },
  {
   "id": 45649,
+  "mode": "standard",
   "name": "Demon",
   "badges": [
    "Boss",
@@ -1595,6 +1676,7 @@
  },
  {
   "id": 45650,
+  "mode": "standard",
   "name": "Zombie Lord",
   "badges": [
    "Boss",
@@ -1629,6 +1711,7 @@
  },
  {
   "id": 45651,
+  "mode": "standard",
   "name": "Dread King Baranka",
   "badges": [
    "Boss"
@@ -1662,6 +1745,7 @@
  },
  {
   "id": 45652,
+  "mode": "standard",
   "name": "Cougar",
   "badges": [
    "Boss",
@@ -1696,6 +1780,7 @@
  },
  {
   "id": 45653,
+  "mode": "standard",
   "name": "Mummy Lord",
   "badges": [
    "Boss",
@@ -1730,6 +1815,7 @@
  },
  {
   "id": 45654,
+  "mode": "standard",
   "name": "Iris",
   "badges": [
    "Boss",
@@ -1764,6 +1850,7 @@
  },
  {
   "id": 45666,
+  "mode": "standard",
   "name": "Teranus",
   "badges": [
    "Boss",
@@ -1798,6 +1885,7 @@
  },
  {
   "id": 45668,
+  "mode": "standard",
   "name": "Zyrus",
   "badges": [
    "Boss",
@@ -1832,6 +1920,7 @@
  },
  {
   "id": 45671,
+  "mode": "standard",
   "name": "Ari Orc",
   "badges": [
    "Boss",
@@ -1866,6 +1955,7 @@
  },
  {
   "id": 45672,
+  "mode": "standard",
   "name": "Lich",
   "badges": [
    "Boss",
@@ -1900,6 +1990,7 @@
  },
  {
   "id": 45673,
+  "mode": "standard",
   "name": "Grim Reaper",
   "badges": [
    "Boss",
@@ -1934,6 +2025,7 @@
  },
  {
   "id": 45674,
+  "mode": "standard",
   "name": "Death",
   "badges": [
    "Boss",
@@ -1968,6 +2060,7 @@
  },
  {
   "id": 45675,
+  "mode": "standard",
   "name": "Yahee",
   "badges": [
    "Boss",
@@ -2002,6 +2095,7 @@
  },
  {
   "id": 45676,
+  "mode": "standard",
   "name": "Arcane King Hellvine",
   "badges": [
    "Boss"
@@ -2035,6 +2129,7 @@
  },
  {
   "id": 45677,
+  "mode": "standard",
   "name": "Dread Queen Laia",
   "badges": [
    "Boss",
@@ -2069,6 +2164,7 @@
  },
  {
   "id": 45678,
+  "mode": "standard",
   "name": "Cerenis",
   "badges": [
    "Boss",
@@ -2089,11 +2185,19 @@
    "MPR": "180",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 4,
+     "name": "Mainland Aden (1)"
+    }
+   ]
+  },
   "icon": "e0551c5bff81e7ec9d80.webp"
  },
  {
   "id": 45680,
+  "mode": "standard",
   "name": "Ken Rauhel",
   "badges": [
    "Boss",
@@ -2128,6 +2232,7 @@
  },
  {
   "id": 45681,
+  "mode": "standard",
   "name": "Lindvior",
   "badges": [
    "Boss"
@@ -2161,6 +2266,7 @@
  },
  {
   "id": 45682,
+  "mode": "standard",
   "name": "Antharas",
   "badges": [
    "Boss",
@@ -2195,6 +2301,7 @@
  },
  {
   "id": 45683,
+  "mode": "standard",
   "name": "Fafurion",
   "badges": [
    "Boss",
@@ -2229,6 +2336,7 @@
  },
  {
   "id": 45684,
+  "mode": "standard",
   "name": "Valakas",
   "badges": [
    "Boss",
@@ -2263,6 +2371,7 @@
  },
  {
   "id": 45685,
+  "mode": "standard",
   "name": "Tarak",
   "badges": [
    "Boss",
@@ -2297,6 +2406,7 @@
  },
  {
   "id": 45734,
+  "mode": "standard",
   "name": "Great King Squid",
   "badges": [
    "Boss"
@@ -2330,6 +2440,7 @@
  },
  {
   "id": 45735,
+  "mode": "standard",
   "name": "Chief Mermaid",
   "badges": [
    "Boss",
@@ -2364,6 +2475,7 @@
  },
  {
   "id": 45752,
+  "mode": "standard",
   "name": "Varlok",
   "badges": [
    "Boss",
@@ -2398,6 +2510,7 @@
  },
  {
   "id": 45772,
+  "mode": "standard",
   "name": "Polluted Orc Hunter",
   "badges": [
    "Boss",
@@ -2432,6 +2545,7 @@
  },
  {
   "id": 45795,
+  "mode": "standard",
   "name": "Spirit",
   "badges": [
    "Boss",
@@ -2466,6 +2580,7 @@
  },
  {
   "id": 45801,
+  "mode": "standard",
   "name": "Diamond Golem of Maino Shaman",
   "badges": [
    "Boss",
@@ -2500,6 +2615,7 @@
  },
  {
   "id": 45802,
+  "mode": "standard",
   "name": "Maino Shaman",
   "badges": [
    "Boss",
@@ -2534,6 +2650,7 @@
  },
  {
   "id": 45829,
+  "mode": "standard",
   "name": "Barbados",
   "badges": [
    "Boss",
@@ -2568,6 +2685,7 @@
  },
  {
   "id": 45844,
+  "mode": "standard",
   "name": "Dread King Baranka",
   "badges": [
    "Boss",
@@ -2602,6 +2720,7 @@
  },
  {
   "id": 45863,
+  "mode": "standard",
   "name": "Dread Queen Laia",
   "badges": [
    "Boss",
@@ -2636,6 +2755,7 @@
  },
  {
   "id": 45916,
+  "mode": "standard",
   "name": "General Hamel Full of Resentment",
   "badges": [
    "Boss"
@@ -2669,6 +2789,7 @@
  },
  {
   "id": 45923,
+  "mode": "standard",
   "name": "Evil Spirit of Heine",
   "badges": [
    "Boss",
@@ -2711,6 +2832,7 @@
  },
  {
   "id": 45931,
+  "mode": "standard",
   "name": "Spirit of Water",
   "badges": [
    "Boss"
@@ -2744,6 +2866,7 @@
  },
  {
   "id": 45935,
+  "mode": "standard",
   "name": "Cursed Medusa",
   "badges": [
    "Boss",
@@ -2778,6 +2901,7 @@
  },
  {
   "id": 45941,
+  "mode": "standard",
   "name": "Cursed Exorcist Saell",
   "badges": [
    "Boss"
@@ -2811,6 +2935,7 @@
  },
  {
   "id": 45942,
+  "mode": "standard",
   "name": "Cursed Great Spirit of Water",
   "badges": [
    "Boss",
@@ -2845,6 +2970,7 @@
  },
  {
   "id": 45943,
+  "mode": "standard",
   "name": "Kapu",
   "badges": [
    "Boss"
@@ -2878,6 +3004,7 @@
  },
  {
   "id": 45944,
+  "mode": "standard",
   "name": "Giant Worm",
   "badges": [
    "Boss"
@@ -2911,6 +3038,7 @@
  },
  {
   "id": 45955,
+  "mode": "standard",
   "name": "Supreme Court Justice Kenya",
   "badges": [
    "Boss",
@@ -2945,6 +3073,7 @@
  },
  {
   "id": 45956,
+  "mode": "standard",
   "name": "Supreme Court Justice Viatas",
   "badges": [
    "Boss",
@@ -2979,6 +3108,7 @@
  },
  {
   "id": 45957,
+  "mode": "standard",
   "name": "Supreme Court Justice Baromes",
   "badges": [
    "Boss",
@@ -3013,6 +3143,7 @@
  },
  {
   "id": 45958,
+  "mode": "standard",
   "name": "Supreme Court Justice Endias",
   "badges": [
    "Boss",
@@ -3047,6 +3178,7 @@
  },
  {
   "id": 45959,
+  "mode": "standard",
   "name": "Supreme Court Justice Edea",
   "badges": [
    "Boss",
@@ -3081,6 +3213,7 @@
  },
  {
   "id": 45960,
+  "mode": "standard",
   "name": "Supreme Court Justice Tiames",
   "badges": [
    "Boss",
@@ -3115,6 +3248,7 @@
  },
  {
   "id": 45961,
+  "mode": "standard",
   "name": "Supreme Court Justice Ramias",
   "badges": [
    "Boss",
@@ -3149,6 +3283,7 @@
  },
  {
   "id": 45962,
+  "mode": "standard",
   "name": "Supreme Court Justice Barode",
   "badges": [
    "Boss",
@@ -3183,6 +3318,7 @@
  },
  {
   "id": 45963,
+  "mode": "standard",
   "name": "New King Adjutant Cassandra",
   "badges": [
    "Boss",
@@ -3217,6 +3353,7 @@
  },
  {
   "id": 46024,
+  "mode": "standard",
   "name": "Count Elite Guard General",
   "badges": [
    "Boss",
@@ -3251,6 +3388,7 @@
  },
  {
   "id": 46025,
+  "mode": "standard",
   "name": "Count Taros",
   "badges": [
    "Boss",
@@ -3285,6 +3423,7 @@
  },
  {
   "id": 46026,
+  "mode": "standard",
   "name": "Mammon",
   "badges": [
    "Boss",
@@ -3319,6 +3458,7 @@
  },
  {
   "id": 46037,
+  "mode": "standard",
   "name": "Dark Wizard Maya",
   "badges": [
    "Boss",
@@ -3353,6 +3493,7 @@
  },
  {
   "id": 46123,
+  "mode": "standard",
   "name": "Thebes Horus",
   "badges": [
    "Boss",
@@ -3387,6 +3528,7 @@
  },
  {
   "id": 46124,
+  "mode": "standard",
   "name": "Thebes Anubis",
   "badges": [
    "Boss",
@@ -3421,6 +3563,7 @@
  },
  {
   "id": 46141,
+  "mode": "standard",
   "name": "Ice Queen",
   "badges": [
    "Boss",
@@ -3455,6 +3598,7 @@
  },
  {
   "id": 46142,
+  "mode": "standard",
   "name": "Ice Demon",
   "badges": [
    "Boss",
@@ -3489,6 +3633,7 @@
  },
  {
   "id": 46196,
+  "mode": "standard",
   "name": "Shadow of Hardin",
   "badges": [
    "Boss"
@@ -3530,6 +3675,7 @@
  },
  {
   "id": 46291,
+  "mode": "standard",
   "name": "Shellman",
   "badges": [
    "Boss"
@@ -3563,6 +3709,7 @@
  },
  {
   "id": 81081,
+  "mode": "standard",
   "name": "Elindaire",
   "badges": [
    "Boss",
@@ -3601,6 +3748,7 @@
  },
  {
   "id": 81175,
+  "mode": "standard",
   "name": "Wanted Criminal Kuzak",
   "badges": [
    "Boss"
@@ -3634,6 +3782,7 @@
  },
  {
   "id": 91206,
+  "mode": "standard",
   "name": "Wyvern (Q)",
   "badges": [
    "Boss",
@@ -3654,11 +3803,19 @@
    "MPR": "25",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 2004,
+     "name": "Goras - Level 50 Illusionist Quest (12)"
+    }
+   ]
+  },
   "icon": "137e05c3e65b1f7dead3.webp"
  },
  {
   "id": 91207,
+  "mode": "standard",
   "name": "Otyu",
   "badges": [
    "Boss",
@@ -3679,11 +3836,19 @@
    "MPR": "25",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 2004,
+     "name": "Goras - Level 50 Illusionist Quest (12)"
+    }
+   ]
+  },
   "icon": "4af11f3024742198e8ca.webp"
  },
  {
   "id": 91291,
+  "mode": "standard",
   "name": "Death Knight",
   "badges": [
    "Boss",
@@ -3726,6 +3891,7 @@
  },
  {
   "id": 91420,
+  "mode": "standard",
   "name": "Faust",
   "badges": [
    "Boss"
@@ -3759,6 +3925,7 @@
  },
  {
   "id": 99037,
+  "mode": "standard",
   "name": "Likante",
   "badges": [
    "Boss",
@@ -3793,6 +3960,7 @@
  },
  {
   "id": 99047,
+  "mode": "standard",
   "name": "Capalre",
   "badges": [
    "Boss"
@@ -3826,6 +3994,7 @@
  },
  {
   "id": 99053,
+  "mode": "standard",
   "name": "Nekrose",
   "badges": [
    "Boss"
@@ -3859,6 +4028,7 @@
  },
  {
   "id": 99059,
+  "mode": "standard",
   "name": "Orukuce",
   "badges": [
    "Boss",
@@ -3893,6 +4063,7 @@
  },
  {
   "id": 99065,
+  "mode": "standard",
   "name": "Arlpeer",
   "badges": [
    "Boss"
@@ -3926,6 +4097,7 @@
  },
  {
   "id": 99087,
+  "mode": "standard",
   "name": "Bigfoot Mayo",
   "badges": [
    "Boss",
@@ -3960,6 +4132,7 @@
  },
  {
   "id": 456912,
+  "mode": "standard",
   "name": "Pirate Ship Owner",
   "badges": [
    "Boss",
@@ -3980,11 +4153,19 @@
    "MPR": "110",
    "Weak Attr": "Earth"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 9102,
+     "name": "Ghost Ship (1)"
+    }
+   ]
+  },
   "icon": "452afb08044df8e67ef5.webp"
  },
  {
   "id": 460315,
+  "mode": "standard",
   "name": "Corroded Dark Wizard Maya",
   "badges": [
    "Boss",
@@ -4019,6 +4200,7 @@
  },
  {
   "id": 600340,
+  "mode": "standard",
   "name": "Forgotten Mambo Rabbit",
   "badges": [
    "Boss",
@@ -4053,6 +4235,7 @@
  },
  {
   "id": 600341,
+  "mode": "standard",
   "name": "Forgotten Mambo Rabbit",
   "badges": [
    "Boss"
@@ -4086,6 +4269,7 @@
  },
  {
   "id": 600342,
+  "mode": "standard",
   "name": "Shadow of Hardon",
   "badges": [
    "Boss"
@@ -4127,6 +4311,7 @@
  },
  {
   "id": 5100000,
+  "mode": "standard",
   "name": "Devil King",
   "badges": [
    "Boss",
@@ -4147,11 +4332,19 @@
    "MPR": "3000",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (1)"
+    }
+   ]
+  },
   "icon": "6339cf4dab477512b298.webp"
  },
  {
   "id": 5100001,
+  "mode": "standard",
   "name": "Devil King's Mambo Rabbit (One-Eyed)",
   "badges": [
    "Boss",
@@ -4172,11 +4365,19 @@
    "MPR": "0",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (13)"
+    }
+   ]
+  },
   "icon": "3844813f9412f8a62172.webp"
  },
  {
   "id": 5100002,
+  "mode": "standard",
   "name": "Devil King's Mambo Rabbit (Carrot)",
   "badges": [
    "Boss"
@@ -4196,11 +4397,19 @@
    "MPR": "0",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (12)"
+    }
+   ]
+  },
   "icon": "ac3900d50f4c94918d97.webp"
  },
  {
   "id": 5100003,
+  "mode": "standard",
   "name": "Devil King's Spirit",
   "badges": [
    "Boss",
@@ -4221,11 +4430,19 @@
    "MPR": "0",
    "Weak Attr": "Water"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (4)"
+    }
+   ]
+  },
   "icon": "e444cceda1091d143c44.webp"
  },
  {
   "id": 5100004,
+  "mode": "standard",
   "name": "Devil King's Death Knight",
   "badges": [
    "Boss",
@@ -4246,11 +4463,19 @@
    "MPR": "0",
    "Weak Attr": "Water"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (5)"
+    }
+   ]
+  },
   "icon": "de08c1dd6eaf0e168194.webp"
  },
  {
   "id": 5100005,
+  "mode": "standard",
   "name": "Devil King's Zenith Queen",
   "badges": [
    "Boss",
@@ -4271,11 +4496,19 @@
    "MPR": "0",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (7)"
+    }
+   ]
+  },
   "icon": "90f9a7cde4386e76702f.webp"
  },
  {
   "id": 5100006,
+  "mode": "standard",
   "name": "Devil King's Seer",
   "badges": [
    "Boss",
@@ -4296,11 +4529,19 @@
    "MPR": "0",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (4)"
+    }
+   ]
+  },
   "icon": "77e1367341c771b04376.webp"
  },
  {
   "id": 5100007,
+  "mode": "standard",
   "name": "Devil King's Vampire",
   "badges": [
    "Boss",
@@ -4321,11 +4562,19 @@
    "MPR": "0",
    "Weak Attr": "Water"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (5)"
+    }
+   ]
+  },
   "icon": "5688598274647b4b6b84.webp"
  },
  {
   "id": 5100008,
+  "mode": "standard",
   "name": "Devil King's Zombie Lord",
   "badges": [
    "Boss",
@@ -4346,11 +4595,19 @@
    "MPR": "0",
    "Weak Attr": "Water"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (3)"
+    }
+   ]
+  },
   "icon": "57e771801761979e6321.webp"
  },
  {
   "id": 5100009,
+  "mode": "standard",
   "name": "Devil King's Cougar",
   "badges": [
    "Boss",
@@ -4371,11 +4628,19 @@
    "MPR": "0",
    "Weak Attr": "Earth"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (5)"
+    }
+   ]
+  },
   "icon": "e1142ce182c1ce32a988.webp"
  },
  {
   "id": 5100010,
+  "mode": "standard",
   "name": "Devil King's Mummy Lord",
   "badges": [
    "Boss",
@@ -4396,11 +4661,19 @@
    "MPR": "0",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (2)"
+    }
+   ]
+  },
   "icon": "05a828e0399d25a0fd10.webp"
  },
  {
   "id": 5100011,
+  "mode": "standard",
   "name": "Devil King's Iris",
   "badges": [
    "Boss",
@@ -4421,11 +4694,19 @@
    "MPR": "0",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (3)"
+    }
+   ]
+  },
   "icon": "3060cfc306f9f4ab8612.webp"
  },
  {
   "id": 5100012,
+  "mode": "standard",
   "name": "Devil King's Knight Vald",
   "badges": [
    "Boss",
@@ -4446,11 +4727,19 @@
    "MPR": "0",
    "Weak Attr": "0"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (5)"
+    }
+   ]
+  },
   "icon": "397fad93fbcb29393384.webp"
  },
  {
   "id": 5100013,
+  "mode": "standard",
   "name": "Devil King's Lich",
   "badges": [
    "Boss",
@@ -4471,11 +4760,19 @@
    "MPR": "0",
    "Weak Attr": "Water"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (2)"
+    }
+   ]
+  },
   "icon": "a532a3bc86c36393862d.webp"
  },
  {
   "id": 5100014,
+  "mode": "standard",
   "name": "Devil King's Grim Reaper",
   "badges": [
    "Boss",
@@ -4496,11 +4793,19 @@
    "MPR": "0",
    "Weak Attr": "Fire"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (3)"
+    }
+   ]
+  },
   "icon": "95371e26477abdaca1d0.webp"
  },
  {
   "id": 5100015,
+  "mode": "standard",
   "name": "Devil King's Ifrit",
   "badges": [
    "Boss",
@@ -4521,11 +4826,19 @@
    "MPR": "0",
    "Weak Attr": "Fire"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (9)"
+    }
+   ]
+  },
   "icon": "d4a343fed3989d4b7500.webp"
  },
  {
   "id": 5100016,
+  "mode": "standard",
   "name": "Devil King's Phoenix",
   "badges": [
    "Boss",
@@ -4546,11 +4859,19 @@
    "MPR": "0",
    "Weak Attr": "Fire"
   },
-  "spawn": {},
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 5167,
+     "name": "Devil King Territory (5)"
+    }
+   ]
+  },
   "icon": "c9f677af150b943ad938.webp"
  },
  {
   "id": 7311202,
+  "mode": "standard",
   "name": "Glarielle",
   "badges": [
    "Boss",
@@ -4589,6 +4910,7 @@
  },
  {
   "id": 7311203,
+  "mode": "standard",
   "name": "Faruuk",
   "badges": [
    "Boss",
@@ -4620,5 +4942,1353 @@
    ]
   },
   "icon": "c24d5ff3e137e44ccfef.webp"
+ },
+ {
+  "id": 7667219,
+  "mode": "diablo",
+  "name": "The Cow King",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "77",
+   "Size": "Large",
+   "HP": "10800",
+   "MP": "200",
+   "AC": "-80",
+   "MR": "75",
+   "EXP": "26590",
+   "Str/Con/Dex": "24/25/25",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "24",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6705,
+     "name": "Moo Moo Farm (1)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668018,
+  "mode": "diablo",
+  "name": "Hell Cat",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "70",
+   "Size": "Large",
+   "HP": "1600",
+   "MP": "400",
+   "AC": "-70",
+   "MR": "72",
+   "EXP": "3381",
+   "Str/Con/Dex": "50/23/63",
+   "Int/Wis": "20/8",
+   "Family": "",
+   "HPR": "64",
+   "MPR": "500",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6706,
+     "name": "Act II Desert (97)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668025,
+  "mode": "diablo",
+  "name": "Sand Raider",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "66",
+   "Size": "Small",
+   "HP": "3150",
+   "MP": "10",
+   "AC": "-65",
+   "MR": "72",
+   "EXP": "4998",
+   "Str/Con/Dex": "34/22/22",
+   "Int/Wis": "10/8",
+   "Family": "",
+   "HPR": "50",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6714,
+     "name": "Sewers Level 2 (3)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668042,
+  "mode": "diablo",
+  "name": "Horror Mage",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "75",
+   "Size": "Small",
+   "HP": "4050",
+   "MP": "250",
+   "AC": "-70",
+   "MR": "72",
+   "EXP": "5391",
+   "Str/Con/Dex": "37/25/25",
+   "Int/Wis": "17/17",
+   "Family": "necromansar",
+   "HPR": "132",
+   "MPR": "160",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6720,
+     "name": "Palace Cellar Level 3 (18)"
+    },
+    {
+     "map_id": 6731,
+     "name": "Ancient Tunnels (6)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668044,
+  "mode": "diablo",
+  "name": "Horror Mage",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "69",
+   "Size": "Small",
+   "HP": "1350",
+   "MP": "250",
+   "AC": "-70",
+   "MR": "72",
+   "EXP": "4649",
+   "Str/Con/Dex": "34/23/23",
+   "Int/Wis": "17/17",
+   "Family": "necromansar",
+   "HPR": "54",
+   "MPR": "160",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6719,
+     "name": "Palace Cellar Level 2 (5)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668066,
+  "mode": "diablo",
+  "name": "Coldworm the Burrower",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "78",
+   "Size": "Large",
+   "HP": "12150",
+   "MP": "689",
+   "AC": "-80",
+   "MR": "78",
+   "EXP": "54401",
+   "Str/Con/Dex": "31/26/26",
+   "Int/Wis": "18/13",
+   "Family": "",
+   "HPR": "81",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6730,
+     "name": "Maggot Lair Level 3 (1)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668071,
+  "mode": "diablo",
+  "name": "Duriel",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "82",
+   "Size": "Large",
+   "HP": "13500",
+   "MP": "100",
+   "AC": "-92",
+   "MR": "88",
+   "EXP": "88000",
+   "Str/Con/Dex": "46/27/27",
+   "Int/Wis": "15/17",
+   "Family": "ant",
+   "HPR": "17",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6739,
+     "name": "Duriel's Lair (1)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668133,
+  "mode": "diablo",
+  "name": "Hell Cat",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "72",
+   "Size": "Large",
+   "HP": "4800",
+   "MP": "400",
+   "AC": "-75",
+   "MR": "72",
+   "EXP": "10143",
+   "Str/Con/Dex": "48/24/63",
+   "Int/Wis": "20/8",
+   "Family": "",
+   "HPR": "192",
+   "MPR": "500",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6706,
+     "name": "Act II Desert (7)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668134,
+  "mode": "diablo",
+  "name": "Wrathfist the Jagged",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "73",
+   "Size": "Large",
+   "HP": "6400",
+   "MP": "400",
+   "AC": "-78",
+   "MR": "72",
+   "EXP": "16905",
+   "Str/Con/Dex": "46/24/63",
+   "Int/Wis": "20/8",
+   "Family": "",
+   "HPR": "220",
+   "MPR": "500",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6706,
+     "name": "Act II Desert (1)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668147,
+  "mode": "diablo",
+  "name": "Sand Raider",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "68",
+   "Size": "Small",
+   "HP": "6750",
+   "MP": "10",
+   "AC": "-70",
+   "MR": "72",
+   "EXP": "14994",
+   "Str/Con/Dex": "35/22/22",
+   "Int/Wis": "10/8",
+   "Family": "",
+   "HPR": "36",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6713,
+     "name": "Sewers Level 1 (3)"
+    },
+    {
+     "map_id": 6714,
+     "name": "Sewers Level 2 (4)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668148,
+  "mode": "diablo",
+  "name": "Vilemaul the Cold",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "69",
+   "Size": "Small",
+   "HP": "10125",
+   "MP": "10",
+   "AC": "-73",
+   "MR": "72",
+   "EXP": "24990",
+   "Str/Con/Dex": "34/23/23",
+   "Int/Wis": "10/8",
+   "Family": "",
+   "HPR": "40",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6713,
+     "name": "Sewers Level 1 (1)"
+    },
+    {
+     "map_id": 6714,
+     "name": "Sewers Level 2 (1)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668175,
+  "mode": "diablo",
+  "name": "Horror Mage",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "77",
+   "Size": "Small",
+   "HP": "6750",
+   "MP": "250",
+   "AC": "-75",
+   "MR": "72",
+   "EXP": "16173",
+   "Str/Con/Dex": "38/25/25",
+   "Int/Wis": "17/17",
+   "Family": "necromansar",
+   "HPR": "73",
+   "MPR": "160",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6720,
+     "name": "Palace Cellar Level 3 (2)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668176,
+  "mode": "diablo",
+  "name": "Bloodripper the Dark",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "78",
+   "Size": "Small",
+   "HP": "10125",
+   "MP": "250",
+   "AC": "-78",
+   "MR": "72",
+   "EXP": "26955",
+   "Str/Con/Dex": "40/26/26",
+   "Int/Wis": "17/17",
+   "Family": "necromansar",
+   "HPR": "82",
+   "MPR": "160",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6731,
+     "name": "Ancient Tunnels (2)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668179,
+  "mode": "diablo",
+  "name": "Horror Mage",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "71",
+   "Size": "Small",
+   "HP": "4050",
+   "MP": "250",
+   "AC": "-75",
+   "MR": "72",
+   "EXP": "13947",
+   "Str/Con/Dex": "35/23/23",
+   "Int/Wis": "17/17",
+   "Family": "necromansar",
+   "HPR": "162",
+   "MPR": "160",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6719,
+     "name": "Palace Cellar Level 2 (2)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7668180,
+  "mode": "diablo",
+  "name": "Goreeater the Destroyer",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "72",
+   "Size": "Small",
+   "HP": "5400",
+   "MP": "250",
+   "AC": "-78",
+   "MR": "72",
+   "EXP": "23245",
+   "Str/Con/Dex": "37/24/24",
+   "Int/Wis": "17/17",
+   "Family": "necromansar",
+   "HPR": "176",
+   "MPR": "160",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6719,
+     "name": "Palace Cellar Level 2 (1)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7669016,
+  "mode": "diablo",
+  "name": "Cantor",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "72",
+   "Size": "Small",
+   "HP": "3420",
+   "MP": "278",
+   "AC": "-72",
+   "MR": "75",
+   "EXP": "6371",
+   "Str/Con/Dex": "37/24/24",
+   "Int/Wis": "15/12",
+   "Family": "",
+   "HPR": "137",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6741,
+     "name": "Act III Jungle and Kurast (5)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7669051,
+  "mode": "diablo",
+  "name": "Horadrim Ancient",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "75",
+   "Size": "Large",
+   "HP": "4500",
+   "MP": "100",
+   "AC": "-70",
+   "MR": "75",
+   "EXP": "14703",
+   "Str/Con/Dex": "48/25/25",
+   "Int/Wis": "23/21",
+   "Family": "",
+   "HPR": "180",
+   "MPR": "20",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6758,
+     "name": "Sewers Level 1 (12)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7669053,
+  "mode": "diablo",
+  "name": "Dark Lord",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "74",
+   "Size": "Small",
+   "HP": "4500",
+   "MP": "500",
+   "AC": "-70",
+   "MR": "75",
+   "EXP": "7352",
+   "Str/Con/Dex": "38/24/56",
+   "Int/Wis": "20/20",
+   "Family": "vampire",
+   "HPR": "18",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6766,
+     "name": "Durance of Hate Level 1 (7)"
+    },
+    {
+     "map_id": 6767,
+     "name": "Durance of Hate Level 2 (35)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7669074,
+  "mode": "diablo",
+  "name": "Mephisto",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "84",
+   "Size": "Large",
+   "HP": "15000",
+   "MP": "1250",
+   "AC": "-92",
+   "MR": "90",
+   "EXP": "105000",
+   "Str/Con/Dex": "52/28/66",
+   "Int/Wis": "23/22",
+   "Family": "",
+   "HPR": "19",
+   "MPR": "700",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6768,
+     "name": "Durance of Hate Level 3 (1)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7669131,
+  "mode": "diablo",
+  "name": "Cantor",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "74",
+   "Size": "Small",
+   "HP": "7500",
+   "MP": "278",
+   "AC": "-77",
+   "MR": "75",
+   "EXP": "19113",
+   "Str/Con/Dex": "38/24/24",
+   "Int/Wis": "15/12",
+   "Family": "",
+   "HPR": "156",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6741,
+     "name": "Act III Jungle and Kurast (4)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7669132,
+  "mode": "diablo",
+  "name": "Oozefist the Cold",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "75",
+   "Size": "Small",
+   "HP": "11250",
+   "MP": "278",
+   "AC": "-80",
+   "MR": "75",
+   "EXP": "31855",
+   "Str/Con/Dex": "37/25/25",
+   "Int/Wis": "15/12",
+   "Family": "",
+   "HPR": "176",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6741,
+     "name": "Act III Jungle and Kurast (2)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7669191,
+  "mode": "diablo",
+  "name": "Horadrim Ancient",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "77",
+   "Size": "Large",
+   "HP": "7500",
+   "MP": "100",
+   "AC": "-75",
+   "MR": "75",
+   "EXP": "44109",
+   "Str/Con/Dex": "46/25/25",
+   "Int/Wis": "23/21",
+   "Family": "",
+   "HPR": "300",
+   "MPR": "20",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6758,
+     "name": "Sewers Level 1 (3)"
+    },
+    {
+     "map_id": 6759,
+     "name": "Sewers Level 2 (6)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7669192,
+  "mode": "diablo",
+  "name": "Nightgrumble the Grim",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "78",
+   "Size": "Large",
+   "HP": "11250",
+   "MP": "100",
+   "AC": "-78",
+   "MR": "75",
+   "EXP": "73515",
+   "Str/Con/Dex": "46/26/26",
+   "Int/Wis": "23/21",
+   "Family": "",
+   "HPR": "450",
+   "MPR": "20",
+   "Weak Attr": "Earth"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6758,
+     "name": "Sewers Level 1 (2)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7669195,
+  "mode": "diablo",
+  "name": "Dark Lord",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "76",
+   "Size": "Small",
+   "HP": "7500",
+   "MP": "500",
+   "AC": "-75",
+   "MR": "75",
+   "EXP": "22056",
+   "Str/Con/Dex": "39/25/56",
+   "Int/Wis": "20/20",
+   "Family": "vampire",
+   "HPR": "10",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6766,
+     "name": "Durance of Hate Level 1 (4)"
+    },
+    {
+     "map_id": 6767,
+     "name": "Durance of Hate Level 2 (2)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7669196,
+  "mode": "diablo",
+  "name": "Spiritspell the Impaler",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "77",
+   "Size": "Small",
+   "HP": "11250",
+   "MP": "500",
+   "AC": "-78",
+   "MR": "75",
+   "EXP": "36760",
+   "Str/Con/Dex": "38/25/56",
+   "Int/Wis": "20/20",
+   "Family": "vampire",
+   "HPR": "11",
+   "MPR": "500",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6767,
+     "name": "Durance of Hate Level 2 (2)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7670027,
+  "mode": "diablo",
+  "name": "Izual",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "82",
+   "Size": "Large",
+   "HP": "13050",
+   "MP": "300",
+   "AC": "-80",
+   "MR": "85",
+   "EXP": "100800",
+   "Str/Con/Dex": "44/27/27",
+   "Int/Wis": "18/21",
+   "Family": "chaos",
+   "HPR": "49",
+   "MPR": "250",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6769,
+     "name": "Act IV Mesa (1)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675085,
+  "mode": "diablo",
+  "name": "Enslaved",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "71",
+   "Size": "Large",
+   "HP": "3400",
+   "MP": "200",
+   "AC": "-70",
+   "MR": "80",
+   "EXP": "3700",
+   "Str/Con/Dex": "60/23/23",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "83",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6775,
+     "name": "Act V Mount Arreat (78)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675086,
+  "mode": "diablo",
+  "name": "Hell Spawn",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "72",
+   "Size": "Large",
+   "HP": "3400",
+   "MP": "200",
+   "AC": "-72",
+   "MR": "80",
+   "EXP": "3676",
+   "Str/Con/Dex": "60/24/24",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "83",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6791,
+     "name": "Abaddon (3)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675088,
+  "mode": "diablo",
+  "name": "Slayer",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "72",
+   "Size": "Large",
+   "HP": "3400",
+   "MP": "200",
+   "AC": "-72",
+   "MR": "80",
+   "EXP": "3921",
+   "Str/Con/Dex": "60/24/24",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "83",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6775,
+     "name": "Act V Mount Arreat (21)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675090,
+  "mode": "diablo",
+  "name": "Fire Boar",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "72",
+   "Size": "Large",
+   "HP": "3400",
+   "MP": "200",
+   "AC": "-72",
+   "MR": "80",
+   "EXP": "3921",
+   "Str/Con/Dex": "60/24/24",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "83",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6775,
+     "name": "Act V Mount Arreat (18)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675091,
+  "mode": "diablo",
+  "name": "Hell Spawn",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "72",
+   "Size": "Large",
+   "HP": "3400",
+   "MP": "200",
+   "AC": "-72",
+   "MR": "80",
+   "EXP": "3921",
+   "Str/Con/Dex": "60/24/24",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "83",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6775,
+     "name": "Act V Mount Arreat (14)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675094,
+  "mode": "diablo",
+  "name": "Slayer",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "75",
+   "Size": "Large",
+   "HP": "3400",
+   "MP": "200",
+   "AC": "-70",
+   "MR": "80",
+   "EXP": "3676",
+   "Str/Con/Dex": "56/25/25",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "83",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6790,
+     "name": "Halls of Vaught (4)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675121,
+  "mode": "diablo",
+  "name": "Assailant",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "75",
+   "Size": "Small",
+   "HP": "4080",
+   "MP": "10",
+   "AC": "-70",
+   "MR": "80",
+   "EXP": "5881",
+   "Str/Con/Dex": "37/25/25",
+   "Int/Wis": "10/8",
+   "Family": "",
+   "HPR": "19",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6797,
+     "name": "Throne of Destruction (4)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675122,
+  "mode": "diablo",
+  "name": "Infidel",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "75",
+   "Size": "Small",
+   "HP": "4080",
+   "MP": "10",
+   "AC": "-70",
+   "MR": "80",
+   "EXP": "5881",
+   "Str/Con/Dex": "37/25/25",
+   "Int/Wis": "10/8",
+   "Family": "",
+   "HPR": "19",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6779,
+     "name": "Crystalline Passage (7)"
+    },
+    {
+     "map_id": 6789,
+     "name": "Halls of Pain (6)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675198,
+  "mode": "diablo",
+  "name": "Eldritch the Rectifier",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "78",
+   "Size": "Large",
+   "HP": "12200",
+   "MP": "200",
+   "AC": "-82",
+   "MR": "80",
+   "EXP": "22200",
+   "Str/Con/Dex": "55/26/26",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "60",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6775,
+     "name": "Act V Mount Arreat (1)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675207,
+  "mode": "diablo",
+  "name": "Nihlathak",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "85",
+   "Size": "Large",
+   "HP": "11250",
+   "MP": "30",
+   "AC": "-70",
+   "MR": "88",
+   "EXP": "22439",
+   "Str/Con/Dex": "47/28/28",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "162",
+   "MPR": "100",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6790,
+     "name": "Halls of Vaught (1)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675437,
+  "mode": "diablo",
+  "name": "Slayer",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "74",
+   "Size": "Large",
+   "HP": "9000",
+   "MP": "200",
+   "AC": "-77",
+   "MR": "80",
+   "EXP": "11763",
+   "Str/Con/Dex": "58/24/24",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "73",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6775,
+     "name": "Act V Mount Arreat (4)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675438,
+  "mode": "diablo",
+  "name": "Gutbite the Destroyer",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "75",
+   "Size": "Large",
+   "HP": "13500",
+   "MP": "200",
+   "AC": "-80",
+   "MR": "80",
+   "EXP": "19605",
+   "Str/Con/Dex": "56/25/25",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "82",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6775,
+     "name": "Act V Mount Arreat (3)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675441,
+  "mode": "diablo",
+  "name": "Hell Spawn",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "74",
+   "Size": "Large",
+   "HP": "9000",
+   "MP": "200",
+   "AC": "-77",
+   "MR": "80",
+   "EXP": "11763",
+   "Str/Con/Dex": "58/24/24",
+   "Int/Wis": "18/17",
+   "Family": "",
+   "HPR": "73",
+   "MPR": "200",
+   "Weak Attr": "Fire"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6775,
+     "name": "Act V Mount Arreat (3)"
+    }
+   ]
+  },
+  "icon": null
+ },
+ {
+  "id": 7675487,
+  "mode": "diablo",
+  "name": "Infidel",
+  "badges": [
+   "Boss",
+   "Aggro"
+  ],
+  "stats": {
+   "Level": "77",
+   "Size": "Small",
+   "HP": "9000",
+   "MP": "10",
+   "AC": "-75",
+   "MR": "80",
+   "EXP": "17643",
+   "Str/Con/Dex": "38/25/25",
+   "Int/Wis": "10/8",
+   "Family": "",
+   "HPR": "14",
+   "MPR": "0",
+   "Weak Attr": "0"
+  },
+  "spawn": {
+   "Locations": [
+    {
+     "map_id": 6782,
+     "name": "Drifter Cavern (2)"
+    }
+   ]
+  },
+  "icon": null
  }
 ]
