@@ -12,7 +12,7 @@ const RAW = `https://raw.githubusercontent.com/rangerz/l1reborn-zh-userscript/ma
 
 // key = 頁面上的英文原文（trim、連續空白收成一個），value = 中文。這裡擋掉比對不到的 key。
 function loadDict(file) {
-  const dict = JSON.parse(read(`data/translations/${file}`));
+  const dict = JSON.parse(read(file.includes('/') && file.startsWith('data/') ? file : `data/translations/${file}`));
   for (const [en, zh] of Object.entries(dict)) {
     if (en !== en.replace(/\s+/g, ' ').trim()) throw new Error(`${file}: key "${en}" 要先 trim 並把連續空白收成一個`);
     if (typeof zh !== 'string' || !zh.trim()) throw new Error(`${file}: "${en}" 的譯文是空的`);
@@ -28,6 +28,15 @@ for (const f of pageFiles.filter(f => !f.endsWith('.local.json'))) {
     if (en in site && site[en] !== zh) throw new Error(`pages/${f}: "${en}" 已有不同譯文「${site[en]}」`);
     site[en] = zh;
   }
+}
+
+// 技能名以 data/reference/skills.json 為唯一來源：多字的併進全站字典；單字（Light、Slow、Heal…）太容易撞到
+// 其他文字，不全站生效，只能留在需要它的 pages/<page>.json，且譯文必須和 skills.json 一致。
+// 全站字典裡的技能名若與 skills.json 不同就擋下來（特例請放 .local.json）。
+const skills = loadDict('data/reference/skills.json');
+for (const [en, zh] of Object.entries(skills)) {
+  if (en in site && site[en] !== zh) throw new Error(`"${en}" 與 skills.json 的「${zh}」不同（現為「${site[en]}」），請改成一致或刪除`);
+  if (/\s/.test(en)) site[en] = zh;
 }
 
 // pages/<page>.local.json 只在 #site-page-content[data-page=<page>] 那一頁生效，放會跟玩家名撞字的短字（Buy、Seller、Bulk…）。
