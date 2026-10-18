@@ -66817,6 +66817,120 @@
   ]
  },
  {
+  "id": 7673614,
+  "name": "Sazabi's Ghost Liberator",
+  "slug": "sazabis-ghost-liberator",
+  "kind": "armor",
+  "bless": null,
+  "stat_tags": [
+   "ac hp str"
+  ],
+  "stats": {
+   "Type": "armor",
+   "Classes": [
+    "Royal",
+    "Knight",
+    "Wizard",
+    "Elf",
+    "Dark Elf",
+    "Dragon Knight",
+    "Illusionist",
+    "Warrior"
+   ],
+   "Material": "leather",
+   "HP": "63",
+   "Weight": "70,000",
+   "STR": "5",
+   "Safe Enchant": "4",
+   "AC": "-13"
+  },
+  "craftable": false,
+  "used_in_recipes": 0,
+  "market": [],
+  "icon": "7801.webp",
+  "categories": [
+   "single_page"
+  ]
+ },
+ {
+  "id": 7673619,
+  "name": "Cow King's Hide",
+  "slug": "cow-kings-hide",
+  "kind": "armor",
+  "bless": null,
+  "stat_tags": [
+   "ac hp resist_water resist_wind resist_fire resist_earth"
+  ],
+  "stats": {
+   "Type": "armor",
+   "Classes": [
+    "Royal",
+    "Knight",
+    "Wizard",
+    "Elf",
+    "Dark Elf",
+    "Dragon Knight",
+    "Illusionist",
+    "Warrior"
+   ],
+   "Material": "leather",
+   "HP": "30",
+   "Weight": "70,000",
+   "Resist Water": "18",
+   "Safe Enchant": "4",
+   "Resist Wind": "18",
+   "AC": "-3",
+   "Resist Fire": "18",
+   "Resist Earth": "18"
+  },
+  "craftable": false,
+  "used_in_recipes": 0,
+  "market": [],
+  "icon": "7805.webp",
+  "categories": [
+   "single_page"
+  ]
+ },
+ {
+  "id": 7673622,
+  "name": "Naj's Light Plate",
+  "slug": "najs-light-plate",
+  "kind": "armor",
+  "bless": null,
+  "stat_tags": [
+   "ac hp resist_water resist_wind resist_fire resist_earth"
+  ],
+  "stats": {
+   "Type": "armor",
+   "Classes": [
+    "Royal",
+    "Knight",
+    "Wizard",
+    "Elf",
+    "Dark Elf",
+    "Dragon Knight",
+    "Illusionist",
+    "Warrior"
+   ],
+   "Material": "leather",
+   "HP": "65",
+   "Weight": "70,000",
+   "Resist Water": "25",
+   "Safe Enchant": "4",
+   "Resist Wind": "25",
+   "AC": "-13",
+   "Resist Fire": "25",
+   "Resist Earth": "25"
+  },
+  "craftable": false,
+  "used_in_recipes": 0,
+  "market": [],
+  "icon": "7806.webp",
+  "categories": [
+   "single_page"
+  ]
+ },
+ {
   "id": 7674081,
   "name": "Rancid Gas Potion",
   "slug": "rancid-gas-potion",
