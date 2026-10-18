@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""解析手動存檔的怪物頁 → data/reborn/monsters.json（每隻有 mode：standard、diablo，官網的 Drop Settings），圖片複製到 data/reborn/images/monsters/。只讀本地檔，不對官網發請求。
+"""解析手動存檔的怪物頁 → data/reborn/monsters.json（每隻有 mode：standard、diablo、classic，官網的 Drop Settings），圖片複製到 data/reborn/images/monsters/。只讀本地檔，不對官網發請求。
 - 列表：.cache/manual/monsters/monsters_<等級帶>.html、monsters_<等級帶>_p2..pN.html
   （?page=lookup-monsters&mode=standard&lvl=<等級帶>&npc_page=N；等級帶 upto20、21_40、41_50、51_60、61_70、71plus）。卡片沒有掉落。
 - 詳情：.cache/manual/monsters/npc_<id>.html（?page=lookup-monsters&npc=<id>&mode=standard），補列表沒收的怪物
@@ -13,7 +13,9 @@
   同名怪物（如 Zombie 45065、Ramias 45961）是不同 ID，不能當成它們，所以不補，也不輸出。
   詳情頁的座標比 map_details 少（37 隻筆數不一致，70901 重抓確認官網卡片沒有座標），positions 不是完整座標，完整座標請看 map_details.json。
 - diablo 列表：.cache/manual/monsters/monsters_diablo_<等級帶>[_pN].html（&mode=diablo&lvl=<等級帶>&npc_page=N）。官網只有 51_60（2 隻，單頁沒有頁碼）、61_70（7 頁 170 隻）、71plus（25 頁 601 隻）有資料，
-  upto20、21_40、41_50 是空的，沒有存檔；共 773 隻，其中 40 隻是 bosses.json 的 diablo Boss，這裡跳過，所以新增 733 隻（放在檔案最後）。diablo 卡片沒有圖示。classic 還沒抓。"""
+  upto20、21_40、41_50 是空的，沒有存檔；共 773 隻，其中 40 隻是 bosses.json 的 diablo Boss，這裡跳過，所以新增 733 隻（放在檔案最後）。diablo 卡片沒有圖示。
+- classic 列表：.cache/manual/monsters/monsters_classic_<等級帶>[_pN].html（&mode=classic&lvl=<等級帶>&npc_page=N）。upto20 8 頁 197 隻、21_40 12 頁 299 隻、41_50 10 頁 231 隻、51_60 7 頁 154 隻、
+  61_70 2 頁 45 隻、71plus 1 頁 18 隻（單頁沒有頁碼），共 944 隻，其中 125 隻是 bosses.json 的 classic Boss，這裡跳過，所以新增 819 隻（接在 diablo 後面）。"""
 import html, json, re, shutil
 from pathlib import Path
 
@@ -73,9 +75,10 @@ def pages(band, mode):
     while (SRC / f'{base}_p{n}.html').exists():
         yield n, f'{base}_p{n}'; n += 1
 
-boss_ids = {b['id'] for b in json.loads((OUT / 'bosses.json').read_text(encoding='utf-8')) if b['mode'] == 'diablo'}
-mons, dia, seen, per, skipped = [], [], {}, {}, set()
-for mode in ('standard', 'diablo'):
+bosses = json.loads((OUT / 'bosses.json').read_text(encoding='utf-8'))
+boss_ids = {mode: {b['id'] for b in bosses if b['mode'] == mode} for mode in ('diablo', 'classic')}
+mons, extra, seen, per, skipped = [], [], {}, {}, {'diablo': set(), 'classic': set()}
+for mode in ('standard', 'diablo', 'classic'):
     for band in BANDS:
         n_band, last_total = 0, None
         for n, stem in pages(band, mode):
@@ -93,14 +96,14 @@ for mode in ('standard', 'diablo'):
             for c in cards:
                 m = parse_card(c, stem, band, mode)
                 n_band += 1
-                if mode == 'diablo' and m['id'] in boss_ids: skipped.add(m['id']); continue  # 已在 bosses.json
+                if mode != 'standard' and m['id'] in boss_ids[mode]: skipped[mode].add(m['id']); continue  # 已在 bosses.json
                 if m['id'] in seen: print('重複', m['id'], m['name'], seen[m['id']], '+', band); continue
                 seen[m['id']] = band
-                (dia if mode == 'diablo' else mons).append(m)
+                (mons if mode == 'standard' else extra).append(m)
         if n_band:
             assert last_total is None or n_band == last_total, f'{mode} {band} 共 {n_band} 隻，最後一頁標示到 {last_total}'
             per[band if mode == 'standard' else f'{mode}_{band}'] = n_band
-assert skipped == boss_ids, f'bosses.json 的 diablo Boss 有 {len(boss_ids - skipped)} 隻沒出現在 diablo 列表'
+for mode, ids in boss_ids.items(): assert skipped[mode] == ids, f'bosses.json 的 {mode} Boss 有 {len(ids - skipped[mode])} 隻沒出現在 {mode} 列表'
 
 n_detail, unavailable = 0, []
 for path in sorted(SRC.glob('npc_*.html'), key=lambda p: int(p.stem[4:])):
@@ -115,7 +118,7 @@ for path in sorted(SRC.glob('npc_*.html'), key=lambda p: int(p.stem[4:])):
     if 'id="lookup-drops"' in h: m['drops'] = parse_drops(h, path.stem)
     seen[nid] = 'detail'; n_detail += 1
     mons.append(m)
-mons += dia  # diablo 放最後，standard 的順序不變
+mons += extra  # diablo、classic 放最後，standard 的順序不變
 (OUT / 'monsters.json').write_text(json.dumps(mons, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
-print(f'{len(mons)} 隻怪物（standard 列表 {len(mons) - n_detail - len(dia)}、詳情 {n_detail}、diablo {len(dia)}，另跳過 bosses.json 的 {len(skipped)} 隻）', per, '缺圖', sum(m['icon'] is None for m in mons),
+print(f'{len(mons)} 隻怪物（standard 列表 {len(mons) - n_detail - len(extra)}、詳情 {n_detail}、diablo＋classic {len(extra)}，另跳過 bosses.json 的 {sum(map(len, skipped.values()))} 隻）', per, '缺圖', sum(m['icon'] is None for m in mons),
       f'；詳情頁查不到 {unavailable}')
