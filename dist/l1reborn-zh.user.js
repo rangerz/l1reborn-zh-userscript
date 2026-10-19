@@ -408,6 +408,11 @@ const DICT = {
     "HP per level from current/base CON starting at": "每級 HP 加成，起始於體質",
     "Direct-damage magic uses INT in the damage coefficient, not only displayed SP. SP can plateau while INT still improves spell damage.": "直接傷害魔法的傷害係數會計算智力，而不僅僅看面板顯示的 SP。即使 SP 達到停滯點，提升智力仍能增加魔法傷害。",
     "Healing and debuff land rates use separate magic bonus, magic hit, and skill-specific rules.": "治療量與負面狀態命中率則採用獨立的魔法加成、魔法命中與技能專屬規則。",
+    "Search the site": "搜尋網站",
+    "Search everything: guides, events, items, monsters, maps, blogs…": "搜尋全站：攻略、活動、道具、怪物、地圖、部落格…",
+    "Guide": "攻略",
+    "Rankings": "排行榜",
+    "Blessings": "祝福",
     "Accessory Enchanting": "飾品強化",
     "Quick reference for accessory enchanting tiers, bonuses, and eligible items.": "飾品強化的階級、加成與可強化道具速查。",
     "Scroll:": "卷軸：",
@@ -1021,6 +1026,39 @@ const DICT = {
     "Legendary Rune Chest": "傳說符文寶箱",
     "Event Armor Chest": "活動防具寶箱",
     "Event Weapon Chest": "活動武器寶箱",
+    "Start your blog | Lineage 1 Reborn": "開始寫部落格 | Lineage 1 Reborn",
+    "Your own corner of Aden: hunting diaries, siege stories, guides and screenshots.": "屬於你的亞丁一隅：狩獵日記、攻城故事、攻略與截圖。",
+    "Browse blogs": "瀏覽部落格",
+    "Name and address": "名稱與網址",
+    "Blog title": "部落格標題",
+    "Blog address": "部落格網址",
+    "3 to 40 letters, numbers or dashes. You can change it later, but old links stop working.": "3 到 40 個字母、數字或連字號。之後可以更改，但舊連結會失效。",
+    "Tagline": "副標題",
+    "(optional)": "（選填）",
+    "Look": "外觀",
+    "You can change these any time in Settings.": "之後隨時可以在設定中更改。",
+    "Theme": "主題",
+    "Real blog previews show each theme’s colors and fonts. Choose a header picture separately below.": "實際部落格預覽會呈現各主題的配色與字型。標題圖片請在下方另外選擇。",
+    "Giran Night": "奇岩之夜",
+    "Charcoal pages, warm gold accents and serif text.": "炭灰頁面、暖金點綴與襯線字體。",
+    "View full preview": "檢視完整預覽",
+    "of {*} (opens in a new tab)": "{*}（另開新分頁）",
+    "Talking Island Parchment": "說話之島羊皮紙",
+    "An illuminated travel journal: ivory folio, oxblood headings, drop caps and fine bronze rules.": "彩飾旅行日誌：象牙色書頁、暗紅標題、首字放大與細緻的青銅線條。",
+    "Oren Frost": "歐林冰霜",
+    "A moonlit glacier under a midnight sky, with crisp icy reading panels and clean sans-serif text.": "午夜星空下月光映照的冰川，搭配清爽的冰藍閱讀面板與簡潔的無襯線字體。",
+    "Elven Forest": "妖精森林",
+    "Deep emerald arches, jade leaf details, italic titles and warm ivory serif text.": "深翠綠拱門、翡翠葉片細節、斜體標題與溫暖象牙色襯線字體。",
+    "Blood Pledge": "血盟",
+    "Obsidian panels with steel edges, crimson pennant dates and bold chronicle titles.": "黑曜石面板配鋼鐵邊框、緋紅旗幟日期與粗體編年標題。",
+    "Aden Minima": "亞丁極簡",
+    "A light editorial layout: ruled masthead, bold ink headlines and one vermilion accent.": "明亮的編輯風版面：線條刊頭、粗黑標題與單一朱紅點綴。",
+    "Header picture": "標題圖片",
+    "Theme colors": "主題配色",
+    "No picture": "無圖片",
+    "Create my blog": "建立我的部落格",
+    "Your blog title": "你的部落格標題",
+    "Hunting in Oren, sieging on Saturdays": "在歐林狩獵，週六攻城",
     "Community": "社群",
     "Reborn Blogs": "Reborn 部落格",
     "Hunting diaries, siege nights, drop luck and screenshots from the players of Aden. Every web account can keep a blog, just like the old Lineage blogs we grew up reading.": "亞丁玩家的狩獵日記、攻城之夜、掉寶運氣與截圖。每個網站帳號都能經營部落格，就像我們從小讀到大的天堂部落格。",
@@ -5578,6 +5616,21 @@ const DICT = {
     "Item Lookup": "道具查詢",
     "Search weapons, armor, materials, treasure boxes, and other items by name or ID. Filter by item type, class, stats, and armor sets, then inspect drop and shop sources.": "以名稱或 ID 搜尋武器、防具、材料、寶箱與其他道具。可依道具類型、職業、能力值與套裝篩選，再查看掉落與商店來源。",
     "Search (item)": "搜尋（道具）",
+    "Search any item by name or ID, or browse by category. Each item shows its stats, drop sources, shops, and crafting.": "以名稱或 ID 搜尋任何道具，或依分類瀏覽。每個道具會顯示能力值、掉落來源、商店與製作。",
+    "Search items by name or ID": "以名稱或 ID 搜尋道具",
+    "Item name or ID": "道具名稱或 ID",
+    "Search item variants": "搜尋道具變體",
+    "Drop settings": "掉落設定",
+    "Category": "分類",
+    "Weapons": "武器",
+    "Accessories": "飾品",
+    "Scrolls & potions": "卷軸與藥水",
+    "Treasure boxes": "寶箱",
+    "Class & stat": "職業與能力值",
+    "Stat": "能力值",
+    "Any class": "所有職業",
+    "Any stat": "所有能力值",
+    "Pick a category above to browse, or search by name or item ID.": "請從上方選擇分類瀏覽，或以名稱或道具 ID 搜尋。",
     "Monster Lookup": "怪物查詢",
     "Search monsters by name or ID, or browse by map, boss level, tameable status, combat stats, and resistances. Each monster shows its drops, spawn locations, and relevant details.": "以名稱或 ID 搜尋怪物，或依地圖、Boss 等級、可馴服狀態、戰鬥能力與抗性瀏覽。每隻怪物會顯示掉落、出沒地點與相關細節。",
     "Search (monster, ID, or drop item)": "搜尋（怪物、ID 或掉落道具）",
@@ -5827,6 +5880,8 @@ const DICT = {
     "7d": "7 天",
     "Loading price history...": "載入價格歷史中…",
     "No price history found for this item yet.": "此道具尚無價格歷史。",
+    "Search items and monsters by name or ID": "以名稱或 ID 搜尋道具與怪物",
+    "Name or ID": "名稱或 ID",
     "Magic dolls are summoned from doll items. Summons last 30 minutes and consume 50 crystals (41246).": "魔法娃娃由娃娃道具召喚。召喚持續 30 分鐘，消耗 50 個水晶（41246）。",
     "Doll": "娃娃",
     "Sources": "來源",
@@ -10400,8 +10455,6 @@ const DICT = {
       "Open now": "目前開放",
       "{n} of {n}": "{n} / {n}",
       "Tiers": "階級",
-      "Guide": "攻略",
-      "Rankings": "排行榜",
       "Access": "進入條件",
       "Records": "紀錄",
       "Solo or party": "單人或組隊",
@@ -10436,9 +10489,6 @@ const DICT = {
       "Del": "強化飾品"
     },
     "ivory-hardmode-guide": {
-      "Guide": "攻略",
-      "Rankings": "排行榜",
-      "Blessings": "祝福",
       "Characters": "角色",
       "Tiers": "階級",
       "{n} to {n}": "{n} 到 {n}",
@@ -10484,9 +10534,27 @@ const DICT = {
     "leaderboard": {
       "DK": "龍騎士"
     },
+    "lookup-items": {
+      "Bow hit": "遠距命中",
+      "Bow damage": "遠距傷害",
+      "Proc effect": "發動效果",
+      "Weight reduction": "負重減輕",
+      "Stun": "暈眩",
+      "Stone": "石化",
+      "Sleep": "睡眠",
+      "Freeze": "冰凍"
+    },
     "lookup": {
       "1m": "1 個月",
-      "3m": "3 個月"
+      "3m": "3 個月",
+      "Bow hit": "遠距命中",
+      "Bow damage": "遠距傷害",
+      "Proc effect": "發動效果",
+      "Weight reduction": "負重減輕",
+      "Stun": "暈眩",
+      "Stone": "石化",
+      "Sleep": "睡眠",
+      "Freeze": "冰凍"
     },
     "mobile-client-preview": {
       "Phone": "手機",
@@ -10537,9 +10605,6 @@ const DICT = {
     },
     "orc-warpath-guide": {
       "Hard Mode.": "困難模式。",
-      "Guide": "攻略",
-      "Rankings": "排行榜",
-      "Blessings": "祝福",
       "Characters": "角色",
       "Tiers": "階級",
       "Solo or party": "單人或組隊",
@@ -10550,9 +10615,6 @@ const DICT = {
       "Duda-Mara": "都達瑪拉"
     },
     "orc-warpath-leaderboard": {
-      "Guide": "攻略",
-      "Rankings": "排行榜",
-      "Blessings": "祝福",
       "Characters": "角色",
       "Oaths": "誓言",
       "Date": "日期"
@@ -10563,9 +10625,6 @@ const DICT = {
     },
     "pirate-hardmode-guide": {
       "Hard Mode.": "困難模式。",
-      "Guide": "攻略",
-      "Rankings": "排行榜",
-      "Blessings": "祝福",
       "Characters": "角色",
       "Tiers": "階級",
       "{n} to {n}": "{n} 到 {n}",
@@ -10859,9 +10918,23 @@ function sync(node) {
   } else translate(node);
 }
 
+// placeholder 是屬性不是文字節點，CSS 疊不上去：直接換屬性，英文存在 data-l1r-ph 切回英文時還原。
+// 這是會改動原頁屬性的做法，只用在官網；play 是獨立的遊戲客戶端（React），不碰。
+function translatePlaceholders(root) {
+  if (IS_PLAY) return;
+  for (const el of root.querySelectorAll('[placeholder]:not([data-l1r-ph])')) {
+    const en = el.getAttribute('placeholder');
+    const zh = lookup(en);
+    if (!zh) continue;
+    el.dataset.l1rPh = en;
+    if (html.dataset.l1rLang !== 'en') el.placeholder = zh;
+  }
+}
+
 function walk(root) {
   if (root.nodeType === Node.TEXT_NODE) return translate(root);
   if (root.nodeType !== Node.ELEMENT_NODE) return;
+  translatePlaceholders(root);
   const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
   const nodes = [];
   while (w.nextNode()) nodes.push(w.currentNode);   // 先收集再翻，wrap 會改樹
@@ -10885,6 +10958,9 @@ btn.onclick = () => {
   for (const o of document.querySelectorAll('option[data-l1r-opt]')) {
     if (next === 'en') o.removeAttribute('label');
     else o.label = o.dataset.l1rOpt;
+  }
+  for (const el of document.querySelectorAll('[data-l1r-ph]')) {
+    el.placeholder = next === 'en' ? el.dataset.l1rPh : lookup(el.dataset.l1rPh);
   }
 };
 document.body.append(btn);

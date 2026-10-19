@@ -1,5 +1,20 @@
 {
   "Item Lookup": "道具查詢",
   "Search weapons, armor, materials, treasure boxes, and other items by name or ID. Filter by item type, class, stats, and armor sets, then inspect drop and shop sources.": "以名稱或 ID 搜尋武器、防具、材料、寶箱與其他道具。可依道具類型、職業、能力值與套裝篩選，再查看掉落與商店來源。",
-  "Search (item)": "搜尋（道具）"
+  "Search (item)": "搜尋（道具）",
+  "Search any item by name or ID, or browse by category. Each item shows its stats, drop sources, shops, and crafting.": "以名稱或 ID 搜尋任何道具，或依分類瀏覽。每個道具會顯示能力值、掉落來源、商店與製作。",
+  "Search items by name or ID": "以名稱或 ID 搜尋道具",
+  "Item name or ID": "道具名稱或 ID",
+  "Search item variants": "搜尋道具變體",
+  "Drop settings": "掉落設定",
+  "Category": "分類",
+  "Weapons": "武器",
+  "Accessories": "飾品",
+  "Scrolls & potions": "卷軸與藥水",
+  "Treasure boxes": "寶箱",
+  "Class & stat": "職業與能力值",
+  "Stat": "能力值",
+  "Any class": "所有職業",
+  "Any stat": "所有能力值",
+  "Pick a category above to browse, or search by name or item ID.": "請從上方選擇分類瀏覽，或以名稱或道具 ID 搜尋。"
 }

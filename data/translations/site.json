@@ -318,5 +318,10 @@
   "`Orig HP Bonus` is the class-specific original CON bonus. Separate from that, all classes gain extra": "「原始 HP 加成」為各職業專屬的原始體質加成。除此之外，所有職業還會從目前的初始／基礎體質獲得額外的",
   "HP per level from current/base CON starting at": "每級 HP 加成，起始於體質",
   "Direct-damage magic uses INT in the damage coefficient, not only displayed SP. SP can plateau while INT still improves spell damage.": "直接傷害魔法的傷害係數會計算智力，而不僅僅看面板顯示的 SP。即使 SP 達到停滯點，提升智力仍能增加魔法傷害。",
-  "Healing and debuff land rates use separate magic bonus, magic hit, and skill-specific rules.": "治療量與負面狀態命中率則採用獨立的魔法加成、魔法命中與技能專屬規則。"
+  "Healing and debuff land rates use separate magic bonus, magic hit, and skill-specific rules.": "治療量與負面狀態命中率則採用獨立的魔法加成、魔法命中與技能專屬規則。",
+  "Search the site": "搜尋網站",
+  "Search everything: guides, events, items, monsters, maps, blogs…": "搜尋全站：攻略、活動、道具、怪物、地圖、部落格…",
+  "Guide": "攻略",
+  "Rankings": "排行榜",
+  "Blessings": "祝福"
 }
