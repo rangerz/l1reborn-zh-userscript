@@ -196,9 +196,23 @@ function sync(node) {
   } else translate(node);
 }
 
+// placeholder 是屬性不是文字節點，CSS 疊不上去：直接換屬性，英文存在 data-l1r-ph 切回英文時還原。
+// 這是會改動原頁屬性的做法，只用在官網；play 是獨立的遊戲客戶端（React），不碰。
+function translatePlaceholders(root) {
+  if (IS_PLAY) return;
+  for (const el of root.querySelectorAll('[placeholder]:not([data-l1r-ph])')) {
+    const en = el.getAttribute('placeholder');
+    const zh = lookup(en);
+    if (!zh) continue;
+    el.dataset.l1rPh = en;
+    if (html.dataset.l1rLang !== 'en') el.placeholder = zh;
+  }
+}
+
 function walk(root) {
   if (root.nodeType === Node.TEXT_NODE) return translate(root);
   if (root.nodeType !== Node.ELEMENT_NODE) return;
+  translatePlaceholders(root);
   const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
   const nodes = [];
   while (w.nextNode()) nodes.push(w.currentNode);   // 先收集再翻，wrap 會改樹
@@ -222,6 +236,9 @@ btn.onclick = () => {
   for (const o of document.querySelectorAll('option[data-l1r-opt]')) {
     if (next === 'en') o.removeAttribute('label');
     else o.label = o.dataset.l1rOpt;
+  }
+  for (const el of document.querySelectorAll('[data-l1r-ph]')) {
+    el.placeholder = next === 'en' ? el.dataset.l1rPh : lookup(el.dataset.l1rPh);
   }
 };
 document.body.append(btn);
