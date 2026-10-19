@@ -17,6 +17,7 @@ const Z = '[data-l1r-zh]'.repeat(12);
 const CSS = `
 html:not([data-l1r-lang="en"]) l1r-en { display: none; }
 html:not([data-l1r-lang="en"]) l1r-zh::before { content: attr(data-zh); }
+html:not([data-l1r-lang="en"]) l1r-zh[data-sub] > l1r-en { display: inline; margin-left: .4em; font-size: .65em; font-weight: normal; opacity: .7; }
 html:not([data-l1r-lang="en"]) ${Z} { font-size: 0 !important; }
 html:not([data-l1r-lang="en"]) [data-l1r-zh]::before { content: attr(data-l1r-zh); font-size: var(--l1r-fs); }
 html:not([data-l1r-lang="en"]) [data-l1r-zh][data-l1r-after]::before { content: none; }
@@ -32,6 +33,24 @@ html:not([data-l1r-lang="en"]) [data-l1r-zh][data-l1r-br]::after { white-space: 
   border: 1px solid #c9a45c; background: #15130f; color: #ead3a0; font: 12px/1 sans-serif; cursor: pointer; opacity: .7; }
 #l1r-zh-toggle:hover { opacity: 1; }
 `;
+
+// 獨立顯示的技能名與屬性縮寫（STR、DEX…）：中文後面接較小的英文。技能名只在法術書卡片標題這個確定位置才直接查 skills.json
+// （單字如 Light、Heal 才不會誤植）；屬性縮寫要整個文字節點剛好是縮寫才會中，內文裡提到的不受影響。
+const SKILL_TITLE = '.grimoire-card h4';
+function skillZh(text, el) {
+  if (IS_PLAY) return;
+  text = text.replace(/\s+/g, ' ').trim();
+  return (el?.matches(SKILL_TITLE) && DICT.skills[text]) || DICT.stats[text] || undefined;
+}
+
+// 法術動畫下拉的 <option>（"Magic Lv 1 · Lesser Heal"）放不了小字，改成「中文 英文」用空白隔開：魔法 Lv 1 · 初級治癒術 Lesser Heal
+const SPELL_OPTION = 'select[data-spell-select] > option';
+function skillOptionZh(text, el) {
+  if (IS_PLAY || !el?.matches(SPELL_OPTION)) return;
+  const m = text.replace(/\s+/g, ' ').trim().match(/^(.+?) · (.+)$/);
+  const name = m && (DICT.skills[m[2]] ?? lookup(m[2]));
+  return name && `${lookup(m[1]) ?? m[1]} · ${name} ${m[2]}`;
+}
 
 const siteLookup = makeLookup(TABLE);   // src/lookup.js，build 時內嵌
 // 主站每頁有 #site-page-content[data-page]；pages/<page>.local.json 只在那一頁查得到，站方局部換頁時 data-page 會跟著變，所以每次查都重讀。
@@ -50,7 +69,7 @@ html.dataset.l1rLang = localStorage.getItem(LANG_KEY) || defaultLang;
 // 主站沒有 React：把文字節點包成 <l1r-zh><l1r-en>英文</l1r-en></l1r-zh>，英文留在原位，中文走外層 ::before。
 // 用自訂元素而不是 span：站方有 `h5 a>span{display:none}` 這種針對 span 的規則，自訂元素不會被打到。
 // 前後空白切成獨立節點留在外面，免得 "Welcome, <b>x</b>" 這類文字黏到旁邊的元素。
-function wrap(node, zh) {
+function wrap(node, zh, sub) {
   const text = node.nodeValue;
   const lead = text.length - text.trimStart().length;
   const core = lead ? node.splitText(lead) : node;
@@ -58,6 +77,7 @@ function wrap(node, zh) {
   if (len < core.nodeValue.length) core.splitText(len);
   const outer = document.createElement('l1r-zh');
   outer.dataset.zh = zh;
+  if (sub) outer.dataset.sub = '';
   const inner = document.createElement('l1r-en');
   core.before(outer);
   outer.append(inner);
@@ -149,10 +169,11 @@ function translate(node) {
       return;
     }
   }
-  const zh = lookup(node.nodeValue);
+  const sub = skillZh(node.nodeValue, el);
+  const zh = sub ?? skillOptionZh(node.nodeValue, el) ?? lookup(node.nodeValue);
   if (!zh) return;
   if (el.localName === 'option') markOption(el, zh);
-  else if (!IS_PLAY) wrap(node, zh);
+  else if (!IS_PLAY) wrap(node, zh, sub !== undefined);
   else if (el.childNodes.length === 1) mark(el, zh);
   else if ([...el.childNodes].filter(c => c.nodeType === Node.TEXT_NODE && c.nodeValue.trim()).length === 1) markMixed(el, node, zh);
 }
@@ -162,7 +183,7 @@ function sync(node) {
   const el = node.parentElement;
   if (!el) return;
   if (IS_PLAY && el.matches(NOTICE)) return translateNotice(el);
-  const zh = lookup(node.nodeValue);
+  const zh = skillZh(node.nodeValue, el.localName === 'l1r-en' ? el.parentElement.parentElement : el) ?? skillOptionZh(node.nodeValue, el) ?? lookup(node.nodeValue);
   if (el.localName === 'l1r-en') {
     if (zh) el.parentElement.dataset.zh = zh;
     else el.parentElement.replaceWith(node);

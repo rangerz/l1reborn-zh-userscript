@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lineage 1 Reborn 中文化
 // @namespace    https://github.com/rangerz/l1reborn-zh-userscript
-// @version      0.5.3
+// @version      0.5.4
 // @description  Lineage 1 Reborn 中文化
 // @author       Ranger Chan
 // @match        https://lineage1reborn.com/*
@@ -297,6 +297,13 @@ const DICT = {
     "Forgotten Island Expansion & Hard Mode": "遺忘之島擴充與困難模式",
     "Fire Valley": "火龍窟",
     "Fire Valley & DVC Hard Modes": "火龍窟與龍之谷洞穴困難模式",
+    "Hard Modes": "困難模式",
+    "All Hard Modes": "所有困難模式",
+    "Dragon Valley": "龍之谷",
+    "Orc Fortress": "妖魔城堡",
+    "All Hard Mode Rankings": "所有困難模式排行榜",
+    "Orc Fortress Hardmode": "妖魔城堡困難模式",
+    "Every hard mode in one journey: rules, rewards, guides and rankings.": "一趟旅程看完所有困難模式：規則、獎勵、攻略與排行榜。",
     "Dragon Valley Dungeon": "龍之谷地監",
     "Tower of Insolence": "傲慢之塔",
     "Timed Dungeon": "限時地監",
@@ -1872,7 +1879,7 @@ const DICT = {
     "Find a spell": "搜尋魔法",
     "All spells": "所有魔法",
     "Heal, Water": "治癒、水",
-    "Reuse": "重複使用",
+    "Reuse": "冷卻時間",
     "Element": "屬性",
     "HP will slightly recover by healing the target. It will have an adverse effect when it's used on Undead monster.": "治癒目標，少量恢復 HP。對不死系怪物使用會有反效果。",
     "▷ View animation": "▷ 觀看動畫",
@@ -5647,8 +5654,6 @@ const DICT = {
     "Variants": "變體",
     "Range": "範圍",
     "7d": "7 天",
-    "1m": "1 個月",
-    "3m": "3 個月",
     "Loading price history...": "載入價格歷史中…",
     "No price history found for this item yet.": "此道具尚無價格歷史。",
     "Magic dolls are summoned from doll items. Summons last 30 minutes and consume 50 crystals (41246).": "魔法娃娃由娃娃道具召喚。召喚持續 30 分鐘，消耗 50 個水晶（41246）。",
@@ -9700,6 +9705,199 @@ const DICT = {
     "Illusion Avatar": "幻覺：化身",
     "Cube Balance": "立方：和諧"
   },
+  "skills": {
+    "Lesser Heal": "初級治癒術",
+    "Light": "日光術",
+    "Shield": "保護罩",
+    "EBolt": "光箭",
+    "Teleport": "指定傳送",
+    "Ice Dagger": "冰箭",
+    "Wind Shuriken": "風刃",
+    "Holy Weapon": "神聖武器",
+    "Cure Poison": "解毒術",
+    "Chill Touch": "寒冷戰慄",
+    "Poison": "毒咒",
+    "Enchant Weapon": "擬似魔法武器",
+    "Detection": "無所遁形術",
+    "Decrease Weight": "負重強化",
+    "Fire Arrow": "火箭",
+    "Stalac": "地獄之牙",
+    "Lightning": "極光雷電",
+    "Turn Undead": "起死回生術",
+    "Heal": "中級治癒術",
+    "Blind": "闇盲咒術",
+    "Enchant Armor": "鎧甲護持",
+    "Frost Cloud": "寒冰氣息",
+    "Weak Elemental": "能量感測",
+    "Fireball": "燃燒的火球",
+    "Enchant Dex": "通暢氣脈術",
+    "Weapon Break": "壞物術",
+    "Vampiric Touch": "吸血鬼之吻",
+    "Slow": "緩速術",
+    "Earth Jail": "岩牢",
+    "Counter Magic": "魔法屏障",
+    "Meditate": "冥想術",
+    "Paralyze": "木乃伊的詛咒",
+    "Call Lightning": "極道落雷",
+    "Greater Heal": "高級治癒術",
+    "Tame Monster": "迷魅術",
+    "Remove Curse": "聖潔之光",
+    "Cone Of Cold": "冰錐",
+    "Mana Drain": "魔力奪取",
+    "Darkness": "黑闇之影",
+    "Create Zombie": "造屍術",
+    "Enchant Str": "體魄強健術",
+    "Haste": "加速術",
+    "Cancel": "魔法相消術",
+    "Eruption": "地裂術",
+    "Sun Burst": "烈炎術",
+    "Weakness": "弱化術",
+    "Bless Weapon": "祝福魔法武器",
+    "Heal Pledge": "體力回復術",
+    "Ice Lance": "冰矛圍籬",
+    "Summon": "召喚術",
+    "Holy Walk": "神聖疾走",
+    "Tornado": "龍捲風",
+    "Greater Haste": "強力加速術",
+    "Berzerkers": "狂暴術",
+    "Disease": "疾病術",
+    "Full Heal": "全部治癒術",
+    "Firewall": "火牢",
+    "Blizzard": "冰雪暴",
+    "Invisibility": "隱身術",
+    "Resurrection": "返生術",
+    "Earthquake": "震裂術",
+    "Life Stream": "治癒能量風暴",
+    "Silence": "魔法封印",
+    "Lightning Storm": "雷霆風暴",
+    "Fog Of Sleeping": "沉睡之霧",
+    "Polymorph": "變形術",
+    "Immune To Harm": "聖結界",
+    "Mass Teleport": "集體傳送術",
+    "Fire Storm": "火風暴",
+    "Decay Potion": "藥水霜化術",
+    "Counter Detection": "強力無所遁形術",
+    "Create Magical Weapon": "創造魔法武器",
+    "Meteor Strike": "流星雨",
+    "Greater Resurrection": "終極返生術",
+    "Mass Slow": "集體緩速術",
+    "Destroy": "究極光裂術",
+    "Absolute Barrier": "絕對屏障",
+    "Advance Spirit": "靈魂昇華",
+    "Freezing Blizzard": "冰雪颶風",
+    "Shock Stun": "衝擊之暈",
+    "Reduction Armor": "增幅防禦",
+    "Bounce Attack": "尖刺盔甲",
+    "Solid Carriage": "堅固防護",
+    "Counter Barrier": "反擊屏障",
+    "Blind Hiding": "暗隱術",
+    "Enchant Venom": "附加劇毒",
+    "Shadow Armor": "影之防護",
+    "Purify Stone": "提煉魔石",
+    "Moving Acceleration": "行走加速",
+    "Burning Spirit": "燃燒鬥志",
+    "Shadow Sleep": "暗黑盲咒",
+    "Venom Resist": "毒性抵抗",
+    "Double Break": "雙重破壞",
+    "Uncanny Dodge": "暗影閃避",
+    "Shadow Fang": "暗影之牙",
+    "Final Burn": "會心一擊",
+    "Dress Mighty": "力量提升",
+    "Dress Dex": "敏捷提升",
+    "Dress Evasion": "迴避提升",
+    "Armor Break": "破壞盔甲",
+    "True Target": "精準目標",
+    "Glowing Aura": "灼熱武器",
+    "Shining Aura": "閃亮之盾",
+    "Call Pledge Member": "呼喚盟友",
+    "Brave Aura": "勇猛意志",
+    "Teleport to Pledge Member": "援護盟友",
+    "Divine Sacrifice": "神聖犧牲",
+    "Avatar": "幻象",
+    "Resist Magic": "魔法防禦",
+    "Bodyto Mind": "心靈轉換",
+    "Teleport To Mother Tree": "世界樹的呼喚",
+    "Triple Shot": "三重矢",
+    "Elemental Fall Down": "弱化屬性",
+    "Counter Mirror": "鏡反射",
+    "Clear Mind": "淨化精神",
+    "Resist Elemental": "屬性防禦",
+    "Return To Nature": "釋放元素",
+    "Bloodto Soul": "魂體轉換",
+    "Protection From Elemental": "單屬性防禦",
+    "Fire Weapon": "火焰武器",
+    "Wind Shot": "風之神射",
+    "Wind Walk": "風之疾走",
+    "Earth Skin": "大地防護",
+    "Entangle": "地面障礙",
+    "Erase Magic": "魔法消除",
+    "Summon Lesser Element": "召喚屬性精靈",
+    "Bless Of Fire": "烈炎氣息",
+    "Eyeof Storm": "暴風之眼",
+    "Earth Bind": "大地屏障",
+    "Natures Touch": "生命之泉",
+    "Bless Of Earth": "大地的祝福",
+    "Aqua Protect": "水之防護",
+    "Area Of Silence": "封印禁地",
+    "Summon Greater Element": "召喚強力屬性精靈",
+    "Burning Weapon": "烈炎武器",
+    "Natures Blessing": "生命的祝福",
+    "Natures Miracle": "生命呼喚",
+    "Storm Shot": "暴風神射",
+    "Wind Shackle": "風之枷鎖",
+    "Iron Skin": "鋼鐵防護",
+    "Exotic Vitalize": "體能激發",
+    "Water Life": "水之元氣",
+    "Elemental Fire": "屬性之火",
+    "Storm Walk": "暴風疾走",
+    "Pollute Water": "污濁之水",
+    "Strikers Gale": "精準射擊",
+    "Soul of Flame": "烈焰之魂",
+    "Additional Fire": "能量激發",
+    "Dragon Skin": "龍之護鎧",
+    "Burning Slash": "燃燒擊砍",
+    "Guard Break": "護衛毀滅",
+    "Magma Breath": "岩漿噴吐",
+    "Awaken Antharas": "覺醒：安塔瑞斯",
+    "Blood Lust": "血之渴望",
+    "Foe Slayer": "屠宰者",
+    "Resist Fear": "恐懼無助",
+    "Magma Arrow": "岩漿之箭",
+    "Awaken Fafurion": "覺醒：法利昂",
+    "Mortal Body": "致命身軀",
+    "Thunder Grab": "奪命之雷",
+    "Horror Of Death": "驚悚死神",
+    "Eye of Dragon": "暴龍之眼",
+    "Awaken Valakas": "覺醒：巴拉卡斯",
+    "Mirror Image": "鏡像",
+    "Confusion": "混亂",
+    "Smash": "粉碎能量",
+    "Illusion Ogre": "幻覺：歐吉",
+    "Cube Ignition": "立方：燃燒",
+    "Concentration": "專注",
+    "Mind Break": "心靈破壞",
+    "Bone Break": "骷髏毀壞",
+    "Illusion Lich": "幻覺：巫妖",
+    "Cube Quake": "立方：地裂",
+    "Patience": "耐力",
+    "Phantasm": "幻想",
+    "Eyes Breaker": "隱身破壞者",
+    "Illusion Dia Golem": "幻覺：鑽石高崙",
+    "Cube Shock": "立方：衝擊",
+    "Insight": "洞察",
+    "Panic": "恐慌",
+    "Joyof Pain": "疼痛的歡愉",
+    "Illusion Avatar": "幻覺：化身",
+    "Cube Balance": "立方：和諧"
+  },
+  "stats": {
+    "STR": "力量",
+    "DEX": "敏捷",
+    "CON": "體質",
+    "INT": "智力",
+    "WIS": "精神",
+    "CHA": "魅力"
+  },
   "local": {
     "auction-house": {
       "Item Type": "道具類型",
@@ -9853,6 +10051,10 @@ const DICT = {
       "8/8": "8/8",
       "Barode": "Barode"
     },
+    "lookup": {
+      "1m": "1 個月",
+      "3m": "3 個月"
+    },
     "mobile-client-preview": {
       "Phone": "手機",
       "Tablet": "平板",
@@ -9937,6 +10139,7 @@ const DICT = {
     "Review character deletion": "確認刪除角色",
     "Enter world": "進入遊戲",
     "Disconnect": "中斷連線",
+    "Disconnected by the game server.": "已被遊戲伺服器中斷連線。",
     "Server notice": "伺服器公告",
     "Welcome to Lineage 1 Reborn!": "歡迎來到 Lineage 1 Reborn!",
     "Player Shops stay online when you log off!": "登出後個人商店仍會持續營業!",
@@ -10008,6 +10211,7 @@ const Z = '[data-l1r-zh]'.repeat(12);
 const CSS = `
 html:not([data-l1r-lang="en"]) l1r-en { display: none; }
 html:not([data-l1r-lang="en"]) l1r-zh::before { content: attr(data-zh); }
+html:not([data-l1r-lang="en"]) l1r-zh[data-sub] > l1r-en { display: inline; margin-left: .4em; font-size: .65em; font-weight: normal; opacity: .7; }
 html:not([data-l1r-lang="en"]) ${Z} { font-size: 0 !important; }
 html:not([data-l1r-lang="en"]) [data-l1r-zh]::before { content: attr(data-l1r-zh); font-size: var(--l1r-fs); }
 html:not([data-l1r-lang="en"]) [data-l1r-zh][data-l1r-after]::before { content: none; }
@@ -10023,6 +10227,24 @@ html:not([data-l1r-lang="en"]) [data-l1r-zh][data-l1r-br]::after { white-space: 
   border: 1px solid #c9a45c; background: #15130f; color: #ead3a0; font: 12px/1 sans-serif; cursor: pointer; opacity: .7; }
 #l1r-zh-toggle:hover { opacity: 1; }
 `;
+
+// 獨立顯示的技能名與屬性縮寫（STR、DEX…）：中文後面接較小的英文。技能名只在法術書卡片標題這個確定位置才直接查 skills.json
+// （單字如 Light、Heal 才不會誤植）；屬性縮寫要整個文字節點剛好是縮寫才會中，內文裡提到的不受影響。
+const SKILL_TITLE = '.grimoire-card h4';
+function skillZh(text, el) {
+  if (IS_PLAY) return;
+  text = text.replace(/\s+/g, ' ').trim();
+  return (el?.matches(SKILL_TITLE) && DICT.skills[text]) || DICT.stats[text] || undefined;
+}
+
+// 法術動畫下拉的 <option>（"Magic Lv 1 · Lesser Heal"）放不了小字，改成「中文 英文」用空白隔開：魔法 Lv 1 · 初級治癒術 Lesser Heal
+const SPELL_OPTION = 'select[data-spell-select] > option';
+function skillOptionZh(text, el) {
+  if (IS_PLAY || !el?.matches(SPELL_OPTION)) return;
+  const m = text.replace(/\s+/g, ' ').trim().match(/^(.+?) · (.+)$/);
+  const name = m && (DICT.skills[m[2]] ?? lookup(m[2]));
+  return name && `${lookup(m[1]) ?? m[1]} · ${name} ${m[2]}`;
+}
 
 const siteLookup = makeLookup(TABLE);   // src/lookup.js，build 時內嵌
 // 主站每頁有 #site-page-content[data-page]；pages/<page>.local.json 只在那一頁查得到，站方局部換頁時 data-page 會跟著變，所以每次查都重讀。
@@ -10041,7 +10263,7 @@ html.dataset.l1rLang = localStorage.getItem(LANG_KEY) || defaultLang;
 // 主站沒有 React：把文字節點包成 <l1r-zh><l1r-en>英文</l1r-en></l1r-zh>，英文留在原位，中文走外層 ::before。
 // 用自訂元素而不是 span：站方有 `h5 a>span{display:none}` 這種針對 span 的規則，自訂元素不會被打到。
 // 前後空白切成獨立節點留在外面，免得 "Welcome, <b>x</b>" 這類文字黏到旁邊的元素。
-function wrap(node, zh) {
+function wrap(node, zh, sub) {
   const text = node.nodeValue;
   const lead = text.length - text.trimStart().length;
   const core = lead ? node.splitText(lead) : node;
@@ -10049,6 +10271,7 @@ function wrap(node, zh) {
   if (len < core.nodeValue.length) core.splitText(len);
   const outer = document.createElement('l1r-zh');
   outer.dataset.zh = zh;
+  if (sub) outer.dataset.sub = '';
   const inner = document.createElement('l1r-en');
   core.before(outer);
   outer.append(inner);
@@ -10140,10 +10363,11 @@ function translate(node) {
       return;
     }
   }
-  const zh = lookup(node.nodeValue);
+  const sub = skillZh(node.nodeValue, el);
+  const zh = sub ?? skillOptionZh(node.nodeValue, el) ?? lookup(node.nodeValue);
   if (!zh) return;
   if (el.localName === 'option') markOption(el, zh);
-  else if (!IS_PLAY) wrap(node, zh);
+  else if (!IS_PLAY) wrap(node, zh, sub !== undefined);
   else if (el.childNodes.length === 1) mark(el, zh);
   else if ([...el.childNodes].filter(c => c.nodeType === Node.TEXT_NODE && c.nodeValue.trim()).length === 1) markMixed(el, node, zh);
 }
@@ -10153,7 +10377,7 @@ function sync(node) {
   const el = node.parentElement;
   if (!el) return;
   if (IS_PLAY && el.matches(NOTICE)) return translateNotice(el);
-  const zh = lookup(node.nodeValue);
+  const zh = skillZh(node.nodeValue, el.localName === 'l1r-en' ? el.parentElement.parentElement : el) ?? skillOptionZh(node.nodeValue, el) ?? lookup(node.nodeValue);
   if (el.localName === 'l1r-en') {
     if (zh) el.parentElement.dataset.zh = zh;
     else el.parentElement.replaceWith(node);

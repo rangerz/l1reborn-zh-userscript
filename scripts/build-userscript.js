@@ -57,6 +57,8 @@ for (const f of pageFiles.filter(f => f.endsWith('.local.json'))) {
 const dict = {
   common,
   site,
+  skills,
+  stats: loadDict('data/reference/stats.json'),
   local,
   play: loadDict('play.json'),
 };
