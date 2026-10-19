@@ -30,3 +30,12 @@ test('lookup：{*} 抓到的片段再用字典完全相符查一次', () => {
   assert.equal(lookup('Knight only (self-cast)'), '僅限騎士（自己施放）');
   assert.equal(lookup('Mainland Aden'), '亞丁大陸');
 });
+
+test('lookup：英文日期時間轉 24 小時制（Oct 18, 2026 11:06 PM ET）', () => {
+  const lookup = makeLookup({});
+  assert.equal(lookup('Oct 18, 2026 11:06 PM ET'), '2026/10/18 23:06 ET');
+  assert.equal(lookup('Oct 9, 2026 12:05 AM ET'), '2026/10/9 00:05 ET');
+  assert.equal(lookup('Dec 1, 2026 12:30 PM ET'), '2026/12/1 12:30 ET');
+  assert.equal(lookup('Oct 11, 2026'), '2026/10/11');
+  assert.equal(lookup('Foo 11, 2026'), undefined);
+});
