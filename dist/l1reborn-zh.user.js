@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lineage 1 Reborn 中文化
 // @namespace    https://github.com/rangerz/l1reborn-zh-userscript
-// @version      0.5.6
+// @version      0.5.7
 // @description  Lineage 1 Reborn 中文化
 // @author       Ranger Chan
 // @match        https://lineage1reborn.com/*
