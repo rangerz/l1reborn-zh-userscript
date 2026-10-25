@@ -126,5 +126,11 @@
   "In Orc Town (-warp 6), in front of the cloth tent beside the Village Manager. Begins a run on Tier 1, 2 or 3 and shows your status and War Tusk balance. Its BUY button opens the War Tusk shop.": "位於 Orc Town（-warp 6），在 Village Manager 旁的布帳篷前。開始階級 1、2 或 3 的挑戰，並顯示你的狀態與 War Tusk 餘額。其 BUY 按鈕會開啟 War Tusk 商店。",
   "In the Orcish Forest village inside your run. Shows the run's status, takes blood oaths and has the same BUY shop.": "位於你挑戰內的妖魔森林村莊。顯示挑戰狀態、接受血誓，並提供相同的 BUY 商店。",
   "Leaving or ending a run": "離開或結束挑戰",
-  "Anyone can leave alone from Urgha's dialogue. The leader can end the run for everyone there.": "任何人都可以從 Urgha 的對話中單獨離開。隊長可以在那裡為所有人結束挑戰。"
+  "Anyone can leave alone from Urgha's dialogue. The leader can end the run for everyone there.": "任何人都可以從 Urgha 的對話中單獨離開。隊長可以在那裡為所有人結束挑戰。",
+  "Orcs with mana may cast Haste on themselves and the orcs around them during a fight. Tiers 2 and 3 bring tougher monsters that hit harder, and more adena for every kill. Most of a higher tier's extra EXP rides on the War Chiefs and the Warlord, so clearing the run pays far more than the orcs along the way. Every orc of the run carries adena like a monster of its level; the War Chiefs and the Warlord carry much more. The War Chiefs and the Warlord go easier on a solo player or a pair. Pets and summons are welcome.": "有魔力的妖魔會在戰鬥中對自己與周圍的妖魔施放加速術。階級 2 與 3 有更強、打得更痛的怪物，每次擊殺的金幣也更多。高階級多出來的經驗值大多來自戰爭首領與戰爭領主，所以通關的收益遠高於沿途的妖魔。挑戰中的每隻妖魔都像同等級怪物一樣攜帶金幣；戰爭首領與戰爭領主攜帶的更多。單人或兩人時，戰爭首領與戰爭領主會比較好打。歡迎使用寵物與召喚獸。",
+  "Every 15 seconds a shaman lights a Spirit Fire, up to three at once. Each fire heals the orcs and the totem within 5 cells by 4% every 10 seconds. Attack a fire to put it out. Shamans sometimes slow whoever they hit.": "薩滿每 15 秒點燃一個靈魂之火，最多同時三個。每個火堆每 10 秒為 5 格內的妖魔與圖騰回復 4%。攻擊火堆即可將其熄滅。薩滿有時會減慢被擊中的人。",
+  "The War Drums are a meter from 0 to 100 that rises for the whole run. At 100 a Horde Charge, a warband of 10, 12 or 14 orcs by tier, bursts from the trees around one of you, and the drums drop back to 30. Horde Charges give a quarter of the usual EXP and no loot: they punish a slow run.": "戰鼓是一個 0 到 100 的計量條，整場挑戰都會上升。到達 100 時，依階級 10、12 或 14 名妖魔組成的戰隊「大軍衝鋒」會從你們其中一人周圍的樹林中衝出，戰鼓回落到 30。大軍衝鋒只給通常四分之一的經驗值且沒有戰利品：用來懲罰緩慢的挑戰。",
+  "{n} × tier": "{n} × 階級",
+  "({n} + {n} per oath) × tier": "（{n} + 每個誓言 {n}）× 階級",
+  "({n} + {n} per accepted curse) × tier": "（{n} + 每個接受的詛咒 {n}）× 階級"
 }

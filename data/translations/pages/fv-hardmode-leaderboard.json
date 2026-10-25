@@ -1,5 +1,22 @@
 {
   "FV Hardmode Leaderboard": "火龍窟困難模式排行榜",
   "Fire Valley Hard Mode": "火龍窟困難模式",
-  "Characters ranked by FV hardmode monster and boss kills.": "依火龍窟困難模式的怪物與 Boss 擊殺數排名的角色。"
+  "Characters ranked by FV hardmode monster and boss kills.": "依火龍窟困難模式的怪物與 Boss 擊殺數排名的角色。",
+  "Fire Valley Hard Mode · Season since the 2026-10-20 revamp": "火龍窟困難模式 · 2026-10-20 改版以來的賽季",
+  "The valley's hard mode hunters, the ones who stand in the Frost Wells when Valakas erupts, and the parties who carry the Quenching to his Lair. The standings start fresh with the revamp; the old ones are kept under Before the revamp.": "山谷的困難模式獵人、在巴拉卡斯噴發時守在 Frost Wells 的人，以及把 Quenching 帶到他巢穴的隊伍。排名自改版起重新計算；舊排名保留在「改版前」。",
+  "Dragonfire Embers earned": "已獲得 Dragonfire Embers",
+  "Eruptions quelled this week": "本週已平息的噴發",
+  "the valley.": "的獵人。",
+  "Valakas stirs": "巴拉卡斯甦醒",
+  "Driven back": "擊退",
+  "into the deep.": "至深處。",
+  "The valley's coin": "山谷的貨幣",
+  "From the valley": "來自山谷",
+  "From eruptions": "來自噴發",
+  "The instance": "副本",
+  "The Quenching has not opened yet.": "Quenching 尚未開放。",
+  "Hard mode kills, boss kills, EXP and deaths in Fire Valley since {*}. Each tier is ranked on its own; All adds a character's tiers together. Ranked by kills (a boss counts twice), then EXP.": "自 {*} 起在火龍窟的困難模式擊殺、Boss 擊殺、經驗值與死亡。每個階級各自排名；「All」會把角色各階級加總。依擊殺數排名（Boss 算兩次），其次是經驗值。",
+  "Every share of a quelled eruption since the revamp, by contribution: holding the Frost Wells, striking Valakas and slaying his Molten Hearts. Ranked by Gold shares, then Silver, then Bronze. Shares are counted for hard mode hunters, the ones they pay Dragonfire Embers. Standard world.": "改版後每次被平息噴發的所有分成，依貢獻計算：守住 Frost Wells、攻擊巴拉卡斯、擊殺他的 Molten Heart。依金牌分成排名，其次銀牌、再其次銅牌。分成只計給困難模式獵人，也就是獲得 Dragonfire Embers 的人。標準世界。",
+  "Dragonfire Embers earned since the revamp: closing vents and breaking what crawls out of them, the eruptions' shares and the day's first quell. Ranked by Embers earned. Standard world.": "改版後獲得的 Dragonfire Embers：關閉噴口並擊碎從中爬出的東西、噴發的分成，以及當日第一次平息。依獲得的 Embers 排名。標準世界。",
+  "Parties who crossed the Fords on the dwarves' Frost and brought Valakas down in his own Lair. Each tier is ranked on its own: the chest grade first, then run time, then fewer deaths; each party appears once per tier with its best run.": "踏著矮人的 Frost 渡過 Ford，並在巴拉卡斯自己的巢穴擊倒他的隊伍。每個階級各自排名：先比寶箱等級，其次挑戰時間，再其次死亡較少；每個隊伍每個階級只列出最佳成績。"
 }

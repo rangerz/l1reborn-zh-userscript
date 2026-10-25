@@ -1,5 +1,22 @@
 {
   "FI Hardmode Leaderboard": "遺忘之島困難模式排行榜",
   "Forgotten Island Hard Mode": "遺忘之島困難模式",
-  "Characters ranked by FI hardmode monster and boss kills.": "依遺忘之島困難模式的怪物與 Boss 擊殺數排名的角色。"
+  "Characters ranked by FI hardmode monster and boss kills.": "依遺忘之島困難模式的怪物與 Boss 擊殺數排名的角色。",
+  "Forgotten Island Hard Mode · Season since the 2026-10-20 revamp": "遺忘之島困難模式 · 2026-10-20 改版以來的賽季",
+  "The island's hard mode hunters, its pearl divers and the parties who sail with the Drowned Fleet. The standings start fresh with the revamp; the old ones are kept under Before the revamp.": "島上的困難模式獵人、採珠人，以及與沉沒艦隊一同出航的隊伍。排名自改版起重新計算；舊排名保留在「改版前」。",
+  "Tide Pearls earned": "已獲得 Tide Pearls",
+  "Storm champions felled": "已擊倒 Storm champions",
+  "the island.": "的獵人。",
+  "The tides": "潮汐",
+  "Pearls from": "來自潮汐的",
+  "the tide.": "珍珠。",
+  "Sea creatures": "Sea creatures",
+  "Storm champions": "Storm champions",
+  "No One": "無人",
+  "Parties who crossed with the Drowned Fleet, dug the island's haul and brought down Asterios. Each tier is ranked on its own: run time, then fewer deaths, then the earlier clear; each party appears once per tier with its best run.": "與沉沒艦隊一同渡海、挖出島上寶藏並擊倒 Asterios 的隊伍。每個階級各自排名：先比挑戰時間，其次死亡較少，再其次是較早通關；每個隊伍每個階級只列出最佳成績。",
+  "The expedition has not sailed yet.": "遠征尚未啟航。",
+  "Its rankings fill in here from the first clear.": "排名會從第一次通關起顯示在這裡。",
+  "Hard mode kills, boss kills, EXP and deaths on Forgotten Island since {*}. Each tier is ranked on its own; All adds a character's tiers together. Ranked by kills (a boss counts twice), then EXP.": "自 {*} 起在遺忘之島的困難模式擊殺、Boss 擊殺、經驗值與死亡。每個階級各自排名；「All」會把角色各階級加總。依擊殺數排名（Boss 算兩次），其次是經驗值。",
+  "Tide Pearls earned since the tides began: low-tide digs, sea creatures washed ashore at high tide and the storm's champions. Ranked by pearls earned, then storm champions, then digs. Standard world.": "潮汐開始以來獲得的 Tide Pearls：退潮挖掘、漲潮沖上岸的海洋生物，以及風暴勇士。依獲得的珍珠排名，其次是風暴勇士，再其次是挖掘次數。標準世界。",
+  "Returns.": "歸來。"
 }
