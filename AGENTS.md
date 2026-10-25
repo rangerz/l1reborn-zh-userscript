@@ -32,4 +32,4 @@ npm run build / npm run watch / npm test
 - key 可帶 `{n}` 比對數字（含 `,` `.`），譯文的 `{n}` 依序換成比對到的數字；`{*}` 比對任意片段，片段再用字典完全相符查一次（查不到原樣放回）。查詢邏輯在 `src/lookup.js`。
 - 同一個英文在兩站意思不同時，分別放 `site.json` / `play.json`。
 - **譯文用台版天堂遊戲內的名詞**，不要一般直譯。技能名以本 repo 的 `data/reference/skills.json` 為準（已人工 review，不要再用 l1justice 的 skills.json）；地圖、物品名以 [l1justice-zh-userscript](https://github.com/rangerz/l1justice-zh-userscript) 的 `data/translations/terms.json`、`maps.json` 為準；查不到的保留英文，不要自己發明。
-  - 已確認：karma＝友好度、Lawful＝正義值、Healing Potion＝治癒藥水、buff＝輔助魔法、Cancel＝魔法相消術、pledge leader＝盟主、sub-leader＝副盟主、guardian＝守護騎士、emblem＝盟徽、global chat＝全體頻道、exclude＝拒絕名單、bookmark＝記憶座標、EXP＝經驗值、Giran＝奇岩、Werldern＝威爾登、Forgotten Island＝遺忘之島、Dream Island＝夢幻之島、Abyss Lake＝地底湖、Fire Valley＝火龍窟、Einhasad＝殷海薩（Einhasad Blessing＝殷海薩的祝福）。
+  - 已確認：karma＝友好度、Lawful＝正義值、Healing Potion＝治癒藥水、buff＝輔助魔法、Cancel＝魔法相消術、pledge leader＝盟主、sub-leader＝副盟主、guardian＝守護騎士、emblem＝盟徽、global chat＝全體頻道、exclude＝拒絕名單、bookmark＝記憶座標、EXP＝經驗值、Giran＝奇岩、Werldern＝威頓、Forgotten Island＝遺忘之島、Dream Island＝夢幻之島、Abyss Lake＝地底湖、Fire Valley＝火龍窟、Einhasad＝殷海薩（Einhasad Blessing＝殷海薩的祝福）。

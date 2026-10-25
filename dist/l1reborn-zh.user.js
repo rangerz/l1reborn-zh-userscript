@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lineage 1 Reborn 中文化
 // @namespace    https://github.com/rangerz/l1reborn-zh-userscript
-// @version      0.5.8
+// @version      0.5.9
 // @description  Lineage 1 Reborn 中文化
 // @author       Ranger Chan
 // @match        https://lineage1reborn.com/*
@@ -3256,7 +3256,7 @@ const DICT = {
     "All times EDT": "時間皆為 EDT",
     "Entry opens 5 minutes early": "提前 5 分鐘開放進場",
     "Next Death Match": "下一場無限大戰",
-    "Werldern": "威爾丹",
+    "Werldern": "威頓",
     "Chronological": "依時間順序",
     "Daily Timeline": "每日時間表",
     "Combat begins at the listed time.": "戰鬥於所列時間開始。",
@@ -3271,14 +3271,14 @@ const DICT = {
     "Capacity": "人數上限",
     "Talking island Colosseum": "說話之島鬥技場",
     "Gludio Colosseum": "古魯丁鬥技場",
-    "Werldern Colosseum": "威爾丹鬥技場",
+    "Werldern Colosseum": "威頓鬥技場",
     "Giran Colosseum": "奇岩鬥技場",
     "1. Enter": "1. 進場",
     "Speak to the Coliseum Manager in the matching town during the five minutes before combat begins.": "戰鬥開始前五分鐘內，在對應城鎮找鬥技場管理員對話。",
     "2. Survive": "2. 存活",
     "Fight through four rounds. Leaving the arena or dying removes you from that match.": "打完四回合。離開競技場或死亡會讓你退出該場。",
     "3. Finish": "3. 完成",
-    "Giran completions award 2 Skulls of Reborn. Werldern completions award 1.": "完成奇岩場給 2 個 Reborn 骷髏。完成威爾丹場給 1 個。",
+    "Giran completions award 2 Skulls of Reborn. Werldern completions award 1.": "完成奇岩場給 2 個 Reborn 骷髏。完成威頓場給 1 個。",
     "View the Skull guide": "查看骷髏指南",
     "Schedule and requirements are read directly from the live game database. Times follow the server's America/New_York clock and automatically change between EDT and EST.": "時程與需求直接讀自遊戲資料庫。時間依伺服器的 America/New_York 時鐘，並自動在 EDT 與 EST 之間切換。",
     "Standard · Level {*}": "標準 · 等級 {*}",
@@ -4721,7 +4721,7 @@ const DICT = {
     "Every share of a quelled eruption since the revamp, by contribution: holding the Frost Wells, striking Valakas and slaying his Molten Hearts. Ranked by Gold shares, then Silver, then Bronze. Shares are counted for hard mode hunters, the ones they pay Dragonfire Embers. Standard world.": "改版後每次被平息噴發的所有分成，依貢獻計算：守住 Frost Wells、攻擊巴拉卡斯、擊殺他的 Molten Heart。依金牌分成排名，其次銀牌、再其次銅牌。分成只計給困難模式獵人，也就是獲得 Dragonfire Embers 的人。標準世界。",
     "Dragonfire Embers earned since the revamp: closing vents and breaking what crawls out of them, the eruptions' shares and the day's first quell. Ranked by Embers earned. Standard world.": "改版後獲得的 Dragonfire Embers：關閉噴口並擊碎從中爬出的東西、噴發的分成，以及當日第一次平息。依獲得的 Embers 排名。標準世界。",
     "Parties who crossed the Fords on the dwarves' Frost and brought Valakas down in his own Lair. Each tier is ranked on its own: the chest grade first, then run time, then fewer deaths; each party appears once per tier with its best run.": "踏著矮人的 Frost 渡過 Ford，並在巴拉卡斯自己的巢穴擊倒他的隊伍。每個階級各自排名：先比寶箱等級，其次挑戰時間，再其次死亡較少；每個隊伍每個階級只列出最佳成績。",
-    "Karif in the town of Weldern offers gem gambling for Emerald, Ruby, Diamond, and Sapphire pouches, including their High Quality versions.": "威爾丹的卡里夫提供寶石賭博：綠寶石、紅寶石、鑽石與藍寶石袋，包含高品質版本。",
+    "Karif in the town of Weldern offers gem gambling for Emerald, Ruby, Diamond, and Sapphire pouches, including their High Quality versions.": "威頓的卡里夫提供寶石賭博：綠寶石、紅寶石、鑽石與藍寶石袋，包含高品質版本。",
     "This page shows the full outcomes for gem pouches such as": "本頁顯示寶石袋的完整結果，例如",
     "Diamond High Quality karif Pouch (49012)": "高品質鑽石卡里夫袋（49012）",
     "and the related Karif gem pouches.": "與相關的卡里夫寶石袋。",
@@ -4874,7 +4874,7 @@ const DICT = {
     "1 to 3, level 50 / 55 / 60": "1 至 3，50 / 55 / 60 級",
     "3 hours a day per account": "每個帳號每天 3 小時",
     "Tide Pearls": "Tide Pearls",
-    "Fire Valley, north of Werldern": "火龍窟，威爾登北方",
+    "Fire Valley, north of Werldern": "火龍窟，威頓北方",
     "A tougher valley in three tiers, started at the hard mode NPC by the valley's gates. Every hard mode kill stirs Valakas until he rises at the crater, and the valley pays Dragonfire Embers for Ivelviin's Forge.": "三個階級的更艱難山谷，於山谷大門旁的困難模式 NPC 處開始。每次困難模式擊殺都會驚動巴拉卡斯，直到他在火山口甦醒，山谷並為里佛賓的熔爐支付 Dragonfire Embers。",
     "Dragonfire Embers": "Dragonfire Embers",
     "Dragon Valley Dungeon, 1F to 6F": "龍之谷地監，1F 至 6F",
@@ -5213,7 +5213,7 @@ const DICT = {
     "Sort now, control login auto-sort, or apply a supporter website inventory layout.": "立即整理、控制登入時自動整理，或套用贊助者網站背包版面。",
     "Show elemental stone pile information (staff only).": "顯示屬性石堆資訊（僅限工作人員）。",
     "Move up to five clear cells directly ahead without crossing obstacles, map boundaries, or teleport tiles.": "往正前方最多移動五格空地，不會穿過障礙物、地圖邊界或傳送格。",
-    "Teleport to Pandora, SKT, Giran, Werldern, Oren, Orc Town, Silent Cavern, Gludio, Silveria, or Behimous.": "傳送到潘朵拉、銀騎士村、奇岩、威爾登、歐瑞、Orc Town、Silent Cavern、古魯丁、西爾維利亞或貝希莫斯。",
+    "Teleport to Pandora, SKT, Giran, Werldern, Oren, Orc Town, Silent Cavern, Gludio, Silveria, or Behimous.": "傳送到潘朵拉、銀騎士村、奇岩、威頓、歐瑞、Orc Town、Silent Cavern、古魯丁、西爾維利亞或貝希莫斯。",
     "Show or apply Dragonscale polymorph and arrow options (Dragonscale tier).": "顯示或套用龍鱗變身與箭矢選項（龍鱗階級）。",
     "Apply an equipment set saved on the website.": "套用網站上儲存的裝備組合。",
     "Toggle the supporter miss sprite.": "切換贊助者的 Miss 圖像。",
@@ -6477,7 +6477,7 @@ const DICT = {
     "Towns in real 3D": "真 3D 城鎮",
     "From the game’s angle it looks exactly like Lineage. Then turn the camera all the way round and look from higher. Press 3D again for the usual view.": "從遊戲視角看，就和天堂一模一樣。接著把鏡頭整圈轉過來，從更高處俯瞰。再按一次 3D 就回到慣用視角。",
     "Your towns, in 3D": "你的城鎮，3D 呈現",
-    "Oren, Kent, Talking Island, Windawood, Silver Knight Town, Gludin, the Gludio residences, Werldern, Heine, Giran, the Elven village, the Orc village and the Atuba orc tribe’s village. Aden is next.": "歐瑞、肯特、說話之島、風木、銀騎士村、古魯丁、古魯丁住宅區、威爾登、海音、奇岩、妖精村莊、獸人村莊與 Atuba 獸人部落村莊。亞丁是下一個。",
+    "Oren, Kent, Talking Island, Windawood, Silver Knight Town, Gludin, the Gludio residences, Werldern, Heine, Giran, the Elven village, the Orc village and the Atuba orc tribe’s village. Aden is next.": "歐瑞、肯特、說話之島、風木、銀騎士村、古魯丁、古魯丁住宅區、威頓、海音、奇岩、妖精村莊、獸人村莊與 Atuba 獸人部落村莊。亞丁是下一個。",
     "Step inside": "走進屋內",
     "Houses open as you walk in, their roof and near walls lifting away as in the usual view, and merchants stand behind their counters.": "走進房屋時屋頂與近側牆壁會像慣用視角那樣掀開，商人則站在櫃檯後面。",
     "Evenings in 3D": "3D 傍晚",
@@ -9231,7 +9231,7 @@ const DICT = {
     "Southwest of Heine over water; taxes Heine + house rents. Two gates (north/south); back gate lowered by ranged hits. Break tower to win. Perk: quick Eva potion access.": "位於海音西南方的水上；徵收海音的稅與房租。兩道城門（北／南）；後門可用遠距攻擊打下。打破高塔獲勝。福利：可快速取得伊娃藥水。",
     "Most lucrative; taxes Giran, arena rentals, races. Two outer + two inner gates; tower surrounded by flowers (ranged can shoot over). Break tower and crown.": "最賺錢；徵收奇岩的稅、競技場租金與競賽收入。兩道外門加兩道內門；高塔被花叢圍住（遠距可越過射擊）。打破高塔並奪冠。",
     "Iron Gate Guild:": "鐵門公會：",
-    "Base of Fire Valley, entered on foot from the Werldan side (no teleporting inside). Two gates then tower. Tax rate is fixed at 10% and the castle collects no tax income. Houses Tsurugi crafting; people may break gate to craft.": "位於火龍窟底部，需從威爾丹那側步行進入（內部無法傳送）。兩道城門，然後是高塔。稅率固定 10%，且城堡沒有稅收。內有日本刀製作，有人會為了製作而破門。",
+    "Base of Fire Valley, entered on foot from the Werldan side (no teleporting inside). Two gates then tower. Tax rate is fixed at 10% and the castle collects no tax income. Houses Tsurugi crafting; people may break gate to craft.": "位於火龍窟底部，需從威頓那側步行進入（內部無法傳送）。兩道城門，然後是高塔。稅率固定 10%，且城堡沒有稅收。內有日本刀製作，有人會為了製作而破門。",
     "Recaps are generated after each siege ends.": "回顧在每場攻城結束後產生。",
     "Open Siege Guide": "開啟攻城指南",
     "Combat recap stats and siege points are related but not identical. The recap shows siege-area combat activity; points show what counted toward the siege score.": "戰鬥回顧數據與攻城分數相關但不相同。回顧顯示攻城區內的戰鬥活動；分數顯示計入攻城計分的部分。",
@@ -9266,7 +9266,7 @@ const DICT = {
     "Skulls drop from a wide roster of boss monsters. Drop chances vary by boss and increase as boss levels rise. You can also obtain them from kill quests, player trades (they are tradable), and as a rare random spawn drop when killing monsters in the world. Certain Death Matches also award them on completion:": "骷髏由多種 Boss 掉落。掉落率依 Boss 不同，並隨 Boss 等級提高。也可從擊殺任務、玩家交易（可交易）取得，或在世界中擊殺怪物時作為稀有隨機掉落。部分無限大戰完成時也會給予：",
     "Giran Death Match": "奇岩無限大戰",
     "gives": "給",
-    "Werldern Death Match": "威爾丹無限大戰",
+    "Werldern Death Match": "威頓無限大戰",
     ". These Death Match skull rewards are limited to one character per shared connection per run.": "。這些無限大戰的骷髏獎勵每次限同一連線的一個角色。",
     "View the daily Death Match schedule": "查看每日無限大戰時程",
     "Skull shop and offerings": "骷髏商店與商品",
