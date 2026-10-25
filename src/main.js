@@ -8,7 +8,7 @@ const DICT = __DICT__;
 const IS_PLAY = location.hostname === 'play.lineage1reborn.com';
 const TABLE = { ...DICT.common, ...(IS_PLAY ? DICT.play : DICT.site) };
 const LANG_KEY = 'l1r-zh-lang';
-const SKIP = 'head,script,style,noscript,textarea,code,pre,[contenteditable],l1r-zh,[data-l1r-zh],#l1r-zh-toggle';
+const SKIP = 'head,script,style,noscript,textarea,code,pre,[contenteditable],l1r-zh,[data-l1r-zh],#l1r-zh-toggle,.dhm-name';
 
 // 站方有 `.world-client.client363[...] :is(... button) { font-size: ... !important }` 這種高優先度規則，
 // 單一屬性選擇器壓不過去（兩邊都 !important 時比 specificity），所以把屬性選擇器重複疊高 specificity。

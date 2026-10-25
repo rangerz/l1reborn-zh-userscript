@@ -30,7 +30,7 @@ export function makeLookup(table) {
     if (hit !== undefined) return hit;
     for (const { re, zh } of patterns) {
       const m = text.match(re);
-      if (m) { let i = 0; return zh.replace(/\{[n*]\}/g, () => { const v = m[++i]; return exact(v) ?? v; }); }
+      if (m) { let i = 0; return zh.replace(/\{[n*]\}/g, () => { const v = m[++i]; return exact(v) ?? (v === undefined ? v : dateZh(v) ?? v); }); }
     }
     return dateZh(text);
   };

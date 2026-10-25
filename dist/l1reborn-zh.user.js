@@ -50,7 +50,7 @@ function makeLookup(table) {
     if (hit !== undefined) return hit;
     for (const { re, zh } of patterns) {
       const m = text.match(re);
-      if (m) { let i = 0; return zh.replace(/\{[n*]\}/g, () => { const v = m[++i]; return exact(v) ?? v; }); }
+      if (m) { let i = 0; return zh.replace(/\{[n*]\}/g, () => { const v = m[++i]; return exact(v) ?? (v === undefined ? v : dateZh(v) ?? v); }); }
     }
     return dateZh(text);
   };
@@ -3234,7 +3234,6 @@ const DICT = {
     "Used in: {n}": "用於：{n}",
     "Current: {*} · 30d Avg: {*}": "目前：{*} · 30 日均價：{*}",
     "Craft est current: {*} · 30d: {*}": "製作估價 目前：{*} · 30 日：{*}",
-    "Search all crafts by item name or ID": "以道具名稱或 ID 搜尋所有製作",
     "Create Your Account": "建立你的帳號",
     "One account per player. Usernames are case-insensitive in-game and passwords use the game server hashing scheme.": "每位玩家一個帳號。使用者名稱在遊戲內不分大小寫，密碼採用遊戲伺服器的雜湊方式。",
     "Username": "使用者名稱",
@@ -10900,7 +10899,7 @@ const DICT = {
 const IS_PLAY = location.hostname === 'play.lineage1reborn.com';
 const TABLE = { ...DICT.common, ...(IS_PLAY ? DICT.play : DICT.site) };
 const LANG_KEY = 'l1r-zh-lang';
-const SKIP = 'head,script,style,noscript,textarea,code,pre,[contenteditable],l1r-zh,[data-l1r-zh],#l1r-zh-toggle';
+const SKIP = 'head,script,style,noscript,textarea,code,pre,[contenteditable],l1r-zh,[data-l1r-zh],#l1r-zh-toggle,.dhm-name';
 
 // 站方有 `.world-client.client363[...] :is(... button) { font-size: ... !important }` 這種高優先度規則，
 // 單一屬性選擇器壓不過去（兩邊都 !important 時比 specificity），所以把屬性選擇器重複疊高 specificity。
