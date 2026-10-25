@@ -1,3 +1,10 @@
 {
-  "Online Players List": "線上玩家列表"
+  "Online Players List": "線上玩家列表",
+  "players across": "位玩家，分屬",
+  "pledges ,": "個血盟，",
+  "shops ,": "間商店，",
+  "total": "合計",
+  "Grouped by pledge name (A-Z). Character names are sorted A-Z.": "依血盟名稱（A-Z）分組，角色名稱依 A-Z 排序。",
+  "No online players found for that profile right now.": "目前沒有符合此條件的線上玩家。",
+  "No offline shops active for that profile right now.": "目前沒有符合此條件的離線商店。"
 }
