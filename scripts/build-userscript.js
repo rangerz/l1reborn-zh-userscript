@@ -60,7 +60,6 @@ const dict = {
   skills,
   stats: loadDict('data/reference/stats.json'),
   local,
-  play: loadDict('play.json'),
 };
 
 const header = `// ==UserScript==
@@ -71,7 +70,6 @@ const header = `// ==UserScript==
 // @author       Ranger Chan
 // @match        https://lineage1reborn.com/*
 // @match        https://www.lineage1reborn.com/*
-// @match        https://play.lineage1reborn.com/*
 // @run-at       document-end
 // @grant        none
 // @homepageURL  ${REPO}

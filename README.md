@@ -1,6 +1,6 @@
 # l1reborn-zh-userscript
 
-[Lineage 1 Reborn](https://lineage1reborn.com/) 與瀏覽器客戶端 [play.lineage1reborn.com](https://play.lineage1reborn.com/) 的中文介面 Tampermonkey userscript。
+[Lineage 1 Reborn](https://lineage1reborn.com/) 官網的中文介面 Tampermonkey userscript。
 
 翻譯不覆寫原文：英文字永遠留在 DOM 原位，中文只透過 CSS（`::before` + `attr()`）疊上去。第一次使用時會參考瀏覽器的主要語系：英文介面預設英文，其他語系預設中文。右下角 **中文/EN** 按鈕可切換顯示語言，選擇會存入 `localStorage`。
 
@@ -15,7 +15,7 @@
    <https://raw.githubusercontent.com/rangerz/l1reborn-zh-userscript/main/dist/l1reborn-zh.user.js>
 
 4. 在 Tampermonkey 安裝視窗確認安裝。
-5. 開啟 [Lineage 1 Reborn](https://lineage1reborn.com/) 或 [瀏覽器客戶端](https://play.lineage1reborn.com/) 任一頁面，右下角會出現 **中文/EN** 切換按鈕。
+5. 開啟 [Lineage 1 Reborn](https://lineage1reborn.com/) 任一頁面，右下角會出現 **中文/EN** 切換按鈕。
 
 之後新版本會自動透過 `@updateURL` 拉更新。首次使用依瀏覽器主要語系決定預設顯示：英文語系維持英文，其他語系使用中文；手動切換後會記住你的選擇。
 
@@ -24,9 +24,8 @@
 | 站 | 做法 | 原因 |
 | --- | --- | --- |
 | `lineage1reborn.com` | 文字節點包成 `<l1r-zh data-zh="…"><l1r-en>English</l1r-en></l1r-zh>`，`l1r-en` 隱藏、中文由外層 `::before` 畫出 | 傳統 PHP 頁 + 局部換頁，可以安全動 DOM；字級、行高完全繼承原樣式。用自訂元素而非 span，站方針對 `span` 的 CSS 才不會打到 |
-| `play.lineage1reborn.com` | 只在「元素內只有一個文字節點」時掛 `data-l1r-zh`，元素 `font-size:0`、中文由 `::before` 以原字級畫出 | React 客戶端，搬動文字節點會讓 React 之後的 `removeChild` / `insertBefore` 炸掉；混合內容（如 `<label>Account<input>`）目前先留英文 |
 
-兩站都用 `MutationObserver` 跟著動態載入的內容翻；站方 JS 原地改字時會同步更新或撤掉中文。`<option>` 是例外：原生下拉選單不畫 `::before`，改用 `label` 屬性顯示中文，英文仍留在 textContent。
+用 `MutationObserver` 跟著動態載入的內容翻；站方 JS 原地改字時會同步更新或撤掉中文。`<option>` 是例外：原生下拉選單不畫 `::before`，改用 `label` 屬性顯示中文，英文仍留在 textContent。
 
 ## 開發
 
@@ -39,7 +38,7 @@ npm test        # build + 檢查產物是合法 userscript
 - `src/main.js`：執行入口，build 時包進 IIFE，`__DICT__` 由字典填入。
 - `src/lookup.js`：字典查詢，build 時內嵌進產物，`npm test` 直接測。
 - `data/translations/*.json`：字典，key 是頁面上的英文原文（trim、連續空白收成一個），value 是中文。
-  - `common.json` 兩站共用，`site.json` 只給主站，`play.json` 只給 play 子站。
+  - `common.json` 與 `site.json` 都給官網用。
   - 主站各頁的字串放 `pages/<page>.json`（檔名對應 `?page=`），build 時合併進 site；同一個英文在兩個檔譯得不一樣會擋下來。
   - `pages/<page>.local.json` 只在那一頁（`#site-page-content[data-page]`）生效，先查它再查全站字典。會跟玩家名撞字的短字（Buy、Seller、Bulk、Potion…）放這裡，免得其他頁的角色名被翻掉。
   - key 可帶 `{n}` 代表一串數字，譯文裡的 `{n}` 會換成比對到的數字：`"Show all {n} updates": "顯示全部 {n} 則更新"`。
