@@ -28,5 +28,6 @@
   "Recipes: {n}": "配方：{n}",
   "Used in: {n}": "用於：{n}",
   "Current: {*} · 30d Avg: {*}": "目前：{*} · 30 日均價：{*}",
-  "Craft est current: {*} · 30d: {*}": "製作估價 目前：{*} · 30 日：{*}"
+  "Craft est current: {*} · 30d: {*}": "製作估價 目前：{*} · 30 日：{*}",
+  "Search all crafts by item name or ID": "以道具名稱或 ID 搜尋所有製作"
 }
