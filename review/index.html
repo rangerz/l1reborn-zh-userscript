@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reborn 中英對照審核</title>
+<style>
+:root{--bg:#14161a;--fg:#e6e6e6;--mut:#8b919c;--card:#1d2026;--bd:#2c313a;--ok:#4caf7a;--warn:#e0a53a;--bad:#d9605a}
+@media(prefers-color-scheme:light){:root{--bg:#f5f5f2;--fg:#1d1f23;--mut:#666;--card:#fff;--bd:#d8d8d2}}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.4 system-ui,"PingFang TC",sans-serif}
+header{position:sticky;top:0;z-index:2;background:var(--bg);border-bottom:1px solid var(--bd);padding:10px 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+input,select,button{background:var(--card);color:var(--fg);border:1px solid var(--bd);border-radius:6px;padding:6px 10px;font:inherit}
+input[type=search]{min-width:240px}
+#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:8px;padding:12px 16px}
+.c{content-visibility:auto;contain-intrinsic-size:auto 140px;display:flex;gap:10px;background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:8px;border-left:4px solid var(--bd)}
+.c.id\+name,.c.same-en{border-left-color:var(--ok)}.c.id,.c.name,.c.name-multi{border-left-color:var(--warn)}.c.none{border-left-color:var(--bad)}
+.c img{width:48px;height:48px;object-fit:contain;flex:none;background:#0003;border-radius:4px}
+.c .t{min-width:0}.zh{font-weight:600;font-size:15px}.zh.x{color:var(--bad)}.en{color:var(--mut);word-break:break-word}
+.kv{display:flex;flex-wrap:wrap;gap:3px 6px;margin-top:5px}.kv span{background:#8883;border-radius:4px;padding:1px 6px;font-size:12px}.kv span i{font-style:normal;color:var(--mut)}.tg span{background:#e0a53a33}.m{font-size:12px;color:var(--mut)}.rid{color:var(--fg)}
+</style>
+<header>
+<select id="g"></select>
+<select id="h"><option value="">全部狀態</option><option value="id+name">id+英文相符</option><option value="id">僅 id 相符（需看）</option><option value="name">僅名稱相符</option><option value="name-multi">名稱多筆</option><option value="same-en">沿用同名</option><option value="none">無中文</option></select>
+<input id="q" type="search" placeholder="搜尋中文/英文/id">
+<span id="n" class="m"></span>
+</header>
+<div id="grid"></div>
+<script src="data.js"></script>
+<script>
+const $=id=>document.getElementById(id),L={weapons:'武器',armors:'防具',misc:'道具/其他',monsters:'怪物',bosses:'BOSS',maps:'地圖',sets:'套裝'};
+$('g').innerHTML=Object.keys(DATA).map(k=>`<option value="${k}">${L[k]||k} (${DATA[k].length})</option>`).join('');
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function render(){
+ const q=$('q').value.trim().toLowerCase(),h=$('h').value;
+ const rows=DATA[$('g').value].filter(r=>(!h||r.how===h)&&(!q||(r.en+(r.zh||'')+r.id+(r.cen||'')).toLowerCase().includes(q)));
+ $('n').textContent=rows.length+' 筆';
+ $('grid').innerHTML=rows.map(r=>`<div class="c ${esc(r.how)}"><img loading="lazy" src="../data/reborn/${esc(r.img)}" onerror="this.style.visibility='hidden'">
+ <div class="t"><div class="zh ${r.zh?'':'x'}">${esc(r.zh||'（無對應）')}</div><div class="en">${esc(r.en)}</div>
+ <div class="m"><b class="rid">Reborn ID ${r.id}</b>${r.cid&&r.cid!=r.id?' · 3.63c ID '+esc(r.cid):''} · ${esc(r.how)}${r.how==='id'?' · 3.63c：'+esc(r.cen):''}${r.alt&&r.alt.length?' · 另有：'+esc(r.alt.join('、')):''}</div>
+ ${r.tags&&r.tags.length?'<div class="kv tg">'+r.tags.map(x=>`<span>${esc(x)}</span>`).join('')+'</div>':''}
+ <div class="kv">${(r.info||[]).map(([k,v])=>`<span><i>${esc(k)}</i> ${esc(v)}</span>`).join('')}</div></div></div>`).join('');
+}
+['g','h'].forEach(i=>$(i).onchange=render);$('q').oninput=render;render();
+</script></html>

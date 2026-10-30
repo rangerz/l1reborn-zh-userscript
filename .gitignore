@@ -11,3 +11,7 @@ dist/*
 
 # 抓回來的官網圖片（只留本地）
 data/reborn/images/
+data/reborn/items/images/
+
+# scripts/build_review.py 的產物，開 review/index.html 前先跑一次
+review/data.js

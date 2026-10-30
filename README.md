@@ -68,3 +68,7 @@ python3 scripts/pagetool.py check                 # 每頁涵蓋率 + 字典裡�
 - 抓頁面要帶瀏覽器 UA，連抓二十幾頁會被站方限流（「Too many anonymous requests」），等幾分鐘再抓。需要登入的頁只抓得到登入表單。
 - 跨頁共用的字串放第一個碰到的頁檔就好，build 會合併；但同一英文在兩個檔譯法不同會讓 build 擋下，`dopage.sh` 會印出是哪一條。
 - 以「…」結尾的 key 是官網目錄預覽（英文切在 180 字），譯文也要在對應位置截斷並加「…」。
+
+### Reborn 名稱對照審核
+
+`scripts/build_review.py` 把 `data/reborn/` 的武器、防具、道具、怪物、BOSS、地圖、套裝英文名對到 l1justice 3.63c 的繁中名（`data/justice/`），輸出 `data/reborn/zh-names.json`（對照表，進 repo）和 `review/data.js`（已 gitignore）；開 `review/index.html` 可依對應狀態逐筆檢查。圖示在 `data/reborn/images/`、`data/reborn/items/images/`，只留本地。
