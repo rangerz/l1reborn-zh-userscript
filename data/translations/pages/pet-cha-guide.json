@@ -228,5 +228,6 @@
   "min(24, 34) + 6 = 30": "min(24, 34) + 6 = 30",
   "summons.": "召喚怪。",
   "Notes: Elementals can only be summoned when you have no active pets/summons, and they consume all": "附註：精靈只能在場上沒有任何寵物／召喚怪時召喚，且牠們會消耗所有",
-  "control (so you can keep only one). Tame Monster and Create Zombie use the same pool as pets.": "控制額度（因此只能維持一隻）。迷魅術與造屍術與寵物共用同一個額度池。"
+  "control (so you can keep only one). Tame Monster and Create Zombie use the same pool as pets.": "控制額度（因此只能維持一隻）。迷魅術與造屍術與寵物共用同一個額度池。",
+  "Notes: Elementals can only be summoned when you have no active pets/summons, and they consume all control (so you can keep only one). Tame Monster and Create Zombie use the same pool as pets.": "注意：精靈只能在沒有任何寵物／召喚獸時召喚，且會消耗全部的控制力（所以只能保留一隻）。迷魅術與造屍術和寵物共用同一個額度。"
 }
