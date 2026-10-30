@@ -38,5 +38,17 @@
   "Published per build in the launcher.": "每個版本都會在啟動器中公布。",
   "Launcher": "啟動器",
   "Auto-updates on launch, then starts the client.": "啟動時自動更新，然後開啟客戶端。",
-  "Last updated {*}": "最後更新 {*}"
+  "Last updated {*}": "最後更新 {*}",
+  "Windows client · Optional": "Windows 客戶端 · 選用",
+  "NPC dialogs in your language": "用你的語言顯示 NPC 對話",
+  "NPC pages in Korean or Traditional Chinese for the Windows client. Extract the zip into your Lineage folder: its": "Windows 客戶端的韓文或繁體中文 NPC 頁面。把 zip 解壓縮到你的 Lineage 資料夾：裡面的",
+  "folder goes next to the game. Most pages are an unofficial machine translation; where the original client's translation still matches, that is used. A few pages stay in English. The launcher may put English back on pages it updates, so extract the pack again after an update. To go back to English, delete these files from the": "資料夾要放在遊戲旁邊。大多數頁面是非官方的機器翻譯；原客戶端的翻譯仍相符的部分則沿用。少數頁面維持英文。啟動器更新頁面時可能把英文放回去，更新後請再解壓縮一次。要改回英文，請從",
+  "folder and run the launcher.": "資料夾刪除這些檔案並執行啟動器。",
+  "NPC dialog text – 한국어 (Korean)": "NPC 對話文字 – 한국어（韓文）",
+  "NPC dialog text – 繁體中文 (Traditional Chinese)": "NPC 對話文字 – 繁體中文",
+  "Zip, about 2.8 MB each": "Zip，每個約 2.8 MB",
+  "If the launcher stops with": "如果啟動器停在",
+  ", its saved settings were damaged, usually by a crash or power cut. The current launcher repairs this by itself. If yours still shows it, press Win+R, open": "，表示它儲存的設定已損壞，通常是當機或斷電造成。目前的啟動器會自行修復。若你的仍出現此訊息，按 Win+R，開啟",
+  ", rename": "，把",
+  "and start the launcher again, then pick your Lineage folder if it asks.": "，然後重新啟動啟動器；若它詢問，選擇你的 Lineage 資料夾。"
 }
