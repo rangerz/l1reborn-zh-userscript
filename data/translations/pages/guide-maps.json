@@ -9,5 +9,7 @@
   "Source snapshot: {*} UTC": "資料快照：{*} UTC",
   "Showing {n}-{n} of {n} maps with images": "顯示第 {n}-{n} 張，共 {n} 張有圖片的地圖",
   "Page {n} of {n}": "第 {n} 頁，共 {n} 頁",
-  "Map {n}": "地圖 {n}"
+  "Map {n}": "地圖 {n}",
+  "Interactive maps of the hunting grounds: zoom in to the game's own scale and see where monsters spawn, field bosses, exits and NPCs.": "狩獵場的互動地圖：放大到遊戲本身的比例，查看怪物出現點、野外 Boss、出口與 NPC。",
+  "Showing {n}-{n} of {n} maps": "顯示第 {n}-{n} 張，共 {n} 張地圖"
 }
