@@ -47,5 +47,15 @@
   "Dark Stone ({n})": "黑暗之石 ({n})",
   "Bone Fragment ({n})": "刻印的骨頭碎片 ({n})",
   "Illusion Magic Lv {n}": "幻術魔法 Lv {n}",
-  "Illusion Magic Lv {n} · {*}": "幻術魔法 Lv {n} · {*}"
+  "Illusion Magic Lv {n} · {*}": "幻術魔法 Lv {n} · {*}",
+  "Marks a player, a monster or a spot for you and for your pledge and party members who can see it; a short message typed with it reaches every online pledge and party member. On a monster it also sets your pets' target.": "為你以及看得到它的血盟與隊伍成員標記一名玩家、一隻怪物或一個地點；隨之輸入的簡短訊息會傳給所有在線的血盟與隊伍成員。標記在怪物上時，也會設定你寵物的目標。",
+  "Party/pledge on screen (replaces Shining)": "畫面內的隊伍／血盟（取代閃亮之盾）",
+  "Melee and bow hit +5 and MR +20 for you and your party and pledge members on screen. Glowing Aura and Shining Aura replace each other: casting one removes the other. Brave Aura works with either.": "你與畫面內的隊伍及血盟成員近距離與遠距離命中 +5、魔防 +20。灼熱武器與閃亮之盾會互相取代：施放其中一個會移除另一個。勇猛意志可與任一個並存。",
+  "Party/pledge on screen (replaces Glowing)": "畫面內的隊伍／血盟（取代灼熱武器）",
+  "AC 8 better for you and your party and pledge members on screen. Glowing Aura and Shining Aura replace each other: casting one removes the other. Brave Aura works with either.": "你與畫面內的隊伍及血盟成員防禦提升 8。灼熱武器與閃亮之盾會互相取代：施放其中一個會移除另一個。勇猛意志可與任一個並存。",
+  "Party and pledge members on screen": "畫面內的隊伍與血盟成員",
+  "For you and your party or clan on screen. Elemental Fire and Burning Spirit multiply it. Not for bows. Works with Glowing or Shining Aura.": "對你與畫面內的隊伍或血盟成員生效。屬性之火與燃燒鬥志會加乘它。不適用於弓。可與灼熱武器或閃亮之盾並存。",
+  "Pledge on screen, not caster; revives party too": "畫面內的血盟成員，不含施法者；也會復活隊伍",
+  "A strong heal for every pledge member on screen except you. It also revives dead party and pledge members on screen with full HP, and dead pets and summons of you and your allies with a quarter of their HP. If anyone is revived, you kneel in prayer and cannot move for 8 seconds. The game tells you when no party or pledge member was in reach.": "對畫面內除你以外的每位血盟成員施放強力治癒。同時以全滿 HP 復活畫面內死亡的隊伍與血盟成員，並以四分之一 HP 復活你和盟友死亡的寵物與召喚獸。若有人被復活，你會跪下祈禱 8 秒無法移動。沒有隊伍或血盟成員在範圍內時，遊戲會提示你。",
+  "Empowers you and your party members on screen for the duration shown: +50 max HP, +25 max MP, +2 stun resistance, and +2 MR for each party member it reaches. You also gain Elemental Fire, and everyone gets a 16-second Counter Mirror whose chance comes from your stats.": "在顯示的持續時間內強化你與畫面內的隊伍成員：最大 HP +50、最大 MP +25、昏迷抗性 +2，每多一名受影響的隊員魔防再 +2。你也會獲得屬性之火，所有人都獲得 16 秒的鏡反射，其機率取決於你的能力值。"
 }
