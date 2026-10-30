@@ -29,5 +29,10 @@
   "Used in: {n}": "用於：{n}",
   "Current: {*} · 30d Avg: {*}": "目前：{*} · 30 日均價：{*}",
   "Craft est current: {*} · 30d: {*}": "製作估價 目前：{*} · 30 日：{*}",
-  "Search all crafts by item name or ID": "以道具名稱或 ID 搜尋所有製作"
+  "Search all crafts by item name or ID": "以道具名稱或 ID 搜尋所有製作",
+  "Market now: {*} · 30d avg: {*} ({n} sales)": "目前市價：{*} · 30 日均價：{*}（{n} 筆成交）",
+  "Market now: {*} · 30d avg: {*} ({n} sale)": "目前市價：{*} · 30 日均價：{*}（{n} 筆成交）",
+  "Market now: {*} · 30d avg: -": "目前市價：{*} · 30 日均價：-",
+  "Craft cost (materials) now: {*} ({n} missing) · 30d: {*} ({n} missing)": "目前製作成本（材料）：{*}（缺 {n} 項）· 30 日：{*}（缺 {n} 項）",
+  "Craft cost (materials) now: {*} ({n} missing) · 30d: {*}": "目前製作成本（材料）：{*}（缺 {n} 項）· 30 日：{*}"
 }
