@@ -188,5 +188,10 @@
   "Watery Grave of Spirit": "精靈的水中墓地",
   "Wilderness": "荒野",
   "Windawood Castle Dungeon 1F": "風木城地監1樓",
-  "Search by monster name, ID, or drop item above.": "請在上方以怪物名稱、ID 或掉落道具搜尋。"
+  "Search by monster name, ID, or drop item above.": "請在上方以怪物名稱、ID 或掉落道具搜尋。",
+  "Search monsters by name, ID, or drop item, or browse bosses, tameable monsters, level bands, and hunting areas. Each monster shows its drops and spawn maps.": "以名稱、ID 或掉落物搜尋怪物，或瀏覽 Boss、可馴服怪物、等級區間與狩獵區域。每隻怪物都會顯示掉落物與出現地圖。",
+  "Search monsters by name, ID, or drop item": "以名稱、ID 或掉落物搜尋怪物",
+  "Any level": "不限等級",
+  "Up to 20": "20 以下",
+  "Pick Bosses, Tameable, a level band or a hunting area above, or search by monster name, ID, or an item it drops.": "在上方選擇 Boss、可馴服、等級區間或狩獵區域，或以怪物名稱、ID 或其掉落物搜尋。"
 }
