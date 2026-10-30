@@ -153,5 +153,8 @@
   "WIS +1": "精神 +1",
   "MR +5": "魔防 +5",
   "DR +1": "傷害減免 +1",
-  "DR +3": "傷害減免 +3"
+  "DR +3": "傷害減免 +3",
+  "the Forgotten Island Hardmode NPC starts a solo run (even while you are in a party) or lets a party leader start everyone at once. Players can join or leave the party freely; each keeps their own run, and a helper outside hardmode no longer cancels your bonus.": "遺忘之島困難模式 NPC 可開始單人挑戰（即使你在隊伍中），或由隊長一次讓所有人開始。玩家可自由加入或離開隊伍；每個人保有自己的挑戰，困難模式外的幫手也不再會取消你的加成。",
+  "each game account has 3 hours of FI Hardmode time per day, shared by its characters. Leaving Forgotten Island, logging out, or turning hardmode off ends the current hardmode run and removes the on-screen timer.": "每個遊戲帳號每天有 3 小時的遺忘之島困難模式時間，由其角色共用。離開遺忘之島、登出或關閉困難模式都會結束目前的困難模式挑戰並移除畫面上的計時器。",
+  "From level {n}. Monsters hit you {n}x as hard; EXP x{n} per kill, drops +{n}%.": "{n} 級起。怪物攻擊力 {n} 倍；每次擊殺經驗值 x{n}，掉落 +{n}%。"
 }
