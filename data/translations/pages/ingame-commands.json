@@ -134,5 +134,6 @@
   "Toggle the supporter miss sprite.": "切換贊助者的 Miss 圖像。",
   "Control received supporter chat or send a supporter-only message.": "控制收到的贊助者聊天，或發送贊助者專屬訊息。",
   "Show or apply supporter polymorph options.": "顯示或套用贊助者變身選項。",
-  "Control supporter spell visuals.": "控制贊助者魔法視覺效果。"
+  "Control supporter spell visuals.": "控制贊助者魔法視覺效果。",
+  "Control pvp, rares, crafts, elixir, hardmode, race, runes, reputation (the server-wide Exalted announcements; your own still shows), or all message categories.": "控制 pvp、rares、crafts、elixir、hardmode、race、runes、reputation（全伺服器的崇拜公告；你自己的仍會顯示）或所有訊息類別。"
 }
