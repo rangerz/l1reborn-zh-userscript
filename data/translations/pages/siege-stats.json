@@ -27,5 +27,18 @@
   "Iron Gate Guild": "鐵門公會",
   "Watch video": "觀看影片",
   "Older sieges": "更早的攻城",
-  "{n} sieges": "{n} 場攻城"
+  "{n} sieges": "{n} 場攻城",
+  "Reading a recap": "如何看回顧",
+  "are what counted toward the siege score. The other columns cover all fighting in the siege area, so the two are related but not identical.": "是計入攻城計分的部分。其他欄位涵蓋攻城區內的所有戰鬥，所以兩者相關但不相同。",
+  "is what a pledge or player did to others,": "是血盟或玩家對他人造成的，",
+  "what was done to them. Cancel and Erase count successful applications only and are not part of the crowd control totals; older sieges may predate their collection.": "是他人對自己造成的。魔法相消術與魔法消除只計成功施放的次數，不計入控場總計；較早的攻城可能尚未收集這些數據。",
+  "means 999 HP restored plus 123 overheal. Potion overheal is not included.": "表示恢復 999 HP，外加 123 過量治癒。不含藥水的過量治癒。",
+  "Point at an underlined number for its member-by-member breakdown, and click a column heading to sort. On phones, swipe a table sideways; the names stay in place.": "將滑鼠指向有底線的數字可看逐成員明細，點欄位標題可排序。手機上可左右滑動表格；名字會固定不動。",
+  "Winner": "勝者",
+  "Winning points": "獲勝分數",
+  "Participants": "參與者",
+  "Score": "計分",
+  "Crowd control": "控場",
+  "Declarations": "宣戰",
+  "Each player’s points and combat": "每位玩家的分數與戰鬥"
 }
