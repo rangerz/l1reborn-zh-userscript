@@ -13,7 +13,7 @@
   "Rune Chest": "符文寶箱",
   "One random Uncommon rune": "隨機 1 個普通符文",
   "One random Rare rune": "隨機 1 個稀有符文",
-  "Pet Match Yellow Gold Medal": "寵物競賽黃金獎牌",
+  "Pet Match Yellow Gold Medal": "寵物戰的金牌",
   "One random Epic rune": "隨機 1 個史詩符文",
   "Rare champion monsters can appear while hunting, marked by a beam and carrying extra reward chances, including runes.": "打怪時可能出現稀有的冠軍怪物，以光柱標示，並帶有包含符文在內的額外獎勵機會。",
   "Fight ranked 1v1-5v5 matches or larger skirmishes up to 10v10 with ratings and match history.": "參加 1v1 至 5v5 的排位賽，或最多 10v10 的大型遭遇戰，附積分與對戰紀錄。",
@@ -103,5 +103,14 @@
   "Nine hard modes, four stages: open grounds that wake as you hunt (Forgotten Island, Fire Valley, Dragon Valley), expeditions for your party (Ivory Tower, Pirate Island, Orc Fortress, Invasion Road), the nine Tower of Insolence tiers, and the weekly L4 Justices raid.": "九個困難模式，四個階段：隨狩獵甦醒的開放地帶（遺忘之島、火龍窟、龍之谷）、隊伍遠征（象牙塔、海賊島、獸人要塞、Invasion Road）、傲慢之塔九個階級，以及每週的 L4 審判者突襲。",
   "Beta": "測試版",
   "{n}d {n}h {n}m {n}s": "{n}天 {n}小時 {n}分 {n}秒",
-  "Starts in {n} days": "{n} 天後開始"
+  "Starts in {n} days": "{n} 天後開始",
+  "Headless Horseman storms Giran every night, 11 PM CET and 11 PM ET": "無頭騎士每晚 23:00 CET 與 23:00 ET 襲擊奇岩",
+  "Ten hard modes · one journey": "十個困難模式 · 一趟旅程",
+  "New · preview of the -lfg board": "新 · -lfg 看板預覽",
+  "From the open grounds to the Justices beneath Lastabad: ten hard modes, their rules, rewards, guides and rankings in one place.": "從開放區域到拉斯塔巴德地底的暗影法官：十個困難模式的規則、獎勵、指南與排行榜一次看完。",
+  "Ten hard modes, four stages.": "十個困難模式，四個階段。",
+  "Oct 26, 2026": "2026/10/26",
+  "Oct 24, 2026": "2026/10/24",
+  "— Exalted with": "— 崇拜於",
+  "Ten hard modes, four stages: open grounds that wake as you hunt (Forgotten Island, Fire Valley, Dragon Valley), expeditions for your party (Ivory Tower, Pirate Island, Orc Fortress, Invasion Road), the nine Tower of Insolence tiers, and the weekly L4 Justices raid.": "十個困難模式，四個階段：隨你狩獵而甦醒的開放區域（遺忘之島、火龍窟、龍之谷）、為隊伍設計的遠征（象牙塔、海賊島、妖魔城堡、Invasion Road）、傲慢之塔的九個階級，以及每週一次的 L4 暗影法官突襲。"
 }
