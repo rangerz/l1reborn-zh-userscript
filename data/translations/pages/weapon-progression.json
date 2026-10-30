@@ -201,5 +201,12 @@
   "+3 STR, 35% double": "+3 力量, 35% 雙擊",
   "+1 STR, +1 INT, +50 HP, +10 MR": "+1 力量, +1 智力, +50 HP, +10 魔防",
   "+1 MPR, +1 SP": "+1 MPR, +1 SP",
-  "+3 MPR, +1 SP": "+3 MPR, +1 SP"
+  "+3 MPR, +1 SP": "+3 MPR, +1 SP",
+  "Player (PvP)": "玩家（PvP）",
+  "Rankings estimate average damage per connected hit using weapon dice, practical enchant, stats, procs, selected buffs, and target defenses in server combat order. Bow dice are included; arrow and Sayha ammo damage are not. Elf bow stat damage includes the 2% DEX scaling above 14. Stats other than the selected one are 18. Burning Spirit amplifies 66% of hits; Elemental Fire every eligible melee hit. Weapon procs ignore MR; Thebes chasers and Kiringku do not. Proc chances include the enchant bonus. Monster resistances do not reduce elemental enchant damage; elemental weaknesses and undead/blessed bonuses are not included. Hit rate, unlisted buffs and resistances, attack speed, and shield value can change actual results.": "排名依伺服器的戰鬥順序，用武器骰值、實際強化值、能力值、特效、所選輔助魔法與目標防禦，估算每次命中的平均傷害。含弓的骰值；不含箭矢與 Sayha 彈藥的傷害。妖精弓的能力值傷害含 DEX 14 以上每點 2% 的加成。所選能力值以外的能力值皆為 18。燃燒鬥志放大 66% 的命中；屬性之火則是每次符合條件的近距離命中。武器特效無視魔防；底比斯追擊與奇古獸則否。特效機率含強化加成。怪物抗性不會降低屬性強化傷害；屬性弱點與不死／受祝福加成未計入。命中率、未列出的輔助魔法與抗性、攻擊速度與盾牌值都可能改變實際結果。",
+  "Every weapon of the ranked types above with": "上述排名武器類型中所有",
+  ", excluding hidden event, timed, story, unreleased, and obsolete entries.": "的武器，不含隱藏活動、限時、劇情、未釋出與已淘汰的項目。",
+  "No enchant": "未強化",
+  "{n}% | {n}-{n} HP drain": "{n}% | 吸取 {n}-{n} HP",
+  "{n}% | Silence": "{n}% | 沉默"
 }
