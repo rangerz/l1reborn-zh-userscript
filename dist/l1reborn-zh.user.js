@@ -13294,7 +13294,7 @@ const DICT = {
 
 const TABLE = { ...DICT.common, ...DICT.site };
 const LANG_KEY = 'l1r-zh-lang';
-const SKIP = 'head,script,style,noscript,textarea,code,pre,[contenteditable],l1r-zh,[data-l1r-zh],#l1r-zh-toggle,.dhm-name';
+const SKIP = 'head,script,style,noscript,textarea,code,pre,[contenteditable],l1r-zh,[data-l1r-zh],#l1r-zh-toggle,.dhm-name,#site-page-content[data-page="event-leaderboard"] tbody td:nth-child(2)';
 
 const CSS = `
 html:not([data-l1r-lang="en"]) l1r-en { display: none; }
