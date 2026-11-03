@@ -92,5 +92,10 @@
   "Spend Ivory Fragments at the 4F Warden. Prices are in fragments, not adena.": "到 4F Warden 花用 Ivory Fragments。價格以碎片計，不是金幣。",
   "Your party roster stays fixed. Reconnect within two minutes to resume the same run and party; the 60-minute timer continues. If your place cannot be restored, only you drop out: the group carries on. Server restarts end active runs, while committed fragments and daily attempts remain saved.": "你的隊伍名單保持固定。兩分鐘內重新連線即可繼續同一場挑戰與隊伍；60 分鐘計時持續進行。若無法恢復你的位置，只有你退出：隊伍繼續進行。伺服器重啟會結束進行中的挑戰，但已發放的碎片與每日次數會保留。",
   "The run leader can choose End run from a dialogue to return the party to town.": "挑戰隊長可從對話中選擇「End run」，將隊伍送回城鎮。",
-  "{n}F:": "{n} 樓："
+  "{n}F:": "{n} 樓：",
+  "Ivory Sentinel": "象牙哨兵",
+  "Iron Colossus": "鋼鐵巨像",
+  "Archive Keeper": "檔案守護者",
+  "Soul Warden": "靈魂典獄長",
+  "Breach Demon": "裂隙惡魔"
 }
