@@ -7,7 +7,19 @@ const DICT = __DICT__;
 
 const TABLE = { ...DICT.common, ...DICT.site };
 const LANG_KEY = 'l1r-zh-lang';
-const SKIP = 'head,script,style,noscript,textarea,code,pre,[contenteditable],l1r-zh,[data-l1r-zh],#l1r-zh-toggle,.dhm-name,#site-page-content[data-page="event-leaderboard"] tbody td:nth-child(2),#site-page-content[data-page="arena-leaderboard"] tbody td:nth-child(2),#site-page-content[data-page="leaderboard"] tbody span.font-semibold';
+// 排行榜上的玩家角色名、隊伍名、盟名是專有名詞，不翻
+const BOARD = (page, sel) => `#site-page-content[data-page="${page}"] ${sel}`;
+const SKIP = [
+  'head,script,style,noscript,textarea,code,pre,[contenteditable],l1r-zh,[data-l1r-zh],#l1r-zh-toggle',
+  '.dhm-name,.hs-pledge,.dhm-roster',
+  BOARD('event-leaderboard', 'tbody td:nth-child(2)'),
+  BOARD('arena-leaderboard', 'tbody td:nth-child(2)'),
+  BOARD('arena-leaderboard', 'tbody td:nth-child(3)'),
+  BOARD('ivory-hardmode-leaderboard', 'tbody td:nth-child(3)'),
+  BOARD('pirate-hardmode-leaderboard', 'tbody td:nth-child(3)'),
+  BOARD('leaderboard', 'tbody span.font-semibold'),
+  BOARD('toi-hardmode-leaderboard', 'tbody span.font-semibold'),
+].join(',');
 
 const CSS = `
 html:not([data-l1r-lang="en"]) l1r-en { display: none; }
